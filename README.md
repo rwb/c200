@@ -188,7 +188,7 @@ And, here are the expected exam dates:
 * 1.4: normative and empirical statements
 * 1.5: on page 3, your book argues that "statistics" can help us "simplify and clarify."
 * 1.6: examples of key "criminology"  and "criminal justice" statistics (more on this on Thursday).
-* 1.7: criminology example: fraction of people released from prison who are rearrested
+* 1.7: criminology example: fraction of people who report being victimized in a 1-year period.
 * 1.8: criminal justice example: waiting time on death row before execution
 * 1.9: page 4-5: striking a balance between *simplicity* and *accuracy*.
 * 1.10: substance of a statement by Einstein: "things should be as simple as possible -- but no simpler."
@@ -198,13 +198,17 @@ And, here are the expected exam dates:
 * 1.14: science of statistics: point estimation, interval estimation, hypothesis testing
 * 1.15: science of probability: measuring and quantifying uncertainty
 * 1.16: pp. 7-10: descriptive and inferential statistics
-* 1.17: pp. 10-11: multivariate statistics
+* 1.17: p. 9: samples and populations
+* 1.18: pp. 10-11: multivariate statistics
 
 #### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
 
 * The death penalty is morally wrong. (empirical or normative?)
-* The incaceration rate in state X decreased by 12% from 2000 to 2020. (empirical or normative?)
+* Death penalty states have higher murder rates than non-death penalty states (empirical or normative?)
+* When a new neighborhood police station opened in neighborhood X, reported robberies declined by 10% (empirical or normative?)
 * Percentage of cases in a domestic violence court resolved with a plea bargain (criminology or criminal justice?)
+* Suppose we survey every 5th house on a 3-mile street. Is this a sample or a population?
+* Is the National Crime Victimization Survey (NCVS) based on a sample or a population?
 * Average age of first criminal offense (criminology or criminal justice?)
 * Consider the following dataset of El Paso murders: 
 
