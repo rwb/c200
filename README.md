@@ -85,7 +85,7 @@ And, here are the expected exam dates:
 #### Chapter 1: Introduction
 
 1. introductory material (1/28)
-2. some example criminal justice statistics (1/30)
+2. some example criminology and criminal justice statistics (1/30)
    
 #### Chapter 2: Measurement
 
@@ -179,3 +179,44 @@ And, here are the expected exam dates:
 57. linearity and influential cases (5/13)
 
 *Note*: I am not covering the material on Spearman correlations in this chapter.
+
+### Lesson 1 - Tuesday 1/28/25 (topic 1 - introductory material)
+
+1.1: is criminology and criminal justice a scientific discipline?
+1.2: defining the terms "criminology" and "criminal justice"
+1.3: line between these isn't always clear
+1.4: normative and empirical statements
+1.5: on page 3, your book argues that "statistics" can help us "simplify and clarify."
+1.6: examples of key "criminology"  and "criminal justice" statistics (more on this on Thursday).
+1.7: criminology example: fraction of people released from prison who are rearrested
+1.8: criminal justice example: waiting time on death row before execution
+1.9: page 4-5: striking a balance between *simplicity* and *accuracy*.
+1.10: substance of a statement by Einstein: "things should be as simple as possible -- but no simpler."
+1.11: pp. 5-6: statistics and measurements should use the information that is available in the data.
+1.12: p. 6: pay attention to unusual (and I would add, missing) cases
+1.13: pp. 6-7: be transparent about the science (promotes understanding and reproducibility)
+1.14: science of statistics: point estimation, interval estimation, hypothesis testing
+1.15: science of probability: measuring and quantifying uncertainty
+1.16: pp. 7-10: descriptive and inferential statistics
+1.17: pp. 10-11: multivariate statistics
+
+#### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
+
+a. The death penalty is morally wrong. (empirical or normative?)
+b. The incaceration rate in state X decreased by 12% from 2000 to 2020. (empirical or normative?)
+c. Percentage of cases in a domestic violence court resolved with a plea bargain (criminology or criminal justice?)
+d. Average age of first criminal offense (criminology or criminal justice?)
+e. Consider the following dataset of El Paso murders: 
+
+| Year  | N = |
+| -----:| --: |
+| 2014  | 21 |
+| 2015  | 17 |
+| 2016  | 17 |
+| 2017  | 19 |
+| 2018  | 23 |
+| 2019  | 40 |
+| 2020  | 23 |
+
+Which of these years seems to be an *outlier*? How should we address it in an analysis?
+
