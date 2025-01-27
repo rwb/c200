@@ -202,11 +202,11 @@ And, here are the expected exam dates:
 
 #### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
 
-a. The death penalty is morally wrong. (empirical or normative?)
-b. The incaceration rate in state X decreased by 12% from 2000 to 2020. (empirical or normative?)
-c. Percentage of cases in a domestic violence court resolved with a plea bargain (criminology or criminal justice?)
-d. Average age of first criminal offense (criminology or criminal justice?)
-e. Consider the following dataset of El Paso murders: 
+* The death penalty is morally wrong. (empirical or normative?)
+* The incaceration rate in state X decreased by 12% from 2000 to 2020. (empirical or normative?)
+* Percentage of cases in a domestic violence court resolved with a plea bargain (criminology or criminal justice?)
+* Average age of first criminal offense (criminology or criminal justice?)
+* Consider the following dataset of El Paso murders: 
 
 | Year  | N = |
 | -----:| --: |
@@ -218,5 +218,5 @@ e. Consider the following dataset of El Paso murders:
 | 2019  | 40 |
 | 2020  | 23 |
 
-Which of these years seems to be an *outlier*? How should we address it in an analysis?
+Which of these years seems to be an *outlier*? How does it affect our ability to summarize the yearly number of murders in El Paso during this particular 7-year time period? How should we address it in an analysis?
 
