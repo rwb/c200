@@ -160,12 +160,12 @@ And, here are the expected exam dates:
 48. single-sample z-test (4/24)
 49. central limit theorem (4/29)
 50. single-sample test with a skewed variable (different from the book; 4/29)
+51. 1-sample t-test (5/1)
 
 *Note*: I am not presenting the proportion examples in Chapter 10.
 
 #### Chapter 11: Comparing Means Between 2 Samples
 
-51. 1-sample t-test (5/1)
 52. 2-sample t-test (5/6)
 53. pooled vs. separate variances (5/6)
 54. dependent-samples t-test (5/8)
