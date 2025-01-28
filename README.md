@@ -207,8 +207,20 @@ And, here are the expected exam dates:
 * 1.14: science of statistics: point estimation, interval estimation, hypothesis testing
 * 1.15: science of probability: measuring and quantifying uncertainty
 * 1.16: pp. 7-10: descriptive and inferential statistics
+
+### Lesson 2 - Thursday 1/30/25
+
 * 1.17: p. 9: samples and populations
 * 1.18: pp. 10-11: multivariate statistics
+
+#### Topic 2 begins here
+
+* 2.1: # of murders for Philadelphia in 2018 ([link](https://ucr.fbi.gov/crime-in-the-u.s/2018/crime-in-the-u.s.-2018/tables/table-8/table-8-state-cuts/pennsylvania.xls))
+* 2.2: we can use the information in 2.1 to calculate the Philadelphia *murder rate* in 2018.
+
+<p align="center">
+<img src="/gfiles/fig1.png" width="500px">
+</p>
 
 #### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
 
