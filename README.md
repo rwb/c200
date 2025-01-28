@@ -222,6 +222,10 @@ And, here are the expected exam dates:
 <img src="/gfiles/fig1.png" width="750px">
 </p>
 
+* 2.3: now, let's look at the murders in Philadelphia for the year 2019:
+
+
+
 #### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
 
 * The death penalty is morally wrong. (empirical or normative?)
