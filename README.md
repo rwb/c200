@@ -133,7 +133,7 @@ And, here are the expected exam dates:
 32. ordering and arrangement (3/11)
 33. permutations and combinations (3/11)
 34. binomial distribution (3/11)
-35. testing a hypothesis about a population proportion (3/13)
+35. testing a hypothesis about a population proportion (3/13-3/25; *note*: for this topic, I will also refer to a few concepts discussed in Chapter 8).
 
 #### Chapter 9: Hypothesis Testing with Categorical Data
 
