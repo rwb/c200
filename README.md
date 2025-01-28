@@ -222,12 +222,24 @@ And, here are the expected exam dates:
 <img src="/gfiles/fig1.png" width="750px">
 </p>
 
-* 2.3: now, let's look at the murders in Philadelphia for the year 2019:
+* 2.3: now, let's look at the murders in Philadelphia for the year 2019 ([link](https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/pennsylvania.xls)):
 
 <p align="center">
 <img src="/gfiles/fig2.png" width="750px">
 </p>
 
+* 2.4: Participation in the FBI's Uniform Crime Reporting (UCR) program is *voluntary*.
+* 2.5: Each year, the Bureau of Justice Statistics (BJS) publishes a set of crime victimization statistics for the nation.
+* 2.6: These statistics are based on the National Crime Victimization Survey (NCVS).
+* 2.7: The NCVS is survey data based on a sample of U.S. households.
+* 2.8: An important feature of the NCVS is its measure of *crimes reported to the police*.
+* 2.9: Here is a [link](https://bjs.ojp.gov/document/cv23.pdf) to the most recent (2023) report.
+* 2.10: The *crimes reported to the police* table is on page 6 of the report.
+* 2.11: Notice the change in reporting of robbery to the police from 2022 to 2023.
+
+<p align="center">
+<img src="/gfiles/fig3.png" width="750px">
+</p>
 
 
 #### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
@@ -253,3 +265,4 @@ And, here are the expected exam dates:
 
 Which of these years seems to be an *outlier*? How does it affect our ability to summarize the yearly number of murders in El Paso during this particular 7-year time period? How should we address it in an analysis?
 
+* Consult the Uniform Crime Reports ([link](https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr/publications)) for Houston Texas in 2018 and 2019. Calculate the murder rate for each year. What conclusion do you draw about the change in the murder rate for Houston from 2018 to 2019.
