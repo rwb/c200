@@ -77,7 +77,7 @@ The various topics I plan to discuss in this course are listed below (expected d
 And, here are the expected exam dates:
 
 * Exam 1: Tuesday 3/4
-* Exam 2: Thursday 4/10
+* Exam 2: Tuesday 4/15
 * Exam 3: Thursday 5/15 (10:30-12:30; ([official university exam schedule](https://registrar.umd.edu/registration/register-classes/final-exams/spring)).
 
 *Note*: I'm not designing the assignments and exams to be cumulative but some level of cumulation is inherent, so please keep that in mind. Also, I will try to stick to the schedule that is described here; if changes need to be made, I will notify you as soon as possible. Notice that we skip over chapter 3 in the outline below (graphs and charts) but we will be enountering some graphing and charting issues throughout the semester and I will refer to parts of chapter 3 as appropriate when those issues arise.
@@ -124,57 +124,57 @@ And, here are the expected exam dates:
 26. errors in hypothesis testing (2/27)
 27. statistical significance (2/27)
 
-#### Chapter 20: Confidence Intervals
-
-28. point and interval estimation (3/6)
-29. margin of error (3/6)
-30. confidence intervals for sample proportions (3/6-3/11)
-
-*Note*: I am not covering confidence intervals for the other statistics mentioned in this chapter.
-
 #### Chapter 7: Binomial Distribution
 
-31. coin flipping (3/11)
-32. sampling distribution (3/11)
-33. probability distribution (3/13)
-34. multiplication rule (3/25)
-35. ordering and arrangement (3/25)
-36. permutations and combinations (3/25)
-37. binomial distribution (3/27)
-38. testing a hypothesis about a population proportion (4/1)
+31. coin flipping (3/6)
+32. sampling distribution (3/6)
+33. probability distribution (3/6)
+34. multiplication rule (3/11)
+35. ordering and arrangement (3/11)
+36. permutations and combinations (3/11)
+37. binomial distribution (3/11)
+38. testing a hypothesis about a population proportion (3/13)
 
 #### Chapter 9: Hypothesis Testing with Categorical Data
 
-39. checking on equality of frequencies across categories (4/3)
-40. checking on whether 2 categorical variables are statistically independent (4/8)
-41. analyses with ordinal data (4/15)
-42. chi-square tests with small sample sizes (4/15)
+39. checking on equality of frequencies across categories (3/25)
+40. checking on whether 2 categorical variables are statistically independent (3/27)
+41. analyses with ordinal data (3/27)
+42. chi-square tests with small sample sizes (3/27)
 
 #### Chapter 10: Normal Distribution
 
-43. overview of normal distributions (4/17)
-44. the standard normal distribution (4/17)
-45. z-scores (4/17)
-46. percentiles of the standard normal distribution (4/22)
-47. standard error of the estimated sample mean (4/22)
-48. single-sample z-test (4/24)
-49. central limit theorem (4/29)
-50. single-sample test with a skewed variable (different from the book; 4/29)
-51. 1-sample t-test (5/1)
+43. overview of normal distributions (4/1)
+44. the standard normal distribution (4/3)
+45. z-scores (4/3)
+46. percentiles of the standard normal distribution (4/3)
+47. standard error of the estimated sample mean (4/3)
+48. single-sample z-test (4/8)
+49. central limit theorem (4/10)
+50. single-sample test with a skewed variable (different from the book; 4/10)
+51. 1-sample t-test (4/17)
 
 *Note*: I am not presenting the proportion examples in Chapter 10.
 
+#### Chapter 20: Confidence Intervals
+
+28. point and interval estimation (4/22)
+29. margin of error (4/22)
+30. confidence intervals for sample proportions (4/24)
+
+*Note*: I am not covering confidence intervals for the other statistics mentioned in this chapter.
+
 #### Chapter 11: Comparing Means Between 2 Samples
 
-52. 2-sample t-test (5/6)
-53. pooled vs. separate variances (5/6)
-54. dependent-samples t-test (5/8)
+52. 2-sample t-test (4/29)
+53. pooled vs. separate variances (4/29)
+54. dependent-samples t-test (5/1)
 
 *Note*: I am not covering the material on proportions in this chapter.
 
 #### Chapter 14: Correlation
 
-55. covariation and Pearson correlation (5/8-5/13)
+55. covariation and Pearson correlation (5/6-5/8)
 56. scatterplots (5/13)
 57. linearity and influential cases (5/13)
 
@@ -186,10 +186,10 @@ And, here are the expected exam dates:
 * 1.2: defining the terms "criminology" and "criminal justice"
 * 1.3: line between these isn't always clear
 * 1.4: normative and empirical statements
-* 1.5: on page 3, your book argues that "statistics" can help us "simplify and clarify."
+* 1.5: on page 3, your book argues that "statistics" can help us "simplify and clarify"; how so?
 * 1.6: examples of key "criminology"  and "criminal justice" statistics (more on this on Thursday).
-* 1.7: criminology example: fraction of people who report being victimized in a 1-year period.
-* 1.8: criminal justice example: waiting time on death row before execution
+* 1.7: criminal justice example: waiting time on death row before execution
+* 1.8: criminology example: the relationship between age and crime
 * 1.9: page 4-5: striking a balance between *simplicity* and *accuracy*.
 * 1.10: substance of a statement by Einstein: "things should be as simple as possible -- but no simpler."
 * 1.11: pp. 5-6: statistics and measurements should use the information that is available in the data.
