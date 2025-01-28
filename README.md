@@ -40,7 +40,7 @@ It just so happens that when criminologists do research and evaluation work, the
 
 * What will I be able to do when this course is over?
 
-These are the course learning outcomes which I have defined as your being able to: (1) explain the meaning and limitations of commonly used statistics related to crime and criminal justice; (2) identify and describe the concepts of point estimation, interval estimation, and hypothesis testing; (3) analyze certain kinds of quantitative criminological evidence, considering both the strengths and weaknesses of methodological approaches often used in our discipline; and (4) perform basic statistical calculations related to criminologically interesting phenomena. 
+These are the course learning outcomes which I have defined as your being able to: (1) explain the meaning and limitations of commonly used statistics related to crime and criminal justice; (2) describe the concepts of point estimation, interval estimation, and hypothesis testing; (3) analyze certain kinds of quantitative criminological evidence, considering both the strengths and weaknesses of methodological approaches often used in our discipline; and (4) perform basic statistical calculations related to criminologically interesting phenomena. 
 
 * Will there be homework?
 
