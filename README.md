@@ -215,10 +215,10 @@ And, here are the expected exam dates:
 * The death penalty is morally wrong. (empirical or normative?)
 * Death penalty states have higher murder rates than non-death penalty states (empirical or normative?)
 * When a new neighborhood police station opened in neighborhood X, reported robberies declined by 10% (empirical or normative?)
+* Average age of first criminal offense (criminology or criminal justice?)
 * Percentage of cases in a domestic violence court resolved with a plea bargain (criminology or criminal justice?)
 * Suppose we survey every 5th house on a 3-mile street. Is this a sample or a population?
 * Is the National Crime Victimization Survey (NCVS) based on a sample or a population?
-* Average age of first criminal offense (criminology or criminal justice?)
 * Consider the following dataset of El Paso murders: 
 
 | Year  | N = |
