@@ -241,7 +241,6 @@ And, here are the expected exam dates:
 <img src="/gfiles/fig3.png" width="500px">
 </p>
 
-
 #### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
 
 * The death penalty is morally wrong. (empirical or normative?)
@@ -266,3 +265,4 @@ And, here are the expected exam dates:
 Which of these years seems to be an *outlier*? How does it affect our ability to summarize the yearly number of murders in El Paso during this particular 7-year time period? How should we address it in an analysis?
 
 * Consult the Uniform Crime Reports ([link](https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr/publications)) for Houston Texas in 2018 and 2019. Calculate the murder rate for each year. What conclusion do you draw about the change in the murder rate for Houston from 2018 to 2019.
+* Review the National Crime Victimization Survey Report for 2019 ([link](https://bjs.ojp.gov/content/pub/pdf/cv19.pdf)). Find the table presenting crime victimizations reported to the police. Describe the change you see in robbery reporting rates from 2018 to 2019.
