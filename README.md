@@ -126,41 +126,41 @@ And, here are the expected exam dates:
 
 #### Chapter 7: Binomial Distribution
 
-31. coin flipping (3/6)
-32. sampling distribution (3/6)
-33. probability distribution (3/6)
-34. multiplication rule (3/11)
-35. ordering and arrangement (3/11)
-36. permutations and combinations (3/11)
-37. binomial distribution (3/11)
-38. testing a hypothesis about a population proportion (3/13)
+28. coin flipping (3/6)
+29. sampling distribution (3/6)
+30. probability distribution (3/6)
+31. multiplication rule (3/11)
+32. ordering and arrangement (3/11)
+33. permutations and combinations (3/11)
+34. binomial distribution (3/11)
+35. testing a hypothesis about a population proportion (3/13)
 
 #### Chapter 9: Hypothesis Testing with Categorical Data
 
-39. checking on equality of frequencies across categories (3/25)
-40. checking on whether 2 categorical variables are statistically independent (3/27)
-41. analyses with ordinal data (3/27)
-42. chi-square tests with small sample sizes (3/27)
+36. checking on equality of frequencies across categories (3/25)
+37. checking on whether 2 categorical variables are statistically independent (3/27)
+38. analyses with ordinal data (3/27)
+39. chi-square tests with small sample sizes (3/27)
 
 #### Chapter 10: Normal Distribution
 
-43. overview of normal distributions (4/1)
-44. the standard normal distribution (4/3)
-45. z-scores (4/3)
-46. percentiles of the standard normal distribution (4/3)
-47. standard error of the estimated sample mean (4/3)
-48. single-sample z-test (4/8)
-49. central limit theorem (4/10)
-50. single-sample test with a skewed variable (different from the book; 4/10)
-51. 1-sample t-test (4/17)
+40. overview of normal distributions (4/1)
+41. the standard normal distribution (4/3)
+42. z-scores (4/3)
+43. percentiles of the standard normal distribution (4/3)
+44. standard error of the estimated sample mean (4/3)
+45. single-sample z-test (4/8)
+46. central limit theorem (4/10)
+47. single-sample test with a skewed variable (different from the book; 4/10)
+48. 1-sample t-test (4/17)
 
 *Note*: I am not presenting the proportion examples in Chapter 10.
 
 #### Chapter 20: Confidence Intervals
 
-28. point and interval estimation (4/22)
-29. margin of error (4/22)
-30. confidence intervals for sample proportions (4/24)
+49. point and interval estimation (4/22)
+50. margin of error (4/22)
+51. confidence intervals for sample proportions (4/24)
 
 *Note*: I am not covering confidence intervals for the other statistics mentioned in this chapter.
 
