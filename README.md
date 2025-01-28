@@ -238,7 +238,7 @@ And, here are the expected exam dates:
 * 2.11: Notice the change in reporting of robbery to the police from 2022 to 2023.
 
 <p align="center">
-<img src="/gfiles/fig3.png" width="350px">
+<img src="/gfiles/fig3.png" width="500px">
 </p>
 
 
