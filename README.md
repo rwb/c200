@@ -219,7 +219,7 @@ And, here are the expected exam dates:
 * 2.2: we can use the information in 2.1 to calculate the Philadelphia *murder rate* in 2018.
 
 <p align="center">
-<img src="/gfiles/fig1.png" width="500px">
+<img src="/gfiles/fig1.png" width="750px">
 </p>
 
 #### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
