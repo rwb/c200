@@ -241,7 +241,7 @@ And, here are the expected exam dates:
 <img src="/gfiles/fig3.png" width="500px">
 </p>
 
-2.12: From time to time, the Bureau of Justice Statistics publishes reports documenting recidivism patterns among people being released from prison. The table below summarizes the recidivism patterns for people released from prison in 15 states during the year 1994 ([link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf)):
+2.12: From time to time, the Bureau of Justice Statistics publishes reports documenting *recidivism* patterns among people being released from prison. The table below summarizes the recidivism patterns for people released from prison in 15 states during the year 1994 ([link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf)):
 
 <p align="center">
 <img src="/gfiles/fig4.png" width="500px">
@@ -253,7 +253,14 @@ And, here are the expected exam dates:
 <img src="/gfiles/fig5.png" width="400px">
 </p>
 
-2.14: 
+2.14: For all of the crime statistics I have presented so far, the emphasis has been on point estimation; that is,
+estimation of a single number or a small set of numbers. Interval estimates provide a range of uncertainty for the point estimate. This is a more advanced topic which we will address later in the course.
+
+2.15: Let's look at Table 8 in the same report. Among other things, this table shows us the relationship between age and recidivism. What can we conclude about that relationship based on the information in the table?
+
+<p align="center">
+<img src="/gfiles/fig6.png" width="400px">
+</p>
 
 #### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
 
@@ -280,3 +287,4 @@ Which of these years seems to be an *outlier*? How does it affect our ability to
 
 * Consult the Uniform Crime Reports ([link](https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr/publications)) for Houston Texas in 2018 and 2019. Calculate the murder rate for each year. What conclusion do you draw about the change in the murder rate for Houston from 2018 to 2019.
 * Review the National Crime Victimization Survey Report for 2019 ([link](https://bjs.ojp.gov/content/pub/pdf/cv19.pdf)). Find the table presenting crime victimizations reported to the police. Describe the change you see in robbery reporting rates from 2018 to 2019.
+* Examine the BJS recidivism study ([link](https://bjs.ojp.gov/document/cv23.pdf)) for people released from prison in 1994. Looking at Table 12 of the report, we see evidence of a relationship between the number of prior arrests and the fraction of people who recidivated within 1 and 3 years. Based on the information in this table, what pattern do you see?
