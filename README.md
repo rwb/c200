@@ -259,7 +259,7 @@ estimation of a single number or a small set of numbers. Interval estimates prov
 2.15: Let's look at Table 8 in the same report. Among other things, this table shows us the relationship between age and recidivism. What can we conclude about that relationship based on the information in the table?
 
 <p align="center">
-<img src="/gfiles/fig6.png" width="400px">
+<img src="/gfiles/fig6.png" width="500px">
 </p>
 
 #### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
