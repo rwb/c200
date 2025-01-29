@@ -210,6 +210,29 @@ And, here are the expected exam dates:
 
 ### Lesson 2 - Thursday 1/30/25
 
+*Announcement*: This is a note I received from the Office of Accessibility and Disability Services (ADS):
+
+```
+Do you take well-organized, comprehensive notes? Do you have good penmanship or do you currently type your notes? Why not get paid to share your notes with classmates who are eligible to receive course lecture notes? 
+
+If you are interested in providing this much needed service to a fellow student, please go to https://go.umd.edu/adsNoteTakers to apply. If you are selected by an eligible student, the Accessibility and Disability Service (ADS) will compensate you with a one-time payment at the end of the semester. 
+
+Staff at ADS are available to answer any questions you may have. Feel free to contact us at adsnotetaking@umd.edu.
+
+Steps to Apply:
+
+Go to adsonline.umd.edu and click on Current Students
+Select the Note Takers icon
+You will be directed to the Central Authentication Service (CAS); sign in with your UMD Directory ID and Password
+Set up your Note Taker Profile to apply to be a Note Taker. If previously completed, skip to step 6 by clicking Courses/Notes tab in upper left menu
+Read and acknowledge (check box) the Confidentiality Agreement
+Select in which course(s) you would like to serve as a Note Taker for the semester
+Upload your Sample Notes – your application will not be complete until this step is finished
+It is important to understand, if you are applying to serve as a Note Taker in more than one class, sample notes are required for each individual class. 
+After ADS reviews your application and it is determined to be complete, you will be considered an eligible Note Taker. If selected by an ADS student who is seeking a Note Taker, you will receive an email from ADS that you have been chosen and should immediately begin uploading notes. The ADS student will see your name and email address. You will not have their information unless they choose to contact you.
+After receiving the email confirming you are chosen as a Note Taker, please complete the paperwork listed at https://go.umd.edu/adsNoteTakers to receive your compensation following the conclusion of the semester.
+```
+
 * 1.17: p. 9: samples and populations
 * 1.18: pp. 10-11: multivariate statistics
 
