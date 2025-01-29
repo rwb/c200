@@ -263,14 +263,14 @@ estimation of a single number or a small set of numbers. Interval estimates prov
 
 #### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
 
-* 1. The death penalty is morally wrong. (empirical or normative?)
-* 2. Death penalty states have higher murder rates than non-death penalty states (empirical or normative?)
-* 3. When a new neighborhood police station opened in neighborhood X, reported robberies declined by 10% (empirical or normative?)
-* 4. Average age of first criminal offense (criminology or criminal justice?)
-* 5. Percentage of cases in a domestic violence court resolved with a plea bargain (criminology or criminal justice?)
-* 6. Suppose we survey every 5th house on a 3-mile street. Is this a sample or a population?
-* 7. Is the National Crime Victimization Survey (NCVS) based on a sample or a population?
-* 8. Consider the following dataset of El Paso murders: 
+* The death penalty is morally wrong. (empirical or normative?)
+* Death penalty states have higher murder rates than non-death penalty states (empirical or normative?)
+* When a new neighborhood police station opened in neighborhood X, reported robberies declined by 10% (empirical or normative?)
+* Average age of first criminal offense (criminology or criminal justice?)
+* Percentage of cases in a domestic violence court resolved with a plea bargain (criminology or criminal justice?)
+* Suppose we survey every 5th house on a 3-mile street. Is this a sample or a population?
+* Is the National Crime Victimization Survey (NCVS) based on a sample or a population?
+* Consider the following dataset of El Paso murders: 
 
 | Year  | N = |
 | -----:| --: |
@@ -284,6 +284,6 @@ estimation of a single number or a small set of numbers. Interval estimates prov
 
 Which of these years seems to be an *outlier*? How does it affect our ability to summarize the yearly number of murders in El Paso during this particular 7-year time period? How should we address it in an analysis?
 
-* 9. Consult the Uniform Crime Reports for Charlotte-Mecklenburg North Carolina in [2018](https://ucr.fbi.gov/crime-in-the-u.s/2018/crime-in-the-u.s.-2018/tables/table-8/table-8-state-cuts/north-carolina.xls) and [2019](https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/north_carolina.xls). Calculate the murder rate for each year. What conclusion do you draw about the change in the murder rate for Charlotte from 2018 to 2019.
-* 10. Review the National Crime Victimization Survey Report for 2019 ([link](https://bjs.ojp.gov/content/pub/pdf/cv19.pdf)). Find the table presenting crime victimizations reported to the police. Describe the change you see in the percentage of robberies reported to the police from 2018 to 2019.
-* 11. Examine the BJS recidivism study ([link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf)) for people released from prison in 1994. Looking at Table 12 of the report, we see evidence of a relationship between the number of prior arrests and the fraction of people who recidivated within 1 and 3 years. Based on the information in this table, what pattern do you see?
+* Consult the Uniform Crime Reports for Charlotte-Mecklenburg North Carolina in [2018](https://ucr.fbi.gov/crime-in-the-u.s/2018/crime-in-the-u.s.-2018/tables/table-8/table-8-state-cuts/north-carolina.xls) and [2019](https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/north_carolina.xls). Calculate the murder rate for each year. What conclusion do you draw about the change in the murder rate for Charlotte from 2018 to 2019.
+* Review the National Crime Victimization Survey Report for 2019 ([link](https://bjs.ojp.gov/content/pub/pdf/cv19.pdf)). Find the table presenting crime victimizations reported to the police. Describe the change you see in the percentage of robberies reported to the police from 2018 to 2019.
+* Examine the BJS recidivism study ([link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf)) for people released from prison in 1994. Looking at Table 12 of the report, we see evidence of a relationship between the number of prior arrests and the fraction of people who recidivated within 1 and 3 years. Based on the information in this table, what pattern do you see?
