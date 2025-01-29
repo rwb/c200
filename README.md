@@ -276,11 +276,11 @@ estimation of a single number or a small set of numbers. Interval estimates prov
 Clearly, 1995 is an outlier (due to the bombing of a federal building in April 1995). How should we deal with it? We could calculate an average both with and without the outlier included:
 
 <p align="center">
-<img src="/gfiles/fig7.png" width="100px">
+<img src="/gfiles/fig7.png" width="500px">
 </p>
 
 <p align="center">
-<img src="/gfiles/fig8.png" width="100px">
+<img src="/gfiles/fig8.png" width="500px">
 </p>
 
 Note that this is a case where it would be reasonable to present 2 answers instead of 1.
