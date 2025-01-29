@@ -235,7 +235,7 @@ And, here are the expected exam dates:
 * 2.8: An important feature of the NCVS is its measure of *crimes reported to the police*.
 * 2.9: Here is a [link](https://bjs.ojp.gov/document/cv23.pdf) to the most recent (2023) report.
 * 2.10: The *crimes reported to the police* table is on page 6 of the report.
-* 2.11: Notice the change in reporting of robbery to the police from 2022 to 2023.
+* 2.11: Notice the change in the percentage of robberies reported to the police from 2022 to 2023.
 
 <p align="center">
 <img src="/gfiles/fig3.png" width="500px">
@@ -255,7 +255,6 @@ And, here are the expected exam dates:
 
 2.14: For all of the crime statistics I have presented so far, the emphasis has been on point estimation; that is,
 estimation of a single number or a small set of numbers. Interval estimates provide a range of uncertainty for the point estimate. This is a more advanced topic which we will address later in the course.
-
 2.15: Let's look at Table 8 in the same report. Among other things, this table shows us the relationship between age and recidivism. What can we conclude about that relationship based on the information in the table?
 
 <p align="center">
@@ -285,6 +284,6 @@ estimation of a single number or a small set of numbers. Interval estimates prov
 
 Which of these years seems to be an *outlier*? How does it affect our ability to summarize the yearly number of murders in El Paso during this particular 7-year time period? How should we address it in an analysis?
 
-* Consult the Uniform Crime Reports ([link](https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr/publications)) for Houston Texas in 2018 and 2019. Calculate the murder rate for each year. What conclusion do you draw about the change in the murder rate for Houston from 2018 to 2019.
-* Review the National Crime Victimization Survey Report for 2019 ([link](https://bjs.ojp.gov/content/pub/pdf/cv19.pdf)). Find the table presenting crime victimizations reported to the police. Describe the change you see in robbery reporting rates from 2018 to 2019.
+* Consult the Uniform Crime Reports for Charlotte-Mecklenburg North Carolina in [2018](https://ucr.fbi.gov/crime-in-the-u.s/2018/crime-in-the-u.s.-2018/tables/table-8/table-8-state-cuts/north-carolina.xls) and [2019](https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/north_carolina.xls). Calculate the murder rate for each year. What conclusion do you draw about the change in the murder rate for Charlotte from 2018 to 2019.
+* Review the National Crime Victimization Survey Report for 2019 ([link](https://bjs.ojp.gov/content/pub/pdf/cv19.pdf)). Find the table presenting crime victimizations reported to the police. Describe the change you see in the percentage of robberies reported to the police from 2018 to 2019.
 * Examine the BJS recidivism study ([link](https://bjs.ojp.gov/document/cv23.pdf)) for people released from prison in 1994. Looking at Table 12 of the report, we see evidence of a relationship between the number of prior arrests and the fraction of people who recidivated within 1 and 3 years. Based on the information in this table, what pattern do you see?
