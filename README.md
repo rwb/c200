@@ -241,6 +241,20 @@ And, here are the expected exam dates:
 <img src="/gfiles/fig3.png" width="500px">
 </p>
 
+2.12: From time to time, the Bureau of Justice Statistics publishes reports documenting recidivism patterns among people being released from prison. The table below summarizes the recidivism patterns for people released from prison in 15 states during the year 1994:
+
+<p align="center">
+<img src="/gfiles/fig4.png" width="500px">
+</p>
+
+2.13: When reviewing this table, two key patterns are evident: (1) how recidivism rates accumulate over time; and (2) how recidivism rates vary depending on the measure of recidivism (arrest, conviction, imprisonment). The chart below presents the same information graphically:
+
+<p align="center">
+<img src="/gfiles/fig5.png" width="500px">
+</p>
+
+2.14: 
+
 #### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
 
 * The death penalty is morally wrong. (empirical or normative?)
