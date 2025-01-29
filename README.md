@@ -241,7 +241,7 @@ And, here are the expected exam dates:
 <img src="/gfiles/fig3.png" width="500px">
 </p>
 
-2.12: From time to time, the Bureau of Justice Statistics publishes reports documenting recidivism patterns among people being released from prison. The table below summarizes the recidivism patterns for people released from prison in 15 states during the year 1994:
+2.12: From time to time, the Bureau of Justice Statistics publishes reports documenting recidivism patterns among people being released from prison. The table below summarizes the recidivism patterns for people released from prison in 15 states during the year 1994 ([link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf)):
 
 <p align="center">
 <img src="/gfiles/fig4.png" width="500px">
