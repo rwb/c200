@@ -261,6 +261,30 @@ estimation of a single number or a small set of numbers. Interval estimates prov
 <img src="/gfiles/fig6.png" width="500px">
 </p>
 
+* 2.16: Murders in Oklahoma City during the 1990's:
+  
+| Year  | N = |
+| -----:| --: |
+| 1992  | 61 |
+| 1993  | 80 |
+| 1994  | 65 |
+| 1995  | 227 |
+| 1996  | 67 |
+| 1997  | 59 |
+| 1998  | 56 |
+
+Clearly, 1995 is an outlier (due to the bombing of a federal building in April 1995). How should we deal with it? We could calculate an average both with and without the outlier included:
+
+<p align="center">
+<img src="/gfiles/fig7.png" width="100px">
+</p>
+
+<p align="center">
+<img src="/gfiles/fig8.png" width="100px">
+</p>
+
+Note that this is a case where it would be reasonable to present 2 answers instead of 1.
+
 #### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
 
 * The death penalty is morally wrong. (empirical or normative?)
