@@ -250,7 +250,7 @@ And, here are the expected exam dates:
 2.13: When reviewing this table, two key patterns are evident: (1) how recidivism rates accumulate over time; and (2) how recidivism rates vary depending on the measure of recidivism (arrest, conviction, imprisonment). The chart below presents the same information graphically:
 
 <p align="center">
-<img src="/gfiles/fig5.png" width="400px">
+<img src="/gfiles/fig5.png" width="500px">
 </p>
 
 2.14: For all of the crime statistics I have presented so far, the emphasis has been on point estimation; that is,
