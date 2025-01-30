@@ -243,8 +243,8 @@ Steps to Apply:
   https://go.umd.edu/adsNoteTakers to receive your compensation following the conclusion of the semester.
 ```
 
-* 1.17: p. 9: samples and populations
-* 1.18: pp. 10-11: multivariate statistics
+* 1.17: p. 9: samples and populations: often we can't study an entire population so we study a sample.
+* 1.18: pp. 10-11: multivariate statistics: measuring cause and effect often requires that we pay attention to multiple factors at the same time. Example: job attachment and crime (need to account for age)
 
 #### Topic 2 begins here
 
