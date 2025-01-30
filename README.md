@@ -326,7 +326,7 @@ Note that this is a case where it would be reasonable to present 2 answers inste
 
 The total number of murders was 233 and the number of clearances was 82. This produces a *clearance rate* of 82/233 $\approx$ 35.193 clearances per 100 murders.
 
-2.18: Clearances are regularly tabulated for so-called Part I index crimes: murder, rape, robbery, aggravated assault, burglary, larceny, motor vehicle theft, and arson. We'll take a look at the thefts and theft clearances in Buffalo, NY in 2017:
+2.18: Clearances are regularly tabulated for so-called Part I index crimes: murder, rape, robbery, aggravated assault, burglary, larceny, motor vehicle theft, and arson. We'll take a look at the thefts and theft clearances in Buffalo, NY in 2017 (again, tabulated by https://crimedatatool.com).:
 
 <p align="center">
 <img src="/gfiles/fig9.png" width="500px">
