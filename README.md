@@ -318,6 +318,23 @@ Clearly, 1995 is an outlier (due to the bombing of a federal building in April 1
 
 Note that this is a case where it would be reasonable to present 2 answers instead of 1.
 
+2.17: Crime clearances are a significant research topic; they relate to accountability, justice, police performance, and police-community relations. Let's look at murder clearances in Baltimore for the year 2023. (Note: these data are based on information compiled by the FBI and tabulated by https://crimedatatool.com).
+
+<p align="center">
+<img src="/gfiles/fig10.png" width="500px">
+</p>
+
+The total number of murders was 233 and the number of clearances was 82. This produces a *clearance rate* of 82/233 $\approx$ 35.193 clearances per 100 murders.
+
+2.18: Clearances are regularly tabulated for so-called Part I index crimes: murder, rape, robbery, aggravated assault, burglary, larceny, motor vehicle theft, and arson. We'll take a look at the thefts and theft clearances in Buffalo, NY in 2017:
+
+<p align="center">
+<img src="/gfiles/fig9.png" width="500px">
+</p>
+
+The yearly clearance rate cannot be calculated from these numbers since two months are missing clearance information. It is important to note that a murder or theft occurring in one year might not be cleared until the next year so it is not accurate to think of the clearance rate as a fraction.
+
+
 #### Practice Questions (no questions at the end of Chapter 1 so I'm making up a few)
 
 * The death penalty is morally wrong. (empirical or normative?)
