@@ -277,7 +277,7 @@ Steps to Apply:
 * 2.12: From time to time, the Bureau of Justice Statistics publishes reports documenting *recidivism* patterns among people being released from prison. The table below summarizes the recidivism patterns for people released from prison in 15 states during the year 1994 ([link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf)):
 
 <p align="center">
-<img src="/gfiles/fig4.png" width="500px">
+<img src="/gfiles/fig4.png" width="400px">
 </p>
 
 * 2.13: When reviewing this table, two key patterns are evident: (1) how recidivism rates accumulate over time; and (2) how recidivism rates vary depending on the measure of recidivism (arrest, conviction, imprisonment). The chart below presents the same information graphically:
