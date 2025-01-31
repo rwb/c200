@@ -363,5 +363,18 @@ The yearly clearance rate cannot be calculated from these numbers since two mont
 
 #### Week 2 Practice Questions
 
+* Consider the following dataset of the number of murders in New York City reported to the FBI by the New York City Police Department (NYPD):
+
+| Year  | N = |
+| -----:| --: |
+| 1997  | 770 |
+| 1998  | 633 |
+| 1999  | 671 |
+| 2000  | 673 |
+| 2001  | 3472 |
+| 2002  | 587 |
+| 2003  | 597 |
+
+The year 2001 is an obvious outlier due to the terrorist attacks of September 11, 2001. Calculate and report the average yearly number of murders in New York City during this period including and excluding the outlier.
 * Examine the BJS recidivism study ([link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf)) for people released from prison in 1994. Looking at Table 12 of the report, we see evidence of a relationship between the number of prior arrests and the fraction of people who recidivated within 1 and 3 years. Based on the information in this table, what pattern do you see?
 * Calculate the theft clearance rate (# of clearances per 100 cases) for Buffalo for the first 4 months (combined) of 2017. Then, calculate the theft clearance rate for the last 6 months (combined) of 2017. Which of the two clearance rates is greater?
