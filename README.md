@@ -343,9 +343,9 @@ Clearly, 1995 is an outlier (due to the bombing of a federal building in April 1
 <img src="/gfiles/fig8.png" width="500px">
 </p>
 
-Note that this is a case where it would be reasonable to present 2 answers instead of 1.
+*Note*: this is a case where it would be reasonable to present 2 answers instead of 1.
 
-2.17: Crime clearances are a significant research topic; they relate to accountability, justice, police performance, and police-community relations. Let's look at murder clearances in Baltimore for the year 2023. (Note: these data are based on information compiled by the FBI and tabulated by https://crimedatatool.com).
+* 2.17: Crime clearances are a significant research topic; they relate to accountability, justice, police performance, and police-community relations. Let's look at murder clearances in Baltimore for the year 2023. (Note: these data are based on information compiled by the FBI and tabulated by https://crimedatatool.com).
 
 <p align="center">
 <img src="/gfiles/fig10.png" width="500px">
@@ -353,13 +353,17 @@ Note that this is a case where it would be reasonable to present 2 answers inste
 
 The total number of murders was 233 and the number of clearances was 82. This produces a *clearance rate* of 82/233 $\approx$ 35.193 clearances per 100 murders.
 
-2.18: Clearances are regularly tabulated for so-called Part I index crimes: murder, rape, robbery, aggravated assault, burglary, larceny, motor vehicle theft, and arson. We'll take a look at the thefts and theft clearances in Buffalo, NY in 2017 (again, tabulated by https://crimedatatool.com):
+* 2.18: Clearances are regularly tabulated for so-called Part I index crimes: murder, rape, robbery, aggravated assault, burglary, larceny, motor vehicle theft, and arson. We'll take a look at the thefts and theft clearances in Buffalo, NY in 2017 (again, tabulated by https://crimedatatool.com):
 
 <p align="center">
 <img src="/gfiles/fig9.png" width="500px">
 </p>
 
 The yearly clearance rate cannot be calculated from these numbers since two months are missing clearance information. It is important to note that a murder or theft occurring in one year might not be cleared until the next year so it is not accurate to think of the clearance rate as a fraction.
+
+2.19: Unit of scientific study (also sometimes called unit of analysis): Whenever we conduct a study, we have to decide what our unit of analysis will be. For example, if we want to know how murder rates vary from city to city, then the unit of analysis is *individual cities*. If we want to know how murders vary from year to year for the same city, then the unit of analysis is *individual years*. If we conduct a survey of a sample of high school students and ask each of the whether they perceive that they have been bullied within the last year, then the unit of analysis is *individual students*. Once we have identified the unit of scientific study or analysis, we are able to say how many units or cases are being studied. For example, the number of cases in the Oklahoma City study above is 7 because we examined 7 years of data. In a study, we usually identify the number of cases in a study as *n* (for a sample of cases) and *N* (for a population of cases).
+
+
 
 #### Week 2 Practice Questions
 
