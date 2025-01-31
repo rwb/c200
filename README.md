@@ -289,6 +289,19 @@ Steps to Apply:
 * Percentage of cases in a domestic violence court resolved with a plea bargain (criminology or criminal justice?)
 * Suppose we survey every 5th house on a 3-mile street. Is this a sample or a population?
 * Is the National Crime Victimization Survey (NCVS) based on a sample or a population?
+* Consider the following dataset of El Paso murders: 
+
+| Year  | N = |
+| -----:| --: |
+| 2014  | 21 |
+| 2015  | 17 |
+| 2016  | 17 |
+| 2017  | 19 |
+| 2018  | 23 |
+| 2019  | 40 |
+| 2020  | 23 |
+
+Which of these years seems to be an *outlier*? How does it affect our ability to summarize the yearly number of murders in El Paso during this particular 7-year time period? How should we address it in an analysis?
 * Consult the Uniform Crime Reports for Charlotte-Mecklenburg North Carolina in [2018](https://ucr.fbi.gov/crime-in-the-u.s/2018/crime-in-the-u.s.-2018/tables/table-8/table-8-state-cuts/north-carolina.xls) and [2019](https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/north_carolina.xls). Calculate the murder rate for each year. What conclusion do you draw about the change in the murder rate for Charlotte from 2018 to 2019.
 * Review the National Crime Victimization Survey Report for 2019 ([link](https://bjs.ojp.gov/content/pub/pdf/cv19.pdf)). Find the table presenting crime victimizations reported to the police. Describe the change you see in the percentage of robberies reported to the police from 2018 to 2019.
 
@@ -350,19 +363,7 @@ The yearly clearance rate cannot be calculated from these numbers since two mont
 
 #### Week 2 Practice Questions
 
-* Consider the following dataset of El Paso murders: 
 
-| Year  | N = |
-| -----:| --: |
-| 2014  | 21 |
-| 2015  | 17 |
-| 2016  | 17 |
-| 2017  | 19 |
-| 2018  | 23 |
-| 2019  | 40 |
-| 2020  | 23 |
-
-Which of these years seems to be an *outlier*? How does it affect our ability to summarize the yearly number of murders in El Paso during this particular 7-year time period? How should we address it in an analysis?
 
 * Examine the BJS recidivism study ([link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf)) for people released from prison in 1994. Looking at Table 12 of the report, we see evidence of a relationship between the number of prior arrests and the fraction of people who recidivated within 1 and 3 years. Based on the information in this table, what pattern do you see?
 * Calculate the theft clearance rate (# of clearances per 100 cases) for Buffalo for the first 4 months (combined) of 2017. Then, calculate the theft clearance rate for the last 6 months (combined) of 2017. Which of the two clearance rates is greater?
