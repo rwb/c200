@@ -361,8 +361,7 @@ The total number of murders was 233 and the number of clearances was 82. This pr
 
 The yearly clearance rate cannot be calculated from these numbers since two months are missing clearance information. It is important to note that a murder or theft occurring in one year might not be cleared until the next year so it is not accurate to think of the clearance rate as a fraction.
 
-2.19: Unit of scientific study (also sometimes called unit of analysis): Whenever we conduct a study, we have to decide what our unit of analysis will be. For example, if we want to know how murder rates vary from city to city, then the unit of analysis is *individual cities*. If we want to know how murders vary from year to year for the same city, then the unit of analysis is *individual years*. If we conduct a survey of a sample of high school students and ask each of the whether they perceive that they have been bullied within the last year, then the unit of analysis is *individual students*. Once we have identified the unit of scientific study or analysis, we are able to say how many units or cases are being studied. For example, the number of cases in the Oklahoma City study above is 7 because we examined 7 years of data. In a study, we usually identify the number of cases in a study as our *sample size*.
-
+2.19: Unit of analysis: Whenever we conduct a study, we have to decide what our unit of analysis will be. For example, if we want to know how murder rates vary from city to city, then the unit of analysis is *individual cities*. If we want to know how murders vary from year to year for the same city, then the unit of analysis is *individual years*. If we conduct a survey of a sample of high school students and ask each of the whether they perceive that they have been bullied within the last year, then the unit of analysis is *individual students*. Once we have identified the unit of analysis, we are able to say how many units or cases are being studied. For example, the number of cases in the Oklahoma City study above is 7 because we examined 7 years of data. We usually identify the number of units or cases in a study as the *sample size*.
 
 
 #### Week 2 Practice Questions
@@ -380,5 +379,7 @@ The yearly clearance rate cannot be calculated from these numbers since two mont
 | 2003  | 597 |
 
 The year 2001 is an obvious outlier due to the terrorist attacks of September 11, 2001. Calculate and report the average yearly number of murders in New York City during this period including and excluding the outlier.
+* What is the unit of analysis for the New York City table?
 * Examine the BJS recidivism study ([link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf)) for people released from prison in 1994. Looking at Table 12 of the report, we see evidence of a relationship between the number of prior arrests and the fraction of people who recidivated within 1 and 3 years. Based on the information in this table, what pattern do you see?
+* What is the unit of analysis for the BJS recidivism study?
 * Calculate the theft clearance rate (# of clearances per 100 cases) for Buffalo for the first 4 months (combined) of 2017. Then, calculate the theft clearance rate for the last 6 months (combined) of 2017. Which of the two clearance rates is greater?
