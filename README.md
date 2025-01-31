@@ -313,8 +313,7 @@ Which of these years seems to be an *outlier*? How does it affect our ability to
 <img src="/gfiles/fig5.png" width="500px">
 </p>
 
-* 2.14: For all of the crime statistics I have presented so far, the emphasis has been on point estimation; that is,
-estimation of a single number or a small set of numbers. Interval estimates provide a range of uncertainty for the point estimate. This is a more advanced topic which we will address later in the course.
+* 2.14: For all of the crime statistics I have presented so far, the emphasis has been on point estimation; that is, estimation of a single number or a small set of numbers. Interval estimates provide a range of uncertainty for the point estimate. This is a more advanced topic which we will address later in the course.
 * 2.15: Let's look at Table 8 in the same report. Among other things, this table shows us the relationship between age and recidivism. What can we conclude about that relationship based on the information in the table?
 
 <p align="center">
@@ -361,8 +360,13 @@ The total number of murders was 233 and the number of clearances was 82. This pr
 
 The yearly clearance rate cannot be calculated from these numbers since two months are missing clearance information. It is important to note that a murder or theft occurring in one year might not be cleared until the next year so it is not accurate to think of the clearance rate as a fraction.
 
-2.19: Unit of analysis: Whenever we conduct a study, we have to decide what our unit of analysis will be. For example, if we want to know how murder rates vary from city to city, then the unit of analysis is *individual cities*. If we want to know how murders vary from year to year for the same city, then the unit of analysis is *individual years*. If we conduct a survey of a sample of high school students and ask each of the whether they perceive that they have been bullied within the last year, then the unit of analysis is *individual students*. Once we have identified the unit of analysis, we are able to say how many units or cases are being studied. For example, the number of cases in the Oklahoma City study above is 7 because we examined 7 years of data. We usually identify the number of units or cases in a study as the *sample size*.
+* 2.19: Unit of analysis: Whenever we conduct a study, we have to decide what our unit of analysis will be. For example, if we want to know how murder rates vary from city to city, then the unit of analysis is *individual cities*. If we want to know how murders vary from year to year for the same city, then the unit of analysis is *individual years*. If we conduct a survey of a sample of high school students and ask each of the whether they perceive that they have been bullied within the last year, then the unit of analysis is *individual students*. Once we have identified the unit of analysis, we are able to say how many units or cases are being studied. For example, the number of cases in the Oklahoma City study above is 7 because we examined 7 years of data. We usually identify the number of units or cases in a study as the *sample size*. 
 
+#### Chapter 2/Topic 3 begins here
+
+Criminologists often converse about fairly broad concepts. Terms like crime rates, recidivism, homicide, delinquency, incarceration, and plea bargaining are often used in fairly loose and informal ways. To do research, we must become more specific in defining the terms that we use. Toward this end, chapter 3 considers the idea of *measurement*: the process by which we transition from abstract concepts to actual research exercises like classification and counting. 
+
+* 3.1
 
 #### Week 2 Practice Questions
 
@@ -381,5 +385,4 @@ The yearly clearance rate cannot be calculated from these numbers since two mont
 The year 2001 is an obvious outlier due to the terrorist attacks of September 11, 2001. Calculate and report the average yearly number of murders in New York City during this period including and excluding the outlier.
 * What is the unit of analysis for the New York City table?
 * Examine the BJS recidivism study ([link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf)) for people released from prison in 1994. Looking at Table 12 of the report, we see evidence of a relationship between the number of prior arrests and the fraction of people who recidivated within 1 and 3 years. Based on the information in this table, what pattern do you see?
-* What is the unit of analysis for the BJS recidivism study?
 * Calculate the theft clearance rate (# of clearances per 100 cases) for Buffalo for the first 4 months (combined) of 2017. Then, calculate the theft clearance rate for the last 6 months (combined) of 2017. Which of the two clearance rates is greater?
