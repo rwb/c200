@@ -422,4 +422,4 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 * What is the unit of analysis for the New York City table?
 * Examine the BJS recidivism study ([link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf)) for people released from prison in 1994. Looking at Table 12 of the report, we see evidence of a relationship between the number of prior arrests and the fraction of people who recidivated within 1 and 3 years. Based on the information in this table, what pattern do you see?
 * Calculate the theft clearance rate (# of clearances per 100 cases) for Buffalo for the first 4 months (combined) of 2017. Then, calculate the theft clearance rate for the last 6 months (combined) of 2017. Which of the two clearance rates is greater?
-* Problems 2.1-2.9 at the end of chapter 2.
+* Problems 2.1-2.8 at the end of chapter 2.
