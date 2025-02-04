@@ -393,6 +393,7 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 </p>
 
 *Note*: this particular example illustrates how we can *collapse* or *reduce* an interval level variable to an ordinal level of measurement.
+*Note*: A problem is that the dividing line between an ordinal variable and an interval variable can be somewhat ambiguous (i.e., how many categories do we need to have before we decide that a variable is no longer an ordinal variable and is now an interval variable?).
 
 * 3.17: Ratio scale variables have many ordered values plus there is a true zero (which represents the absence of the phenomenon).
 * 3.18: Examples of ratio scale variables: speed at which a car is driving; the number of months an offender is sentenced to prison; age at which a person is arrested for the first time.
