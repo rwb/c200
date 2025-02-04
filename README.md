@@ -399,8 +399,8 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 * 3.19: The scale of measurement is, therefore, based on the amount of information we have plus the nature of the phenomenon (variable) that is being studied.
 * 3.20: Please see the other examples in Tables 2.1-2.3.
 * 3.21: The textbook (pp. 22-23) urges us to collect data at the highest level possible. For example, if we collect data at the interval or ratio level, we can always combine categories to get an ordinal scale; but if the data are collected at the ordinal level, we cannot increase the level of measurement to the interval or ratio level.
-* 3.22: Validity (pp. 23-24): does the measurement accurately reflect the concept that is being measured (acronym: MARC). So validity pertains to accuracy of measurement.
-* 3.23: Reliability (pp. 24-25): repeatability or consistency of the measurement (example: bathroom scale).
+* 4: Validity (pp. 23-24): does the measurement accurately reflect the concept that is being measured (acronym: MARC). So validity pertains to accuracy of measurement.
+* 5: Reliability (pp. 24-25): repeatability or consistency of the measurement (example: bathroom scale).
 
 
 #### Week 2 Practice Questions
