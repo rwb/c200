@@ -347,7 +347,7 @@ Clearly, 1995 is an outlier (due to the bombing of a federal building in April 1
 * 2.17: Crime clearances are a significant research topic; they relate to accountability, justice, police performance, and police-community relations. Let's look at murder clearances in Baltimore for the year 2023. (Note: these data are based on information compiled by the FBI and tabulated by https://crimedatatool.com).
 
 <p align="center">
-<img src="/gfiles/fig10.png" width="500px">
+<img src="/gfiles/fig10.png" width="700px">
 </p>
 
 The total number of murders was 233 and the number of clearances was 82. This produces a *clearance rate* of 82/233 $\approx$ 35.193 clearances per 100 murders.
@@ -355,7 +355,7 @@ The total number of murders was 233 and the number of clearances was 82. This pr
 * 2.18: Clearances are regularly tabulated for so-called Part I index crimes: murder, rape, robbery, aggravated assault, burglary, larceny, motor vehicle theft, and arson. We'll take a look at the thefts and theft clearances in Buffalo, NY in 2017 (again, tabulated by https://crimedatatool.com):
 
 <p align="center">
-<img src="/gfiles/fig9.png" width="500px">
+<img src="/gfiles/fig9.png" width="700px">
 </p>
 
 The yearly clearance rate cannot be calculated from these numbers since two months are missing clearance information. It is important to note that a murder or theft occurring in one year might not be cleared until the next year so it is not accurate to think of the clearance rate as a fraction.
