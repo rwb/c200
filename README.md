@@ -366,31 +366,41 @@ The yearly clearance rate cannot be calculated from these numbers since two mont
 
 Criminologists often converse about fairly broad concepts. Terms like crime rates, recidivism, homicide, delinquency, incarceration, and plea bargaining are often used in fairly loose and informal ways. To do research, we must become more specific in defining the terms that we use. Toward this end, chapter 3 considers the idea of *measurement*: the process by which we transition from abstract concepts to actual research exercises like classification and counting. 
 
-* 3.1: Measurement involves placing study *units* into categories or on a continuum so that we can see the variation that exists.
-* 3.2: Variables are traits, characteristics, or attributes that can be used to differentiate study *units*.
-* 3.3: A *unit* or *unit of analysis* is the main focus of a study.
-* 3.4: Example: the unit of analysis in a study describing the variation in crime across neighborhoods within a city is the neighborhood.
-* 3.5: Example: the unit of analysis in a study examining the probability that an individual person has been a victim of a crime within the past year is the individual person.
-* 3.6: The categories or distinct values of some variables represent qualitative differences or *differences in kind*.
-* 3.7: The categories or distinct values of other variables represent quantitative differences or *differences in degree*.
-* 3.8: This leads us to the topic of *levels of measurement* which corresponds to the meaning we can assign to the differences between categories.
-* 3.9: 4 levels of measurement: nominal, ordinal, interval, and ratio.
-* 3.10: A nominal scale variable represents purely qualitative differences; the arrangement or ordering of the categories is not important.
-* 3.11: Examples of nominal scale variables: sex, race, religious affiliation.
-* 3.12: An ordinal scale variable involves qualitative differences but the ordering of the categories is significant. An ambiguity in ordinal variables is that the distance between the categories is not well defined.
-* 3.13: Examples of ordinal scale variables: Likert-type scales (1=strongly agree, 2=agree, 3=disagree, 4=strongly disagree); severity of head injuries in motorcycle accidents (Weiss, 1992:49; [link](https://www.jstor.org/stable/pdf/2290450.pdf)).
+* 3.1: Positivism: the empirical study of scientifically interesting phenomena; as opposed to advocacy or opinions (normative reasoning).
+* 3.2: Measurement involves placing study *units* into categories or on a continuum so that we can see the variation that exists.
+* 3.3: Variables are traits, characteristics, or attributes that can be used to differentiate study *units*.
+* 3.4: A *unit* or *unit of analysis* is the main focus of a study.
+* 3.5: Example: the unit of analysis in a study describing the variation in crime across neighborhoods within a city is the neighborhood.
+* 3.6: Example: the unit of analysis in a study examining the probability that an individual person has been a victim of a crime within the past year is the individual person.
+* 3.7: The categories or distinct values of some variables represent qualitative differences or *differences in kind*.
+* 3.8: The categories or distinct values of other variables represent quantitative differences or *differences in degree*.
+* 3.9: This leads us to the topic of *levels of measurement* which corresponds to the meaning we can assign to the differences between categories.
+* 3.10: 4 levels of measurement: nominal, ordinal, interval, and ratio.
+* 3.11: A nominal scale variable represents purely qualitative differences; the arrangement or ordering of the categories is not important.
+* 3.12: Examples of nominal scale variables: sex, race, religious affiliation.
+* 3.13: An ordinal scale variable involves qualitative differences but the ordering of the categories is significant. An ambiguity in ordinal variables is that the distance between the categories is not well defined.
+* 3.14: Examples of ordinal scale variables: Likert-type scales (1=strongly agree, 2=agree, 3=disagree, 4=strongly disagree); severity of head injuries in motorcycle accidents (Weiss, 1992:49; [link](https://www.jstor.org/stable/pdf/2290450.pdf)).
 
 <p align="center">
 <img src="/gfiles/fig11.png" width="700px">
 </p>
 
-* 3.14: Interval scale variables have many ordered values but no true zero.
-* 3.15: Examples of interval scale variables: IQ scores, certain kinds of risk assessment scores (for example, the Federal Bureau of Prisons Risk Assessment, [link](https://www.bop.gov/inmates/fsa/pattern.jsp)):
+* 3.15: Interval scale variables have many ordered values but no true zero.
+* 3.16: Examples of interval scale variables: IQ scores, certain kinds of risk assessment scores (for example, the Federal Bureau of Prisons Risk Assessment, [link](https://www.bop.gov/inmates/fsa/pattern.jsp)):
 
 <p align="center">
 <img src="/gfiles/fig12.png" width="500px">
 </p>
-  
+
+* 3.17: Ratio scale variables have many ordered values plus there is a true zero (which represents the absence of the phenomenon).
+* 3.18: Examples of ratio scale variables: speed at which a car is driving; the number of months an offender is sentenced to prison; age at which a person is arrested for the first time.
+* 3.19: The scale of measurement is, therefore, based on the amount of information we have plus the nature of the phenomenon (variable) that is being studied.
+* 3.20: Please see the other examples in Tables 2.1-2.3.
+* 3.21: The textbook (pp. 22-23) urges us to collect data at the highest level possible. For example, if we collect data at the interval or ratio level, we can always combine categories to get an ordinal scale; but if the data are collected at the ordinal level, we cannot increase the level of measurement to the interval or ratio level.
+* 3.22: Validity (pp. 23-24): does the measurement accurately reflect the concept that is being measured (acronym: MARC). So validity pertains to accuracy of measurement.
+* 3.23: Reliability (pp. 24-25): repeatability or consistency of the measurement (example: bathroom scale).
+
+
 #### Week 2 Practice Questions
 
 * Consider the following dataset of the number of murders in New York City reported to the FBI by the New York City Police Department (NYPD):
@@ -409,3 +419,4 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 * What is the unit of analysis for the New York City table?
 * Examine the BJS recidivism study ([link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf)) for people released from prison in 1994. Looking at Table 12 of the report, we see evidence of a relationship between the number of prior arrests and the fraction of people who recidivated within 1 and 3 years. Based on the information in this table, what pattern do you see?
 * Calculate the theft clearance rate (# of clearances per 100 cases) for Buffalo for the first 4 months (combined) of 2017. Then, calculate the theft clearance rate for the last 6 months (combined) of 2017. Which of the two clearance rates is greater?
+* Problems 2.1-2.9 at the end of chapter 2.
