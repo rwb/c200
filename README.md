@@ -366,8 +366,24 @@ The yearly clearance rate cannot be calculated from these numbers since two mont
 
 Criminologists often converse about fairly broad concepts. Terms like crime rates, recidivism, homicide, delinquency, incarceration, and plea bargaining are often used in fairly loose and informal ways. To do research, we must become more specific in defining the terms that we use. Toward this end, chapter 3 considers the idea of *measurement*: the process by which we transition from abstract concepts to actual research exercises like classification and counting. 
 
-* 3.1
+* 3.1: Measurement involves placing study *units* into categories or on a continuum so that we can see the variation that exists.
+* 3.2: Variables are traits, characteristics, or attributes that can be used to differentiate study *units*.
+* 3.3: A *unit* or *unit of analysis* is the main focus of a study.
+* 3.4: Example: the unit of analysis in a study describing the variation in crime across neighborhoods within a city is the neighborhood.
+* 3.5: Example: the unit of analysis in a study examining the probability that an individual person has been a victim of a crime within the past year is the individual person.
+* 3.6: The categories or distinct values of some variables represent qualitative differences or *differences in kind*.
+* 3.7: The categories or distinct values of other variables represent quantitative differences or *differences in degree*.
+* 3.8: This leads us to the topic of *levels of measurement* which corresponds to the meaning we can assign to the differences between categories.
+* 3.9: 4 levels of measurement: nominal, ordinal, interval, and ratio.
+* 3.10: A nominal scale variable represents purely qualitative differences; the arrangement or ordering of the categories is not important.
+* 3.11: Examples of nominal scale variables: sex, race, religious affiliation.
+* 3.12: An ordinal scale variable involves qualitative differences but the ordering of the categories is significant. An ambiguity in ordinal variables is that the distance between the categories is not well defined.
+* 3.13: Examples of ordinal scale variables: Likert-type scales (1=strongly agree, 2=agree, 3=disagree, 4=strongly disagree); severity of head injuries in motorcycle accidents (Weiss, 1992:49; [link](https://www.jstor.org/stable/pdf/2290450.pdf)).
 
+<p align="center">
+<img src="/gfiles/fig10.png" width="500px">
+</p>
+   
 #### Week 2 Practice Questions
 
 * Consider the following dataset of the number of murders in New York City reported to the FBI by the New York City Police Department (NYPD):
