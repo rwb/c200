@@ -393,6 +393,7 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 </p>
 
 *Note*: this particular example illustrates how we can *collapse* or *reduce* an interval level variable to an ordinal level of measurement.
+
 *Note*: A problem is that the dividing line between an ordinal variable and an interval variable can be somewhat ambiguous (i.e., how many categories do we need to have before we decide that a variable is no longer an ordinal variable and is now an interval variable?).
 
 * 3.17: Ratio scale variables have many ordered values plus there is a true zero (which represents the absence of the phenomenon).
@@ -402,7 +403,6 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 * 3.21: The textbook (pp. 22-23) urges us to collect data at the highest level possible. For example, if we collect data at the interval or ratio level, we can always combine categories to get an ordinal scale; but if the data are collected at the ordinal level, we cannot increase the level of measurement to the interval or ratio level.
 * 4: Validity (pp. 23-24): does the measurement accurately reflect the concept that is being measured (acronym: MARC). So validity pertains to accuracy of measurement.
 * 5: Reliability (pp. 24-25): repeatability or consistency of the measurement (example: bathroom scale).
-
 
 #### Week 2 Practice Questions
 
