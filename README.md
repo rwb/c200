@@ -320,6 +320,8 @@ Which of these years seems to be an *outlier*? How does it affect our ability to
 <img src="/gfiles/fig6.png" width="500px">
 </p>
 
+*Note*: these are all examples of descriptive statistics: they tell us what is *typical* and they tell us how much *variability* there is. When we try to learn what is typical, we use measures of central tendency. When we try to learn about the variation in the data, we use measures of *dispersion* (these terms are discussed on pp. 7-9 in your textbook).
+
 * 2.16: Murders in Oklahoma City during the 1990's:
   
 | Year  | N = |
