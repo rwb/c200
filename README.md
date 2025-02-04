@@ -320,8 +320,6 @@ Which of these years seems to be an *outlier*? How does it affect our ability to
 <img src="/gfiles/fig6.png" width="500px">
 </p>
 
-*Note*: these are all examples of descriptive statistics: they tell us what is *typical* and they tell us how much *variability* there is. When we try to learn what is typical, we use measures of central tendency. When we try to learn about the variation in the data, we use measures of *dispersion* (these terms are discussed on pp. 7-9 in your textbook).
-
 * 2.16: Murders in Oklahoma City during the 1990's:
   
 | Year  | N = |
@@ -362,7 +360,7 @@ The total number of murders was 233 and the number of clearances was 82. This pr
 
 The yearly clearance rate cannot be calculated from these numbers since two months are missing clearance information. It is important to note that a murder or theft occurring in one year might not be cleared until the next year so it is not accurate to think of the clearance rate as a fraction.
 
-* 2.19: Unit of analysis: Whenever we conduct a study, we have to decide what our unit of analysis will be. For example, if we want to know how murder rates vary from city to city, then the unit of analysis is *individual cities*. If we want to know how murders vary from year to year for the same city, then the unit of analysis is *individual years*. If we conduct a survey of a sample of high school students and ask each of the whether they perceive that they have been bullied within the last year, then the unit of analysis is *individual students*. Once we have identified the unit of analysis, we are able to say how many units or cases are being studied. For example, the number of cases in the Oklahoma City study above is 7 because we examined 7 years of data. We usually identify the number of units or cases in a study as the *sample size*. 
+*Note*: these are all examples of descriptive statistics: they tell us what is *typical* and they tell us how much *variability* there is. When we try to learn what is typical, we use measures of central tendency. When we try to learn about the variation in the data, we use measures of *dispersion* (these terms are discussed on pp. 7-9 in your textbook).
 
 #### Chapter 2/Topic 3 begins here
 
