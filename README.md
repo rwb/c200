@@ -381,7 +381,7 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 * 3.13: Examples of ordinal scale variables: Likert-type scales (1=strongly agree, 2=agree, 3=disagree, 4=strongly disagree); severity of head injuries in motorcycle accidents (Weiss, 1992:49; [link](https://www.jstor.org/stable/pdf/2290450.pdf)).
 
 <p align="center">
-<img src="/gfiles/fig11.png" width="500px">
+<img src="/gfiles/fig11.png" width="700px">
 </p>
    
 #### Week 2 Practice Questions
