@@ -383,7 +383,14 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 <p align="center">
 <img src="/gfiles/fig11.png" width="700px">
 </p>
-   
+
+* 3.14: Interval scale variables have many ordered values but no true zero.
+* 3.15: Examples of interval scale variables: IQ scores, certain kinds of risk assessment scores (for example, the Federal Bureau of Prisons Risk Assessment, [link](https://www.bop.gov/inmates/fsa/pattern.jsp)):
+
+<p align="center">
+<img src="/gfiles/fig12.png" width="500px">
+</p>
+  
 #### Week 2 Practice Questions
 
 * Consider the following dataset of the number of murders in New York City reported to the FBI by the New York City Police Department (NYPD):
