@@ -414,21 +414,23 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 <img src="/gfiles/fig13.png" width="700px">
 </p>
 
-* 4.6: Consider the following research question: how many murders occurred in Maryland in the year 2019?
-* 4.7: Here is the answer based on the FBI data:
+* 4.6: Consider the following research question: how many murders/homicides occurred in Maryland in the year 2019?
+* 4.7: There are two major data sources for measuring murders/homicides in the United States: the Federal Bureau of Investigation (FBI) measure of murder and non-negligent manslaughter; and the Centers for Disease Control (CDC) measure of death by assault (homicide).
+* 4.8: Here is the number of murder/non-negligent manslaughter incidents based on the FBI data:
 
 <p align="center">
 <img src="/gfiles/fig14.png" width="500px">
 </p>
 
-* 4.8: Here is the answer based on the Centers for Disease Contro (CDC) data:
+* 4.9: Here is the number of homicides based on the Centers for Disease Control (CDC) data:
 
 <p align="center">
 <img src="/gfiles/fig15.png" width="900px">
 </p>
 
-* 4.9: What can account for the difference?
-* 4.10: Different kinds of validity: (1) content and construct validity; (2) criterion-related and multiple measures validity.
+* 4.10: What can account for the difference? 
+* 4.11: Different kinds of validity: (1) content and construct validity; (2) criterion-related and multiple measures validity.
+* 4.12: Here is the long-term national comparison of the two data series.
 
 <p align="center">
 <img src="/gfiles/fig16.png" width="700px">
