@@ -514,14 +514,12 @@ which gives:
 * Finally, let's suppose that we want to calculate the murder rate for each of the 7 years.
 * Let's start a new R session.
 * Next, go to [crimedatatool.com](https://crimedatatool.com) to get the data.
-* We will add code to include the population in each of the 7 years.
-* 
+* We will now add code to include the population for each of the 7 years.
 
 ```R
 year=1992:1998
 murders=c(61,80,65,227,67,59,56)
-population=c(454255,457448,461271,466232,469632,
-  472046,463637)
+population=c(454255,457448,461271,466232,469632,472046,463637)
 rate=(murders/population)*100000
 data.frame(year,murders,population,rate)
 ```
@@ -529,8 +527,7 @@ data.frame(year,murders,population,rate)
 ```Rout
 > year=1992:1998
 > murders=c(61,80,65,227,67,59,56)
-> population=c(454255,457448,461271,466232,469632,
-+   472046,463637)
+> population=c(454255,457448,461271,466232,469632,472046,463637)
 > rate=(murders/population)*100000
 > data.frame(year,murders,population,rate)
   year murders population     rate
