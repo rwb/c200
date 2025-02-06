@@ -418,13 +418,13 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 * 4.7: Here is the answer based on the FBI data:
 
 <p align="center">
-<img src="/gfiles/fig14.png" width="700px">
+<img src="/gfiles/fig14.png" width="500px">
 </p>
 
 * 4.8: Here is the answer based on the National Center for Health Statistics (NCHS) data:
 
 <p align="center">
-<img src="/gfiles/fig15.png" width="700px">
+<img src="/gfiles/fig15.png" width="900px">
 </p>
 
 * 4.9: What can account for the difference?
