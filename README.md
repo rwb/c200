@@ -469,34 +469,6 @@ data.frame(year,murders)
 7 1998      56
 >
 ```
-* Now, let's suppose I want to calculate the average yearly number of murders:
-
-```R
-sum(murders)/7
-```
-
-which gives:
-
-```Rout
-> sum(murders)/7
-[1] 87.85714
->
-```
-
-* You should verify that this is the same number we got before.
-* We could also calculate the average removing the outlier:
-
-```R
-(sum(murders)-227)/6
-```
-which gives us this result:
-
-```Rout
-> (sum(murders)-227)/6
-[1] 64.66667
->
-```
-
 * Now suppose we want to know the total number of murders that occurred over the entire 7-year period:
 
 ```R
@@ -510,11 +482,37 @@ which gives:
 [1] 615
 >
 ```
+* Now, let's suppose I want to calculate the average yearly number of murders:
 
-* Finally, let's suppose that we want to calculate the murder rate for each of the 7 years.
+```R
+sum(murders)/7
+```
+
+which gives:
+
+```Rout
+> sum(murders)/7
+[1] 87.85714
+>
+```
+* The average, or mean, is a measure of typicality or *central tendency*.
+* You should verify that this is the same number we got before.
+* We could also calculate the average removing the outlier:
+
+```R
+(sum(murders)-227)/6
+```
+which gives us this result:
+
+```Rout
+> (sum(murders)-227)/6
+[1] 64.66667
+>
+```
+* Finally, let's suppose that we want to calculate the *murder rate* for each of the 7 years.
 * Let's start a new R session.
-* Next, go to [crimedatatool.com](https://crimedatatool.com) to get the data.
-* We will now add code to include the population for each of the 7 years.
+* To calculate the rate, we need to include the population for each of the 7 years.
+* We go to [crimedatatool.com](https://crimedatatool.com) to get the data.
 
 ```R
 year=1992:1998
@@ -540,7 +538,6 @@ data.frame(year,murders,population,rate)
 7 1998      56     463637 12.07841
 >
 ```
-
 * Which year has the highest murder rate?
 * Which year has the lowest murder rate?
 * Considering the 7 years, which year has the median murder rate?
@@ -559,7 +556,7 @@ which gives us the following output:
 ```
 
 * Notice that the rates are sorted in ascending order.
-* The median murder rate is the middle score.
+* The median murder rate is the middle score -- another measure of typicality or central tendency.
 * With 7 scores, the middle score is the 4th score (3 scores below the 4th score and 3 scores above the 4th score).
 * So, the median is 14.09150.
 * And 14.09150 was the murder rate for the year 1994.
@@ -591,7 +588,7 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 * Enter the population sizes.
 * Calculate the murder rate for each of the years.
 * Calculate the average murder rate.
-* Calculate the median murder rate.
+* Find the median murder rate.
 * Which year corresponds to the median murder rate?
 * Calculate the murder rate for each of the years (using a calculator).
 * Calculate the average murder rate (using a calculator)
