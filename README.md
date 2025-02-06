@@ -434,7 +434,138 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 <img src="/gfiles/fig16.png" width="700px">
 </p>
 
-* 5: Reliability (pp. 24-25): repeatability or consistency of the measurement (example: bathroom scale).
+* 5.1: Reliability (pp. 24-25): repeatability or consistency of the measurement (example: bathroom scale).
+* 5.2: Example: suppose I sit near an intersection with a 4-way stop sign for 3 hours. I count the number of cars that go through the intersection and I also count the number of cars that fail to come to a complete stop. Do you have any concerns about the reliability of the measurement? How could we improve it?
+* 5.3: Relationship between reliability and validity: a measure can be reliable but not valid; if a measure is unreliable it is also invalid.
+
+#### Introduction to R
+
+* Here is where you go to get R software for your computer: [link](https://www.r-project.org).
+* If you don't have a computer, you can use R in the Office of Academic Computing Services Lab on the bottom floor of LeFrak Hall.
+* R is also widely available on computers across campus.
+* Once you have R downloaded on your computer, you are ready to launch the application.
+* You should write your code in a *plain text editor* (Notepad on Windows or TextEdit on MacOS).
+* Do not use Microsoft Word or any other word processor to write R code. It will cause problems!
+* You can paste your output into a word processor as you prepare your assignments so I can see your work and your 
+* Let's revisit the Oklahoma City murder data above and enter this data into R.
+
+```R
+murders=c(61,80,65,227,67,59,56)
+year=1992:1998
+data.frame(year,murders)
+```
+* Here is the output we get:
+```Rout
+> murders=c(61,80,65,227,67,59,56)
+> year=1992:1998
+> data.frame(year,murders)
+  year murders
+1 1992      61
+2 1993      80
+3 1994      65
+4 1995     227
+5 1996      67
+6 1997      59
+7 1998      56
+>
+```
+* Now, let's suppose I want to calculate the average yearly number of murders:
+
+```R
+sum(murders)/7
+```
+
+which gives:
+
+```Rout
+> sum(murders)/7
+[1] 87.85714
+>
+```
+
+* You should verify that this is the same number we got before.
+* We could also calculate the average removing the outlier:
+
+```R
+(sum(murders)-227)/6
+```
+which gives us this result:
+
+```Rout
+> (sum(murders)-227)/6
+[1] 64.66667
+>
+```
+
+* Now suppose we want to know the total number of murders that occurred over the entire 7-year period:
+
+```R
+sum(murders)
+```
+
+which gives:
+
+```Rout
+> sum(murders)
+[1] 615
+>
+```
+
+* Finally, let's suppose that we want to calculate the murder rate for each of the 7 years.
+* Let's start a new R session.
+* Next, go to [crimedatatool.com](https://crimedatatool.com) to get the data.
+* We will add code to include the population in each of the 7 years.
+* 
+
+```R
+year=1992:1998
+murders=c(61,80,65,227,67,59,56)
+population=c(454255,457448,461271,466232,469632,
+  472046,463637)
+rate=(murders/population)*100000
+data.frame(year,murders,population,rate)
+```
+
+```Rout
+> year=1992:1998
+> murders=c(61,80,65,227,67,59,56)
+> population=c(454255,457448,461271,466232,469632,
++   472046,463637)
+> rate=(murders/population)*100000
+> data.frame(year,murders,population,rate)
+  year murders population     rate
+1 1992      61     454255 13.42858
+2 1993      80     457448 17.48833
+3 1994      65     461271 14.09150
+4 1995     227     466232 48.68821
+5 1996      67     469632 14.26649
+6 1997      59     472046 12.49878
+7 1998      56     463637 12.07841
+>
+```
+
+* Which year has the highest murder rate?
+* Which year has the lowest murder rate?
+* Considering the 7 years, which year has the median murder rate?
+
+```R
+sort(rate)
+```
+
+which gives us the following output:
+
+```Rout
+> sort(rate)
+[1] 12.07841 12.49878 13.42858 14.09150 14.26649 17.48833
+[7] 48.68821
+>
+```
+
+* Notice that the rates are sorted in ascending order.
+* The median murder rate is the middle score.
+* With 7 scores, the middle score is the 4th score (3 scores below the 4th score and 3 scores above the 4th score).
+* So, the median is 14.09150.
+* And 14.09150 was the murder rate for the year 1994.
 
 #### Week 2 Practice Questions
 
@@ -455,3 +586,18 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 * Examine the BJS recidivism study ([link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf)) for people released from prison in 1994. Looking at Table 12 of the report, we see evidence of a relationship between the number of prior arrests and the fraction of people who recidivated within 1 and 3 years. Based on the information in this table, what pattern do you see?
 * Calculate the theft clearance rate (# of clearances per 100 cases) for Buffalo for the first 4 months (combined) of 2017. Then, calculate the theft clearance rate for the last 6 months (combined) of 2017. Which of the two clearance rates is greater?
 * Problems 2.1-2.8 at the end of chapter 2.
+
+#### R Practice Assignment (I will go over this in class on Tuesday 2/11/25)
+
+* Enter the New York City murders (1997-2003) and years from the table above.
+* Go to [crimedatatool.com](https://crimedatatool.com) to get the population sizes for New York City for each of the years.
+* Enter the population sizes.
+* Calculate the murder rate for each of the years.
+* Calculate the average murder rate.
+* Calculate the median murder rate.
+* Which year corresponds to the median murder rate?
+* Calculate the murder rate for each of the years (using a calculator).
+* Calculate the average murder rate (using a calculator)
+* Verify that your calculations match those from R out to the 3rd decimal place.
+* Remember that you should only round the final answer (not intermediate calculations).
+* For this analysis, do you think the mean or the median would be a better measure of central tendency? Why?
