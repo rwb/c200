@@ -431,7 +431,7 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 * 4.10: Different kinds of validity: (1) content and construct validity; (2) criterion-related and multiple measures validity.
 
 <p align="center">
-<img src="/gfiles/fig16.png" width="900px">
+<img src="/gfiles/fig16.png" width="300px">
 </p>
 
 * 5: Reliability (pp. 24-25): repeatability or consistency of the measurement (example: bathroom scale).
