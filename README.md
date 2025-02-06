@@ -448,7 +448,7 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 * Once you have R downloaded on your computer, you are ready to launch the application.
 * You should write your code in a *plain text editor* (Notepad on Windows or TextEdit on MacOS).
 * Do not use Microsoft Word or any other word processor to write R code. It will cause problems!
-* You can paste your output into a word processor as you prepare your assignments so I can see your work and your 
+* You can paste your output into a word processor as you prepare your assignments so I can see your work and your results.
 * Let's revisit the Oklahoma City murder data above and enter this data into R.
 
 ```R
