@@ -557,7 +557,7 @@ which gives us the following output:
 >
 ```
 
-* Notice that the rates are sorted in ascending order.
+* Notice that the rates are *sorted* in ascending order.
 * The median murder rate is the middle score -- another measure of typicality or central tendency.
 * With 7 scores, the middle score is the 4th score (3 scores below the 4th score and 3 scores above the 4th score).
 * So, the median is 14.09150.
