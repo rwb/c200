@@ -405,7 +405,7 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 ### Lesson 4 - Thursday 2/6/25
 
 * 4.1: Validity (pp. 23-24): does the measurement accurately reflect the concept that is being measured (acronym: MARC). So validity pertains to accuracy of measurement.
-* 4.2: Textbook example: measuring criminal offending: (1) self-report surveys; or RAP sheet information including - (2) arrest records; (3) conviction records; and (4) incarceration records.
+* 4.2: Textbook example: measuring criminal offending: (1) self-report surveys; or RAP (record of arrest and prosecution) sheet information including - (2) arrest records; (3) conviction records; and (4) incarceration records.
 * 4.3: On page 24, the textbook argues that "self-report surveys are generally considered to provide the most valid measure of frequency of offending." Yet this measure is not perfect. What could go wrong?
 * 4.4: Would a measure based on arrests or convictions be better? Why or why not?
 * 4.5: Let's look at an example problem:
