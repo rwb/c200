@@ -414,6 +414,21 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 <img src="/gfiles/fig13.png" width="700px">
 </p>
 
+* 4.6: Consider the following research question: how many murders occurred in Maryland in the year 2019?
+* 4.7: Here is the answer based on the FBI data:
+
+<p align="center">
+<img src="/gfiles/fig14.png" width="700px">
+</p>
+
+* 4.8: Here is the answer based on the National Center for Health Statistics (NCHS) data:
+
+<p align="center">
+<img src="/gfiles/fig15.png" width="700px">
+</p>
+
+* 4.9: What can account for the difference?
+
 * 5: Reliability (pp. 24-25): repeatability or consistency of the measurement (example: bathroom scale).
 
 #### Week 2 Practice Questions
