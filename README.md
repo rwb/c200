@@ -602,20 +602,23 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 
 *Note*: First assignment will be distributed on Thursday 2/13/24. It will be due on Wednesday 2/19/24 at 11:59pm (ET).
 
-#### Chapter 4/Topic 6 Begins Here
+#### Chapter 4 Begins Here
 
-* 6.1: A primary purpose of descriptive statistics is to transmit information about what is typical.
-* 6.2: Considering a specific variable, we summarize typicality through measures of central tendency (mode, median, and mean)
-* 6.3: First measure of central tendency: the mode (pp. 60-62). The modal category is the most frequently occurring category, level, or value of a variable.
-* 6.4: Mode Example: Sanction for a sample of 100 people cited for littering: (1) Fine (N=22); (2) Civics class (N=25); (3) Community Service (N=53). What is the mode?
+* A primary purpose of descriptive statistics is to transmit information about what is typical.
+* Considering a specific variable, we summarize typicality through measures of central tendency (mode, median, and mean)
+
+#### Topic 6 Begins Here
+
+* 6.1: First measure of central tendency: the mode (pp. 60-62). The modal category is the most frequently occurring category, level, or value of a variable.
+* 6.2: Mode Example: Sanction for a sample of 100 people cited for littering: (1) Fine (N=22); (2) Civics class (N=25); (3) Community Service (N=53). What is the mode?
 ```Rout
 - the mode is the most frequently occurring category, level or value of a variable.
 - in this case, the community service category has the largest number of cases.
 - therefore, the mode is "community service"
 ```
-* 6.5: A common mistake in the previous example is to say that the mode is 53. It is correct to say that the mode is community service and the number of cases in the modal category is 53.
-* 6.6: It is most natural to use the mode as a measure of central tendency for *nominal* variables (categorical variables with no logical way to order the categories).
-* 6.7: The mode can be used with ordinal, interval, and ratio variables but it is often not a particularly meaningful exercise to do so.
+* 6.3: A common mistake in the previous example is to say that the mode is 53. It is correct to say that the mode is community service and the number of cases in the modal category is 53.
+* 6.4: It is most natural to use the mode as a measure of central tendency for *nominal* variables (categorical variables with no logical way to order the categories).
+* 6.5: The mode can be used with ordinal, interval, and ratio variables but it is often not a particularly meaningful exercise to do so.
 
 #### Topic 7 Begins Here
 
