@@ -604,7 +604,7 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 
 #### Chapter 4/Topic 6 Begins Here
 
-* 6.1: A primary purpose of descriptive statistics is to tranmit information about what is typical.
+* 6.1: A primary purpose of descriptive statistics is to transmit information about what is typical.
 * 6.2: Considering a specific variable, we summarize typicality through measures of central tendency (mode, median, and mean)
 * 6.3: First measure of central tendency: the mode (pp. 60-62). The modal category is the most frequently occurring category, level, or value of a variable.
 * 6.4: Mode Example: Sanction for a sample of 100 people cited for littering: (1) Fine (N=22); (2) Civics class (N=25); (3) Community Service (N=53). What is the mode?
