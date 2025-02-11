@@ -745,10 +745,15 @@ The year corresponding to the median murder rate is 1998.
 ```
 
 * Calculate the murder rate for each of the years (using a calculator).
-
-
-
 * Calculate the average murder rate (using a calculator)
 * Verify that your calculations match those from R out to the 3rd decimal place.
 * Remember that you should only round the final answer (not intermediate calculations).
+
+<p align="center">
+<img src="/gfiles/fig17.png" width="500px">
+</p>
+<p align="center">
+<img src="/gfiles/fig18.png" width="500px">
+</p>
+
 * For this analysis, do you think the mean or the median would be a better measure of central tendency? Why?
