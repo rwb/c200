@@ -611,8 +611,11 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 * 6.5: A common mistake in the previous example is to say that the mode is 53. It is correct to say that the mode is community service and the number of cases in the modal category is 53.
 * 6.6: It is most natural to use the mode as a measure of central tendency for *nominal* variables (categorical variables with no logical way to order the categories).
 * 6.7: The mode can be used with ordinal, interval, and ratio variables but it is often not a particularly meaningful exercise to do so.
-* 6.8: For variables with order, the median (pp. 62-68) will often be more useful.
-* 6.9: Suppose we ask a sample of 97 people to answer a survey question about how safe they feel walking in their neighborhood in the early evening. Among the 97 people, here are the answers we get back: (1) very unsafe (N=16); (2) somewhat unsafe (N=21); (3) somewhat safe (N=38); (4) very safe (N=22). What is the median safety assessment?
+
+#### Topic 7 Begins Here
+
+* 7.1: For variables with order, the median (pp. 62-68) will often be more useful.
+* 7.2: Suppose we ask a sample of 97 people to answer a survey question about how safe they feel walking in their neighborhood in the early evening. Among the 97 people, here are the answers we get back: (1) very unsafe (N=16); (2) somewhat unsafe (N=21); (3) somewhat safe (N=38); (4) very safe (N=22). What is the median safety assessment?
 
 ```Rout
 - If the number of cases is odd, then the median observation is (n+1)/2
@@ -622,7 +625,7 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 - So, the 46th observation lies within the 3rd category (somewhat safe).
 - The median score in this example is "somewhat safe".
 ```
-* 6.10: Let's say we conduct a survey of 50 people and we present them with the following statement: Capital punishment (the death penalty) should be a punishment option for the crime of first degree murder. We receive the following responses: (1) strongly disagree (N=7); (2) disagree (N=9); (3) neutral (N=15); (4) agree (N=11); (5) strongly agree (N=8). What is the median level of agreement with the statement in our sample?
+* 7.3: Let's say we conduct a survey of 50 people and we present them with the following statement: Capital punishment (the death penalty) should be a punishment option for the crime of first degree murder. We receive the following responses: (1) strongly disagree (N=7); (2) disagree (N=9); (3) neutral (N=15); (4) agree (N=11); (5) strongly agree (N=8). What is the median level of agreement with the statement in our sample?
 
 ```Rout
 - The number of cases is even so there is no single median observation (p. 64).
@@ -632,10 +635,10 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 - 7+9+15 = 31 is the sum of the number of people in the first 3 categories: 31 > 26
 - Since the total number of people in the first 3 categories is greater than 26, the median agreeement is "neutral."
 ```
-* 6.11: Notice that our median calculations in the previous 2 examples presumes that there is a logical ordering of the categories.
-* 6.12: In both of these examples, the mode would also have been a meaningful number (and would have been equal to the median; convince yourself!).
-* 6.13: The median can also be used as a measure of central tendency or typicality for interval and ratio level variables (pp. 64-68).
-* 6.14: Suppose we study the last 7 people to be released from the local prison; our goal is to calculate the median time served in prison (in years) before release.
+* 7.4: Notice that our median calculations in the previous 2 examples presumes that there is a logical ordering of the categories.
+* 7.5: In both of these examples, the mode would also have been a meaningful number (and would have been equal to the median; convince yourself!).
+* 7.6: The median can also be used as a measure of central tendency or typicality for interval and ratio level variables (pp. 64-68).
+* 7.7: Suppose we study the last 7 people to be released from the local prison; our goal is to calculate the median time served in prison (in years) before release.
 
 ```Rout
 - Data: 7,3,9,5,2,2,8
@@ -645,7 +648,7 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 - So the median time served in prison for our sample is 5 years.
 - Notice that the mode of this distribution is 2. 
 ```
-* 6.15: A DWI checkpoint was set up for 1 hour last Friday night. The blood alcohol content levels for the 8 people who were cited for DWI were recorded. Calculate the median blood alcohol content level for the sample.
+* 7.8: A DWI checkpoint was set up for 1 hour last Friday night. The blood alcohol content levels for the 8 people who were cited for DWI were recorded. Calculate the median blood alcohol content level for the sample.
 
 ```Rout
 - Data: 0.12,0.09,0.15,0.13,0.09,0.1,0.11,0.12
@@ -656,8 +659,8 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 - In this case, the midpoint would be (0.11+0.12)/2 = 0.23/2 = 0.115.
 - So, the median blood alcohol level would 0.115.
 ```
-* 6.16: Notice that in this example, there is no single mode since 0.09 occurs 2 times and 0.12 occurs two times.
-* 6.17: This means the distribution is *bimodal*.
+* 7.9: Notice that in this example, there is no single mode since 0.09 occurs 2 times and 0.12 occurs two times.
+* 7.10: This means the distribution is *bimodal*.
 
 #### Solution to Last Week's Practice R Exercise
 
