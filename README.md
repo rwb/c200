@@ -606,3 +606,18 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 
 * 6.1: A primary purpose of descriptive statistics is to tranmit information about what is typical.
 * 6.2: Considering a specific variable, we summarize typicality through measures of central tendency (mode, median, and mean)
+* 6.3: First measure of central tendency: the mode (pp. 60-62). The modal category is the most frequently occurring category, level, or value of a variable.
+* 6.4: Mode Example: Sanction for a sample of 100 people cited for littering: (1) Fine (N=22); (2) Civics class (N=25); (3) Community Service (N=53); the mode is community service.
+* 6.5: A common mistake in the previous example is to say that the mode is 53. It is correct to say that the mode is community service and the number of cases in the modal category is 53.
+* 6.6: It is most natural to use the mode as a measure of central tendency for *nominal* variables (categorical variables with no logical way to order the categories).
+* 6.7: The mode can be used with ordinal, interval, and ratio variables but it is often not a particularly meaningful exercise to do so.
+* 6.8: For variables with order, the median (pp. 62-68) will often be more useful.
+* 6.9: Suppose we ask a sample of 97 people to answer a survey question about how safe they feel walking in their neighborhood in the early evening. Among the 97 people, here are the answers we get back: (1) very unsafe (N=16); (2) somewhat unsafe (N=21); (3) somewhat safe (N=38); (4) very safe (N=22). What is the median safety assessment?
+
+-- If the number of cases is odd, then the *median observation* is (n+1)/2
+-- So, the median observation for our sample is (97+1)/2 = 46
+-- 16+21 (the sum of the number of people in the first two categories) is 37; 37<46
+-- 16+21+38 (the sum of the number of people in the first three categories) is 75; 75>46
+-- So, the 46th observation lies within the 3rd category (somewhat safe).
+-- The median score in this example is "somewhat safe".
+
