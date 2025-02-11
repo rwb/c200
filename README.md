@@ -627,10 +627,10 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 
 ```Rout
 - If the number of cases is odd, then the median observation is (n+1)/2
-- So, the median observation for our sample is (97+1)/2 = 46
-- 16+21 (the sum of the number of people in the first two categories) is 37; 37 < 46
-- 16+21+38 (the sum of the number of people in the first three categories) is 75; 75 > 46
-- So, the 46th observation lies within the 3rd category (somewhat safe).
+- So, the median observation for our sample is (97+1)/2 = 49
+- 16+21 (the sum of the number of people in the first two categories) is 37; 37 < 49
+- 16+21+38 (the sum of the number of people in the first three categories) is 75; 75 > 49
+- So, the 49th observation lies within the 3rd category (somewhat safe).
 - The median score in this example is "somewhat safe".
 ```
 * 7.3: Let's say we conduct a survey of 50 people and we present them with the following statement: Capital punishment (the death penalty) should be a punishment option for the crime of first degree murder. We receive the following responses: (1) strongly disagree (N=7); (2) disagree (N=9); (3) neutral (N=15); (4) agree (N=11); (5) strongly agree (N=8). What is the median level of agreement with the statement in our sample?
