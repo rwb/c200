@@ -597,3 +597,12 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 * Verify that your calculations match those from R out to the 3rd decimal place.
 * Remember that you should only round the final answer (not intermediate calculations).
 * For this analysis, do you think the mean or the median would be a better measure of central tendency? Why?
+
+### Lesson 5 - Tuesday 2/11/25
+
+*Note*: First assignment will be distributed on Thursday 2/13/24. It will be due on Wednesday 2/19/24 at 11:59pm (ET).
+
+#### Chapter 4/Topic 6 Begins Here
+
+* 6.1: A primary purpose of descriptive statistics is to tranmit information about what is typical.
+* 6.2: Considering a specific variable, we summarize typicality through measures of central tendency (mode, median, and mean)
