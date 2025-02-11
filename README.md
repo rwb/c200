@@ -630,8 +630,125 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 - Since (50+1)/2 = 25.5, we recognize that the median lies between the 25th and 26th observations.
 - 7+9 = 16 is the sum of the number of people in the first 2 categories; 16 < 25
 - 7+9+15 = 31 is the sum of the number of people in the first 3 categories: 31 > 26
-- Since the total number of people in the first 3 categories is greater than 26, the median agreeement is neutral.
+- Since the total number of people in the first 3 categories is greater than 26, the median agreeement is "neutral."
 ```
 * 6.11: Notice that our median calculations in the previous 2 examples presumes that there is a logical ordering of the categories.
-* 6.12: In both of these examples, the mode would also have been a meaningful number. In fact, in both of these examples, the mode and median are the same category.
-* 
+* 6.12: In both of these examples, the mode would also have been a meaningful number (and would have been equal to the median; convince yourself!).
+* 6.13: The median can also be used as a measure of central tendency or typicality for interval and ratio level variables (pp. 64-68).
+* 6.14: Suppose we study the last 7 people to be released from the local prison; our goal is to calculate the median time served in prison (in years) before release.
+
+```Rout
+- Data: 7,3,9,5,2,2,8
+- Sorted data: 2,2,3,5,7,8,9
+- Median Observation: (n+1)/2 = (7+1)/2 = 8/2 = 4
+- This means the score of the (sorted) 4th observation is the median: 5
+- So the median time served in prison for our sample is 5 years.
+- Notice that the mode of this distribution is 2. 
+```
+* 6.15: A DWI checkpoint was set up for 1 hour last Friday night. The blood alcohol content levels for the 8 people who were cited for DWI were recorded. Calculate the median blood alcohol content level for the sample.
+
+```Rout
+- Data: 0.12,0.09,0.15,0.13,0.09,0.1,0.11,0.12
+- Sorted data: 0.09,0.09,0.1,0.11,0.12,0.12,0.13,0.15
+- Median observation: (8+1)/2 = 9/2 = 4.5
+- Since there is no 4.5th observation, we have to look at both the 4th and 5th observations: 0.11 and 0.12.
+- Standard practice is to find the midpoint between the two middle observations.
+- In this case, the midpoint would be (0.11+0.12)/2 = 0.23/2 = 0.115.
+- So, the median blood alcohol level would 0.115.
+```
+* 6.16: Notice that in this example, there is no single mode since 0.09 occurs 2 times and 0.12 occurs two times.
+* 6.17: This means the distribution is *bimodal*.
+
+#### Solution to Last Week's Practice R Exercise
+
+* Enter the New York City murders (1997-2003) and years from the table above.
+
+```R
+murders=c(770,633,671,673,3472,587,597)
+year=1997:2003
+data.frame(year,murders)
+```
+
+```Rout
+> murders=c(770,633,671,673,3472,587,597)
+> year=1997:2003
+> data.frame(year,murders)
+  year murders
+1 1997     770
+2 1998     633
+3 1999     671
+4 2000     673
+5 2001    3472
+6 2002     587
+7 2003     597
+>
+```
+
+* Go to [crimedatatool.com](https://crimedatatool.com) to get the population sizes for New York City for each of the years.
+* Enter the population sizes.
+
+```
+population=c(7320477,7357745,7429263,8008278,8023018,8084693,8098066)
+```
+
+* Calculate the murder rate for each of the years.
+
+```R
+murder.rate=(murders/population)*100000
+data.frame(year,murders,population,murder.rate)
+```
+```Rout
+> murder.rate=(murders/population)*100000
+> data.frame(year,murders,population,murder.rate)
+  year murders population murder.rate
+1 1997     770    7320477   10.518440
+2 1998     633    7357745    8.603179
+3 1999     671    7429263    9.031851
+4 2000     673    8008278    8.403804
+5 2001    3472    8023018   43.275486
+6 2002     587    8084693    7.260634
+7 2003     597    8098066    7.372131
+>
+```
+
+* Calculate the average murder rate.
+
+```R
+sum(murder.rate)/7
+```
+```Rout
+> sum(murder.rate)/7
+[1] 13.49508
+>
+```
+
+* Find the median murder rate.
+
+```R
+sort(murder.rate)
+```
+```Rout
+> sort(murder.rate)
+[1]  7.260634  7.372131  8.403804  8.603179  9.031851
+[6] 10.518440 43.275486
+> 
+```
+```Rout
+- The median observation is in the 4th position (3 scores above, 3 scores below).
+- So the median murder rate is 8.603179.
+```
+
+* Which year corresponds to the median murder rate?
+
+```
+The year corresponding to the median murder rate is 1998.
+```
+
+* Calculate the murder rate for each of the years (using a calculator).
+
+
+
+* Calculate the average murder rate (using a calculator)
+* Verify that your calculations match those from R out to the 3rd decimal place.
+* Remember that you should only round the final answer (not intermediate calculations).
+* For this analysis, do you think the mean or the median would be a better measure of central tendency? Why?
