@@ -614,10 +614,11 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 * 6.8: For variables with order, the median (pp. 62-68) will often be more useful.
 * 6.9: Suppose we ask a sample of 97 people to answer a survey question about how safe they feel walking in their neighborhood in the early evening. Among the 97 people, here are the answers we get back: (1) very unsafe (N=16); (2) somewhat unsafe (N=21); (3) somewhat safe (N=38); (4) very safe (N=22). What is the median safety assessment?
 
--- If the number of cases is odd, then the *median observation* is (n+1)/2
--- So, the median observation for our sample is (97+1)/2 = 46
--- 16+21 (the sum of the number of people in the first two categories) is 37; 37<46
--- 16+21+38 (the sum of the number of people in the first three categories) is 75; 75>46
--- So, the 46th observation lies within the 3rd category (somewhat safe).
--- The median score in this example is "somewhat safe".
-
+```Rout
+- If the number of cases is odd, then the *median observation* is (n+1)/2
+- So, the median observation for our sample is (97+1)/2 = 46
+- 16+21 (the sum of the number of people in the first two categories) is 37; 37<46
+- 16+21+38 (the sum of the number of people in the first three categories) is 75; 75>46
+- So, the 46th observation lies within the 3rd category (somewhat safe).
+- The median score in this example is "somewhat safe".
+```
