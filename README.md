@@ -615,10 +615,23 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 * 6.9: Suppose we ask a sample of 97 people to answer a survey question about how safe they feel walking in their neighborhood in the early evening. Among the 97 people, here are the answers we get back: (1) very unsafe (N=16); (2) somewhat unsafe (N=21); (3) somewhat safe (N=38); (4) very safe (N=22). What is the median safety assessment?
 
 ```Rout
-- If the number of cases is odd, then the *median observation* is (n+1)/2
+- If the number of cases is odd, then the median observation is (n+1)/2
 - So, the median observation for our sample is (97+1)/2 = 46
-- 16+21 (the sum of the number of people in the first two categories) is 37; 37<46
-- 16+21+38 (the sum of the number of people in the first three categories) is 75; 75>46
+- 16+21 (the sum of the number of people in the first two categories) is 37; 37 < 46
+- 16+21+38 (the sum of the number of people in the first three categories) is 75; 75 > 46
 - So, the 46th observation lies within the 3rd category (somewhat safe).
 - The median score in this example is "somewhat safe".
 ```
+* 6.10: Let's say we conduct a survey of 50 people and we present them with the following statement: Capital punishment (the death penalty) should be a punishment option for the crime of first degree murder. We receive the following responses: (1) strongly disagree (N=7); (2) disagree (N=9); (3) neutral (N=15); (4) agree (N=11); (5) strongly agree (N=8). What is the median level of agreement with the statement in our sample?
+
+```Rout
+- The number of cases is even so there is no single median observation (p. 64).
+- We can still use the median observation formula: (n+1)/2
+- Since (50+1)/2 = 25.5, we recognize that the median lies between the 25th and 26th observations.
+- 7+9 = 16 is the sum of the number of people in the first 2 categories; 16 < 25
+- 7+9+15 = 31 is the sum of the number of people in the first 3 categories: 31 > 26
+- Since the total number of people in the first 3 categories is greater than 26, the median agreeement is neutral.
+```
+* 6.11: Notice that our median calculations in the previous 2 examples presumes that there is a logical ordering of the categories.
+* 6.12: In both of these examples, the mode would also have been a meaningful number. In fact, in both of these examples, the mode and median are the same category.
+* 
