@@ -760,3 +760,7 @@ The year corresponding to the median murder rate is 1998.
 </p>
 
 * For this analysis, do you think the mean or the median would be a better measure of central tendency? Why?
+
+#### Week 3 Practice Questions
+
+* You should work on problems 4.1-4.10 at the back of Chapter 4.
