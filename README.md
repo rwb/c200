@@ -830,15 +830,23 @@ Middle Position: (7+1)/2 = 8/2 = 4
 Score at the 4th position: 7.5 (this is the median)
 ```
 
-* 8.7: The mean and median will often be very close to each other -- but sometimes not.
-* 8.8: New Term: A *distribution* refers to the way the cases or units in a study are allocated across the categories. For example, in a sample of people sentenced to prison, we might have a variable that measures the most serious offense for which each offender was convicted. The values for this variable could be: (1) violent; (2) property; (3) drug; or (4) other. When we consider the number of cases in each category is the variable's distribution. The *bar chart* below displays the distribution of the most serious conviction offense variable for a sample of 1000 inmates.
+* 8.7: Let's return briefly to the example discussed above in 7.11. In this example, there was a missing observation; we determined that it was possible to still learn something about the mode and the median even if one of the observations was missing. However, this is only possible for the mean if the variable being studied has a logical lower bound *and* a logical upper bound. In the case of the example in 7.11, there is a logical lower bound (a car cannot go slower than 0 mph) but there is no logical upper bound. So, the mean value is unknown even if only one of the data points is missing.
+
+#### Topic 9 Begins Here
+
+* 9.1:
+
+#### Topic 10 Begins Here
+
+* 10.1: The mean and median will often be very close to each other -- but sometimes not.
+* 10.2: New Term: A *distribution* refers to the way the cases or units in a study are allocated across the categories. For example, in a sample of people sentenced to prison, we might have a variable that measures the most serious offense for which each offender was convicted. The values for this variable could be: (1) violent; (2) property; (3) drug; or (4) other. When we consider the number of cases in each category is the variable's distribution. The *bar chart* below displays the distribution of the most serious conviction offense variable for a sample of 1000 inmates.
 <p align="center">
 <img src="/gfiles/fig21b.png" width="700px">
 </p>
 
 *Note*: this is a technical point but a bar chart is not really a *summary*. A bar chart shows the actual number of cases in each category or group. As such, bar charts are only useful for variables with a small number of populated categories. 
 
-* 8.9: If there are *outliers* (pp. 73-74) or the data are *skewed* (page 77), the variable's distribution will be affected. In these situations, there will be larger differences between the two statistics. Generally, in these situations, the median is regarded as a better measure of central tendency or typicality.
+* 10.3: If there are *outliers* (pp. 73-74) or the data are *skewed* (page 77), the variable's distribution will be affected. In these situations, there will be larger differences between the two statistics. Generally, in these situations, the median is regarded as a better measure of central tendency or typicality.
 * 8.10: We have already discussed outliers but we have not yet considered the issue of skewness. Let's consider 3 histograms. A histogram is a type of chart (pp. 34-40 in Chapter 3 discusses histograms) that summarizes the *distribution* of a variable:
 <p align="center">
 <img src="/gfiles/fig21.png" width="850px">
@@ -846,16 +854,10 @@ Score at the 4th position: 7.5 (this is the median)
 
 *Note*: a histogram is a summary. Histograms are used to display the distributions of interval or ratio level variables where relatively small number of cases can have the exact same score or when there are many categories to display (so the categories can be grouped in ways that effectively summarize the pattern). The reason a histogram is considered a summary is because we cannot usually see the exact score that an individual case has; we can only see the approximate score a case has. So, we have a summary when some of the information in the raw data is lost.
 
-* 8.11: The histogram on the left shows a *symmetric* distribution (IQ scores famously have symmetric distributions); symmetric means that the left half of the distribution is a mirror image of the right half. The other two charts reveal distributions that are skewwed in different ways. 
-* 8.12: When the distribution is symmetric, the mean and median will be the same value. When the distribution is skewed the mean and median will be different (as shown in the figure above).
+* 10.4: The histogram on the left shows a *symmetric* distribution (IQ scores famously have symmetric distributions); symmetric means that the left half of the distribution is a mirror image of the right half. The other two charts reveal distributions that are skewwed in different ways. 
+* 10.5: When the distribution is symmetric, the mean and median will be the same value. When the distribution is skewed the mean and median will be different (as shown in the figure above).
 
 *Example*: this [website](https://www.canr.msu.edu/news/mean_vs._median_what_do_they_mean_and_when_do_you_use_them) discusses the issue of whether to use the mean or the median as a measure of central tendency for income which has a distribution that looks like the far-right histogram above.
-
-* 8.13: Let's return briefly to the example discussed above in 7.11. In this example, there was a missing observation; we determined that it was possible to still learn something about the mode and the median even if one of the observations was missing. However, this is only possible for the mean if the variable being studied has a logical lower bound *and* a logical upper bound. In the case of the example in 7.11, there is a logical lower bound (a car cannot go slower than 0 mph) but there is no logical upper bound. So, the mean value is unknown even if only one of the data points is missing.
-
-#### Topic 9 Begins Here
-
-* 9.1: 
 
 #### Week 3 Practice Questions
 
