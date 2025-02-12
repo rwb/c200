@@ -812,8 +812,14 @@ Average or Mean Score: 44.9/7 = 6.414286 (or 6.414)
 <img src="/gfiles/fig20.png" width="200px">
 </p>
 
+*Note*: the examples we have used so far rely on the first equation (which is what is used in the book). However, here is the example solved above but now based on the second formula:
 
-
+```Rout
+Data: 7.7,8.1,4.5,3.2,7.5,8.8,5.1
+Sum of the Scores: 7.7+8.1+4.5+3.2+7.5+8.8+5.1 = 44.9
+Number of Scores: 7
+Average or Mean Score: 1/7 x 44.9 = 6.414286 (or 6.414).
+```
 
 #### Week 3 Practice Questions
 
