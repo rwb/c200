@@ -795,7 +795,7 @@ The year corresponding to the median murder rate is 1998.
 * 8.4: Consider the following example of a set of recidivism risk scores:
 
 ```Rout
-Data: 7.7,8.1,4.5,3.2,7.5,8.8,5.1
+Data: 7.7, 8.1, 4.5, 3.2, 7.5, 8.8, 5.1
 Sum of the Scores: 7.7+8.1+4.5+3.2+7.5+8.8+5.1 = 44.9
 Number of Scores: 7
 Average or Mean Score: 44.9/7 = 6.414286 (or 6.414)
@@ -808,18 +808,36 @@ Average or Mean Score: 44.9/7 = 6.414286 (or 6.414)
 <p align="center">
 <img src="/gfiles/fig19.png" width="200px">
 </p>
-<p align="center">
-<img src="/gfiles/fig20.png" width="200px">
-</p>
+
 
 *Note*: the examples we have used so far rely on the first equation (which is what is used in the book). However, here is the example solved above but now based on the second formula:
 
 ```Rout
-Data: 7.7,8.1,4.5,3.2,7.5,8.8,5.1
+Data: 7.7, 8.1, 4.5, 3.2, 7.5, 8.8, 5.1
 Sum of the Scores: 7.7+8.1+4.5+3.2+7.5+8.8+5.1 = 44.9
 Number of Scores: 7
 Average or Mean Score: 1/7 x 44.9 = 6.414286 (or 6.414).
 ```
+* 8.6: It is often useful to compare the mean and the median. Let's calculate the median on the same dataset:
+
+```Rout
+Data: 7.7, 8.1, 4.5, 3.2, 7.5, 8.8, 5.1
+Sorted Data: 3.2, 4.5, 5.1, 7.5, 7.7, 8.1, 8.8
+Number of Scores: 7
+Middle Position: (7+1)/2 = 8/2 = 4
+Score at the 4th position: 7.5 (this is the median)
+```
+
+* 8.7: The mean and median will often be very close to each other but sometimes not.
+* 8.8: If there are *outliers* (pp. 73-74) or the data are *skewed* (page 77), there will be larger differences between the two statistics. Generally, in these situations, the median is regarded as a better measure of central tendency or typicality.
+* 8.9: We have already discussed outliers but we have not considered the issue of *skewness*. Let's consider two *histograms* (a histogram is a type of chart that summarizes the *distribution* of a variable:
+
+<p align="center">
+<img src="/gfiles/fig21.png" width="600px">
+</p>
+* 8.10: The histogram on the left shows a *symmetric* distribution (IQ scores famously have symmetric distributions); symmetric means that the left half of the distribution is a mirror image of the right half. The histogram on the right reveals a *skewed* distribution. 
+* 8.11: When the distribution is symmetric, the mean and median will be the same value. When the distribution is skewed the mean and median will be different (as shown in the figure above).
+
 
 #### Week 3 Practice Questions
 
