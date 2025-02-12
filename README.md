@@ -828,16 +828,18 @@ Middle Position: (7+1)/2 = 8/2 = 4
 Score at the 4th position: 7.5 (this is the median)
 ```
 
-* 8.7: The mean and median will often be very close to each other but sometimes not.
-* 8.8: If there are *outliers* (pp. 73-74) or the data are *skewed* (page 77), there will be larger differences between the two statistics. Generally, in these situations, the median is regarded as a better measure of central tendency or typicality.
-* 8.9: We have already discussed outliers but we have not considered the issue of *skewness*. Let's consider two *histograms* (a histogram is a type of chart that summarizes the *distribution* of a variable:
-
+* 8.7: The mean and median will often be very close to each other -- but sometimes not.
+* 8.8: New Term: A *distribution* refers to the way the cases or units in a study are allocated across the categories. For example, in a sample of people sentenced to prison, we might have a variable that measures the most serious offense for which each offender was convicted. The values for this variable could be: (1) violent; (2) property; (3) drug; or (4) other. When we consider the number of cases in each category is the variable's distribution. The chart below shows the distribution of the most serious conviction offense variable for a sample of 1000 inmates.
 <p align="center">
-<img src="/gfiles/fig21.png" width="750px">
+<img src="/gfiles/fig21a.png" width="500px">
 </p>
-* 8.10: The histogram on the left shows a *symmetric* distribution (IQ scores famously have symmetric distributions); symmetric means that the left half of the distribution is a mirror image of the right half. The histogram on the right reveals a *skewed* distribution. 
-* 8.11: When the distribution is symmetric, the mean and median will be the same value. When the distribution is skewed the mean and median will be different (as shown in the figure above).
-
+* 8.9: If there are *outliers* (pp. 73-74) or the data are *skewed* (page 77), the variable's distribution will be affected. In these situations, there will be larger differences between the two statistics. Generally, in these situations, the median is regarded as a better measure of central tendency or typicality.
+* 8.10: We have already discussed outliers but we have not considered the issue of *skewness*. Let's consider two *histograms* (a histogram is a type of chart (pp. 34-40 in Chapter 3 discusses histograms) that summarizes the *distribution* of a variable:
+<p align="center">
+<img src="/gfiles/fig21.png" width="850px">
+</p>
+* 8.11: The histogram on the left shows a *symmetric* distribution (IQ scores famously have symmetric distributions); symmetric means that the left half of the distribution is a mirror image of the right half. The other two charts reveal distributions that are skewwed in different ways. 
+* 8.12: When the distribution is symmetric, the mean and median will be the same value. When the distribution is skewed the mean and median will be different (as shown in the figure above).
 
 #### Week 3 Practice Questions
 
