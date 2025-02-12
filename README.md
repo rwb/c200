@@ -859,7 +859,7 @@ Score at the 4th position: 7.5 (this is the median)
 - Mean: 500/9 = 55.55556
 ```
 
-* 9.7: What is $\Delta_{\mbox{sq}}$ for the mode?
+* 9.7: What is $\Delta_{\mbox{sq}}$ for the mode? *Note*: when you see ```x^2``` in the notes below, that means $x^2$ in arithmetic notation.
 
 ```Rout
 (57-52)^2 =  25
