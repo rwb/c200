@@ -806,9 +806,11 @@ Average or Mean Score: 44.9/7 = 6.414286 (or 6.414)
 * 8.5: There are two different ways to write the equation used to calculate the mean, $\overline{X}$. The book emphasizes the first way but both are acceptable and both are regularly used:
 
 <p align="center">
-<img src="/gfiles/fig19.png" width="200px">
+<img src="/gfiles/fig19.png" width="180px">
 </p>
-
+<p align="center">
+<img src="/gfiles/fig20.png" width="180px">
+</p>
 
 *Note*: the examples we have used so far rely on the first equation (which is what is used in the book). However, here is the example solved above but now based on the second formula:
 
