@@ -829,15 +829,21 @@ Score at the 4th position: 7.5 (this is the median)
 ```
 
 * 8.7: The mean and median will often be very close to each other -- but sometimes not.
-* 8.8: New Term: A *distribution* refers to the way the cases or units in a study are allocated across the categories. For example, in a sample of people sentenced to prison, we might have a variable that measures the most serious offense for which each offender was convicted. The values for this variable could be: (1) violent; (2) property; (3) drug; or (4) other. When we consider the number of cases in each category is the variable's distribution. The chart below shows the distribution of the most serious conviction offense variable for a sample of 1000 inmates.
+* 8.8: New Term: A *distribution* refers to the way the cases or units in a study are allocated across the categories. For example, in a sample of people sentenced to prison, we might have a variable that measures the most serious offense for which each offender was convicted. The values for this variable could be: (1) violent; (2) property; (3) drug; or (4) other. When we consider the number of cases in each category is the variable's distribution. The *bar chart* below displays the distribution of the most serious conviction offense variable for a sample of 1000 inmates.
 <p align="center">
-<img src="/gfiles/fig21a.png" width="700px">
+<img src="/gfiles/fig21b.png" width="700px">
 </p>
+
+*Note*: this is a technical point but a bar chart is not really a *summary*. A bar chart shows the actual number of cases in each category or group. As such, bar charts are only useful for variables with a small number of populated categories. 
+
 * 8.9: If there are *outliers* (pp. 73-74) or the data are *skewed* (page 77), the variable's distribution will be affected. In these situations, there will be larger differences between the two statistics. Generally, in these situations, the median is regarded as a better measure of central tendency or typicality.
-* 8.10: We have already discussed outliers but we have not considered the issue of *skewness*. Let's consider two *histograms* (a histogram is a type of chart (pp. 34-40 in Chapter 3 discusses histograms) that summarizes the *distribution* of a variable:
+* 8.10: We have already discussed outliers but we have not yet considered the issue of skewness. Let's consider 3 histograms. A histogram is a type of chart (pp. 34-40 in Chapter 3 discusses histograms) that summarizes the *distribution* of a variable:
 <p align="center">
 <img src="/gfiles/fig21.png" width="850px">
 </p>
+
+*Note*: a histogram is a summary. Histograms are used to display the distributions of interval or ratio level variables where relatively small number of cases can have the exact same score or when there are many categories to display (so the categories can be grouped in ways that effectively summarize the pattern). The reason a histogram is considered a summary is because we cannot usually see the exact score that an individual case has; we can only see the approximate score a case has. So, we have a summary when some of the information in the raw data is lost.
+
 * 8.11: The histogram on the left shows a *symmetric* distribution (IQ scores famously have symmetric distributions); symmetric means that the left half of the distribution is a mirror image of the right half. The other two charts reveal distributions that are skewwed in different ways. 
 * 8.12: When the distribution is symmetric, the mean and median will be the same value. When the distribution is skewed the mean and median will be different (as shown in the figure above).
 
