@@ -830,7 +830,7 @@ Middle Position: (7+1)/2 = 8/2 = 4
 Score at the 4th position: 7.5 (this is the median)
 ```
 
-* 8.7: Let's return briefly to the example discussed above in 7.11. In this example, there was a missing observation; we determined that it was possible to still learn something about the mode and the median even if one of the observations was missing. However, this is only possible for the mean if the variable being studied has a logical lower bound *and* a logical upper bound. In the case of the example in 7.11, there is a logical lower bound (a car cannot go slower than 0 mph) but there is no logical upper bound. So, the mean value is unknown even if only one of the data points is missing.
+* 8.7: We return briefly to the example discussed above in 7.11. In this example, there was a missing observation; we determined that it was possible to still learn something about the mode and the median even if one of the observations was missing. However, this is only possible for the mean if the variable being studied has a logical lower bound *and* a logical upper bound. In the case of the example in 7.11, there is a logical lower bound (a car cannot go slower than 0 mph) but there is no logical upper bound. So, the mean value is unknown even if only one of the data points is missing.
 
 #### Topic 9 Begins Here
 
