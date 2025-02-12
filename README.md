@@ -843,7 +843,7 @@ Score at the 4th position: 7.5 (this is the median)
 * 9.3: This difference score makes complete sense for an individual observation. When we use this statistic for all of the cases, however, we will usually have some $\Delta$ values that are positive and some that are negative (when the mean is used these differences will always sum to zero as discussed on page 74).
 * 9.4: And we don't really care about the sign of the differences (positive or negative) as much as we care about the *magnitude* of the differences. For this reason, we usually square the differences and sum them across all of the observations. This gives us:
 <p align="center">
-<img src="/gfiles/eq-delta-sq.png" width="200px">
+<img src="/gfiles/eq-delta-sq.png" width="230px">
 </p>
 
 * 9.5: We can calculate this equation for each of our measures of central tendency.
@@ -873,6 +873,8 @@ Score at the 4th position: 7.5 (this is the median)
 (59-52)^2 =  49
 
 sum of the squares = 25+0+121+16+0+0+49+36+49 = 296
+or
+sum of the squares = 25+(3*0)+121+16+(2*49)+36 = 296
 ```
 
 * 9.8: What is $\Delta_{\mbox{sq}}$ for the mode?
@@ -889,6 +891,8 @@ sum of the squares = 25+0+121+16+0+0+49+36+49 = 296
 (59-57)^2 =   4
 
 sum of the squares = 0+25+36+81+25+25+4+1+4 = 201
+or
+sum of the squares = 0+(3*25)+36+81+(2*4)+1 = 201
 ```
 
 * 9.9: What is $\Delta_{\mbox{sq}}$ for the mean?
@@ -905,7 +909,8 @@ sum of the squares = 0+25+36+81+25+25+4+1+4 = 201
 (59-55.55556)^2 =  11.86417
 
 sum of the squares = 2.086407+12.64201+55.41969+57.08649+12.64201+12.64201+11.86417+5.975287+11.86417 = 182.2222
-you could also sum: 2.086407+(3*12.64201)+55.41969+57.08649+(2*11.86417)+5.975287 = 182.2222
+or
+sum of the squares: 2.086407+(3*12.64201)+55.41969+57.08649+(2*11.86417)+5.975287 = 182.2222
 ```
 
 * 9.10: Notice that the mean *minimizes* the square deviations. This is a demonstration of the mean's *least squares* property.
