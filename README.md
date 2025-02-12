@@ -796,7 +796,6 @@ The year corresponding to the median murder rate is 1998.
 
 ```Rout
 Data: 7.7,8.1,4.5,3.2,7.5,8.8,5.1
-# of Scores: 7
 Sum of the Scores: 7.7+8.1+4.5+3.2+7.5+8.8+5.1 = 44.9
 Number of Scores: 7
 Average or Mean Score: 44.9/7 = 6.414286 (or 6.414)
