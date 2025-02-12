@@ -803,7 +803,7 @@ Average or Mean Score: 44.9/7 = 6.414286 (or 6.414)
 
 *Note*: see discussion of rounding on page 71. The rounding rule we will follow this semester is that intermediate calculations should not be rounded. Some rounding will be inevitable due to the limits of your calculators but intermediate calculations should be as precise as possible. Your final result when solving a problem can be rounded (usually to the 3rd decimal place).
 
-* 8.5: There are two different ways to write the equation used to calculate the mean. The book emphasizes the first way but both are acceptable and both are regularly used:
+* 8.5: There are two different ways to write the equation used to calculate the mean, $\overline{X}$. The book emphasizes the first way but both are acceptable and both are regularly used:
 
 <p align="center">
 <img src="/gfiles/fig19.png" width="200px">
