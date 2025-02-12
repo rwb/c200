@@ -834,7 +834,7 @@ Score at the 4th position: 7.5 (this is the median)
 
 #### Topic 9 Begins Here
 
-* 9.1: One way to formalize our understanding of the mean's ability to summarize the data is to study its *least squares* property (pp. 74-76).
+* 9.1: One way to formalize our understanding of the mean's ability to summarize the information in the data is to study its *least squares* property (pp. 74-76).
 * 9.2: Let's think about a difference score between each individual data point, $x_i$, and a measure of central tendency, $CT$.
 <p align="center">
 <img src="/gfiles/eq-delta.png" width="180px">
