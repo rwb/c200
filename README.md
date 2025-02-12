@@ -913,7 +913,7 @@ or
 sum of the squares: 2.086407+(3*12.64201)+55.41969+57.08649+(2*11.86417)+5.975287 = 182.2222
 ```
 
-* 9.10: Notice that the mean *minimizes* the square deviations. This is a demonstration of the mean's *least squares* property.
+* 9.10: Notice that the mean *minimizes* the sum of the squared differences. This is a demonstration of the mean's *least squares* property.
 * 9.11: A friendly reminder from your earlier arithmetic classes: when you have parentheses, do the operations within the parentheses first and then do other things afterward.
 
 #### Topic 10 Begins Here
