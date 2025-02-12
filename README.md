@@ -847,6 +847,8 @@ Score at the 4th position: 7.5 (this is the median)
 * 8.11: The histogram on the left shows a *symmetric* distribution (IQ scores famously have symmetric distributions); symmetric means that the left half of the distribution is a mirror image of the right half. The other two charts reveal distributions that are skewwed in different ways. 
 * 8.12: When the distribution is symmetric, the mean and median will be the same value. When the distribution is skewed the mean and median will be different (as shown in the figure above).
 
+*Example*: this [website](https://www.canr.msu.edu/news/mean_vs._median_what_do_they_mean_and_when_do_you_use_them) discusses the issue of whether to use the mean or the median as a measure of central tendency for income which has a distribution that looks like the far-right histogram above.
+
 #### Week 3 Practice Questions
 
 * You should work on problems 4.1-4.10 at the back of Chapter 4.
