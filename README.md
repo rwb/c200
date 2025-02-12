@@ -773,7 +773,7 @@ The year corresponding to the median murder rate is 1998.
 
 #### Topic 7 (Continued)
 
-7.11: I want to make one last point about the sample mode and median. There are times when we have incomplete data as in Problem 4.7 in this week's practice questions. It is still possible in some instances to make progress in estimating the mode and median when some of the data are missing. Here is an example dataset with measures of the speed with which 9 cars passed a speeding camera. One of the observations was missing, however.
+* 7.11: I want to make one last point about the sample mode and median. There are times when we have incomplete data as in Problem 4.7 in this week's practice questions. It is still possible in some instances to make progress in estimating the mode and median when some of the data are missing. Here is an example dataset with measures of the speed with which 9 cars passed a speeding camera. One of the observations was missing, however.
 
 ```Rout
 - Data: 57,52,63,48,52,52,59,58, ?
@@ -786,6 +786,24 @@ The year corresponding to the median murder rate is 1998.
 - This means that the median could be no lower than 52 and no greater than 57.
 - We don't know the exact number but we know it must lie within that range.
 ```
+
+#### Topic 8 Begins Here
+
+* 8.1: The arithmetic average or mean (pp. 68-71) is an important measure of central tendency.
+* 8.2: The mean considers the precise value of each score in estimating the "typical" score.
+* 8.3: An average is based on the sum of the scores divided by the number of scores (equation 4.2 on page 68).
+* 8.4: Consider the following example of a set of recidivism risk scores:
+
+```Rout
+Data: 7.7,8.1,4.5,3.2,7.5,8.8,5.1
+# of Scores: 7
+Sum of the Scores: 7.7+8.1+4.5+3.2+7.5+8.8+5.1 = 44.9
+Number of Scores: 7
+Average or Mean Score: 44.9/7 = 6.414286 (or 6.414)
+```
+
+*Note*: see discussion of rounding on page 71. The rounding rule we will follow this semester is that intermediate calculations should not be rounded. Some rounding will be inevitable due to the limits of your calculators but intermediate calculations should be as precise as possible. Your final result when solving a problem can be rounded (usually to the 3rd decimal place).
+
 
 #### Week 3 Practice Questions
 
