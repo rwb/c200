@@ -834,7 +834,82 @@ Score at the 4th position: 7.5 (this is the median)
 
 #### Topic 9 Begins Here
 
-* 9.1:
+* 9.1: One way to formalize our understanding of the mean's ability to summarize the data is to study its *least squares* property (pp. 74-76).
+* 9.2: Let's think about a difference score between each individual data point, $x_i$, and a measure of central tendency, $CT$.
+<p align="center">
+<img src="/gfiles/eq-delta.png" width="180px">
+</p>
+
+* 9.3: This difference score makes complete sense for an individual observation. When we use this statistic for all of the cases, however, we will usually have some $\Delta$ values that are positive and some that are negative (when the mean is used these differences will always sum to zero as discussed on page 74).
+* 9.4: And we don't really care about the sign of the differences (positive or negative) as much as we care about the *magnitude* of the differences. For this reason, we usually square the differences and sum them across all of the observations. This gives us:
+<p align="center">
+<img src="/gfiles/eq-delta-sq.png" width="180px">
+</p>
+
+* 9.5: We can calculate this equation for each of our measures of central tendency.
+* 9.6: Let's go back to our speeding example from 7.11 and let's say we are now able to see the speeds for all the cars (the previously missing car had a speed of 59):
+
+```Rout
+- Data: 57,52,63,48,52,52,59,58,59
+- Sorted Data: 48,52,52,52,57,58,59,59,63
+- Mode: 52
+- Median: 57
+- Sum of the speeds: 500
+- Number of speeds: 9
+- Mean: 500/9 = 55.55556
+```
+
+* 9.7: What is $\Delta_{\mbox{sq}}$ for the mode?
+
+```Rout
+(57-52)^2 =  25
+(52-52)^2 =   0
+(63-52)^2 = 121
+(48-52)^2 =  16
+(52-52)^2 =   0
+(52-52)^2 =   0
+(59-52)^2 =  49
+(58-52)^2 =  36
+(59-52)^2 =  49
+
+sum of the squares = 25+0+121+16+0+0+49+36+49 = 296
+```
+
+* 9.8: What is $\Delta_{\mbox{sq}}$ for the mode?
+
+```Rout
+(57-57)^2 =   0
+(52-57)^2 =  25
+(63-57)^2 =  36
+(48-57)^2 =  81
+(52-57)^2 =  25
+(52-57)^2 =  25
+(59-57)^2 =   4
+(58-57)^2 =   1
+(59-57)^2 =   4
+
+sum of the squares = 0+25+36+81+25+25+4+1+4 = 201
+```
+
+* 9.9: What is $\Delta_{\mbox{sq}}$ for the mean?
+
+```Rout
+(57-55.55556)^2 =   2.086407
+(52-55.55556)^2 =  12.64201
+(63-55.55556)^2 =  55.41969
+(48-55.55556)^2 =  57.08649
+(52-55.55556)^2 =  12.64201
+(52-55.55556)^2 =  12.64201
+(59-55.55556)^2 =  11.86417
+(58-55.55556)^2 =   5.975287
+(59-55.55556)^2 =  11.86417
+
+sum of the squares = 2.086407+12.64201+55.41969+57.08649+12.64201+12.64201+11.86417+5.975287+11.86417 = 182.2222
+you could also sum: 2.086407+(3*12.64201)+55.41969+57.08649+(2*11.86417)+5.975287
+```
+
+* 9.10: Notice that the mean *minimizes* the square deviations. This is a demonstration of the mean's *least squares* property.
+* 9.11: A friendly reminder from your earlier arithmetic classes: when you have parentheses, do the operations within the parentheses first and then do other things afterward.
 
 #### Topic 10 Begins Here
 
