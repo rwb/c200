@@ -769,6 +769,24 @@ The year corresponding to the median murder rate is 1998.
 
 * For this analysis, do you think the mean or the median would be a better measure of central tendency? Why?
 
+### Lesson 6 - Thursday 2/13/25
+
+#### Topic 7 (Continued)
+
+7.11: I want to make one last point about the sample mode and median. There are times when we have incomplete data as in Problem 4.7 in this week's practice questions. It is still possible in some instances to make progress in estimating the mode and median when some of the data are missing. Here is an example dataset with measures of the speed with which 9 cars passed a speeding camera. One of the observations was missing, however.
+
+```Rout
+- Data: 57,52,63,48,52,52,59,58, ?
+- Sorted Data: 48,52,52,52,57,58,59,63, ?
+- Notice that it doesn't matter what the missing value is. The mode will still be 52.
+- The middle position of the distribution of 10 cases is (9+1)/2 = 10/2 = 5.
+- To estimate the median, we need to identify the 5th observation in the sorted dataset.
+- If the missing case has a low value, say 45, the median would be 52.
+- If the missing case has a high value, say 70, the median would be 57.
+- This means that the median could be no lower than 52 and no greater than 57.
+- We don't know the exact number but we know it must lie within that range.
+```
+
 #### Week 3 Practice Questions
 
 * You should work on problems 4.1-4.10 at the back of Chapter 4.
