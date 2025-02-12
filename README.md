@@ -833,7 +833,7 @@ Score at the 4th position: 7.5 (this is the median)
 * 8.9: We have already discussed outliers but we have not considered the issue of *skewness*. Let's consider two *histograms* (a histogram is a type of chart that summarizes the *distribution* of a variable:
 
 <p align="center">
-<img src="/gfiles/fig21.png" width="600px">
+<img src="/gfiles/fig21.png" width="750px">
 </p>
 * 8.10: The histogram on the left shows a *symmetric* distribution (IQ scores famously have symmetric distributions); symmetric means that the left half of the distribution is a mirror image of the right half. The histogram on the right reveals a *skewed* distribution. 
 * 8.11: When the distribution is symmetric, the mean and median will be the same value. When the distribution is skewed the mean and median will be different (as shown in the figure above).
