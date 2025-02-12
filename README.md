@@ -851,6 +851,12 @@ Score at the 4th position: 7.5 (this is the median)
 
 *Example*: this [website](https://www.canr.msu.edu/news/mean_vs._median_what_do_they_mean_and_when_do_you_use_them) discusses the issue of whether to use the mean or the median as a measure of central tendency for income which has a distribution that looks like the far-right histogram above.
 
+* 8.13: Let's return briefly to the example discussed above in 7.11. In this example, there was a missing observation; we determined that it was possible to still learn something about the mode and the median even if one of the observations was missing. However, this is only possible for the mean if the variable being studied has a logical lower bound *and* a logical upper bound. In the case of the example in 7.11, there is a logical lower bound (a car cannot go slower than 0 mph) but there is no logical upper bound. So, the mean value is unknown even if only one of the data points is missing.
+
+#### Topic 9 Begins Here
+
+* 9.1: 
+
 #### Week 3 Practice Questions
 
 * You should work on problems 4.1-4.10 at the back of Chapter 4.
