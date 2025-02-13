@@ -953,7 +953,7 @@ sum of the squares =  2.086419+
 <img src="/gfiles/fig21.png" width="850px">
 </p>
 
-*Note*: a histogram is a summary. Histograms are used to display the distributions of interval or ratio level variables where relatively small number of cases can have the exact same score or when there are many categories to display (so the categories can be grouped in ways that effectively summarize the pattern). The reason a histogram is considered a summary is because we cannot usually see the exact score that an individual case has; we can only see the approximate score a case has. So, we have a summary when some of the information in the raw data is lost.
+*Note*: a histogram is a summary. Histograms are used to display the distributions of interval or ratio level variables where relatively small number of cases can have the exact same score or when there are many categories to display (so the categories can be grouped in ways that effectively summarize the pattern). The reason a histogram is considered a summary is because we cannot usually see the exact score that an individual case has; we can only see the approximate score. So, we have a summary when some of the information in the raw data is lost.
 
 * 10.4: The histogram on the left shows a *symmetric* distribution (IQ scores famously have symmetric distributions); symmetric means that the left half of the distribution is a mirror image of the right half. The other two charts reveal distributions that are skewwed in different ways. 
 * 10.5: When the distribution is symmetric, the mean and median will be the same value. When the distribution is skewed the mean and median will be different (as shown in the figure above).
