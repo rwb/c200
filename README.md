@@ -840,7 +840,7 @@ Score at the 4th position: 7.5 (this is the median)
 - (15+17+21+10+?)/5 = 17.6
 - (63+?)/5 = 17.6
 - Multiply both sides of the equation by 5.
-- (63+?) = 17.6*5
+- (63+?) = 17.6 x 5
 - (63+?) = 88
 - Subtract 63 from both sides
 - ? = 88-63 = 25
@@ -889,7 +889,7 @@ Score at the 4th position: 7.5 (this is the median)
 
 sum of the squares = 25+0+121+16+0+0+49+36+49 = 296
 or
-sum of the squares = 25+(3*0)+121+16+(2*49)+36 = 296
+sum of the squares = 25+(3x0)+121+16+(2x49)+36 = 296
 ```
 
 * 9.8: What is $\Delta_{\mbox{sq}}$ for the mode?
@@ -907,7 +907,7 @@ sum of the squares = 25+(3*0)+121+16+(2*49)+36 = 296
 
 sum of the squares = 0+25+36+81+25+25+4+1+4 = 201
 or
-sum of the squares = 0+(3*25)+36+81+(2*4)+1 = 201
+sum of the squares = 0+(3x25)+36+81+(2x4)+1 = 201
 ```
 
 * 9.9: What is $\Delta_{\mbox{sq}}$ for the mean?
