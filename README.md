@@ -939,6 +939,8 @@ sum of the squares: 2.086407+(3*12.64201)+55.41969+57.08649+(2*11.86417)+5.97528
 
 *Example*: this [website](https://www.canr.msu.edu/news/mean_vs._median_what_do_they_mean_and_when_do_you_use_them) discusses the issue of whether to use the mean or the median as a measure of central tendency for income which has a distribution that looks like the far-right histogram above.
 
+* 10.6: As a general rule, the mean is the preferred measure of central tendency with interval or ratio level data (your book has a brief statement about using the mean on an ordinal scale on page 76 but this practice needs to be justified). When the data are highly skewed or there are outliers that induce a large difference between the mean and the median, we have to make a judgment call about which measure is to be preferred. Here is what your textbook says about this issue on page 78: "How should you decide when a distribution is so skewed that it is preferable to use the median as opposed to the mean? You should begin by comparing the mean and the median. When there is a very large difference between them, it may be the result of skewness. In such cases, you should look at the distribution of the scores to see what is causing the mean and median to differ widely. But there is no solid boundary line to guide your choice."
+
 #### Week 3 Practice Questions
 
 * You should work on problems 4.1-4.10 at the back of Chapter 4.
