@@ -892,7 +892,7 @@ or
 sum of the squares = 25+(3x0)+121+16+(2x49)+36 = 296
 ```
 
-* 9.8: What is $\Delta_{\mbox{sq}}$ for the mode?
+* 9.8: What is $\Delta_{\mbox{sq}}$ for the median?
 
 ```Rout
 (57-57)^2 =   0
