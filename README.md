@@ -965,3 +965,16 @@ sum of the squares =  2.086419+
 #### Week 3 Practice Questions
 
 * You should work on problems 4.1-4.10 at the back of Chapter 4.
+
+#### Assignment #1 - Due on ELMS at 11:59pm ET on Wednesday 2/19/25
+
+Instructions: Please complete each of the problems listed below. You are required to submit your assignment as a single pdf file on ELMS. Please review all assignment guidelines and rules in the syllabus above. We will accept questions about the assignment up until the end of the day (11:59pm ET) on Monday 2/17/25. Please note that any questions we judge to be of interest to the entire class will be posted on this webpage so everyone has access to the same information in a timely fashion. Assignments can be submitted beginning at 12:01am (ET) on Wednesday 2/19/25.  
+
+1. Go to crimedatatool.com and look at the Charlotte-Mecklenburg Police Department (North Carolina) yearly murders and population sizes from 2013-2019. Enter the data into R and print out a table showing each year, the number of murders, and the population size (15pts).
+2. Go to crimedatatool.com and look at the Nashville Metro Police Department (Tennessee) yearly murders and population sizes from 2013-2019. Enter the data into R and print out a table showing each year, the number of murders, and the population size (15pts).
+3. Use R to calculate the murder rate for each year for Charlotte (10pts).
+4. Use R to calculate the murder rate for each year for Nashville (10pts).
+5. Calculate the mean murder rate by hand and in R for Charlotte; verify your calculations agree to the third decimal place (15pts).
+6. Calculate the mean murder rate by hand and in R for Nashville; verify your calculations agree to the third decimal place (15pts).
+7. Calculate the median murder rate for Charlotte (10pts).
+8. Calculate the median murder rate for Nashville (10pts).
