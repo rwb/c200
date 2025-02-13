@@ -978,3 +978,9 @@ Instructions: Please complete each of the problems listed below. You are require
 6. Calculate the mean murder rate by hand and in R for Nashville; verify your calculations agree to the third decimal place (15pts).
 7. Calculate the median murder rate for Charlotte (10pts).
 8. Calculate the median murder rate for Nashville (10pts).
+
+Questions from Students:
+
+1. I'd like to know if we had to do the questions for Assignment #1 in order. For example, if I wanted to do all the Charlotte, NC questions first, then Nashville, TN after, could I do that, or should it be in numerical order from questions 1-8?
+
+Answer: I don't have any concern about the order you do the work in but when it is submitted it needs to be in the order of the questions on the assignment.
