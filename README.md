@@ -831,7 +831,7 @@ Score at the 4th position: 7.5 (this is the median)
 ```
 
 * 8.7: We return briefly to the example discussed above in 7.11. In this example, there was a missing observation; we determined that it was possible to still learn something about the mode and the median even if one of the observations was missing. However, this is only possible for the mean if the variable being studied has a logical lower bound *and* a logical upper bound. In the case of the example in 7.11, there is a logical lower bound (a car cannot go slower than 0 mph) but there is no logical upper bound. So, the mean value is unknown even if only one of the data points is missing.
-* 8.8: An edge case presented in Practice Problem 4.7d, raises the question of identifying a missing observation if we know the overall mean score. I will illustrate how this works with a new dataset showing the number of murders in a local county in the last 5 months:
+* 8.8: An edge case presented in Practice Problem 4.7d, raises the question of identifying a single missing observation if we know the overall mean score. I will illustrate how this works with a new dataset showing the number of murders in a local county in the last 5 months:
 
 ```Rout
 - Data: 15,17,21,10,?
