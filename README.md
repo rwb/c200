@@ -985,6 +985,10 @@ Questions from Students:
 
 Answer: I don't have any concern about the order you do the work in but when it is submitted it needs to be in the order of the questions on the assignment.
 
+2. I have screenshots of some of my R work and photographs of some of my written work. Do I put all of this into a single pdf file?
+
+Answer: Yes. Please organize all of your materials so that they are *in the same order* as the questions on the assignment -- in a single pdf file. Remember to check your file closely before you submit it -- to make sure everything is in its proper place.
+
 ### Lesson 7 - Tuesday 2/18/25
 
 * Reminder: your first assignment is due at 11:59pm (ET) on Wednesday 2/19/25.
