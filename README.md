@@ -991,7 +991,7 @@ Answer: Yes. Please organize all of your materials so that they are *in the same
 
 3. I'm not sure whether I'm formatting my document correctly. Can you review it for me?
 
-Answer: I can't preview/pregrade documents. What I can tell you is that as long as your document is in a pdf file that we can open and read, we can read what you did, and it's organized according to the order of the items in the assignment there should not be any problems
+Answer: I can't preview/pregrade documents. What I can tell you is that as long as your document is in a pdf file that we can open and read, we can read what you did, and it's organized according to the order of the items in the assignment there should not be any problems. 
 
 ### Lesson 7 - Tuesday 2/18/25
 
