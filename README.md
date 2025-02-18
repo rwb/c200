@@ -1026,7 +1026,7 @@ Answer: I don't have any concern about the order you do the work in but when it 
 </p>
 
 * 13.5: An issue with the variation ratio is that the upper bound will in general be less than 1 (p. 91).
-* 13.6: Suppose we have a variable with 4 categories. Assuming there is a mode, the smallest number of cases that could be in that modal category is 26 -- because 100/4 = 25. So, the lower bound on the proportion in the modal category would be 0.26 and the upper bound on the variation ratio would be 1-0.26 = 0.74.
+* 13.6: Suppose we have a variable with 4 categories and N=100 cases. Assuming there is a mode, the smallest number of cases that could be in that modal category is 26 -- because 100/4 = 25. So, the lower bound on the proportion in the modal category would be 0.26 and the upper bound on the variation ratio would be 1-0.26 = 0.74.
 * 13.7: For our example of people exiting prison in 13.4, we see that we have 1349 cases and 8 categories. Assuming there is a mode, the smallest number of cases that could be in the modal category is 169 -- because 1349/8 = 168.625. This means that the lower bound on the proportion of cases in the modal category would be 169/1349 = 0.125278 (rounded to 0.125). And the variation ratio upper bound would be 1-0.125 = 0.875. If we are comparing two variation ratios, then, we need to be mindful of the ranges to which they are restricted.
 * 13.8: Note that the upper bound of the proportion (or percentage) of cases in the modal category is always 1.0 (or 100%) -- when all of the cases are in a single category.
 * 13.9: Note that the lower bound of the variation ratio is always 0 (when all of the cases are in a single category).
