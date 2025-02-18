@@ -1081,6 +1081,8 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 <img src="/gfiles/iqv-eqn.png" width="300px">
 </p>
 
+*Note*: I simplified the summation notation in the equation for the diversity index, *D*, above.
+
 #### Topic 15 Begins Here
 
 * 15.1: A basic measure of dispersion for interval and ratio level data is the *range*.
