@@ -1034,7 +1034,7 @@ Answer: I can't preview/pregrade documents. What I can tell you is that as long 
 </p>
 
 * 13.5: An issue with the variation ratio is that the upper bound will in general be less than 1 (p. 91).
-* *Note*: I have decided that I'm not going to test you on the *bounds on the variation ratio*. This means you are not responsible for the material after the first sentence on page 91.
+* *Note*: I have decided that I'm not going to test you on the *bounds on the variation ratio*. This means you are not responsible for the material after the first sentence on page 91. I just want you to be aware of point 13.5 so you know that the variation ratio is sensitive to the unique features of the data on which it is based.
 
 #### Topic 14 Begins Here
 
