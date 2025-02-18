@@ -1086,13 +1086,13 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 * 15.2: Here is the formula:
 
 <p align="center">
-<img src="/gfiles/fig24.png" width="700px">
+<img src="/gfiles/fig24.png" width="800px">
 </p>
 
 * 15.3: And, here is a worked example:
 
 <p align="center">
-<img src="/gfiles/fig25.png" width="700px">
+<img src="/gfiles/fig25.png" width="800px">
 </p>
 
 #### Practice Exercises for this Week
