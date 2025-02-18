@@ -1097,6 +1097,5 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 
 #### Practice Exercises for this Week
 
-* You should be working on the following exercises at the back of chapter 5:
-
-- 
+- Problems 5.1-5.6 (cover today's material)
+- Problems 5.7-5.11 (cover the material we will discuss later this week).
