@@ -984,3 +984,43 @@ Questions from Students:
 1. I'd like to know if we had to do the questions for Assignment #1 in order. For example, if I wanted to do all the Charlotte, NC questions first, then Nashville, TN after, could I do that, or should it be in numerical order from questions 1-8?
 
 Answer: I don't have any concern about the order you do the work in but when it is submitted it needs to be in the order of the questions on the assignment.
+
+### Lesson 7 - Tuesday 2/18/25
+
+* Reminder: your first assignment is due at 11:59pm (ET) on Wednesday 2/19/25.
+* We will accept questions about the assignment up until 11:59am tomorrow. After that point, we will not be able to answer any further questions.
+* If you submit your assignment and then you decide you need to make a change, you can resubmit up to 2 additional times. The last version you submit will be the one that is graded.
+
+#### Chapter 5 (Dispersion) and Topic 11 Begins Here
+
+* 11.1: As a reminder, the mode is the most frequently occurring category, level, or value, of a variable.
+* 11.2: Recall the example from Topic 6.2: Sanction for a sample of 100 people cited for littering: (1) Fine (N=22); (2) Civics class (N=25); (3) Community Service (N=53). What is the mode?
+```Rout
+- the mode is the most frequently occurring category, level or value of a variable.
+- in this case, the community service category has the largest number of cases.
+- therefore, the mode is "community service"
+```
+* 11.3: As noted, the mode is "community service" (not 53). The number of cases in the modal category as a fraction of the total number of cases provides us with a sense of the variation in the data. Your book (p. 88) refers to this concept as "the proportion in the modal category."
+* 11.4: Calculation:
+
+```Rout
+- Proportion in modal category = Number of cases in modal category / Total number of cases
+- In our example, we have 53 cases in the modal category
+- We have 100 total cases
+- The proportion of cases in the modal category is 53/100 = 0.53
+```
+
+#### Topic 12
+
+* We might choose to express the proportion in the modal categoary as a percentage instead (pp. 89-90). To do this, we would simply multiply 0.53 by 100 which would lead us to the conclusion that 53% of the cases were in the modal category.
+
+#### Topic 13 Begins Here
+
+* 13.1: The proportion/percentage of cases in the modal category gives us a sense of how common it is for our study cases to be in the most commonly occurring category. The other side of this coin -- the variation ratio -- is the proportion of cases that are not in the modal category.
+* 13.2: So, we can obtain the variation ratio by subtracting the proportion of cases in the modal category from 1.
+* 13.3: For our littering sanctions example, we get the variation ratio by calculating 1-0.53 = 0.47.
+* 13.4: Another example:
+
+<p align="center">
+<img src="/gfiles/fig22.png" width="350px">
+</p>
