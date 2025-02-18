@@ -1030,7 +1030,7 @@ Answer: Yes. Please organize all of your materials so that they are *in the same
 </p>
 
 * 13.5: An issue with the variation ratio is that the upper bound will in general be less than 1 (p. 91).
-* *Note*: I have decided that I'm not going to test you on the *bounds on the variation ratio*. You can disregard this material.
+* *Note*: I have decided that I'm not going to test you on the *bounds on the variation ratio*. This means you are not responsible for the material after the first sentence on page 91.
 
 #### Topic 14 Begins Here
 
