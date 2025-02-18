@@ -1079,7 +1079,7 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 ```
 
 <p align="center">
-<img src="/gfiles/deqn.png" width="200px">
+<img src="/gfiles/d-eqn.png" width="200px">
 </p>
 <p align="center">
 <img src="/gfiles/iqv-eqn.png" width="300px">
