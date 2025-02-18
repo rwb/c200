@@ -1022,5 +1022,5 @@ Answer: I don't have any concern about the order you do the work in but when it 
 * 13.4: Another example:
 
 <p align="center">
-<img src="/gfiles/fig22.png" width="500px">
+<img src="/gfiles/fig22.png" width="700px">
 </p>
