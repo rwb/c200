@@ -1073,8 +1073,8 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 - Then we subtract this sum from 1.0: 1.0-0.275 = 0.725 (this is called the diversity index, D)
 - So, D = 1 minus the sum of the squared p's
 - Next, we let k = the number of categories -- in this case the number of categories is 4
-- Index of qualitative variation = k/(k-1) x D = 4/(4-1) x 0.725 = 0.967
-- (multiplied by 100 is 96.667 which matches the answer in the book).
+- Index of qualitative variation = k/(k-1) x D = 4/(4-1) x 0.725 = 0.9666667
+- (multiplied by 100 is 96.66667 which matches the answer in the book).
 - In arithmetic symbols, here are the 2 equations:
 ```
 
