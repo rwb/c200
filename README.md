@@ -1104,4 +1104,5 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 
 #### Practice Exercises for this Week
 
-- Problems 5.1a, 5.1c, 5.2, 5.3a, 5.3b, 5.4, 5.5, 5.6, 5.7, 5.8, 5.9, 5.10, and 5.11
+- Problems 5.1a, 5.1c, 5.2, 5.3a, 5.3b, 5.4, 5.5, 5.6, 5.7, 5.8, 5.10, and 5.11
+- Excluded problems which you should not do include: 5.1b, 5.3c, and 5.9
