@@ -1024,3 +1024,54 @@ Answer: I don't have any concern about the order you do the work in but when it 
 <p align="center">
 <img src="/gfiles/fig22a.png" width="700px">
 </p>
+
+* 13.5: An issue with the variation ratio is that the upper bound will in general be less than 1 (p. 91).
+* 13.6: Considering our littering sanctions example, we have 4 categories. Assuming there is a mode, the smallest number of cases that could be in that modal category is 26 -- because 100/4 = 25. So, the lower bound on the proportion in the modal category would be 0.26 and the upper bound would be 1-0.26 = 0.74.
+* 13.7: For our example of people exiting prison in 13.4, we see that we have 1349 cases and 8 categories. Assuming there is a mode, the smallest number of cases that could be in the modal category is 169 -- because 1349/8 = 168.625. This means that the lower bound on the proportion of cases in the modal category would be 169/1349 = 0.125278 (rounded to 0.125). And the variation ratio upper bound would be 1-0.125 = 0.875. If we are comparing two variation ratios, then, we need to be mindful of the ranges to which they are restricted.
+
+#### Topic 14 Begins Here
+
+* 14.1: Index of qualitative variation (IQV) describes variation for a nominal or ordinal (categorical) variable on a 0 to 100 scale (pp. 92-94).
+* 14.2: The basic question this measure answers is how much variation exists in our data compared to the maximum dispersion that could have existed (if cases were equally spread out among the categories).
+* 14.3: The formula in the textbook is too complicated; here is another approach that is easier to calculate.
+* 14.4: We will work the example in the textbook.
+
+```Rout
+Fear of Crime Among Students:
+- 1: Not Concerned at All: N=3
+- 2: A Little Concerned: N=4
+- 3: Quite Concerned: N=6
+- 4: Very Concerned: N=7
+- Total: N=20
+
+- To calculate the IQV, we first turn the N's in this table into p's:
+
+- p1 = 3/20 = 0.15 
+- p2 = 4/20 = 0.20
+- p3 = 6/20 = 0.30
+- p4 = 7/20 = 0.35
+
+- Next, we square each of the p's:
+
+- p1sq = 0.15*0.15 = 0.0225
+- p2sq = 0.20*0.20 = 0.0400
+- p3sq = 0.30*0.30 = 0.0900
+- p4sq = 0.35*0.35 = 0.1225
+
+- Then, we add up the squares:
+
+p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
+
+- Then we subtract this sum from 1.0: 1.0-0.275 = 0.725 (this is called the diversity index, D)
+- So, D = 1 minus the sum of the squared p's
+- Next, we let k = the number of categories -- in this case the number of categories is 4
+- Index of qualitative variation = k/(k-1) x D = 4/(4-1) x 0.725 = 0.967 (multiplied by 100 is 96.667 which matches the answer in the book).
+- In arithmetic symbols, here are the 2 equations:
+```
+
+<p align="center">
+<img src="/gfiles/deqn.png" width="300px">
+</p>
+<p align="center">
+<img src="/gfiles/iqv-eqn.png" width="300px">
+</p>
