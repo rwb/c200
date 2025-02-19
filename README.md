@@ -993,6 +993,10 @@ Answer: Yes. Please organize all of your materials so that they are *in the same
 
 Answer: I can't preview/pregrade documents. What I can tell you is that as long as your document is in a pdf file that we can open and read, we can read what you did, and it's organized according to the order of the items in the assignment there should not be any problems. 
 
+4.  For Questions 5/6, are the uppermost values in the datasets extreme enough to be considered outliers? If so, it is necessary that we present the adjusted mean murder rates for outliers in addition to simply the mean murder rate, or was that not an expectation for this particular assignment?
+
+Answer: I would recommend that you stay focused on exactly what the questions are asking you to do.
+
 ### Lesson 7 - Tuesday 2/18/25
 
 * Reminder: your first assignment is due at 11:59pm (ET) on Wednesday 2/19/25.
