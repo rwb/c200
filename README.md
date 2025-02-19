@@ -1159,7 +1159,11 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 ```Rout
 sqrt(3.142857143) = 1.77281052, which rounds to 1.773.
 ```
+*Note* : there is a section on pp. 100-101 that provides a shortcut formula for the variance and standard deviation. I am not going to go over the shortcut formula in this class but you are welcome to use it if you want to.
 
+#### Topic 18 Begins Here
+
+* 
 
 #### Practice Exercises for this Week
 
