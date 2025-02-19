@@ -70,9 +70,9 @@ R is available at this [website](https://www.r-project.org). You can read about 
 
 The various topics I plan to discuss in this course are listed below (expected dates are in parentheses next to each topic). Here are the expected assignment distribution and due dates:
 
-* Assignment #1: distributed on Thursday 2/13; due on Wednesday 2/19 at 11:59pm (ET)
+* Assignment #1: distributed on Thursday 2/13; due on ~~Wednesday 2/19~~ Thursday 2/20 at 11:59pm (ET)
 * Assignment #2: distributed on Thursday 3/13; due on Wednesday 3/26 at 11:59pm (ET)
-* Assignment #3: distributed on Thursday 4/24; due on Wednesday 4/30 at 11:59pm (ET)
+*  #3: distributed on Thursday 4/24; due on Wednesday 4/30 at 11:59pm (ET)
 
 And, here are the expected exam dates:
 
@@ -600,7 +600,7 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 
 ### Lesson 5 - Tuesday 2/11/25
 
-*Note*: First assignment will be distributed on Thursday 2/13/24. It will be due on Wednesday 2/19/24 at 11:59pm (ET).
+*Note*: First assignment will be distributed on Thursday 2/13/24. It will be due on ~~Wednesday 2/19/24~~ Thursday 2/20/25 at 11:59pm (ET).
 
 #### Chapter 4 Begins Here
 
@@ -966,7 +966,7 @@ sum of the squares =  2.086419+
 
 * You should work on problems 4.1-4.10 at the back of Chapter 4.
 
-#### Assignment #1 - Due on ELMS at 11:59pm ET on Wednesday 2/19/25
+#### Assignment #1 - Due on ELMS at 11:59pm ET on ~~Wednesday 2/19/25~~ Thursday 2/20/25
 
 Instructions: Please complete each of the problems listed below. You are required to submit your assignment as a single pdf file on ELMS. Please review all assignment guidelines and rules in the syllabus above. We will accept questions about the assignment up until 11:59am ET on Wednesday 2/19/25. Please note that any questions we judge to be of interest to the entire class will be posted on this webpage so everyone has access to the same information in a timely fashion. Assignments can be submitted beginning at 12:01am (ET) on Wednesday 2/19/25.  
 
