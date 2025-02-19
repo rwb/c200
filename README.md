@@ -1117,18 +1117,12 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 * Today, we continue working on Chapter 5 (Dispersion).
 * We ended our last class by discussing the range which only uses limited information in the data.
 * The measures we will discuss today use information from each observation in the dataset.
-* A preliminary concept we need to discuss is the idea of mean or average deviation scores.
+* A preliminary concept we need to discuss is the idea of mean difference scores.
 * This will be fundamental information for Topics 16, 17, and 19.
 * We consider an example:
 
 <p align="center">
-<img src="/gfiles/fig26.png" width="800px">
-</p>
-<p align="center">
-<img src="/gfiles/fig27.png" width="800px">
-</p>
-<p align="center">
-<img src="/gfiles/fig28.png" width="800px">
+<img src="/gfiles/fig33.png" width="800px">
 </p>
 
 *Note*: a similar example is discussed in your textbook on pp. 95-96.
@@ -1183,11 +1177,12 @@ Conclusion: After adjusting the between-group variation for the mean, the variat
 
 ### Topic 19 Begins Here
 
-* 19.1: Earlier we considered mean deviation scores for individual observations.
+* 19.1: Earlier we considered mean difference scores for individual observations.
 * 19.2: We noted that when these scores are computed that they add up to zero.
 * 19.3: We also noted that the average value of the scores would be equal to zero.
-* 19.4: On pp. 105-107, your textbook also discusses a concept called "mean deviation" but what is described in this section is actually a *mean absolute deviation*.
-* 19.5: 
+* 19.4: On pp. 105-107, your textbook discusses a concept called "mean deviation."
+* 19.5: The idea of mean deviation is closely connected to the mean difference scores discussed earlier.
+* 19.6: Nevertheless, there are some important distinctions which we will now discuss.
 
 #### Practice Exercises for this Week
 
