@@ -1120,6 +1120,7 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 <p align="center">
 <img src="/gfiles/fig28.png" width="800px">
 </p>
+*Note*: a similar example is discussed in your textbook on pp. 95-96.
 
 #### Practice Exercises for this Week
 
