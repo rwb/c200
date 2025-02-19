@@ -1153,6 +1153,8 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 * 17.5: For our worked example above, we calculate the standard deviation by taking the square root of the variance that we already estimated:
 
 ```Rout
+sqrt(3.142857143) = 1.77281052, which rounds to 1.773.
+```
 
 
 #### Practice Exercises for this Week
