@@ -1168,7 +1168,22 @@ sqrt(3.142857143) = 1.77281052, which rounds to 1.773.
 * 18.1: When two distributions have similar means, the standard deviations of those distributions can be usefully compared.
 * 18.2: When two distributions have different means, it is customary to divide the standard deviation by the mean in each group.
 * 18.3: This adjustment is called the *coefficient of relative variation* and facilitates the comparison of variation across groups when the means of the two groups are different from each other.
-* 
+* 18.4: Example: Suppose we have 2 datasets measuring the number of prior convictions for violent and property offenders entering prison this month. The violent offenders had a mean of 5 prior convictions (with a standard deviation of 1) and the property offenders had a mean of 12 prior convictions with a standard deviation of 3. So, the standard deviation for the property offenders is three times the standard deviation of the violent offenders. How does consideration of the mean differences between the two groups, affect our interpretation of the dispersion in the two groups? If we compute the coefficient of relative variation for each group, we get:
+
+```Rout
+CRV for violent offenders: s/mean = 5/1 = 5
+CRV for property offenders: s/mean = 12/3 = 4
+```
+
+Conclusion: After adjusting the between-group variation for the mean, the variation is lower for the property offenders than it is for the violent offenders.
+
+### Topic 19 Begins Here
+
+* 19.1: Earlier we considered mean deviation scores for individual observations.
+* 19.2: We noted that when these scores are computed that they add up to zero.
+* 19.3: We also noted that the average value of the scores would be equal to zero.
+* 19.4: On pp. 105-107, your textbook also discusses a concept called "mean deviation" but what is described in this section is actually a *mean absolute deviation*.
+* 19.5: 
 
 #### Practice Exercises for this Week
 
