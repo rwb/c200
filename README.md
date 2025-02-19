@@ -1133,7 +1133,7 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 <img src="/gfiles/fig29.png" width="350px">
 </p>
 
-* 16.4: Here is a worked example (similar to the worked example on page 97):
+* 16.4: Here is a worked example (similar to the worked example on pages 97-99):
 
 <p align="center">
 <img src="/gfiles/fig30.png" width="800px">
@@ -1141,6 +1141,19 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 <p align="center">
 <img src="/gfiles/fig31.png" width="800px">
 </p>
+
+*Note*: in the special case where the variance is 0, that means there is no variation in the variable.
+
+#### Topic 17 Begins Here
+
+* 17.1: The *standard deviation* (mentioned above) is simply the square root of the variance (discussed in the book on pages 99 and 102-103).
+* 17.2: Main benefit of the standard deviation is that it expresses variation in terms of the original scale of the variable.
+* 17.3: Remember we squared the differences between the individual scores and the mean; the standard deviation helps us get back to a more understandable metric.
+* 17.4: As with the variance -- if the standard deviation of a variable is 0, then there is no variation in the variable (i.e., it is a constant).
+* 17.5: For our worked example above, we calculate the standard deviation by taking the square root of the variance that we already estimated:
+
+```Rout
+
 
 #### Practice Exercises for this Week
 
