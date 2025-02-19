@@ -1120,7 +1120,27 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 <p align="center">
 <img src="/gfiles/fig28.png" width="800px">
 </p>
+
 *Note*: a similar example is discussed in your textbook on pp. 95-96.
+
+#### Topic 16 Begins Here
+
+* 16.1: The *variance*  and the *standard deviation* (topic 17) overcome the problem of deviations summing to zero discussed above.
+* 16.2: Both of these measures consider the variation of individual data points about the mean or average value of the data.
+* 16.3: Here is the formula for the variance (equation 5.4 on page 96):
+
+<p align="center">
+<img src="/gfiles/fig29.png" width="800px">
+</p>
+
+* 16.4: Here is a worked example (similar to the worked example on page 97):
+
+<p align="center">
+<img src="/gfiles/fig30.png" width="800px">
+</p>
+<p align="center">
+<img src="/gfiles/fig31.png" width="800px">
+</p>
 
 #### Practice Exercises for this Week
 
