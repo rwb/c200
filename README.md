@@ -1001,7 +1001,7 @@ Answer: I would recommend that you stay focused on exactly what the questions ar
 
 ### Lesson 7 - Tuesday 2/18/25
 
-* Reminder: your first assignment is due at 11:59pm (ET) on Wednesday 2/19/25.
+* Reminder: your first assignment is due at 11:59pm (ET) on ~~Wednesday 2/19/25~~ Thursday 2/20/25.
 * We will accept questions about the assignment up until 11:59am tomorrow. After that point, we will not be able to answer any further questions.
 * If you submit your assignment and then you decide you need to make a change, you can resubmit up to 2 additional times. The last version you submit will be the one that is graded.
 
