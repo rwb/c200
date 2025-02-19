@@ -999,6 +999,10 @@ Answer: I would recommend that you stay focused on exactly what the questions ar
 
 5. *Note*: There is an option on the assignment for you to submit a revised version of the assignment (up to 3 revisions will be accepted) if you wish to do so (for example, if you submit the assignment and you find a mistake before the submission deadline). If you choose to submit a revision, the revision will be the one that is graded. Also, if you submit a revision after the submission deadline, it will be subject to the late submission point reduction rules. So I would suggest not submitting a revision after the deadline has passed unless you think the improvement will be worth the point loss penalty for a late submission.
 
+6. For questions 3 and 4 on the homework should the murder rate be added to the table from the previous questions or is having the information in a separate set ok?
+
+Answer: I didn't specify this in the question so it is up to you.
+
 ### Lesson 7 - Tuesday 2/18/25
 
 * Reminder: your first assignment is due at 11:59pm (ET) on ~~Wednesday 2/19/25~~ Thursday 2/20/25.
