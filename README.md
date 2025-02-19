@@ -1130,7 +1130,7 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 * 16.3: Here is the formula for the variance (equation 5.4 on page 96):
 
 <p align="center">
-<img src="/gfiles/fig29.png" width="800px">
+<img src="/gfiles/fig29.png" width="350px">
 </p>
 
 * 16.4: Here is a worked example (similar to the worked example on page 97):
