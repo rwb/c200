@@ -1102,6 +1102,25 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 <img src="/gfiles/fig25.png" width="800px">
 </p>
 
+### Lesson 8 - Thursday 2/20/25
+
+* Today, we continue working on Chapter 5 (Dispersion).
+* We ended our last class by discussing the range which only uses limited information in the data.
+* The measures we will discuss today use information from each observation in the dataset.
+* A preliminary concept we need to discuss is the idea of mean or average deviation scores.
+* This will be fundamental information for Topics 16, 17, and 19.
+* We consider an example:
+
+<p align="center">
+<img src="/gfiles/fig26.png" width="800px">
+</p>
+<p align="center">
+<img src="/gfiles/fig27.png" width="800px">
+</p>
+<p align="center">
+<img src="/gfiles/fig28.png" width="800px">
+</p>
+
 #### Practice Exercises for this Week
 
 - Problems 5.1a, 5.1c, 5.2, 5.3a, 5.3b, 5.4, 5.5, 5.6, 5.7, 5.8, 5.10, and 5.11
