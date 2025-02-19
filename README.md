@@ -997,6 +997,8 @@ Answer: I can't preview/pregrade documents. What I can tell you is that as long 
 
 Answer: I would recommend that you stay focused on exactly what the questions are asking you to do.
 
+5. *Note*: There is an option on the assignment for you to submit a revised version of the assignment (up to 3 revisions will be accepted) if you wish to do so (for example, if you submit the assignment and you find a mistake before the submission deadline). If you choose to submit a revision, the revision will be the one that is graded. Also, if you submit a revision after the submission deadline, it will be subject to the late submission point reduction rules. So I would suggest not submitting a revision after the deadline has passed unless you think the improvement will be worth the point loss penalty for a late submission.
+
 ### Lesson 7 - Tuesday 2/18/25
 
 * Reminder: your first assignment is due at 11:59pm (ET) on Wednesday 2/19/25.
@@ -1163,6 +1165,9 @@ sqrt(3.142857143) = 1.77281052, which rounds to 1.773.
 
 #### Topic 18 Begins Here
 
+* 18.1: When two distributions have similar means, the standard deviations of those distributions can be usefully compared.
+* 18.2: When two distributions have different means, it is customary to divide the standard deviation by the mean in each group.
+* 18.3: This adjustment is called the *coefficient of relative variation* and facilitates the comparison of variation across groups when the means of the two groups are different from each other.
 * 
 
 #### Practice Exercises for this Week
