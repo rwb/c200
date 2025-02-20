@@ -1185,7 +1185,7 @@ Conclusion: After adjusting the between-group variation for the mean, the variat
 * 19.6: Nevertheless, there are some important distinctions which we will now discuss.
 * 19.7: As we have seen, if we sum the mean differences the total is 0.
 * 19.8: The variance and standard deviation address this problem by squaring the differences.
-* 19.9: The mean deviation (probably more accurately referred to as the *mean absolute deviation*) overcomes this issue as well:
+* 19.9: The mean deviation (probably more accurately referred to as the *mean absolute deviation*) overcomes this issue as well but does so by evaluating the *absolute values* of the difference scores:
 
 <p align="center">
 <img src="/gfiles/fig34.png" width="800px">
