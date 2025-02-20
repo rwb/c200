@@ -1140,10 +1140,10 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 * 16.4: Here is a worked example (similar to the worked example on pages 97-99):
 
 <p align="center">
-<img src="/gfiles/fig30.png" width="800px">
+<img src="/gfiles/fig30a.png" width="800px">
 </p>
 <p align="center">
-<img src="/gfiles/fig31.png" width="800px">
+<img src="/gfiles/fig30b.png" width="800px">
 </p>
 
 *Note*: in the special case where the variance is 0, that means there is no variation in the variable.
