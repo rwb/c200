@@ -1193,7 +1193,7 @@ Conclusion: After adjusting the between-group variation for the mean, the variat
 
 #### Chapter 6 and Topic 20 Begins Here
 
-* 20.1: Scientific knowledge is often based on *samples* rather than a full *population* or *universe* of cases (p. 116). Your book describes this as a dilemma.
+* 20.1: Scientific knowledge is often based on a *sample* rather than a full *population* or *universe* of cases (p. 116). Your book describes this as a dilemma.
 * 20.2: We study a sample and then use the sample information to develop an *inference* about what is occurring in a scientifically interesting population.
 * 20.3: Example: physicists haven't studied the motion of every rock that orbits the sun. Yet physicists are confident that they can make predictions about the future pathways of these objects based on what they have learned from the samples of rocks that have been carefully studied. The practice of developing inferences about a population or universe based on what is observed in a sample is called *extrapolation*.
 * 20.4: Another Example: Take a globe off its stand. Throw it in the air, catch it, and look at whether your right index finger is touching land or water. Then do this another 100 or so times. What you have is a sample of experiments where each experiment has one of two outcomes, land or water. What fraction of the time do you think your finger will be touching water?
