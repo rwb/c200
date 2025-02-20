@@ -404,6 +404,8 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 
 ### Lesson 4 - Thursday 2/6/25
 
+#### Topic 4 Begins Here (Validity)
+
 * 4.1: Validity (pp. 23-24): does the measurement accurately reflect the concept that is being measured (acronym: MARC). So validity pertains to accuracy of measurement.
 * 4.2: Textbook example: measuring criminal offending: (1) self-report surveys; or RAP (record of arrest and prosecution) sheet information including - (2) arrest records; (3) conviction records; and (4) incarceration records.
 * 4.3: On page 24, the textbook argues that "self-report surveys are generally considered to provide the most valid measure of frequency of offending." Yet this measure is not perfect. What could go wrong?
@@ -436,6 +438,7 @@ Criminologists often converse about fairly broad concepts. Terms like crime rate
 <img src="/gfiles/fig16.png" width="700px">
 </p>
 
+#### Topic 5 Begins Here (Reliability)
 * 5.1: Reliability (pp. 24-25): repeatability or consistency of the measurement (example: bathroom scale).
 * 5.2: Example: suppose I sit near an intersection with a 4-way stop sign for 3 hours. I count the number of cars that go through the intersection and I also count the number of cars that fail to come to a complete stop. Do you have any concerns about the reliability of the measurement? How could we improve it?
 * 5.3: Relationship between reliability and validity: a measure can be reliable but not valid; if a measure is unreliable it is also invalid.
@@ -607,7 +610,7 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 * A primary purpose of descriptive statistics is to transmit information about what is typical.
 * Considering a specific variable, we summarize typicality through measures of central tendency (mode, median, and mean)
 
-#### Topic 6 Begins Here
+#### Topic 6 Begins Here (Mode)
 
 * 6.1: First measure of central tendency: the mode (pp. 60-62). The modal category is the most frequently occurring category, level, or value of a variable.
 * 6.2: Mode Example: Sanction for a sample of 100 people cited for littering: (1) Fine (N=22); (2) Civics class (N=25); (3) Community Service (N=53). What is the mode?
@@ -620,7 +623,7 @@ The year 2001 is an obvious outlier due to the terrorist attacks of September 11
 * 6.4: It is most natural to use the mode as a measure of central tendency for *nominal* variables (categorical variables with no logical way to order the categories).
 * 6.5: The mode can be used with ordinal, interval, and ratio variables but it is often not a particularly meaningful exercise to do so.
 
-#### Topic 7 Begins Here
+#### Topic 7 Begins Here (Median)
 
 * 7.1: For variables with order, the median (pp. 62-68) will often be more useful than the mode.
 * 7.2: Suppose we ask a sample of 97 people to answer a survey question about how safe they feel walking in their neighborhood in the early evening. Among the 97 people, here are the answers we get back: (1) very unsafe (N=16); (2) somewhat unsafe (N=21); (3) somewhat safe (N=38); (4) very safe (N=22). What is the median safety assessment?
@@ -787,7 +790,7 @@ The year corresponding to the median murder rate is 1998.
 - We don't know the exact number but we know it must lie within that range.
 ```
 
-#### Topic 8 Begins Here
+#### Topic 8 Begins Here (Mean)
 
 * 8.1: The arithmetic average or mean (pp. 68-71) is an important measure of central tendency.
 * 8.2: The mean considers the precise value of each score in estimating the "typical" score.
@@ -847,7 +850,7 @@ Score at the 4th position: 7.5 (this is the median)
 - So, the missing observation is 25.
 ```
 
-#### Topic 9 Begins Here
+#### Topic 9 Begins Here (Least Squares)
 
 * 9.1: One way to formalize our understanding of the mean's ability to summarize the information in the data is to study its *least squares* property (pp. 74-76).
 * 9.2: Let's think about a difference score between each individual data point, $x_i$, and a measure of central tendency, $CT$.
@@ -937,7 +940,7 @@ sum of the squares =  2.086419+
 * 9.10: Notice that the mean *minimizes* the sum of the squared differences. This is a demonstration of the mean's *least squares* property.
 * 9.11: A friendly reminder from your earlier arithmetic classes: when you have parentheses, do the operations within the parentheses first and then do other things afterward.
 
-#### Topic 10 Begins Here
+#### Topic 10 Begins Here (Skewness)
 
 * 10.1: The mean and median will often be very close to each other -- but sometimes not.
 * 10.2: New Term: A *distribution* refers to the way the cases or units in a study are allocated across the categories. For example, in a sample of people sentenced to prison, we might have a variable that measures the most serious offense for which each offender was convicted. The values for this variable could be: (1) violent; (2) property; (3) drug; or (4) other. When we consider the number of cases in each category is the variable's distribution. The *bar chart* below displays the distribution of the most serious conviction offense variable for a sample of 1000 inmates.
@@ -1009,7 +1012,7 @@ Answer: I didn't specify this in the question so it is up to you.
 * We will accept questions about the assignment up until 11:59am tomorrow. After that point, we will not be able to answer any further questions.
 * If you submit your assignment and then you decide you need to make a change, you can resubmit up to 2 additional times. The last version you submit will be the one that is graded.
 
-#### Chapter 5 (Dispersion) and Topic 11 Begins Here
+#### Chapter 5 (Dispersion) and Topic 11 Begins Here (Proportion in Modal Category)
 
 * 11.1: As a reminder, the mode is the most frequently occurring category, level, or value, of a variable.
 * 11.2: Recall the example from Topic 6.2: Sanction for a sample of 100 people cited for littering: (1) Fine (N=22); (2) Civics class (N=25); (3) Community Service (N=53). What is the mode?
@@ -1028,11 +1031,11 @@ Answer: I didn't specify this in the question so it is up to you.
 - The proportion of cases in the modal category is 53/100 = 0.53
 ```
 
-#### Topic 12
+#### Topic 12 (Percentage in Modal Category)
 
 * We might choose to express the proportion in the modal categoary as a percentage instead (pp. 89-90). To do this, we would simply multiply 0.53 by 100 which would lead us to the conclusion that 53% of the cases were in the modal category.
 
-#### Topic 13 Begins Here
+#### Topic 13 Begins Here (Variation Ratio)
 
 * 13.1: The proportion/percentage of cases in the modal category gives us a sense of how common it is for our study cases to be in the most commonly occurring category. The other side of this coin -- the variation ratio -- is the proportion of cases that are not in the modal category.
 * 13.2: So, we can obtain the variation ratio by subtracting the proportion of cases in the modal category from 1.
@@ -1046,7 +1049,7 @@ Answer: I didn't specify this in the question so it is up to you.
 * 13.5: An issue with the variation ratio is that the upper bound will in general be less than 1 (p. 91).
 * *Note*: I have decided that I'm not going to test you on the *bounds on the variation ratio*. This means you are not responsible for the material after the first sentence on page 91. I just want you to be aware of point 13.5 so you know that the variation ratio is sensitive to the unique features of the data on which it is based.
 
-#### Topic 14 Begins Here
+#### Topic 14 Begins Here (Index of Qualitative Variation)
 
 * 14.1: Index of qualitative variation (IQV) describes variation for a nominal or ordinal (categorical) variable on a 0 to 100 scale (pp. 92-94).
 * 14.2: The basic question this measure answers is how much variation exists in our data compared to the maximum dispersion that could have existed (if cases were equally spread out among the categories).
@@ -1097,7 +1100,7 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 
 *Note*: I simplified the summation notation in the equation for the diversity index, *D*, above.
 
-#### Topic 15 Begins Here
+#### Topic 15 Begins Here (Range)
 
 * 15.1: A basic measure of dispersion for interval and ratio level data is the *range*.
 * 15.2: Here is the formula:
@@ -1127,7 +1130,7 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 
 *Note*: a similar example is discussed in your textbook on pp. 95-96.
 
-#### Topic 16 Begins Here
+#### Topic 16 Begins Here (Variance)
 
 * 16.1: The *variance*  and the *standard deviation* (topic 17) overcome the problem of deviations summing to zero discussed above.
 * 16.2: Both of these measures consider the variation of individual data points about the mean or average value of the data.
@@ -1148,7 +1151,7 @@ p1sq+p2sq+p3sq+p4sq = 0.0225+0.0400+0.0900+0.1225 = 0.275
 
 *Note*: in the special case where the variance is 0, that means there is no variation in the variable.
 
-#### Topic 17 Begins Here
+#### Topic 17 Begins Here (Standard Deviation)
 
 * 17.1: The *standard deviation* (mentioned above) is simply the square root of the variance (discussed in the book on pages 99 and 102-103).
 * 17.2: Main benefit of the standard deviation is that it expresses variation in terms of the original scale of the variable.
@@ -1161,7 +1164,7 @@ sqrt(3.142857143) = 1.77281052, which rounds to 1.773.
 ```
 *Note* : there is a section on pp. 100-101 that provides a shortcut formula for the variance and standard deviation. I am not going to go over the shortcut formula in this class but you are welcome to use it if you want to.
 
-#### Topic 18 Begins Here
+#### Topic 18 Begins Here (Coefficient of Relative Variation)
 
 * 18.1: When two distributions have similar means, the standard deviations of those distributions can be usefully compared (pp. 104-105).
 * 18.2: When two distributions have different means, it is customary to divide the standard deviation by the mean in each group.
@@ -1175,7 +1178,7 @@ CRV for property offenders: s/mean = 3/12 = 0.25
 
 Conclusion: After adjusting the between-group variation for the mean, the variation is greater for the violent offenders than it is for the property offenders.
 
-#### Topic 19 Begins Here
+#### Topic 19 Begins Here (Mean Absolute Deviation)
 
 * 19.1: Earlier we considered mean difference scores for individual observations.
 * 19.2: We noted that when these scores are computed that they add up to zero.
@@ -1191,7 +1194,7 @@ Conclusion: After adjusting the between-group variation for the mean, the variat
 <img src="/gfiles/fig34.png" width="800px">
 </p>
 
-#### Chapter 6 and Topic 20 Begins Here
+#### Chapter 6 and Topic 20 Begins Here (Samples and Populations)
 
 * 20.1: Scientific knowledge is often based on a *sample* rather than a full *population* or *universe* of cases (p. 116). Your book describes this as a dilemma.
 * 20.2: We study a sample and then use the sample information to develop an *inference* about what is occurring in a scientifically interesting population.
