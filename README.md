@@ -1169,8 +1169,8 @@ sqrt(3.142857143) = 1.77281052, which rounds to 1.773.
 * 18.4: Example: Suppose we have 2 datasets measuring the number of prior convictions for violent and property offenders entering prison this month. The violent offenders had a mean of 5 prior convictions (with a standard deviation of 1) and the property offenders had a mean of 12 prior convictions with a standard deviation of 3. So, the standard deviation for the property offenders is three times the standard deviation of the violent offenders. How does consideration of the mean differences between the two groups, affect our interpretation of the dispersion in the two groups? If we compute the coefficient of relative variation for each group, we get:
 
 ```Rout
-CRV for violent offenders: s/mean = 5/1 = 5
-CRV for property offenders: s/mean = 12/3 = 4
+CRV for violent offenders: mean/s = 5/1 = 5
+CRV for property offenders: mean/s = 12/3 = 4
 ```
 
 Conclusion: After adjusting the between-group variation for the mean, the variation is lower for the property offenders than it is for the violent offenders.
