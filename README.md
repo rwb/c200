@@ -111,7 +111,7 @@ And, here are the expected exam dates:
 16. variance (2/20)
 17. standard deviation (2/20)
 18. coefficient of relative variation (2/20)
-19. mean (and median) absolute deviation (2/20)
+19. mean absolute deviation (2/20)
 
 #### Chapter 6: Statistical Inference
 
@@ -1183,6 +1183,9 @@ Conclusion: After adjusting the between-group variation for the mean, the variat
 * 19.4: On pp. 105-107, your textbook discusses a concept called "mean deviation."
 * 19.5: The idea of mean deviation is closely connected to the mean difference scores discussed earlier.
 * 19.6: Nevertheless, there are some important distinctions which we will now discuss.
+* 19.7: As we have seen, if we sum the mean differences the total is 0.
+* 19.8: The variance and standard deviation address this problem by squaring the differences.
+* 19.9: The mean deviation (probably more accurately referred to as the *mean absolute deviation*) overcomes this issue as well:
 
 #### Practice Exercises for this Week
 
