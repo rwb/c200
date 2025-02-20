@@ -1187,6 +1187,10 @@ Conclusion: After adjusting the between-group variation for the mean, the variat
 * 19.8: The variance and standard deviation address this problem by squaring the differences.
 * 19.9: The mean deviation (probably more accurately referred to as the *mean absolute deviation*) overcomes this issue as well:
 
+<p align="center">
+<img src="/gfiles/fig34.png" width="800px">
+</p>
+
 #### Practice Exercises for this Week
 
 - Problems 5.1a, 5.1c, 5.2, 5.3a, 5.3b, 5.4, 5.5, 5.6, 5.7, 5.8, 5.10, and 5.11
