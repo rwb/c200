@@ -72,7 +72,7 @@ The various topics I plan to discuss in this course are listed below (expected d
 
 * Assignment #1: distributed on Thursday 2/13; due on ~~Wednesday 2/19~~ Thursday 2/20 at 11:59pm (ET)
 * Assignment #2: distributed on Thursday 3/13; due on Wednesday 3/26 at 11:59pm (ET)
-*  #3: distributed on Thursday 4/24; due on Wednesday 4/30 at 11:59pm (ET)
+* Assignment #3: distributed on Thursday 4/24; due on Wednesday 4/30 at 11:59pm (ET)
 
 And, here are the expected exam dates:
 
