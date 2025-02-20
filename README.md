@@ -1173,7 +1173,7 @@ CRV for violent offenders: s/mean = 1/5 = 0.3
 CRV for property offenders: s/mean = 3/12 = 0.25
 ```
 
-Conclusion: After adjusting the between-group variation for the mean, the variation is lower for the property offenders than it is for the violent offenders.
+Conclusion: After adjusting the between-group variation for the mean, the variation is greater for the violent offenders than it is for the property offenders.
 
 #### Topic 19 Begins Here
 
@@ -1191,14 +1191,6 @@ Conclusion: After adjusting the between-group variation for the mean, the variat
 <img src="/gfiles/fig34.png" width="800px">
 </p>
 
-#### Practice Exercises for this Week
-
-- Problems 5.1a, 5.1c, 5.2, 5.3a, 5.3b, 5.4, 5.5, 5.6, 5.7, 5.8, 5.10, and 5.11
-- Excluded problems which you do not need to do: 5.1b, 5.3c, and 5.9 (there will not be any exam questions like these questions).
-- There is no mean (absolute) deviation problem in the book, so I will give you a couple here (I will go over these on Tuesday 2/25/25).
-- Mean Deviation Problem #1 - Consider the following waiting times (in years) on death row for a sample of 6 executed offenders: 5,7,11,18,9,10. Calculate the mean (absolute) deviation for these data.
-- Mean Deviation Problem #2 - A sample of 9 kids who have all been on probation for 1 year are studied to measure the number of violations of supervision conditions during that 1-year time frame. The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean (absolute) deviation for this dataset.
-
 #### Chapter 6 and Topic 20 Begins Here
 
 * 20.1: Scientific knowledge is often based on *samples* rather than a full *population* or *universe* of cases (p. 116). Your book describes this as a dilemma.
@@ -1208,3 +1200,11 @@ Conclusion: After adjusting the between-group variation for the mean, the variat
 * 20.5: There is no single definition of a population. What is a reasonable population or universe for one problem may be quite different than the population  for a different problem (p. 117).
 * 20.6: Here is a good example of a sample-and-population problem: the National Crime Victimization Survey ([link to 2023 report](https://bjs.ojp.gov/document/cv23.pdf)). In this case, the population is described on pages 19 and 35.
 * 20.7: Here is another example of a sample-and-population problem: the Bureau of Justice Statistics Recidivism Studies (here is a [link](https://bjs.ojp.gov/content/pub/pdf/rpr94.pdf) to the 1994 BJS State Prisoner Recidivism Study); population and sample selection methodology are described on pp. 10-11.
+
+#### Practice Exercises for this Week
+
+- Problems 5.1a, 5.1c, 5.2, 5.3a, 5.3b, 5.4, 5.5, 5.6, 5.7, 5.8, 5.10, and 5.11
+- Excluded problems which you do not need to do: 5.1b, 5.3c, and 5.9 (there will not be any exam questions like these questions).
+- There is no mean (absolute) deviation problem in the book, so I will give you a couple here (I will go over these on Tuesday 2/25/25).
+- Mean Deviation Problem #1 - Consider the following waiting times (in years) on death row for a sample of 6 executed offenders: 5,7,11,18,9,10. Calculate the mean (absolute) deviation for these data.
+- Mean Deviation Problem #2 - A sample of 9 kids who have all been on probation for 1 year are studied to measure the number of violations of supervision conditions during that 1-year time frame. The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean (absolute) deviation for this dataset.
