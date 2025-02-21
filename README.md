@@ -113,6 +113,8 @@ And, here are the expected exam dates:
 18. coefficient of relative variation (2/20)
 19. mean absolute deviation (2/20)
 
+*Note*: for topic 13, there are some comments in the chapter on the bounds for the variation ratio. This commentary will not be covered on the exam.
+
 #### Chapter 6: Statistical Inference
 
 20. samples and populations (2/25)
