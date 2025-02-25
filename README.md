@@ -1256,6 +1256,11 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 <img src="/gfiles/fig38.png" width="700px">
 </p>
 
+* 20.13: A *simple random sample* is a special type of probability sample; we will devote most of our attention in this course to simple random sampling problems. Here is some more information about simple random samples:
+
+<p align="center">
+<img src="/gfiles/fig39.png" width="700px">
+</p>
 
 #### Topic 21: Parameters and Statistics
 
