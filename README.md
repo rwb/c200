@@ -1262,6 +1262,13 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 <img src="/gfiles/fig39.png" width="700px">
 </p>
 
+* 20.14: Simple random samples are a special case of probability samples:
+
+<p align="center">
+<img src="/gfiles/fig40.png" width="700px">
+</p>
+
+
 #### Topic 21: Parameters and Statistics
 
 * A *parameter* is a quantity that is based on an entire population (or universe) of cases (p. 117).
