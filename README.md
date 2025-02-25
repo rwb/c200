@@ -1306,8 +1306,9 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 * 22.2: A research question is a question that can be answered by way of the *scientific method*.
 * 22.3: In other words, if we can use scientific methods to answer a question that question is a research or *researchable* question.
 * 22.4: A research question involve an effort to either describe or explain some scientifically interesting phenomenon (possibly both).
-* 22.5: Descriptive research is designed to answer questions like "what's going on?"
-* 22.6: Here is an example of population and sample data on age at the time of release from prison from the North Carolina Department of Corrections (NCDOC) for the year 1978.
+* 22.5: Research questions are often expressed in fairly general terms.
+* 22.6: Descriptive research is designed to answer questions like "what's going on?"
+* 22.7: Here is an example of population and sample data on age at the time of release from prison from the North Carolina Department of Corrections (NCDOC) for the year 1978.
 
 <p align="center">
 <img src="/gfiles/f2.png" width="700px">
@@ -1316,20 +1317,18 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 <img src="/gfiles/f3.png" width="700px">
 </p>
 
-* 22.7: Explanatory research is designed to answer questions like "why do the data look the way they do?"
-* 22.8: Here is an example from the death penalty literature. Consider the interesting case of South Dakota:
+* 22.8: Explanatory research is designed to answer questions like "why do the data look the way they do?"
+* 22.9: Here is an example from the death penalty literature. An interesting question is whether the death penalty reduces murder. Consider the case of South Dakota:
 
 <p align="center">
 <img src="/gfiles/fig45.png" width="700px">
 </p>
 
-* 22.9: Now, let's consider what happens when we look at North Dakota:
+* Now, let's consider what happens when we look at North Dakota:
 
 <p align="center">
 <img src="/gfiles/fig46.png" width="700px">
 </p>
-
-* 22.10: Notice that here we are trying to figure out whether the reinstatement of the death penalty in South Dakota could plausibly have caused a reduction in homicide rates in that state. The use of North Dakota as a *control* group can help us think about this in a more rigorous way.
 
 #### Practice Questions for this Week
 
