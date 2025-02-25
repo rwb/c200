@@ -1240,3 +1240,25 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 <p align="center">
 <img src="/gfiles/fig36.png" width="600px">
 </p>
+
+#### Topic 20: Samples and Populations (Continued)
+
+* 20.8: There are many ways that samples can be drawn from population.
+* 20.9: The *sampling methodology* is the approach that is used to select a sample from the population.
+* 20.10: Two broad methodologies: (1) random or probability samples; and (2) nonprobability samples.
+* 20.11: Both are used quite often in criminology and criminal justice research.
+* 20.12: Here is an example application:
+
+<p align="center">
+<img src="/gfiles/fig37.png" width="600px">
+</p>
+<p align="center">
+<img src="/gfiles/fig38.png" width="600px">
+</p>
+
+
+#### Topic 21: Parameters and Statistics
+
+* A *parameter* is a quantity that is based on an entire population (or universe) of cases (p. 117).
+* A *statistic* is a sample quantity that is meant to be an *estimate* of a population parameter.
+* 
