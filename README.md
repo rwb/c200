@@ -1268,6 +1268,11 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 <img src="/gfiles/fig40.png" width="700px">
 </p>
 
+* 20.15: What does the term *probability* mean?
+
+<p align="center">
+<img src="/gfiles/fig41.png" width="700px">
+</p>
 
 #### Topic 21: Parameters and Statistics
 
