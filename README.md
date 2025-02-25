@@ -1274,6 +1274,12 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 <img src="/gfiles/fig41.png" width="700px">
 </p>
 
+* 20.16: An overview of different types of probability sampling:
+
+<p align="center">
+<img src="/gfiles/fig42.png" width="700px">
+</p>
+
 #### Topic 21: Parameters and Statistics
 
 * A *parameter* is a quantity that is based on an entire population (or universe) of cases (p. 117).
