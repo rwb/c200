@@ -1250,10 +1250,10 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 * 20.12: Here is an example application:
 
 <p align="center">
-<img src="/gfiles/fig37.png" width="600px">
+<img src="/gfiles/fig37.png" width="700px">
 </p>
 <p align="center">
-<img src="/gfiles/fig38.png" width="600px">
+<img src="/gfiles/fig38.png" width="700px">
 </p>
 
 
