@@ -1290,4 +1290,16 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 
 * 21.1: A *parameter* is a quantity that is based on an entire population (or universe) of cases (p. 117).
 * 21.2: A *statistic* is a sample quantity that is meant to be an *estimate* of a population parameter.
-* 21.3: 
+* 21.3: Let's return to our recidivism example:
+
+<p align="center">
+<img src="/gfiles/fig38.png" width="700px">
+</p>
+
+* 21.4: Compare this exercise to the exercise in Chapter 6 (pp. 118-119 and Table 6.2).
+* 21.5: We have a known population parameter, 67.5% and we have the recidivism rates that were calculated in individual samples.
+* 21.6: When we use sample statistics to learn about population parameters, we are engaged in the process of *statistical inference* (p. 119).
+
+#### Topic 22: The Research Hypothesis
+
+* 22.1: 
