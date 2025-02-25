@@ -1243,7 +1243,7 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 
 #### Topic 20: Samples and Populations (Continued)
 
-* 20.8: There are many ways that samples can be drawn from population.
+* 20.8: There are many ways that samples can be drawn from a population.
 * 20.9: The *sampling methodology* is the approach that is used to select a sample from the population.
 * 20.10: Two broad methodologies: (1) random or probability samples; and (2) nonprobability samples.
 * 20.11: Both are used quite often in criminology and criminal justice research.
@@ -1334,4 +1334,6 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 #### Practice Questions for this Week
 
 * Problems 6.1-6.5 at the back of Chapter 6.
-* 
+* Suppose I tell you that a police chief decides to open a neighborhood police station. Then, we find that the average monthly number of robberies in the year before the police station opened was 12.2; in the year after it opened the average monthly number of robberies was 8.7. Based on this information, what conclusions can be drawn about the causal effect of the police station on the monthly robbery rates? Explain your reasoning.
+* If I go to a school and pass out a survey to the students who are present, do I have a probability or a nonprobability sample? Explain.
+* Considering the 2 charts of North Carolina prison releasees above, I tell you that the mean of the first chart is 30 and the mean of the second chart is 29. What could explain the difference between the 2 means?
