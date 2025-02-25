@@ -1225,3 +1225,18 @@ supervision conditions during that 1-year time frame.
 The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 (absolute) deviation for this dataset.
 ```
+
+### Lesson 9 - Tuesday 2/25/25
+
+* Reminder: first exam is scheduled for Tuesday 3/4/25
+* Mean (Absolute) Deviation Problem #1:
+
+<p align="center">
+<img src="/gfiles/fig35.png" width="800px">
+</p>
+
+* Mean (Absolute) Deviation Problem #1:
+
+<p align="center">
+<img src="/gfiles/fig36.png" width="800px">
+</p>
