@@ -1280,6 +1280,12 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 <img src="/gfiles/fig42.png" width="700px">
 </p>
 
+* 20.17: An overview of nonprobability sampling:
+
+<p align="center">
+<img src="/gfiles/fig43.png" width="700px">
+</p>
+
 #### Topic 21: Parameters and Statistics
 
 * A *parameter* is a quantity that is based on an entire population (or universe) of cases (p. 117).
