@@ -1305,7 +1305,7 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 * 22.1: The first part of the inferential process is deciding on a research question.
 * 22.2: A research question is a question that can be answered by way of the *scientific method*.
 * 22.3: In other words, if we can use scientific methods to answer a question that question is a research or *researchable* question.
-* 22.4: A research question could involve an effort to describe or explain.
+* 22.4: A research question involve an effort to either describe or explain some scientifically interesting phenomenon (possibly both).
 * 22.5: Descriptive research is designed to answer questions like "what's going on?"
 * 22.6: Here is an example of population and sample data on age at the time of release from prison from the North Carolina Department of Corrections (NCDOC) for the year 1978.
 
@@ -1331,3 +1331,7 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 
 * 22.10: Notice that here we are trying to figure out whether the reinstatement of the death penalty in South Dakota could plausibly have caused a reduction in homicide rates in that state. The use of North Dakota as a *control* group can help us think about this in a more rigorous way.
 
+#### Practice Questions for this Week
+
+* Problems 6.1-6.5 at the back of Chapter 6.
+* 
