@@ -1232,11 +1232,11 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 * Mean (Absolute) Deviation Problem #1:
 
 <p align="center">
-<img src="/gfiles/fig35.png" width="800px">
+<img src="/gfiles/fig35.png" width="600px">
 </p>
 
-* Mean (Absolute) Deviation Problem #1:
+* Mean (Absolute) Deviation Problem #2:
 
 <p align="center">
-<img src="/gfiles/fig36.png" width="800px">
+<img src="/gfiles/fig36.png" width="600px">
 </p>
