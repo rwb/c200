@@ -1286,8 +1286,15 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 <img src="/gfiles/fig43.png" width="700px">
 </p>
 
+* 20.18: Organizational chart showing a wide range of sampling methodologies:
+
+<p align="center">
+<img src="/gfiles/fig44.png" width="700px">
+</p>
+
+
 #### Topic 21: Parameters and Statistics
 
-* A *parameter* is a quantity that is based on an entire population (or universe) of cases (p. 117).
-* A *statistic* is a sample quantity that is meant to be an *estimate* of a population parameter.
-* 
+* 21.1: A *parameter* is a quantity that is based on an entire population (or universe) of cases (p. 117).
+* 21.2: A *statistic* is a sample quantity that is meant to be an *estimate* of a population parameter.
+* 21.3: 
