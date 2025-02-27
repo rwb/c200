@@ -1342,6 +1342,7 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 #### Announcements
 
 * Reminder: Exam 1 is scheduled for Tuesday 3/4/25.
+* Please review all guidelines and rules for the exam stated in the syllabus above.
 * You should bring a calculator that can take square roots (no phones, computers, or other technology are permitted).
 * The exam will include problems and questions like the ones we have been working on each week since the beginning of the semester.
 * I am providing a draft formula sheet for exam 1 ([link](https://github.com/rwb/c200/blob/main/gfiles/formula1.pdf)). The formula sheet will be handed out with the exam. I am providing this sheet so you know what will be included on it.
