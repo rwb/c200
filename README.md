@@ -1336,3 +1336,7 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 * Suppose I tell you that a police chief decides to open a neighborhood police station. Then, we find that the average monthly number of robberies in the year before the police station opened was 12.2; in the year after it opened the average monthly number of robberies was 8.7. Based on this information, what conclusions can be drawn about the causal effect of the police station on the monthly robbery rates? Explain your reasoning.
 * If I go to a school and pass out a survey to the students who are present, do I have a probability or a nonprobability sample? Explain.
 * Considering the 2 charts of North Carolina prison releasees above, I tell you that the mean of the first chart is 30 and the mean of the second chart is 29. What could explain the difference between the 2 means?
+
+#### Draft Formula Sheet for Exam #1
+
+* Formula sheet is in pdf format ([link](https://github.com/rwb/c200/blob/main/gfiles/formula1.pdf)).
