@@ -1337,6 +1337,43 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 * If I go to a school and pass out a survey to the students who are present, do I have a probability or a nonprobability sample? Explain.
 * Considering the 2 charts of North Carolina prison releasees above, I tell you that the mean of the first chart is 30 and the mean of the second chart is 29. What could explain the difference between the 2 means?
 
-#### Draft Formula Sheet for Exam #1
+### Lesson 10 - Thursday 2/27/25
 
-* Formula sheet is in pdf format ([link](https://github.com/rwb/c200/blob/main/gfiles/formula1.pdf)).
+#### Announcements
+
+* Reminder: Exam 1 is scheduled for Tuesday 3/4/25.
+* You should bring a calculator that can take square roots (no phones, computers, or other technology are permitted).
+* The exam will include problems and questions like the ones we have been working on each week since the beginning of the semester.
+* I am providing a draft formula sheet for exam 1 ([link](https://github.com/rwb/c200/blob/main/gfiles/formula1.pdf)). The formula sheet will be handed out with the exam. I am providing this sheet so you know what will be included on it.
+
+#### Topic 22: Research Questions (Continued)
+
+* 22.10: Recall from last time that research questions are usually expressed in general terms like, "what is the age distribution of offenders?" or "does the death penalty reduce murder?".
+* 22.11: In the context of a specific study, we need to become more specific about the precise empirical issue our study is addressing; this effort to become more specific often takes the form of a *hypothesis*.
+* 22.12: There are several different types of hypotheses: research hypotheses, directional/nondirectional hypotheses, and null hypotheses.
+
+#### Topic 23: Research Hypothesis
+
+* 23.1: A research hypothesis is a conjecture or idea that can be empirically tested within the context of a specific study.
+* 23.2: We usually base a research hypothesis on theory or prior research (i.e., it is an expectation derived from information that is available before our study is conducted).
+* 23.3: As your book notes on page 120, we do not assume that a research hypothesis is accurate or correct. Quite to the contrary, we are conducting the study to see whether the research hypothesis is consistent with the data we observe.
+* 23.4: An example -- Deterrence theory predicts that offending rates will drop when sanctions become more severe. This might lead us to contemplate a fairly general research question asking whether the death penalty reduces murder (thereby increasing public safety). Then, considering our South Dakota example from 22.9 (above), we might propose the following (more specific) research hypothesis -- If deterrence theory is correct, we expect that reinstatement of the death penalty in South Dakota would be followed by a *reduction* in homicides.
+* 23.5: What I described in 23.4 is a progression from a more general way of thinking (articulating a research question) to a more specific way of thinking (specifying an empirically testable research hypothesis); this is an example of *deductive reasoning*.
+
+#### Topic 24: Directional and Non-Directional Hypotheses
+
+* 24.1: Sometimes, our research hypotheses specify a particular direction. The example in 23.4 (above) specifies a direction of the effect or the change we expect to see based on theory or prior research. So, 23.4 specifies a *directional hypothesis*.
+* 24.2: Other times, however, our expectations are not as well defined, leading to a *nondirectional hypothesis*.
+* 24.3: Example of a nondirectional hypothesis: based on theory and prior research, we might question whether there is some kind of important causal connection between unemployment and crime. However, some theories predict that unemployment induces strain which increases offending while other theories predict that unemployment increases guardianship which decreases offending. Since we have different viable perspectives making different predictions we might specify a nondirectional hypothesis that expects there will be a *change* in offending when unemployment rates change.
+* 24.4: Notice that 23.4 uses the word *reduction* while 24.3 uses the directionally neutral term, *change*.
+* 24.5: When we specify a directional hypothesis we are saying we do not expect to see an outcome in the *opposite* direction. Using our death penalty example, we are saying that we do not believe there is a reasonable possibility that reinstatement of the death penalty could increase homicide rates (p. 120 discusses this issue).
+
+#### Topic 25: Null Hypothesis
+
+* 25.1: Notice that the terms *reduction* (23.4 above) and *change* (24.4 above) are inexact and vaguely stated.
+* 25.2: When researchers are doing empirical work, they will often investigate and test a more precisely stated *null hypothesis*.
+* 25.3: Considering our death penalty example, the null hypothesis might state that the difference between homicide rates before and after reinstatement of the death penalty will be equal to zero.
+* 25.4: Considering our unemployment and crime example, the null hypothesis might state that there will be zero change in crime rates when unemployment rates change.
+* 25.5: Once we have stated our null hypothesis, we are faced with the task of deciding what evidence would convince us that our precisely stated null hypothesis is wrong (i.e., that it should be rejected).
+
+#### This is the end of the material covered on Exam 1.
