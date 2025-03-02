@@ -1378,3 +1378,7 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 * 25.5: Once we have stated our null hypothesis, we are faced with the task of deciding what evidence would convince us that our precisely stated null hypothesis is wrong (i.e., that it should be rejected). We will turn to this issue next week.
 
 #### This is the end of the material covered on Exam 1.
+
+* Question from a student: I'm trying to prepare myself for this upcoming exam and was wondering if you had a practice test or an old exam you could share with me just so I have a better idea what to expect and to use it as more practice? Please let me know, thank you!
+
+Answer: I've addressed this issue in class but in case some of you weren't there when I did, here is my response: I don't circulate old exams. This week's exam and all exams in this class are closely connected to the homeowrk problems you've been working on each week. We have been going over these problems and questions each week during discussion sections and the slides showing the solutions to those problems (covered in the discussion sections) are posted on ELMS. Please review them if you have not done so. Finally, before each exam (including this one), I have been and will be taking time to review all of the material covered on the exam. There are many resources available to help you do well on this exam and I wish you all the best as you prepare. Good luck!
