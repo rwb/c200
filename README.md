@@ -1535,7 +1535,7 @@ which gives us the following output:
 ```
 
 * How do these numbers compare to those for the first county?
-* Let's create a side-by-side chart for the 2 distributions:
+* Let's create a side-by-side barchart for the 2 distributions:
 
 ```R
 par(mfrow=c(1,2))
@@ -1549,6 +1549,7 @@ barplot(table(y),
   xlab="Number of Months Sentenced to Jail")
 ```
 
+* Barcharts are discussed in your textbook beginning on page 40.
 * Be sure to save this chart so you can look at it again.
 * Here are the 2 charts together:
 
