@@ -1414,12 +1414,12 @@ Answer: I've addressed this issue in class but in case some of you weren't there
 
 #### Topic 27: Error Risk and Statistical Levels of Significance (pp. 125-128)
 
-* 27.1: It is a convention in the social sciences to say that Ho embodies a simple world. In a simple world, random noise is king of the hill.
-* 27.2: This is akin to saying that the presumption of innocence (Ho) is the king of the hill in a criminal trial.
-* 27.3: In both cases, to knock Ho off the top of the hill, we require strong evidence.
+* 27.1: It is a convention in the social sciences to say that Ho embodies simplicity.
+* 27.2: Simplicity and parsimony are high priorities in science (Einstein saying: "things should be as simple as possible -- but no simpler.").
+* 27.3: In order to abandon simplicity for something more complicated, we require strong evidence -- because we value simplicity.
 * 27.4: This demand for strong evidence to reject Ho is meant to reduce the chance of making a Type I error (rejecting Ho when Ho is true).
-* 27.5: In other words, to reject Ho, the chance of making a Type I error (reject Ho when Ho is true) must be small.
-* 27.6: The risk of Type II errors is generally managed through study planning efforts (i.e., deciding how many cases will be studied, for example).
-* 27.7: A *significance level* corresponds to the chance or probability of a Type I error a researcher is willing to tolerate.
-* 27.8: The *observed* significance level corresponds to the chance of a Type I error occurring if we reject Ho in a specific sample dataset.
-* 27.9: In this class, we will primarily focus on the concept of rejecting or failing to reject a population Ho based on the evidence that we observe in a particular sample.
+* 27.5: In other words, to reject Ho, the chance of making a Type I error (reject Ho when Ho is true) must be small (because of the value we place on simplicity).
+* 27.6: A *significance level* corresponds to the chance or probability of a Type I error a researcher is willing to tolerate.
+* 27.7: The *observed* significance level corresponds to the chance of a Type I error occurring if we reject Ho in a specific sample dataset.
+* 27.8: In this class, we will primarily focus on the concept of rejecting or failing to reject a population Ho based on the evidence that we observe in a particular sample.
+* 27.9: The risk of Type II errors is generally managed through study planning efforts (i.e., deciding how many cases will be studied, for example).
