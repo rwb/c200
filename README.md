@@ -1423,3 +1423,157 @@ Answer: I've addressed this issue in class but in case some of you weren't there
 * 27.7: The *observed* significance level corresponds to the chance of a Type I error occurring if we reject Ho in a specific sample dataset.
 * 27.8: In this class, we will primarily focus on the concept of rejecting or failing to reject a population Ho based on the evidence that we observe in a particular sample.
 * 27.9: The risk of Type II errors is generally managed through study planning efforts (i.e., deciding how many cases will be studied, for example).
+
+#### New R Code
+
+* Suppose I give you the following dataset comprised of the last 300 jail sentences (in months) handed down by the county court.
+* We denote the jail/prison sentence lengths by the variable, *x*.
+
+```R
+x = c(rep(1,5),rep(2,29),rep(3,51),rep(4,61),
+  rep(5,61),rep(6,44),rep(7,22),rep(8,17),rep(9,5),rep(10,4),11)
+table(x)
+```
+
+* This gives us the following output:
+
+```Rout
+> x = c(rep(1,5),rep(2,29),rep(3,51),rep(4,61),
++   rep(5,61),rep(6,44),rep(7,22),rep(8,17),rep(9,5),rep(10,4),11)
+> table(x)
+x
+ 1  2  3  4  5  6  7  8  9 10 11 
+ 5 29 51 61 61 44 22 17  5  4  1 
+>
+```
+
+* Next, we create a barplot giving us a visual representation of this distribution:
+
+```R
+barplot(table(x),
+  main="Distribution of Jail Sentences",
+  ylab="Number of People",
+  xlab="Number of Months Sentenced to Jail")
+```
+
+* Here is the output:
+
+<p align="center">
+<img src="/gfiles/jailtable.png" width="700px">
+</p>
+
+* Calculate the mean, median, minimum, maximum, and range of this distribution.
+
+```R
+mean(x)
+median(x)
+min(x)
+max(x)
+max(x)-min(x)
+```
+
+* Here are the results:
+
+```Rout
+> mean(x)
+[1] 4.716667
+> median(x)
+[1] 5
+> min(x)
+[1] 1
+> max(x)
+[1] 11
+> max(x)-min(x)
+[1] 10
+>
+```
+
+* Now, let's look at a similar dataset from the next-door neighbor county. We will call the sentence length variable in this dataset, *y*
+
+```R
+y = c(1,rep(2,7),rep(3,28),rep(4,45),rep(5,55),rep(6,57),
+  rep(7,39),rep(8,28),rep(9,22),rep(10,12),rep(11,3),rep(12,3))
+table(y)
+```
+
+and here is the output:
+
+```Rout
+> y = c(1,rep(2,7),rep(3,28),rep(4,45),rep(5,55),rep(6,57),
++   rep(7,39),rep(8,28),rep(9,22),rep(10,12),rep(11,3),rep(12,3))
+> table(y)
+y
+ 1  2  3  4  5  6  7  8  9 10 11 12 
+ 1  7 28 45 55 57 39 28 22 12  3  3 
+>
+```
+
+* As before, we can calculate some descriptive information about this variable:
+
+```R
+mean(y)
+median(y)
+min(y)
+max(y)
+max(y)-min(y)
+```
+
+which gives us the following output:
+
+```Rout
+ mean(y)
+[1] 5.933333
+> median(y)
+[1] 6
+> min(y)
+[1] 1
+> max(y)
+[1] 12
+> max(y)-min(y)
+[1] 11
+>
+```
+
+* How do these numbers compare to those for the first county?
+* Let's create a side-by-side chart for the 2 distributions:
+
+```R
+par(mfrow=c(1,2))
+barplot(table(x),
+  main="Distribution of Jail Sentences in County #1",
+  ylab="Number of People",
+  xlab="Number of Months Sentenced to Jail")
+barplot(table(y),
+  main="Distribution of Jail Sentences in County #2",
+  ylab="Number of People",
+  xlab="Number of Months Sentenced to Jail")
+```
+
+* Be sure to save this chart so you can look at it again.
+* Here are the 2 charts together:
+
+<p align="center">
+<img src="/gfiles/jailtable2.png" width="800px">
+</p>
+
+* There are a number of ways we could compare these 2 charts: (1) skewness; (2) unimodality; (3) range of values; and (4) mean > median or median > mean.
+* One thing that becomes apparent is that comparing two barcharts side-by-side is not the easiest task in the world. Is there something better?
+* Answer: Yes!
+* Introducing the boxplot:
+
+```R
+boxplot(x,y,
+  main="Distribution of Jail Sentences by County",
+  xlab="",
+  ylab="Jail Sentence Length (in months)",
+  xaxt="n")
+axis(side=1,at=1:2,c("County 1","County 2"))
+```
+
+and this code gives us the following chart:
+
+<p align="center">
+<img src="/gfiles/jailtable3.png" width="800px">
+</p>
+
+* There is some complexity to these plots but they are useful for comparing distributions.
