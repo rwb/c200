@@ -1374,7 +1374,7 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 * 25.1: Notice that the terms *reduction* (23.4 above) and *change* (24.4 above) are inexact and vaguely stated.
 * 25.2: When researchers are doing empirical work, they will often investigate and test a more precisely stated *null hypothesis*.
 * 25.3: Considering our death penalty example, a testable null hypothesis states that the difference between homicide rates before and after reinstatement of the death penalty will be equal to zero.
-* 25.4: Considering our unemployment and crime example, a testable null hypothesis state that there will be zero change in crime rates when unemployment rates change.
+* 25.4: Considering our unemployment and crime example, a testable null hypothesis states that there will be zero change in crime rates when unemployment rates change.
 * 25.5: Once we have stated our null hypothesis, we are faced with the task of deciding what evidence would convince us that our precisely stated null hypothesis is wrong (i.e., that it should be rejected). We will turn to this issue next week.
 
 #### This is the end of the material covered on Exam 1.
