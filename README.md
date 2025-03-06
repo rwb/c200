@@ -1556,7 +1556,6 @@ barplot(table(y),
 <img src="/gfiles/jailtable2.png" width="800px">
 </p>
 
-* There are a number of ways we could compare these 2 charts: (1) skewness; (2) unimodality; (3) range of values; and (4) mean > median or median > mean.
 * One thing that becomes apparent is that comparing two barcharts side-by-side is not the easiest task in the world. Is there something better?
 * Answer: Yes!
 * Introducing the boxplot:
