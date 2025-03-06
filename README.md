@@ -1382,3 +1382,44 @@ The data are: 3,4,4,5,1,2,2,0,6. Calculate the mean
 * Question from a student: I'm trying to prepare myself for this upcoming exam and was wondering if you had a practice test or an old exam you could share with me just so I have a better idea what to expect and to use it as more practice? Please let me know, thank you!
 
 Answer: I've addressed this issue in class but in case some of you weren't there when I did, here is my response: I don't circulate old exams. This week's exam and all exams in this class are closely connected to the homework problems you've been working on each week. We have been going over these problems and questions each week during discussion sections and the slides showing the solutions to those problems (covered in the discussion sections) are posted on ELMS. Please review them if you have not done so. Finally, before each exam (including this one), I have been and will be taking time to review all of the material covered on the exam. There are many resources available to help you do well on this exam and I wish you all the best as you prepare. Good luck!
+
+### Lesson 11 - Thursday 3/6/25
+
+* Reminder: your second assignment will be distributed next Thursday 3/13/25. It will be due at 11:59pm on Wednesday 3/26/25.
+* This week's practice questions: you should complete the remaining questions for Chapter 6 (6.6-6.11); we will go over these problems in discussion sections this week.
+
+#### Topic 25 (Continued): Null Hypothesis (pp. 121-123)
+
+* 25.6: Last week, we considered the concept of the null hypothesis -- the hypothesis that is empirically tested.
+* 25.7: The abbreviation or symbol we usually use for the null hypothesis is Ho.
+* 25.8: A hypothesis test leads to a *decision* of whether to reject Ho.
+* 25.9: Since Ho is usually worded in a precise way (i.e., some population parameter value is exactly equal to 0 is an example), we either reject Ho or fail to reject Ho.
+* 25.10: By the way, if we fail to reject Ho, that doesn't mean that Ho is accurate; it simply means the evidence isn't strong enough to reject it.
+* 25.11: For this reason, we usually prefer to say "fail to reject Ho" instead of saying that we "accept Ho."
+* 25.12: This seems like semantics but it is a question of emphasis; by using this phrasing we are emphasizing our ignorancex. If the evidence is insufficient to reject Ho, we can't leap from that to the conclusion that Ho is correct.
+* 25.13: Let's use a criminal trial as an example. 
+* 25.14: Suppose Ho embodies the common presumption that someone is innocent until they are demonstrated to be guilty.
+* 25.15: Generally, in a criminal trial, we would require very strong ("beyond a reasonable doubt") evidence of guilt to rebut the presumption of innocence.
+* 25.16: Suppose, after hearing the evidence we are fairly certain the defendant is guilty but not certain enough to meet the "beyond a reasonable doubt" threshold.
+* 25.17: Based on this evidence, an ethical jury would still vote to acquit (assuming all jurors viewed the evidence the same way).
+* 25.18: But such a decision does not mean the defendant is innocent (Ho); it just means the evidence wasn't strong enough to convict (i.e., reject Ho).
+
+#### Topic 26: Errors in Hypothesis Testing (pp. 123-125)
+
+* 26.1: When we make a decision to either reject Ho or fail to reject Ho, we recognize that we might be making a mistake.
+* 26.2: Rejecting Ho when Ho is false is a correct decision (i.e., convicting a guilty person).
+* 26.3: Failing to reject Ho when Ho is true is also a correct decision (i.e., acquitting an innocent person).
+* 26.4: If we reject Ho, when Ho is true, we make a Type I error (i.e., convicting someone when they are really innocent).
+* 26.5: If we fail to reject Ho, when Ho is false, we make a Type II error (i.e., acquitting someone when they are really guilty).
+
+#### Topic 27: Error Risk and Statistical Levels of Significance (pp. 125-128)
+
+* 27.1: It is a convention in the social sciences to say that Ho embodies a simple world. In a simple world, random noise is king of the hill.
+* 27.2: This is akin to saying that the presumption of innocence (Ho) is the king of the hill in a criminal trial.
+* 27.3: In both cases, to knock Ho off the top of the hill, we require strong evidence.
+* 27.4: This demand for strong evidence to reject Ho is meant to reduce the chance of making a Type I error (rejecting Ho when Ho is true).
+* 27.5: In other words, to reject Ho, the chance of making a Type I error (reject Ho when Ho is true) must be small.
+* 27.6: The risk of Type II errors is generally managed through study planning efforts (i.e., deciding how many cases will be studied, for example).
+* 27.7: A *significance level* corresponds to the chance or probability of a Type I error a researcher is willing to tolerate.
+* 27.8: The *observed* significance level corresponds to the chance of a Type I error occurring if we reject Ho in a specific sample dataset.
+* 27.9: In this class, we will primarily focus on the concept of rejecting or failing to reject a population Ho based on the evidence that we observe in a particular sample.
