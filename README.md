@@ -1576,10 +1576,8 @@ table(y)
 
 boxplot(x,y,
   main="Distribution of Jail Sentences by County",
-  xlab="",
   ylab="Jail Sentence Length (in months)",
-  xaxt="n")
-axis(side=1,at=1:2,c("County 1","County 2"))
+  names=c("County 1","County 2"))
 ```
 
 which gives us the screen output:
