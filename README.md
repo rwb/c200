@@ -1607,6 +1607,14 @@ and the following chart:
 </p>
 
 * There is some complexity to these plots but they are useful for comparing distributions side-by-side.
+* One point of ambiguity in the chart is the Interquartile Range (IQR) which I will mention briefly here.
+* The median is the 50th percentile of the distribution.
+* But we also have other percentiles that receive a good deal of attention from statisticians.
+* The first and third quartiles of the distribution are examples (Q1 = 25th percentile and Q3 = 75th percentile).
+* The IQR is simply Q3-Q1 which gives us a measure of dispersion for a distribution.
+* An important use of the IQR is that its length corresponds to the vertical length of the the "box" in the boxplot.
+* The top of the box is Q3 and the bottom of the box is Q1.
+* Note: I am not going to test you on the IQR but you need to know what it is to properly interpret a boxplot.
 * Note that we might also want to see what the difference between the means and the medians of the distributions are.
 
 ```
@@ -1625,3 +1633,60 @@ which gives us these results:
 ```
 
 * Therefore, the boxplot and both measures of central tendency point to the conclusion that the distribution of sentences in the second county is a little higher than in the first county.
+* Let's do another example of comparing the distributions of two groups.
+* Suppose we have two states that share a long border; North State has 22 counties along the border and South State has 17 counties along the border.
+* Suppose further that North State has a new mandatory minimum sentencing law for armed robberies; South State has had a more lenient law on the books for many years.
+* The year after the law took effect in North State, we record the following armed robbery rates in the border counties in each state.
+
+```R
+ns <- c(30.4,22.7,26.5,26.2,25.9,33.6,22.9,31.9,28.3,24.9,29.7,
+        24.1,22.0,23.1,24.0,28.3,27.9,27.8,25.9,25.3,24.0,28.5)
+table(ns)
+ss <- c(38.6,38.8,36.8,44.6,33.2,33.4,30.3,34.2,30.8,36.0,29.0,
+        35.6,24.9,28.1,32.4,27.3,34.2)
+table(ss)
+```
+
+* Here are the initial results:
+
+```Rout
+> table(ns)
+ns
+  22 22.7 22.9 23.1   24 24.1 24.9 25.3 25.9 26.2 26.5 27.8 
+   1    1    1    1    2    1    1    1    2    1    1    1 
+27.9 28.3 28.5 29.7 30.4 31.9 33.6 
+   1    2    1    1    1    1    1 
+> ss <- c(38.6,38.8,36.8,44.6,33.2,33.4,30.3,34.2,30.8,36.0,29.0,
++         35.6,24.9,28.1,32.4,27.3,34.2)
+> table(ss)
+ss
+24.9 27.3 28.1   29 30.3 30.8 32.4 33.2 33.4 34.2 35.6   36 
+   1    1    1    1    1    1    1    1    1    2    1    1 
+36.8 38.6 38.8 44.6 
+   1    1    1    1 
+>
+```
+
+* Now, suppose we want to look at histograms of the two distributions:
+
+```R
+par(mfrow=c(1,2))
+hist(ns,main="Armed Robbery Rates in North State Border Counties")
+hist(ss,main="Armed Robbery Rates in South State Border Counties")
+```
+
+which gives us this chart:
+
+<p align="center">
+<img src="/gfiles/jailtable3.png" width="800px">
+</p>
+
+* We have the same problem here that we had with the barplots in the last class -- it's not easy to compare the 2 distributions.
+* Here is a boxplot of the same data:
+
+```R
+boxplot(ns,ss,
+  main="Armed Robbery Rates",
+  names=c("North State Counties","South State Counties"),
+  ylim=c(0,45))
+
