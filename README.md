@@ -1567,6 +1567,13 @@ barplot(table(y),
 * Introducing the boxplot:
 
 ```R
+x = c(rep(1,5),rep(2,29),rep(3,51),rep(4,61),
+  rep(5,61),rep(6,44),rep(7,22),rep(8,17),rep(9,5),rep(10,4),11)
+table(x)
+y = c(1,rep(2,7),rep(3,28),rep(4,45),rep(5,55),rep(6,57),
+  rep(7,39),rep(8,28),rep(9,22),rep(10,12),rep(11,3),rep(12,3))
+table(y)
+
 boxplot(x,y,
   main="Distribution of Jail Sentences by County",
   xlab="",
@@ -1575,11 +1582,46 @@ boxplot(x,y,
 axis(side=1,at=1:2,c("County 1","County 2"))
 ```
 
-and this code gives us the following chart:
+which gives us the screen output:
+
+```Rout
+> x = c(rep(1,5),rep(2,29),rep(3,51),rep(4,61),
++   rep(5,61),rep(6,44),rep(7,22),rep(8,17),rep(9,5),rep(10,4),11)
+> table(x)
+x
+ 1  2  3  4  5  6  7  8  9 10 11 
+ 5 29 51 61 61 44 22 17  5  4  1 
+> y = c(1,rep(2,7),rep(3,28),rep(4,45),rep(5,55),rep(6,57),
++   rep(7,39),rep(8,28),rep(9,22),rep(10,12),rep(11,3),rep(12,3))
+> table(y)
+y
+ 1  2  3  4  5  6  7  8  9 10 11 12 
+ 1  7 28 45 55 57 39 28 22 12  3  3 
+>
+```
+
+and the following chart:
 
 <p align="center">
 <img src="/gfiles/jailtable3.png" width="800px">
 </p>
 
 * There is some complexity to these plots but they are useful for comparing distributions side-by-side.
-* 
+* Note that we might also want to see what the difference between the means and the medians of the distributions are.
+
+```
+mean(y)-mean(x)
+median(y)-median(x)
+```
+
+which gives us these results:
+
+```Rout
+> mean(y)-mean(x)
+[1] 1.216667
+> median(y)-median(x)
+[1] 1
+>
+```
+
+* Therefore, the boxplot and both measures of central tendency point to the conclusion that the distribution of sentences in the second county is a little higher than in the first county.
