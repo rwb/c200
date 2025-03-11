@@ -1564,7 +1564,6 @@ barplot(table(y),
 
 * Reminder: your second assignment will be distributed on Thursday -- 3/13/25. It will be due at 11:59pm on Wednesday 3/26/25.
 * We begin today's class by finishing up our R example from last class.
-
 * Introducing the boxplot:
 
 ```R
