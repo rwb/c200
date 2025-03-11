@@ -1695,3 +1695,22 @@ which gives us this chart:
 <p align="center">
 <img src="/gfiles/nsss2.png" width="800px">
 </p>
+
+* Note we can also calculate the mean and median differences:
+
+```R
+mean(ns)-mean(ss)
+median(ns)-median(ss)
+```
+
+which gives us the following differences:
+
+```Rout
+> mean(ns)-mean(ss)
+[1] -6.88262
+> median(ns)-median(ss)
+[1] -7.35
+>
+```
+
+* Notice that the average and median differences are both negative which indicates that the North State counties typically had lower armed robbery rates.
