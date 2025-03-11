@@ -1601,7 +1601,7 @@ y
 and the following chart:
 
 <p align="center">
-<img src="/gfiles/jailtable3.png" width="800px">
+<img src="/gfiles/jailtable3.png" width="650px">
 </p>
 
 * There is some complexity to these plots but they are useful for comparing distributions side-by-side.
@@ -1693,7 +1693,7 @@ boxplot(ns,ss,
 which gives us this chart:
 
 <p align="center">
-<img src="/gfiles/nsss2.png" width="800px">
+<img src="/gfiles/nsss2.png" width="650px">
 </p>
 
 * Note we can also calculate the mean and median differences:
