@@ -1678,7 +1678,7 @@ hist(ss,main="Armed Robbery Rates in South State Border Counties")
 which gives us this chart:
 
 <p align="center">
-<img src="/gfiles/jailtable3.png" width="800px">
+<img src="/gfiles/nsss.png" width="800px">
 </p>
 
 * We have the same problem here that we had with the barplots in the last class -- it's not easy to compare the 2 distributions.
@@ -1687,6 +1687,13 @@ which gives us this chart:
 ```R
 boxplot(ns,ss,
   main="Armed Robbery Rates",
+  ylab="# of Armed Robberies per 100,000 Population",
   names=c("North State Counties","South State Counties"),
   ylim=c(0,45))
+```
 
+which gives us this chart:
+
+<p align="center">
+<img src="/gfiles/nsss2.png" width="800px">
+</p>
