@@ -1559,6 +1559,12 @@ barplot(table(y),
 
 * One thing that becomes apparent is that comparing two barcharts side-by-side is not the easiest task in the world. Is there something better?
 * Answer: Yes!
+
+### Lesson 12 - Tuesday 3/11/25
+
+* Reminder: your second assignment will be distributed on Thursday -- 3/13/25. It will be due at 11:59pm on Wednesday 3/26/25.
+* We begin today's class by finishing up our R example from last class.
+
 * Introducing the boxplot:
 
 ```R
@@ -1576,4 +1582,5 @@ and this code gives us the following chart:
 <img src="/gfiles/jailtable3.png" width="800px">
 </p>
 
-* There is some complexity to these plots but they are useful for comparing distributions.
+* There is some complexity to these plots but they are useful for comparing distributions side-by-side.
+* 
