@@ -1715,3 +1715,17 @@ which gives us the following differences:
 ```
 
 * Notice that the average and median differences are both negative which indicates that the North State counties typically had lower armed robbery rates.
+
+#### Topic 28 & Beginning of Chapter 7 (pp. 136-139).
+
+* 28.1: Question for this topic: "when should we begin to suspect that a coin used in a coin toss is unfair or biased?"
+* 28.2: Generally, if we are flipping a coin to make a decision, we assume that the coin is fair unless we have a good reason to suspect it's not fair.
+* 28.3: What would be a "good reason" to *reject the null hypothesis that a coin is fair*?
+* 28.4: The "good reason" would probably have to be based on *evidence*.
+* 28.5: For coin flipping, the evidence would probably have to take the form of the coin coming up either heads or tails *too often*.
+* 28.6: What evidence would convince us that the coin is not fair?
+* 28.7: The outcomes "H" and "T" are the *mutually exclusive* and *exhaustive* outcomes in the sample space of a single coin-flipping *experiment*.
+* 28.8: Suppose that we flip a coin 100 times and we get 97 heads and 3 tails. Would you reject the null hypothesis that the coin is a fair coin?
+* 28.9: Now suppose that we flip a coin 100 times and we get 60 heads. What would you do then?
+* 28.10: Nature has a good deal of randomness and we have to take that into consideration when we do scientific work!
+* 28.11: Example: regression to the mean.
