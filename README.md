@@ -1696,6 +1696,7 @@ which gives us this chart:
 <img src="/gfiles/nsss2.png" width="650px">
 </p>
 
+* showing that the armed robbery rate seems generally higher in the South State counties and lower in the North State counties (but there are exceptions!).
 * Note we can also calculate the mean and median differences:
 
 ```R
