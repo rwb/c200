@@ -2058,7 +2058,7 @@ hdata = data.frame(st,h18,h22)
 hdata
 ```
 
-Now, with this dataset in hand, you should work on each of the following tasks using R:
+Now, with this dataset in hand, you should work on each of the following tasks (except 2p and 2q) using R:
 
 * 2a. Print out a summary table showing each state and its homicide rates for the 2 years (5pts).
 * 2b. Use the mean() function to calculate the average homicide rate for the year 2018 (5pts).
