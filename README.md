@@ -1637,10 +1637,10 @@ which gives us these results:
 * The year after the law took effect in North State, we record the following armed robbery rates in the border counties in each state.
 
 ```R
-ns <- c(30.4,22.7,26.5,26.2,25.9,33.6,22.9,31.9,28.3,24.9,29.7,
+ns = c(30.4,22.7,26.5,26.2,25.9,33.6,22.9,31.9,28.3,24.9,29.7,
         24.1,22.0,23.1,24.0,28.3,27.9,27.8,25.9,25.3,24.0,28.5)
 table(ns)
-ss <- c(38.6,38.8,36.8,44.6,33.2,33.4,30.3,34.2,30.8,36.0,29.0,
+ss = c(38.6,38.8,36.8,44.6,33.2,33.4,30.3,34.2,30.8,36.0,29.0,
         35.6,24.9,28.1,32.4,27.3,34.2)
 table(ss)
 ```
@@ -1741,7 +1741,7 @@ which gives us the following differences:
 * Let's read some data into R:
   
 ```R
-st <- c("alabama","alaska","arizona","arkansas","california",
+st = c("alabama","alaska","arizona","arkansas","california",
   "colorado","connecticut","delaware","florida","georgia",
   "hawaii","idaho","illinois","indiana","iowa","kansas",
   "kentucky","louisiana","maine","maryland","massachusetts",
@@ -1753,19 +1753,19 @@ st <- c("alabama","alaska","arizona","arkansas","california",
   "utah","vermont","virginia","washington","west virginia",
   "wisconsin","wyoming")
 
-h18 <- c(11.5,7.6,5.7,8.5,4.7,4.7,2.4,5.5,6.2,7.5,
+h18 = c(11.5,7.6,5.7,8.5,4.7,4.7,2.4,5.5,6.2,7.5,
   2.8,2.1,7.6,7.0,2.5,5.3,5.8,12.9,1.5,8.7,2.1,
   6.1,2.2,12.5,11.2,4.0,2.1,7.5,1.8,3.3,9.9,3.0,
   6.0,3.0,6.4,6.6,2.6,6.2,1.7,9.3,2.9,9.2,5.3,2.1,
   2.1,4.8,3.5,5.5,3.4,3.3)
 
-h19 <- c(11.8,10.4,5.7,8.7,4.5,4.3,3.1,5.1,6.1,8.2,
+h19 = c(11.8,10.4,5.7,8.7,4.5,4.3,3.1,5.1,6.1,8.2,
   2.6,1.3,7.4,6.5,2.5,4.5,5.7,13.7,1.7,9.6,2.1,6.0,
   2.7,14.1,10.6,3.6,2.9,5.3,2.6,3.0,11.0,3.0,6.6,
   2.9,6.1,8.5,2.9,5.7,2.5,10.0,3.4,9.2,5.8,2.5,1.9,
   5.1,3.1,5.5,3.6,3.6)
 
-hdata <- data.frame(st,h18,h19)
+hdata = data.frame(st,h18,h19)
 hdata
 ```
 
@@ -1888,14 +1888,14 @@ boxplot(h18,h19,
 * Let's consider the evidence.
 
 ```R
-delta <- h19-h18
-hdata <- data.frame(st,h18,h19,delta)
+delta = h19-h18
+hdata = data.frame(st,h18,h19,delta)
 hdata
 ```
 
 ```Rout
-> delta <- h19-h18
-> hdata <- data.frame(st,h18,h19,delta)
+> delta = h19-h18
+> hdata = data.frame(st,h18,h19,delta)
 > hdata
                st  h18  h19 delta
 1         alabama 11.5 11.8   0.3
@@ -1973,3 +1973,10 @@ which gives
 
 * Many people would look at this evidence and say there is not strong evidence to reject the null hypothesis but based on the tools we have so far, this would be a subjective judgment.
 
+#### Topic 29: Sampling Distributions (p. 138)
+
+* 29.1: Let's think some more about our example of drawing a small random sample of people from the entire population of people who were released from prison in the year 2018.
+* 29.2: Now, let's suppose we follow that sample up for 7 years to the year 2025.
+* 29.3: For each person in the sample, we look at that person's criminal history record and make a determination of whether that person has been arrested for a new crime or not during the 7 year follow-up period (kind of like a heads or a tails!).
+* 29.4: Then, we divide the number of people who were rearrested by the total number of people in the sample to obtain a *recidivism rate* (note: we might decide to multiply the fraction by 100 to convert it to a percentage).
+* 29.5: 
