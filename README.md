@@ -1725,7 +1725,6 @@ which gives us the following differences:
 
 * Reminder: your second assignment will be distributed on Thursday -- 3/13/25. It will be due at 11:59pm on Wednesday 3/26/25.
 * We begin today's class by finishing up our R example from last class.
-
 * 28.3: What would be a "good reason" to *reject the null hypothesis that a coin is fair*?
 * 28.4: The "good reason" would probably have to be based on *evidence*.
 * 28.5: For coin flipping, the evidence would probably have to take the form of the coin coming up either heads or tails *too often*.
