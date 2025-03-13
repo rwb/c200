@@ -1955,7 +1955,7 @@ hdata
 
 * So, it looks like 20 states dropped while 24 states experienced an increase and 6 states had no change.
 * A problem is that the 6 "no change" states really did change; the zero is just an artifact of rounding.
-* I can report to you that I've looked at the actual calculations out to many decimal places; 4 of them increased and 2 dropped.
+* I can report to you that I've looked at the actual calculations out to many decimal places; I found that 4 of them increased and 2 dropped.
 * The final result is that 28 states increased (56%) and 22 states dropped (44%).
 * If you flipped a coin 50 times and you got 28 heads and 22 tails, would you conclude that the coin is unfair?
 * Here, we are asking whether the evidence is strong enough to reject the hypothesis that a state was equally likely to experience an increase or a decrease in its homicide rate.
@@ -2001,11 +2001,79 @@ which gives
 * 30.3: Thus, the outcomes (or sample space) of each experiment is: *yes*, (recidivism); or *no* (desistance). Note that these outcomes are mutually exclusive and exhaustive.
 * 30.4: When we look at the sample as a whole, we find that 39 of the people in the sample recidivated while 11 did not.
 * 30.5: So, within the sample, S2, we see that p(recidivism) = 39/50 = 0.78 and p(desistance) = 11/50 = 1-p(recidivism) = 0.22; this is the *probability distribution* of outcomes in our sample.
-* 30.6: The question for statistical inference is this: what is the probability of getting a result at least as extreme as the one we got in S2 if the true population recidivism rate is equal to 0.68 (or 68%)?
-* 30.7: To understand this probability, we have to think about the sampling distribution of recidivism rates we could expect to see if we drew thousands and thousands of samples of size N = 50 cases from a population with a recidivism rate of 68%.
-* 30.8: This is what that sampling distribution looks like:
-
-<p align="center">
-<img src="/gfiles/pvalue.png" width="600px">
-</p>
   
+#### Assignment #2 - Due on ELMS at 11:59pm ET on Wednesday 3/26/25
+
+Instructions: Please complete each of the problems listed below. You are required to submit your assignment as a single pdf file on ELMS. Please review all assignment guidelines and rules in the syllabus above. We will accept questions about the assignment up until 11:59am ET on Monday 3/23/25. Please note that any questions we judge to be of interest to the entire class will be posted on this webpage so everyone has access to the same information in a timely fashion.  If you submit your assignment and then discover a mistake and you want to fix it before it is due you can resubmit your assignment on ELMS (up to 3 submissions are permitted); if you do this, only the last submission will be graded. Assignments can be submitted beginning at 12:01am (ET) on Tuesday 3/25/25. 
+
+1. For each month of last year, the local police department made the following numbers of drug arrests:
+
+| Year  | N = |
+| -----:| --: |
+| Jan  | 19 |
+| Feb  | 19 |
+| Mar  | 23 |
+| Apr  | 21 |
+| May  | 17 |
+| Jun  | 18 |
+| Jul  | 22 |
+| Aug  | 28 |
+| Sep  | 21 |
+| Oct  | 20 |
+| Nov  | 23 |
+| Dec  | 22 |
+
+a. enter the data into R and create a frequency table (5pts).
+b. create a reasonably labeled barplot for these data (5pts).
+c. use the mean() and median() and min()/max() functions to calculate the mean, median, and range of the number of drug arrests (5pts).
+
+2. The following dataset provides state names along with each state's homicide rate in the years 2018 and 2022 based on data from the Centers for Disease Control.
+
+```R
+st = c("alabama","alaska","arizona","arkansas","california",
+  "colorado","connecticut","delaware","florida","georgia",
+  "hawaii","idaho","illinois","indiana","iowa","kansas",
+  "kentucky","louisiana","maine","maryland","massachusetts",
+  "michigan","minnesota","mississippi","missouri","montana",
+  "nebraska","nevada","new hampshire","new jersey",
+  "new mexico","new york","north carolina","north dakota",
+  "ohio","oklahoma","oregon","pennsylvania","rhode island",
+  "south carolina","south dakota","tennessee","texas",
+  "utah","vermont","virginia","washington","west virginia",
+  "wisconsin","wyoming")
+
+h18 = c(11.5,7.6,5.7,8.5,4.7,4.7,2.4,5.5,6.2,7.5,
+  2.8,2.1,7.6,7.0,2.5,5.3,5.8,12.9,1.5,8.7,2.1,
+  6.1,2.2,12.5,11.2,4.0,2.1,7.5,1.8,3.3,9.9,3.0,
+  6.0,3.0,6.4,6.6,2.6,6.2,1.7,9.3,2.9,9.2,5.3,2.1,
+  2.1,4.8,3.5,5.5,3.4,3.3)
+
+h22 = c(13.8,10.1,8.5,10.6,5.7,7.1,4.0,5.7,6.6,11.2,
+  2.7,2.5,10.0,8.1,2.8,5.9,7.7,18.5,2.3,9.6,2.4,7.6,
+  3.6,18.7,12.0,5.2,3.4,7.7,1.8,3.3,13.7,4.2,8.8,3.6,
+  7.7,7.9,5.1,8.1,2.3,10.9,6.0,10.8,7.6,2.2,3.7,7.2,
+  5.3,6.3,5.6,2.6)
+
+hdata = data.frame(st,h18,h22)
+hdata
+```
+
+Now, with this dataset in hand, you should work on each of the following tasks:
+
+2a. Print out a summary table showing each state and its homicide rates for the 2 years (5pts).
+2b. Use the mean() function to calculate the average homicide rate for the year 2018 (5pts).
+2c. Use the mean() function to calculate the average homicide rate for the year 2022 (5pts).
+2d. Calculate the difference between the means for the 2 years (5pts).
+2e. Use the median() function to calculate the median homicide rate for the year 2018 (5pts).
+2f. Use the median() function to calculate the median homicide rate for the year 2022 (5pts).
+2g. Calculate the difference between the medians for the 2 years (5pts).
+2h. Present a reasonably labeled histogram for each year (5pts).
+2i. Create a reasonably labeled boxplot showing the homicide rate distribution for each year (5pts).
+2j. On your boxplot, clearly identify the median and the 1st and 3rd quartiles of the distribution for each year (you can circle and label them on your boxplot); (5pts).
+2k. Calculate a delta for each state (where delta is the homicide rate for 2022 minus the homicide rate for 2018, calculated for each state); print out the summary table you did in #1 above except now include the delta values in the table (i.e., there should be a delta value on each row of the table; 5pts).
+2l. Create a reasonably labeled boxplot to summarize the distribution of the delta values (5pts).
+2m. Calculate the average of the delta values; what does this average tell us (5pts)?
+2n. Calculate the median of the delta values; what does this median tell us (5pts)?
+2o. Use the min() and max() functions to calculate the range of the delta values (5pts).
+2p. There are two values of delta that are very close to zero (so their delta value looks like it is zero). It turns out that these 2 delta values belong to New Hampshire and New Jersey. New Jersey's delta value actually showed a slight increase in the homicide rate from 2018 to 2022 while New Hampshire's showed a slight decrease. Keeping this in mind, count the number of states where delta increased and the number of states where delta decreased (5pts)
+2q. If our null hypothesis specifies that the chance a state experiences an increase in its homicide rate from 2018 to 2022 is 0.5, would you say the evidence to reject the null hypothesis is stronger or weaker than the evidence we discussed in class for the 2018 to 2019 comparison? Explain your reasoning (5pts).
