@@ -1724,7 +1724,10 @@ which gives us the following differences:
 ### Lesson 13 - Thursday 3/13/25
 
 * Reminder: your second assignment will be distributed on Thursday -- 3/13/25. It will be due at 11:59pm on Wednesday 3/26/25.
-* We begin today's class by finishing up our R example from last class.
+* For this week's homework, you should be looking at Chapter 7 homework problems 7.1-7.5; these will be covered in tomorrow's discussion section.
+
+#### Topic 28; Coin Flipping (Continued; pp. 137-138).
+
 * 28.3: What would be a "good reason" to *reject the null hypothesis that a coin is fair*?
 * 28.4: The "good reason" would probably have to be based on *evidence*.
 * 28.5: For coin flipping, the evidence would probably have to take the form of the coin coming up either heads or tails *too often*.
@@ -1972,10 +1975,14 @@ which gives
 
 * Many people would look at this evidence and say there is not strong evidence to reject the null hypothesis but based on the tools we have so far, this would be a subjective judgment.
 
-#### Topic 29: Sampling Distributions (p. 138)
+#### Topic 29: Sampling Distributions (pp. 137-138)
 
 * 29.1: Let's think some more about our example of drawing a small random sample of people from the entire population of people who were released from prison in the year 2018.
 * 29.2: Now, let's suppose we follow that sample up for 7 years to the year 2025.
 * 29.3: For each person in the sample, we look at that person's criminal history record and make a determination of whether that person has been arrested for a new crime or not during the 7 year follow-up period (kind of like a heads or a tails!).
 * 29.4: Then, we divide the number of people who were rearrested by the total number of people in the sample to obtain a *recidivism rate* (note: we might decide to multiply the fraction by 100 to convert it to a percentage).
-* 29.5: 
+* 29.5: We recognize that if we had drawn a different sample than the one we happened to draw, we probably would have gotten a different numerical result (unless the second sample we drew happened by chance to have exactly the same number of successes and failures).
+* 29.6: Suppose, based on prior research, we specify that the null hypothesis rearrest recidivism rate is 75%.
+* 29.7: Even if the null hypothesis is correct, we often *will not* see a recidivism rate of exactly 75% in the samples we draw.
+* 29.8: Instead the recidivism rate would *bounce around* from sample to sample.
+* 
