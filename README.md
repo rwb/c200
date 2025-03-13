@@ -1994,7 +1994,7 @@ which gives
 * 29.10: We need some principled, transparent, and objective way of deciding whether to reject the null hypothesis when we are presented with actual empirical evidence from a sample.
 * 29.11: As explained in your book on p. 139, we use *probability distributions* to do this.
 
-#### Topic 30: Probability Distributions
+#### Topic 30: Probability Distributions (p. 139)
 
 * 30.1: A probability distribution can apply to the results in a specific sample or it can be used to approximate a sampling distribution.
 * 30.2: Each person in the unusual sample (S2) of 50 cases (where the recidivism rate is 78%) can be viewed as an experimental study with two outcomes: rearrest or no rearrest.
@@ -2002,4 +2002,9 @@ which gives
 * 30.4: When we look at the sample as a whole, we find that 39 of the people in the sample recidivated while 11 did not.
 * 30.5: So, within the sample, S2, we see that p(recidivism) = 39/50 = 0.78 and p(desistance) = 11/50 = 1-p(recidivism) = 0.22; this is the *probability distribution* of outcomes in our sample.
 * 30.6: The question for statistical inference is this: what is the probability of getting a result at least as extreme as the one we got in S2 if the true population recidivism rate is equal to 0.68 (or 68%)?
-* 30.7: 
+* 30.7: To understand this probability, we have to think about the sampling distribution of recidivism rates we could expect to see if we drew thousands and thousands of samples of size N = 50 cases from a population with a recidivism rate of 68%.
+* 30.8: This is what that sampling distribution looks like:
+
+<p align="center">
+<img src="/gfiles/pvalue.png" width="600px">
+</p>
