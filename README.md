@@ -1887,7 +1887,7 @@ boxplot(h18,h19,
 * If there was no overall change in homicide rates, we could expect that some states would experience an increase and others would drop.
 * In other words, if there was no change, the states that increased would tend to cancel out the states that dropped.
 * So, our null hypothesis is that a state is equally likely to experience an increase or a decrease.
-* Let's consider the evidence.
+* Let's consider the evidence. Here is some R code:
 
 ```R
 delta = h19-h18
