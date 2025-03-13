@@ -1977,12 +1977,29 @@ which gives
 
 #### Topic 29: Sampling Distributions (pp. 137-138)
 
-* 29.1: Let's think some more about our example of drawing a small random sample of people from the entire population of people who were released from prison in the year 2018.
-* 29.2: Now, let's suppose we follow that sample up for 7 years to the year 2025.
-* 29.3: For each person in the sample, we look at that person's criminal history record and make a determination of whether that person has been arrested for a new crime or not during the 7 year follow-up period (kind of like a heads or a tails!).
+* 29.1: Let's think some more about our example of drawing a small random sample of people from the entire population of people who were released from prison in the year 2021.
+* 29.2: Now, let's suppose we follow that sample up for 3 years to the year 2024.
+* 29.3: For each person in the sample, we look at that person's criminal history record and make a determination of whether that person has been arrested for a new crime or not during the 3 year follow-up period (kind of like a heads or a tails!).
 * 29.4: Then, we divide the number of people who were rearrested by the total number of people in the sample to obtain a *recidivism rate* (note: we might decide to multiply the fraction by 100 to convert it to a percentage).
 * 29.5: We recognize that if we had drawn a different sample than the one we happened to draw, we probably would have gotten a different numerical result (unless the second sample we drew happened by chance to have exactly the same number of successes and failures).
-* 29.6: Suppose, based on prior research, we specify that the null hypothesis rearrest recidivism rate is 75%.
-* 29.7: Even if the null hypothesis is correct, we often *will not* see a recidivism rate of exactly 75% in the samples we draw.
+* 29.6: Suppose, based on prior research, we specify that the null hypothesis rearrest recidivism rate is 68%.
+* 29.7: Even if the null hypothesis is correct, we often *will not* see a recidivism rate of exactly 68% in the samples we draw.
 * 29.8: Instead the recidivism rate would *bounce around* from sample to sample.
-* 
+
+<p align="center">
+<img src="/gfiles/fig38.png" width="600px">
+</p>
+
+* 29.9: Note that in one of the samples of size 50, we happened to see a recidivism rate that is close to 80%.
+* 29.10: We need some principled, transparent, and objective way of deciding whether to reject the null hypothesis when we are presented with actual empirical evidence from a sample.
+* 29.11: As explained in your book on p. 139, we use *probability distributions* to do this.
+
+#### Topic 30: Probability Distributions
+
+* 30.1: A probability distribution can apply to the results in a specific sample or it can be used to approximate a sampling distribution.
+* 30.2: Each person in the unusual sample (S2) of 50 cases (where the recidivism rate is 78%) can be viewed as an experimental study with two outcomes: rearrest or no rearrest.
+* 30.3: Thus, the outcomes (or sample space) of each experiment is: *yes*, (recidivism); or *no* (desistance). Note that these outcomes are mutually exclusive and exhaustive.
+* 30.4: When we look at the sample as a whole, we find that 39 of the people in the sample recidivated while 11 did not.
+* 30.5: So, within the sample, S2, we see that p(recidivism) = 39/50 = 0.78 and p(desistance) = 11/50 = 1-p(recidivism) = 0.22; this is the *probability distribution* of outcomes in our sample.
+* 30.6: The question for statistical inference is this: what is the probability of getting a result at least as extreme as the one we got in S2 if the true population recidivism rate is equal to 0.68 (or 68%)?
+* 30.7: 
