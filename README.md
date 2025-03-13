@@ -2023,9 +2023,9 @@ Instructions: Please complete each of the problems listed below. You are require
 | Nov  | 23 |
 | Dec  | 22 |
 
-a. enter the data into R and create a frequency table (5pts).
-b. create a reasonably labeled barplot for these data (5pts).
-c. use the mean() and median() and min()/max() functions to calculate the mean, median, and range of the number of drug arrests (5pts).
+* a. enter the data into R and create a frequency table (5pts).
+* b. create a reasonably labeled barplot for these data (5pts).
+* c. use the mean() and median() and min()/max() functions to calculate the mean, median, and range of the number of drug arrests (5pts).
 
 2. The following dataset provides state names along with each state's homicide rate in the years 2018 and 2022 based on data from the Centers for Disease Control.
 
@@ -2060,20 +2060,20 @@ hdata
 
 Now, with this dataset in hand, you should work on each of the following tasks:
 
-2a. Print out a summary table showing each state and its homicide rates for the 2 years (5pts).
-2b. Use the mean() function to calculate the average homicide rate for the year 2018 (5pts).
-2c. Use the mean() function to calculate the average homicide rate for the year 2022 (5pts).
-2d. Calculate the difference between the means for the 2 years (5pts).
-2e. Use the median() function to calculate the median homicide rate for the year 2018 (5pts).
-2f. Use the median() function to calculate the median homicide rate for the year 2022 (5pts).
-2g. Calculate the difference between the medians for the 2 years (5pts).
-2h. Present a reasonably labeled histogram for each year (5pts).
-2i. Create a reasonably labeled boxplot showing the homicide rate distribution for each year (5pts).
-2j. On your boxplot, clearly identify the median and the 1st and 3rd quartiles of the distribution for each year (you can circle and label them on your boxplot); (5pts).
-2k. Calculate a delta for each state (where delta is the homicide rate for 2022 minus the homicide rate for 2018, calculated for each state); print out the summary table you did in #1 above except now include the delta values in the table (i.e., there should be a delta value on each row of the table; 5pts).
-2l. Create a reasonably labeled boxplot to summarize the distribution of the delta values (5pts).
-2m. Calculate the average of the delta values; what does this average tell us (5pts)?
-2n. Calculate the median of the delta values; what does this median tell us (5pts)?
-2o. Use the min() and max() functions to calculate the range of the delta values (5pts).
-2p. There are two values of delta that are very close to zero (so their delta value looks like it is zero). It turns out that these 2 delta values belong to New Hampshire and New Jersey. New Jersey's delta value actually showed a slight increase in the homicide rate from 2018 to 2022 while New Hampshire's showed a slight decrease. Keeping this in mind, count the number of states where delta increased and the number of states where delta decreased (5pts)
-2q. If our null hypothesis specifies that the chance a state experiences an increase in its homicide rate from 2018 to 2022 is 0.5, would you say the evidence to reject the null hypothesis is stronger or weaker than the evidence we discussed in class for the 2018 to 2019 comparison? Explain your reasoning (5pts).
+* 2a. Print out a summary table showing each state and its homicide rates for the 2 years (5pts).
+* 2b. Use the mean() function to calculate the average homicide rate for the year 2018 (5pts).
+* 2c. Use the mean() function to calculate the average homicide rate for the year 2022 (5pts).
+* 2d. Calculate the difference between the means for the 2 years (5pts).
+* 2e. Use the median() function to calculate the median homicide rate for the year 2018 (5pts).
+* 2f. Use the median() function to calculate the median homicide rate for the year 2022 (5pts).
+* 2g. Calculate the difference between the medians for the 2 years (5pts).
+* 2h. Present a reasonably labeled histogram for each year (5pts).
+* 2i. Create a reasonably labeled boxplot showing the homicide rate distribution for each year (5pts).
+* 2j. On your boxplot, clearly identify the median and the 1st and 3rd quartiles of the distribution for each year (you can circle and label them on your boxplot); (5pts).
+* 2k. Calculate a delta for each state (where delta is the homicide rate for 2022 minus the homicide rate for 2018, calculated for each state); print out the summary table you did in #1 above except now include the delta values in the table (i.e., there should be a delta value on each row of the table; 5pts).
+* 2l. Create a reasonably labeled boxplot to summarize the distribution of the delta values (5pts).
+* 2m. Calculate the average of the delta values; what does this average tell us (5pts)?
+* 2n. Calculate the median of the delta values; what does this median tell us (5pts)?
+* 2o. Use the min() and max() functions to calculate the range of the delta values (5pts).
+* 2p. There are two values of delta that are very close to zero (so their delta value looks like it is zero). It turns out that these 2 delta values belong to New Hampshire and New Jersey. New Jersey's delta value actually showed a slight increase in the homicide rate from 2018 to 2022 while New Hampshire's showed a slight decrease. Keeping this in mind, count the number of states where delta increased and the number of states where delta decreased (5pts)
+* 2q. If our null hypothesis specifies that the chance a state experiences an increase in its homicide rate from 2018 to 2022 is 0.5, would you say the evidence to reject the null hypothesis is stronger or weaker than the evidence we discussed in class for the 2018 to 2019 comparison? Explain your reasoning (5pts).
