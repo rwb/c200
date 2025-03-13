@@ -2004,7 +2004,7 @@ which gives
   
 #### Assignment #2 - Due on ELMS at 11:59pm ET on Wednesday 3/26/25
 
-Instructions: Please complete each of the problems listed below. You are required to submit your assignment as a single pdf file on ELMS. Please review all assignment guidelines and rules in the syllabus above. We will accept questions about the assignment up until 11:59am ET on Monday 3/23/25. Please note that any questions we judge to be of interest to the entire class will be posted on this webpage so everyone has access to the same information in a timely fashion.  If you submit your assignment and then discover a mistake and you want to fix it before it is due you can resubmit your assignment on ELMS (up to 3 submissions are permitted); if you do this, only the last submission will be graded. Assignments can be submitted beginning at 12:01am (ET) on Tuesday 3/25/25. 
+Instructions: Please complete each of the problems listed below. You are required to submit your assignment as a single pdf file on ELMS. Please review all assignment guidelines and rules in the syllabus above. We will accept questions about the assignment up until 11:59am ET on Monday 3/24/25. Please note that any questions we judge to be of interest to the entire class will be posted on this webpage so everyone has access to the same information in a timely fashion.  If you submit your assignment and then discover a mistake and you want to fix it before it is due you can resubmit your assignment on ELMS (up to 3 submissions are permitted); if you do this, only the last submission will be graded. Assignments can be submitted beginning at 12:01am (ET) on Tuesday 3/25/25. 
 
 1. For each month of last year, the local police department made the following numbers of drug arrests:
 
