@@ -2025,7 +2025,7 @@ Instructions: Please complete each of the problems listed below. You are require
 
 * 1a. enter the data into R and create a frequency table (5pts).
 * 1b. create a reasonably labeled barplot for these data (5pts).
-* 1c. use the mean() and median() and min()/max() functions to calculate the mean, median, and range of the number of drug arrests (5pts).
+* 1c. use R's mean() and median() and min()/max() functions to calculate the mean, median, and range of the number of drug arrests (5pts).
 
 2. The following dataset provides state names along with each state's homicide rate in the years 2018 and 2022 based on data from the Centers for Disease Control.
 
@@ -2058,7 +2058,7 @@ hdata = data.frame(st,h18,h22)
 hdata
 ```
 
-Now, with this dataset in hand, you should work on each of the following tasks:
+Now, with this dataset in hand, you should work on each of the following tasks using R:
 
 * 2a. Print out a summary table showing each state and its homicide rates for the 2 years (5pts).
 * 2b. Use the mean() function to calculate the average homicide rate for the year 2018 (5pts).
@@ -2070,7 +2070,7 @@ Now, with this dataset in hand, you should work on each of the following tasks:
 * 2h. Present a reasonably labeled histogram for each year (5pts).
 * 2i. Create a reasonably labeled boxplot showing the homicide rate distribution for each year (5pts).
 * 2j. On your boxplot, clearly identify the median and the 1st and 3rd quartiles of the distribution for each year (you can circle and label them on your boxplot); (5pts).
-* 2k. Calculate a delta for each state (where delta is the homicide rate for 2022 minus the homicide rate for 2018, calculated for each state); print out the summary table you did in #1 above except now include the delta values in the table (i.e., there should be a delta value on each row of the table; 5pts).
+* 2k. Calculate delta values for each state (where delta is the homicide rate for 2022 minus the homicide rate for 2018, calculated for each state); print out the summary table you did in #1 above except now include the delta values in the table (i.e., there should be a delta value on each row of the table; 5pts).
 * 2l. Create a reasonably labeled boxplot to summarize the distribution of the delta values (5pts).
 * 2m. Calculate the average of the delta values; what does this average tell us (5pts)?
 * 2n. Calculate the median of the delta values; what does this median tell us (5pts)?
