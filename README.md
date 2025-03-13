@@ -1723,7 +1723,7 @@ which gives us the following differences:
 
 ### Lesson 13 - Thursday 3/13/25
 
-* Reminder: your second assignment will be distributed on Thursday -- 3/13/25. It will be due at 11:59pm on Wednesday 3/26/25.
+* Reminder: your second assignment will be distributed today (Thursday 3/13/25). It will be due at 11:59pm on Wednesday 3/26/25.
 * For this week's homework, you should be looking at Chapter 7 homework problems 7.1-7.5; these will be covered in tomorrow's discussion section.
 
 #### Topic 28; Coin Flipping (Continued; pp. 137-138).
