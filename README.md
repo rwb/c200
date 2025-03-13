@@ -1720,6 +1720,12 @@ which gives us the following differences:
 
 * 28.1: Question for this topic: "when should we begin to suspect that a coin used in a coin toss is unfair or biased?"
 * 28.2: Generally, if we are flipping a coin to make a decision, we assume that the coin is fair unless we have a good reason to suspect it's not fair.
+
+### Lesson 13 - Thursday 3/13/25
+
+* Reminder: your second assignment will be distributed on Thursday -- 3/13/25. It will be due at 11:59pm on Wednesday 3/26/25.
+* We begin today's class by finishing up our R example from last class.
+
 * 28.3: What would be a "good reason" to *reject the null hypothesis that a coin is fair*?
 * 28.4: The "good reason" would probably have to be based on *evidence*.
 * 28.5: For coin flipping, the evidence would probably have to take the form of the coin coming up either heads or tails *too often*.
@@ -1727,5 +1733,243 @@ which gives us the following differences:
 * 28.7: The outcomes "H" and "T" are the *mutually exclusive* and *exhaustive* outcomes in the sample space of a single coin-flipping *experiment*.
 * 28.8: Suppose that we flip a coin 100 times and we get 97 heads and 3 tails. Would you reject the null hypothesis that the coin is a fair coin?
 * 28.9: Now suppose that we flip a coin 100 times and we get 60 heads. What would you do then?
-* 28.10: Nature has a good deal of randomness and we have to take that into consideration when we do scientific work!
-* 28.11: Example: regression to the mean.
+* 28.10: Again, we want to know if the evidence is strong enough to reject the null hypothesis that the coin is fair.
+* 28.11: Let's see how this applies to something we really care about.
+
+#### Example: State Homicide Rates
+
+* Let's read some data into R:
+  
+```R
+st <- c("alabama","alaska","arizona","arkansas","california",
+  "colorado","connecticut","delaware","florida","georgia",
+  "hawaii","idaho","illinois","indiana","iowa","kansas",
+  "kentucky","louisiana","maine","maryland","massachusetts",
+  "michigan","minnesota","mississippi","missouri","montana",
+  "nebraska","nevada","new hampshire","new jersey",
+  "new mexico","new york","north carolina","north dakota",
+  "ohio","oklahoma","oregon","pennsylvania","rhode island",
+  "south carolina","south dakota","tennessee","texas",
+  "utah","vermont","virginia","washington","west virginia",
+  "wisconsin","wyoming")
+
+h18 <- c(11.5,7.6,5.7,8.5,4.7,4.7,2.4,5.5,6.2,7.5,
+  2.8,2.1,7.6,7.0,2.5,5.3,5.8,12.9,1.5,8.7,2.1,
+  6.1,2.2,12.5,11.2,4.0,2.1,7.5,1.8,3.3,9.9,3.0,
+  6.0,3.0,6.4,6.6,2.6,6.2,1.7,9.3,2.9,9.2,5.3,2.1,
+  2.1,4.8,3.5,5.5,3.4,3.3)
+
+h19 <- c(11.8,10.4,5.7,8.7,4.5,4.3,3.1,5.1,6.1,8.2,
+  2.6,1.3,7.4,6.5,2.5,4.5,5.7,13.7,1.7,9.6,2.1,6.0,
+  2.7,14.1,10.6,3.6,2.9,5.3,2.6,3.0,11.0,3.0,6.6,
+  2.9,6.1,8.5,2.9,5.7,2.5,10.0,3.4,9.2,5.8,2.5,1.9,
+  5.1,3.1,5.5,3.6,3.6)
+
+hdata <- data.frame(st,h18,h19)
+hdata
+```
+
+* Now that we've read this data into R, let's look at the dataset:
+
+```Rout
+> hdata
+               st  h18  h19
+1         alabama 11.5 11.8
+2          alaska  7.6 10.4
+3         arizona  5.7  5.7
+4        arkansas  8.5  8.7
+5      california  4.7  4.5
+6        colorado  4.7  4.3
+7     connecticut  2.4  3.1
+8        delaware  5.5  5.1
+9         florida  6.2  6.1
+10        georgia  7.5  8.2
+11         hawaii  2.8  2.6
+12          idaho  2.1  1.3
+13       illinois  7.6  7.4
+14        indiana  7.0  6.5
+15           iowa  2.5  2.5
+16         kansas  5.3  4.5
+17       kentucky  5.8  5.7
+18      louisiana 12.9 13.7
+19          maine  1.5  1.7
+20       maryland  8.7  9.6
+21  massachusetts  2.1  2.1
+22       michigan  6.1  6.0
+23      minnesota  2.2  2.7
+24    mississippi 12.5 14.1
+25       missouri 11.2 10.6
+26        montana  4.0  3.6
+27       nebraska  2.1  2.9
+28         nevada  7.5  5.3
+29  new hampshire  1.8  2.6
+30     new jersey  3.3  3.0
+31     new mexico  9.9 11.0
+32       new york  3.0  3.0
+33 north carolina  6.0  6.6
+34   north dakota  3.0  2.9
+35           ohio  6.4  6.1
+36       oklahoma  6.6  8.5
+37         oregon  2.6  2.9
+38   pennsylvania  6.2  5.7
+39   rhode island  1.7  2.5
+40 south carolina  9.3 10.0
+41   south dakota  2.9  3.4
+42      tennessee  9.2  9.2
+43          texas  5.3  5.8
+44           utah  2.1  2.5
+45        vermont  2.1  1.9
+46       virginia  4.8  5.1
+47     washington  3.5  3.1
+48  west virginia  5.5  5.5
+49      wisconsin  3.4  3.6
+50        wyoming  3.3  3.6
+> 
+```
+
+* We can calculate the mean, median, and range of the homicide rates for each year, just like we've done before:
+
+```R
+mean(h18)
+mean(h19)
+median(h18)
+median(h19)
+max(h18)-min(h18)
+max(h19)-min(h19)
+```
+
+* Here is our output:
+
+```Rout
+> mean(h18)
+[1] 5.402
+> mean(h19)
+[1] 5.584
+> median(h18)
+[1] 5.3
+> median(h19)
+[1] 5.1
+> max(h18)-min(h18)
+[1] 11.4
+> max(h19)-min(h19)
+[1] 12.8
+> 
+```
+
+* As you can see, there is a lot of similarity in the statistics for the 2 years.
+* We can also look at histograms and a boxplot for each year:
+
+```R
+par(mfrow=c(1,3))
+hist(h18,
+  main="2018 State Homicide Rates",
+  xlab="# of Homicides per 100k Population",
+  ylab="# of States")
+hist(h19,
+  main="2019 State Homicide Rates",
+  xlab="# of Homicides per 100k Population",
+  ylab="# of States")
+boxplot(h18,h19,
+  main="2018 & 2019 Homicide Rates",
+  names=c("Year = 2018","Year=2019"),
+  ylab="# of Homicides per 100k Population")
+```
+
+<p align="center">
+<img src="/gfiles/hrate-charts.png" width="650px">
+</p>
+
+* As interesting as all this is, there is an important feature of this dataset that we need to consider.
+* Each state is measured in 2 different years -- 2018 and 2019.
+* Se we have the opportunity to study the *change* in homicide rates for each state.
+* If there was no overall change in homicide rates, we could expect that some states would experience an increase and others would drop.
+* In other words, if there was no change, the states that increased would tend to cancel out the states that dropped.
+* So, our null hypothesis is that a state is equally likely to experience an increase or a decrease.
+* Let's consider the evidence.
+
+```R
+delta <- h19-h18
+hdata <- data.frame(st,h18,h19,delta)
+hdata
+```
+
+```Rout
+> delta <- h19-h18
+> hdata <- data.frame(st,h18,h19,delta)
+> hdata
+               st  h18  h19 delta
+1         alabama 11.5 11.8   0.3
+2          alaska  7.6 10.4   2.8
+3         arizona  5.7  5.7   0.0
+4        arkansas  8.5  8.7   0.2
+5      california  4.7  4.5  -0.2
+6        colorado  4.7  4.3  -0.4
+7     connecticut  2.4  3.1   0.7
+8        delaware  5.5  5.1  -0.4
+9         florida  6.2  6.1  -0.1
+10        georgia  7.5  8.2   0.7
+11         hawaii  2.8  2.6  -0.2
+12          idaho  2.1  1.3  -0.8
+13       illinois  7.6  7.4  -0.2
+14        indiana  7.0  6.5  -0.5
+15           iowa  2.5  2.5   0.0
+16         kansas  5.3  4.5  -0.8
+17       kentucky  5.8  5.7  -0.1
+18      louisiana 12.9 13.7   0.8
+19          maine  1.5  1.7   0.2
+20       maryland  8.7  9.6   0.9
+21  massachusetts  2.1  2.1   0.0
+22       michigan  6.1  6.0  -0.1
+23      minnesota  2.2  2.7   0.5
+24    mississippi 12.5 14.1   1.6
+25       missouri 11.2 10.6  -0.6
+26        montana  4.0  3.6  -0.4
+27       nebraska  2.1  2.9   0.8
+28         nevada  7.5  5.3  -2.2
+29  new hampshire  1.8  2.6   0.8
+30     new jersey  3.3  3.0  -0.3
+31     new mexico  9.9 11.0   1.1
+32       new york  3.0  3.0   0.0
+33 north carolina  6.0  6.6   0.6
+34   north dakota  3.0  2.9  -0.1
+35           ohio  6.4  6.1  -0.3
+36       oklahoma  6.6  8.5   1.9
+37         oregon  2.6  2.9   0.3
+38   pennsylvania  6.2  5.7  -0.5
+39   rhode island  1.7  2.5   0.8
+40 south carolina  9.3 10.0   0.7
+41   south dakota  2.9  3.4   0.5
+42      tennessee  9.2  9.2   0.0
+43          texas  5.3  5.8   0.5
+44           utah  2.1  2.5   0.4
+45        vermont  2.1  1.9  -0.2
+46       virginia  4.8  5.1   0.3
+47     washington  3.5  3.1  -0.4
+48  west virginia  5.5  5.5   0.0
+49      wisconsin  3.4  3.6   0.2
+50        wyoming  3.3  3.6   0.3
+>
+```
+
+* So, it looks like 20 states dropped while 24 states experienced an increase and 6 states had no change.
+* A problem is that the 6 "no change" states really did change; the zero is just an artifact of rounding.
+* I can report to you that I've looked at the actual calculations out to many decimal places; 4 of them increased and 2 dropped.
+* The final result is that 28 states increased (56%) and 22 states dropped (44%).
+* If you flipped a coin 50 times and you got 28 heads and 22 tails, would you conclude that the coin is unfair?
+* Here, we are asking whether the evidence is strong enough to reject the hypothesis that a state was equally likely to experience an increase or a decrease in its homicide rate.
+* The point here is to see that real criminology problems can be approximated by a coin flipping experiment.
+* Make sure you close your previous chart window. Now, let's look at a new boxplot showing the distribution of *change scores*:
+
+```R
+boxplot(delta,
+  main="Change in Homicide Rates from 2018 to 2019",
+  ylab="2019 Rate - 2018 Rate")
+```
+
+which gives
+<p align="center">
+<img src="/gfiles/hrate-chart2.png" width="600px">
+</p>
+
+* Many people would look at this evidence and say there is not strong evidence to reject the null hypothesis but based on the tools we have so far, this would be a subjective judgment.
+
