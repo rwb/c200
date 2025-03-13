@@ -2023,9 +2023,9 @@ Instructions: Please complete each of the problems listed below. You are require
 | Nov  | 23 |
 | Dec  | 22 |
 
-* a. enter the data into R and create a frequency table (5pts).
-* b. create a reasonably labeled barplot for these data (5pts).
-* c. use the mean() and median() and min()/max() functions to calculate the mean, median, and range of the number of drug arrests (5pts).
+* 1a. enter the data into R and create a frequency table (5pts).
+* 1b. create a reasonably labeled barplot for these data (5pts).
+* 1c. use the mean() and median() and min()/max() functions to calculate the mean, median, and range of the number of drug arrests (5pts).
 
 2. The following dataset provides state names along with each state's homicide rate in the years 2018 and 2022 based on data from the Centers for Disease Control.
 
