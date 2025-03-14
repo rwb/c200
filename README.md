@@ -2077,3 +2077,7 @@ Now, with this dataset in hand, you should work on each of the following tasks (
 * 2o. Use the min() and max() functions to calculate the range of the delta values (5pts).
 * 2p. There are two values of delta that are very close to zero (so their delta value looks like it is zero). It turns out that these 2 delta values belong to New Hampshire and New Jersey. New Jersey's delta value actually showed a slight increase in the homicide rate from 2018 to 2022 while New Hampshire's showed a slight decrease. Keeping this in mind, count the number of states where delta increased and the number of states where delta decreased (5pts)
 * 2q. If our null hypothesis specifies that the chance a state experiences an increase in its homicide rate from 2018 to 2022 is 0.5, would you say the evidence to reject the null hypothesis is stronger or weaker than the evidence we discussed in class for the 2018 to 2019 comparison? Explain your reasoning (5pts).
+
+#### Questions from Students About Assignment #2
+
+1. Question Asked on 3/14/25: "In class when we discussed whether the evidence was strong enough to reject the null in the 50-states example, I was unclear on the conclusion we came to. Was the evidence strong enough to reject the null? Or is that judgement subjective to the researcher? If the evidence was strong enough, what makes it so?" My response: I would suggest looking at the last bullet point before Topic 29.
