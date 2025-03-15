@@ -1893,6 +1893,9 @@ boxplot(h18,h19,
 delta = h19-h18
 hdata = data.frame(st,h18,h19,delta)
 hdata
+mean(delta)
+median(delta)
+max(delta)-min(delta)
 ```
 
 ```Rout
@@ -1951,6 +1954,13 @@ hdata
 49      wisconsin  3.4  3.6   0.2
 50        wyoming  3.3  3.6   0.3
 >
+> mean(delta)
+[1] 0.182
+> median(delta)
+[1] 0
+> max(delta)-min(delta)
+[1] 5
+> 
 ```
 
 * So, it looks like 20 states dropped while 24 states experienced an increase and 6 states had no change.
