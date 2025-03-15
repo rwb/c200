@@ -2092,4 +2092,4 @@ Now, with this dataset in hand, you should work on each of the following tasks (
 
 1. Question asked on 3/14/25: "In class when we discussed whether the evidence was strong enough to reject the null in the 50-states example, I was unclear on the conclusion we came to. Was the evidence strong enough to reject the null? Or is that judgement subjective to the researcher? If the evidence was strong enough, what makes it so?" My response: I would suggest looking at the last bullet point before Topic 29.
 
-2. Question asked on 3/14/25: "How do I calculate the average, median and ranges for the delta values but I seem to be missing that code as well and I went back to view course material and it wasn't there." My response: I'm sorry about that oversight. The code is there now.
+2. Question asked on 3/14/25: "How do I calculate the average, median and ranges for the delta values; I went back to view course material and it wasn't there." My response: I'm sorry about that oversight. The code is there now.
