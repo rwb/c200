@@ -1645,7 +1645,7 @@ ss = c(38.6,38.8,36.8,44.6,33.2,33.4,30.3,34.2,30.8,36.0,29.0,
 table(ss)
 ```
 
-* Here are the initial results:
+* Here are the resulting *frequency tables*:
 
 ```Rout
 > table(ns)
