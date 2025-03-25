@@ -2265,7 +2265,6 @@ which is the same number we got above.
 * 34.12: How do we figure out whether the evidence in our study is strong enough to reject Ho?
 * 34.13: Well, the probability that robbery rates decreased when the economy tipped into a recession is estimated to be 9/512 which is 0.01757812.
 * 34.14: What is the margin of error or confidence interval around this probability estimate?
-* 34.15: We can look up the confidence interval on a table ([link](:
-* 34.16: If you look at the column headed "n=9" and "x=1", you will see that the 95% confidence interval for the probability of a decrease in robbery rates when a recession hits is [0.013,0.414]. Notice that this confidence interval does not include the number 1/2.
+* 34.15: We can look up the confidence interval (or margin of error) on a table ([link](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf)).
+* 34.16: If you use this table and look at the column headed "n=9" and "x=1", you will see that the 95% confidence interval (or margin of error) for the probability of a decrease in robbery rates when a recession hits is [0.013,0.414]. Notice that this 95% confidence interval (or margin of error) does not include the number 1/2.
 * 34.17: Based on this evidence, we would reject the hypothesis that p0 = 1/2.
-* 34.18: Your book has another approach which we will discuss next time.
