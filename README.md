@@ -2125,11 +2125,7 @@ x = c(19,19,23,21,17,18,22,28,21,20,23,22)
 
 Step 1: what is the number of ways (arrangements) we could get 3 positive results in 3 tests?
 
-```Rout
-3C3 = 3!/(3!0!) = 6/6 = 1
-```
-
-*Note*: use Appendix 1 on page 651 to calculate factorials.
+*Answer*: there is only 1 way to get 3 positive results in 3 tests -- each test would have to be positive.
 
 Step 2: use the multiplication rule for independent events:
 
@@ -2144,6 +2140,8 @@ Step 1: what is the number of ways (arrangements) we could get 2 positive result
 ```Rout
 4C2 = 4!/(2!2!) = 24/(2×2) = 24/4 = 6
 ```
+
+*Note*: use Appendix 1 on page 651 to calculate factorials.
 
 Step 2: use the multiplication rule for independent events:
 
