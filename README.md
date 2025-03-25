@@ -2201,7 +2201,7 @@ p(2+ out of 4 tests) = 4/81 + 4/81 + 4/81 + 4/81 + 4/81 + 4/81 = 24/81 = 8/27
 * 34.7: Another example: we observe a judge in a courtroom and count the number of people who appear in her courtroom for sentencing (this is the number of Bernoulli trials); then we can study the number of people who are sent to prison (instead of probation) as the binomial outcome variable.
 * 34.8: Let's consider an example based on real data: the data come from Cook and Zarkin (1985; [link](https://www.journals.uchicago.edu/doi/abs/10.1086/467767)). In this paper, the authors examined 9 business cycles and found that robbery rates increased (relative to their change during the preceding growth phase) when the economy tipped into a recession in 8 of the 9 cycles; this means the robbery rates decreased in 1 of the 9 cycles. The null hypothesis in this study was that when the economy tips into a recession then robbery rates are just as likely to decrease as they are to increase (like flipping a coin!).
 
-Step 1: how many different ways could we get 8 "events" in 9 "trials"?
+Step 1: how many different ways could we get 1 "event" in 9 "trials"?
 
 ```Rout
 1. ++++++++-
@@ -2217,7 +2217,7 @@ Step 1: how many different ways could we get 8 "events" in 9 "trials"?
 
 Note: we could also use the combination formula:
 
-9C8 = 9!/(8!1!) = 362880/40320 = 9
+9C1 = 9!/(1!8!) = 362880/40320 = 9
 
 Step 2: What is the probability of each permutation occurring if the robbery rate is equally likely to increase or decrease when the economy tips into a recession (i.e., p0 = 1/2)? We use the multiplication rule:
 
