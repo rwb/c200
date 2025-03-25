@@ -2245,7 +2245,7 @@ Or, we can use binomial *probability mass function* to calculate the same probab
 p(x decreases out of N trials) = # of combinations × p0^x × (1-p0)^(N-x)
 ```
 
-where the number of combinations comes from the formula used above, the number of economic cycles is N = 9 and the number of times robbery decreased is x = 1 and (N-x) = the number of increases which is 8; note that p0 is the null hypothesis probability that robbery rates decrease when the economy tips into a recession.
+where the number of combinations comes from the formula used above, the number of economic cycles is N = 9 and the number of times robbery decreased is x = 1 and (N-x) = the number of increases which is 8; note that p0 is the null hypothesis probability that robbery rates decrease when the economy tips into a recession (p0 = 1/2).
 
 ```Rout
 p(1 decrease out of 9 trials) = 9 × (1/2)^1 × (1-1/2)^8
