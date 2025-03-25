@@ -2121,7 +2121,7 @@ x = c(19,19,23,21,17,18,22,28,21,20,23,22)
 
 #### Topic 32: Ordering and Arrangement
 
-* 32.1: Suppose we study a group of people on community supervision who regularly get drug tested. Historically, the probability of a positive drug test result is 1/2. Suppose we study the test results of the next 3 people. What is the probability of getting 3 positive results?
+* 32.1: Suppose we study a group of people on community supervision who regularly get drug tested. Historically, the probability of a positive drug test result is 1/2. Now, let's consider the next 3 people. What is the probability of getting 3 positive results?
 
 Step 1: what is the number of ways (arrangements) we could get 3 positive results in 3 tests?
 
