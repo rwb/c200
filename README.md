@@ -2103,3 +2103,169 @@ Now, with this dataset in hand, you should work on each of the following tasks (
 ```Rout
 x = c(19,19,23,21,17,18,22,28,21,20,23,22)
 ```
+
+### Lesson 14 - Tuesday 3/25/25
+
+* Reminder: your second assignment is due at 11:59pm on Wednesday 3/26/25 (submit on ELMS).
+* We are currently in the middle of Chapter 7.
+
+#### Topic 31: Multiplication Rule
+
+* 31.1: Let's say we have an experiment where we flip a coin and the coin lands heads or tails with equal probability (1/2).
+* 31.2: Now, we conduct this same experiment a second time. Again, the coin lands heads or tails with equal probability (1/2).
+* 31.3: If the outcomes of these 2 experiments are *independent* then we can calculate the chance of getting HH when we flip the coin twice, p(H and H), as 1/2 × 1/2 = 1/4.
+* 31.4: Two outcomes are independent if the outcome of the first experiment has nothing to do with the outcome of the second experiment.
+* 31.5: Multiplication rule with independent experimental outcomes is: p(A and B) = p(A) × p(B)
+* 31.6: This can be extended to: p(A and B and C) =  p(A) × p(B) × p(C), etc.
+* 31.7: Flip a coin 3 times. What is the chance of 3 heads? Solution: p(H and H and H) = p(H) × p(H) × p(H) = 1/2 × 1/2 × 1/2 = 1/8.
+
+#### Topic 32: Ordering and Arrangement
+
+* 32.1: Suppose we study a group of people on community supervision who regularly get drug tested. Historically, the probability of a positive drug test result is 1/2. Suppose we study the test results of the next 3 people. What is the probability of getting 3 positive results?
+
+Step 1: what is the number of ways (arrangements) we could get 3 positive results in 3 tests?
+
+```Rout
+3C3 = 3!/(3!0!) = 6/6 = 1
+```
+
+*Note*: use Appendix 1 on page 651 to calculate factorials.
+
+Step 2: use the multiplication rule for independent events:
+
+```Rout
+p(+ and + and +) = p(+) × p(+) × p(+) = 1/2 × 1/2 × 1/2 = 1/8
+```
+
+* 32.2: Suppose we look at the next 4 people and ask about the probability of getting 2 positive results?
+
+Step 1: what is the number of ways (arrangements) we could get 2 positive results in 4 tests?
+
+```Rout
+4C2 = 4!/(2!2!) = 24/(2×2) = 24/4 = 6
+```
+
+Step 2: use the multiplication rule for independent events:
+
+```Rout
+p(--++) = p(-) × p(-) × p(+) × p(+) = 1/2 × 1/2 × 1/2 × 1/2 = 1/16
+p(-+-+) = p(-) × p(+) × p(-) × p(+) = 1/2 × 1/2 × 1/2 × 1/2 = 1/16
+p(+--+) = p(+) × p(-) × p(-) × p(+) = 1/2 × 1/2 × 1/2 × 1/2 = 1/16
+p(+-+-) = p(+) × p(-) × p(+) × p(-) = 1/2 × 1/2 × 1/2 × 1/2 = 1/16
+p(-++-) = p(-) × p(+) × p(+) × p(-) = 1/2 × 1/2 × 1/2 × 1/2 = 1/16
+p(++--) = p(+) × p(+) × p(-) × p(-) = 1/2 × 1/2 × 1/2 × 1/2 = 1/16
+```
+
+Step 3: use the addition rule to add up the probabilities for the different ways we could get 2 positive results in 4 tests:
+
+```Rout
+p(2+ out of 4 tests) = 1/16 + 1/16 + 1/16 + 1/16 + 1/16 + 1/16 = 6/16 = 3/8
+```
+
+* 32.3: Now, suppose we go to another jurisdiction where the probability of getting a positive test result is 1/3. What is the probability that there will be 2 positive results in 4 tests in the new jurisdiction?
+
+Step 1: we still have 6 ways of getting 2 positive results in 4 tests (combination formula).
+
+Step 2: use the multiplication rule for independent events:
+
+```Rout
+p(--++) = p(-) × p(-) × p(+) × p(+) = 2/3 × 2/3 × 1/3 × 1/3 = 4/81
+p(-+-+) = p(-) × p(+) × p(-) × p(+) = 2/3 × 1/3 × 2/3 × 1/3 = 4/81
+p(+--+) = p(+) × p(-) × p(-) × p(+) = 1/3 × 2/3 × 2/3 × 1/3 = 4/81
+p(+-+-) = p(+) × p(-) × p(+) × p(-) = 1/3 × 2/3 × 1/3 × 2/3 = 4/81
+p(-++-) = p(-) × p(+) × p(+) × p(-) = 2/3 × 1/3 × 1/3 × 2/3 = 4/81
+p(++--) = p(+) × p(+) × p(-) × p(-) = 1/3 × 1/3 × 2/3 × 2/3 = 4/81
+```
+
+Step 3: use the addition rule to add up the probabilities for the different ways we could get 2 positive results in 4 tests:
+
+```Rout
+p(2+ out of 4 tests) = 4/81 + 4/81 + 4/81 + 4/81 + 4/81 + 4/81 = 24/81 = 8/27
+```
+
+#### Topic 33: Permutations and Combinations
+
+* 33.1: A permutation is an arrangement of experimental outcomes in a specific order. Considering the example of 32.3, the outcome --++ is not equivalent to the outcome ++--.
+* 33.2: Combinations are indifferent to ordering. Again, considering the example of 32.3, each of the experimental outcomes listed in Step 2 is an equivalent qualifying event. We are indifferent to the ordering of the outcomes.
+* 33.3: In applied criminological research, we are generally interested in the number of ways we could get a set of results which implies an emphasis on combinations rather than permutations.
+* 33.4: To count the number of different ways you could get r "events" in N "experiments" or "trials", we generally use the combination formula.
+
+#### Topic 34: The Binomial Distribution (pp. 145-149)
+
+* 34.1: We have already been using the binomial probability distribution above but we haven't made it explicit. We will do so now.
+* 34.2: The binomial probability distribution is well suited for problems where there is a certain number of experiments or trials and in each trial there is an "success" or a "failure".
+* 34.3: These trials have a name -- they are called Bernoulli trials. So a single Bernoulli trial is like a coin flip where the coin can land on "heads" or "tails".
+* 34.4: In criminology, a single Bernoulli trial might be a person who is released from prison; then we observe whether that person is rearrested within some well-defined period of time (a failure) or not (a success).
+* 34.5: If we then study a group of people released from prison, we can view the number of people in the study as the number of Bernoulli trials and the number of people who fail as the binomial outcome.
+* 34.6: Here is another example: we survey a random sample of N people and ask each of them whether they have been victimized or not. Then the number of people who have been victimized is a binomial outcome variable out of N Bernoulli trials.
+* 34.7: Another example: we observe a judge in a courtroom and count the number of people who appear in her courtroom for sentencing (this is the number of Bernoulli trials); then we can study the number of people who are sent to prison (instead of probation) as the binomial outcome variable.
+* 34.8: Let's consider an example based on real data: the data come from Cook and Zarkin (1985; [link](https://www.journals.uchicago.edu/doi/abs/10.1086/467767)). In this paper, the authors examined 9 business cycles and found that robbery rates increased (relative to their change during the preceding growth phase) when the economy tipped into a recession in 8 of the 9 cycles. The null hypothesis in this study was that when the economy tips into a recession that robbery rates are just as likely to increase as they are to decrease (like flipping a coin!).
+
+Step 1: how many different ways could we get 8 "events" in 9 "trials"?
+
+```Rout
+1. ++++++++-
+2. +++++++-+
+3. ++++++-++
+4. +++++-+++
+5. ++++-++++
+6. +++-+++++
+7. ++-++++++
+8. +-+++++++
+9. -++++++++
+```
+
+Note: we could also use the combination formula:
+
+9C8 = 9!/(8!1!) = 362880/40320 = 9
+
+Step 2: What is the probability of each permutation occurring if the robbery rate is equally likely to increase or decrease when the economy tips into a recession (i.e., p0 = 1/2)? We use the multiplication rule:
+
+```Rout
+1. p(++++++++-) = 1/2^9 = 1/512
+2. p(+++++++-+) = 1/2^9 = 1/512
+3. p(++++++-++) = 1/2^9 = 1/512
+4. p(+++++-+++) = 1/2^9 = 1/512
+5. p(++++-++++) = 1/2^9 = 1/512
+6. p(+++-+++++) = 1/2^9 = 1/512
+7. p(++-++++++) = 1/2^9 = 1/512
+8. p(+-+++++++) = 1/2^9 = 1/512
+9. p(-++++++++) = 1/2^9 = 1/512
+```
+
+Step 3: Use the addition rule to add up the probabilities:
+
+```Rout
+1/512 + 1/512 + 1/512 + 1/512 + 1/512 + 1/512 + 1/512 + 1/512 + 1/512 = 9/512
+```
+
+Or, we can use binomial *probability mass function* to calculate the same probability:
+
+```Rout
+p(x decreases out of N trials) = # of combinations × p0^x × (1-p0)^(N-x)
+```
+
+where the number of combinations comes from the formula used above, the number of economic cycles is N = 9 and the number of times robbery decreased is x = 1 and (N-x) = the number of increases which is 8; note that p0 is the null hypothesis probability that robbery rates decrease when the economy tips into a recession.
+
+```Rout
+p(1 decrease out of 9 trials) = 9 × (1/2)^1 × (1-1/2)^8
+```
+
+and this is equal to
+
+```Rout
+p(1 decrease out of 9 trials) = 9 × 1/2^9 = 9/512
+```
+
+which is the same number we got above.
+
+* 34.9: How can we tell if this result is *statistically significant*? 
+* 34.10: We need to decide what evidence would convince us that the null hypothesis, Ho, (p0 = 1/2) is wrong.
+* 34.11: A convention in the field is to say that we want the probability of a type 1 error (rejecting Ho when Ho is true) to be a very small number; the cutoff often used is 0.05. We will use this same cutoff.
+* 34.12: How do we figure out whether the evidence in our study is strong enough to reject Ho?
+* 34.13: Well, the probability that robbery rates decreased when the economy tipped into a recession is estimated to be 9/512 which is 0.01757812.
+* 34.14: What is the margin of error or confidence interval around this probability estimate?
+* 34.15: We can look up the confidence interval on a table ([link](:
+* 34.16: If you look at the column headed "n=9" and "x=1", you will see that the 95% confidence interval for the probability of a decrease in robbery rates when a recession hits is [0.013,0.414]. Notice that this confidence interval does not include the number 1/2.
+* 34.17: Based on this evidence, we would reject the hypothesis that p0 = 1/2.
+* 34.18: Your book has another approach which we will discuss next time.
