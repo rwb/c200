@@ -2107,7 +2107,7 @@ x = c(19,19,23,21,17,18,22,28,21,20,23,22)
 ### Lesson 14 - Tuesday 3/25/25
 
 * Reminder: your second assignment is due at 11:59pm on Wednesday 3/26/25 (submit on ELMS).
-* We are currently in the middle of Chapter 7.
+* We are currently in Chapter 7.
 
 #### Topic 31: Multiplication Rule
 
