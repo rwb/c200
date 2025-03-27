@@ -2266,3 +2266,11 @@ which is the same number we got above.
 * 34.15: We can look up the confidence interval (or margin of error) on a table ([link](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf)).
 * 34.16: If you use this table and look at the column headed "n=9" and "x=1", you will see that the 95% confidence interval (or margin of error) for the probability of a decrease in robbery rates when a recession hits is [0.013,0.414]. Notice that this 95% confidence interval (or margin of error) does not include the number 1/2.
 * 34.17: Based on this evidence, we would reject the hypothesis that p0 = 1/2.
+
+### Lesson 15 - Thursday 3/27/25
+
+* We are currently in Chapter 7; continuing with Topic 34 (Binomial Distribution)
+* 34.18: In our last class, we looked at changes in robbery when the economy tips into a recession.
+* 34.19: Today, we will study the robbery data from an updated version of the Cook and Zarkin study.
+* 34.20: Between the early 1980's and 2010's there were 3 new recessions above and beyond those studied by Cook and Zarkin; Bushway, Cook, and Phillips (2013; [link](https://www.degruyter.com/document/doi/10.18574/nyu/9780814789308.003.0002/html)) studied all 13 recessions.
+* 34.21: They found that robbery rates decreased in 3 recessions while for the other 10 it increased -- when the economy transitioned from a growth phase to a recession. Can we reject the hypothesis that p0 = 1/2?
