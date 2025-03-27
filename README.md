@@ -2275,3 +2275,38 @@ which is the same number we got above.
 * 34.19: Today, we will study the robbery data from an updated version of the Cook and Zarkin study.
 * 34.20: Between the early 1980's and 2010's there were 3 new recessions above and beyond those studied by Cook and Zarkin; Bushway, Cook, and Phillips (2013; [link](https://www.degruyter.com/document/doi/10.18574/nyu/9780814789308.003.0002/html)) studied all 13 recessions.
 * 34.21: They found that robbery rates decreased in 3 recessions while for the other 10 it increased -- when the economy transitioned from a growth phase to a recession. Can we reject the hypothesis that p0 = 1/2?
+* 34.22: We conduct our test with a Type I error risk of p < 0.05 (probability of rejecting Ho when Ho is true).
+* 34.23: The sample estimated fraction of recessions where robbery decreased is 3/13 (which is 0.2307692).
+* 34.24: The hypothesis to be tested is that p0 = 1/2.
+* 34.25: Does the 95% confidence interval (or margin of error) around 3/13 include the number 1/2? 
+* 34.26: Based on the [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf) of binomial confidence intervals, we find that the margin of error when we have 13 "experiments" and 3 "events" (in this case, an event is defined as "the robbery rate declines") is [0.070,0.497].
+* 34.27: Since this interval does not include the number 1/2, we conclude that the evidence is strong enough to reject Ho.
+* 34.28: Based on the data we observe in our sample, we conclude that p0 is not equal to 1/2.
+* 34.29: Notice that I framed this discussion in terms of p(robberies decrease when a recession arrives) = 3/13 but we could also have framed it in terms of p(robberies increase when a recession arrives).
+* 34.30: If we did this, our sample estimate would be 10/13 instead of 3/13. But the substantive conclusion would be the same.
+* 34.31: The confidence interval (or margin of error) is [1-0.497 = 0.503,1-0.070 = 0.930] or more simply, [0.503,0.930]. Notice that the 95% confidence interval still does not include 0.5, so we still reject Ho.
+* 34.32: So, our conclusion does not depend on how we define what an "event" is in a binomial problem. Let's look at another example.
+
+#### New Example
+
+* What happens to homicide rates when a state abolishes the death penalty?
+* We can see when states abolished the death penalty by going to the Death Penalty Information Center (DPIC) [website](https://deathpenaltyinfo.org/state-and-federal-info/state-by-state):
+
+
+| State | Year of Abolition  | Pre-Rate | Post-Rate | Sign |
+| :-----|-----:| ---: |---: |---: |
+| Colorado | 2020 | 4.3 | 6.3 | + |
+| Connecticut | 2012 | 3.8 | 2.8 | - |
+| Delaware | 2016 | 6.9 | 6.5 | - |
+| Illinois | 2011 | 6.1 | 6.5 | + |
+| Maryland | 2013 | 6.9 | 6.5 | - |
+| Massachusetts | 1984 | 3.4 | 3.5 | + |
+| New Hampshire | 2019 | 1.5 | 1.0 | - |
+| New Jersey | 2007 | 10.1 | 9.2 | - |
+| New Mexico | 2009 | 7.5 | 7.4 | - |
+| New York | 2007 | 5.0 | 4.6 | -  |
+| North Dakota | 1973 | 1.0 | 1.9 | + |
+| Rhode Island | 1984 | 3.8 | 3.9 | + |
+| Vermont | 1972 | 2.2 | 1.5 | - |
+| Virginia | 2021 | 6.2 | 7.5 | + |
+| Washington | 2023 | 5.4 | 3.2 | - |
