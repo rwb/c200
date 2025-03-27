@@ -2311,6 +2311,7 @@ which is the same number we got above.
 | Virginia | 2021 | 6.2 | 7.5 | + |
 | Washington | 2023 | 5.4 | 3.2 | - |
 
+
 * We treat each of these 15 abolition cases as a naturally occurring experiment.
 * The event of interest is whether the homicide rate increases after the death penalty is abolished.
 * Our null hypothesis, p0 = 1/2, asserts that homicide rates are equally likely to increase or decrease after the death penalty is abolished.
@@ -2320,7 +2321,6 @@ which is the same number we got above.
 * We consult our [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf) which is based on setting the probability of getting a Type I error at 0.05.
 * If we look at the column, N = 15 and the row with 6 events, we see that the confidence interval associated with our sample estimate (0.4) is [0.188,0.647].
 * Since this confidence interval includes the number 1/2 (our p0 value), we *fail to reject* the hypothesis that p0 = 1/2.
-
 * 34.33: In these examples, we have been using the binomial probability distribution as a *sampling distribution*, a theoretical probability distribution.
 * 34.34: If we flip a fair coin 10 times (Table 7.5 in the textbook) there is a decent chance that we will not get exactly 5 heads. Suppose we get 7 heads; as you can see from Table 7.5, there is a greater than 10% chance that we could get 7 heads when we flip a fair coin 10 times.
 * 34.35: In our examples, we are doing something similar. We are trying to discern the chance that we could get results like the ones we got if the true underlying probability of an event occurring is equal to 1/2. In the case of robbery rates when the economy tips into a recession, we conclude that it is *unlikely* we could have gotten the results we did if the true underlying chance of robbery decreasing was really 1/2. We reached the opposite conclusion in our death penalty aboltion/homicide rates example.
