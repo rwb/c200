@@ -2269,7 +2269,8 @@ which is the same number we got above.
 
 ### Lesson 15 - Thursday 3/27/25
 
-* We are currently in Chapter 7; continuing with Topic 34 (Binomial Distribution)
+* We are currently in Chapter 7; continuing with Topic 34 (Binomial Distribution).
+* This week's practice/homework questions are problems 7.5-7.7.
 * 34.18: In our last class, we looked at changes in robbery when the economy tips into a recession.
 * 34.19: Today, we will study the robbery data from an updated version of the Cook and Zarkin study.
 * 34.20: Between the early 1980's and 2010's there were 3 new recessions above and beyond those studied by Cook and Zarkin; Bushway, Cook, and Phillips (2013; [link](https://www.degruyter.com/document/doi/10.18574/nyu/9780814789308.003.0002/html)) studied all 13 recessions.
