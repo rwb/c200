@@ -2320,7 +2320,6 @@ which is the same number we got above.
 * We consult our [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf) which is based on setting the probability of getting a Type I error at 0.05.
 * If we look at the column, N = 15 and the row with 6 events, we see that the confidence interval associated with our sample estimate (0.4) is [0.188,0.647].
 * Since this confidence interval includes the number 1/2 (our p0 value), we *fail to reject* the hypothesis that p0 = 1/2.
-* It is evidence like this that has led to the death penalty policy position of the American Society of Criminology ([website](https://asc41.org/about-asc/policy-page/)).
 
 * 34.33: In these examples, we have been using the binomial probability distribution as a *sampling distribution*, a theoretical probability distribution.
 * 34.34: If we flip a fair coin 10 times (Table 7.5 in the textbook) there is a decent chance that we will not get exactly 5 heads. Suppose we get 7 heads; as you can see from Table 7.5, there is a greater than 10% chance that we could get 7 heads when we flip a fair coin 10 times.
