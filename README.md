@@ -2290,8 +2290,8 @@ which is the same number we got above.
 #### New Example
 
 * What happens to homicide rates when a state abolishes the death penalty?
-* We can see when states abolished the death penalty by going to the Death Penalty Information Center (DPIC) [website](https://deathpenaltyinfo.org/state-and-federal-info/state-by-state):
-
+* We can see when states abolished the death penalty by going to the Death Penalty Information Center (DPIC) [website](https://deathpenaltyinfo.org/state-and-federal-info/state-by-state).
+* Next, we look up the homicide rates at the Centers for Disease Control and Prevention [website](https://wonder.cdc.gov).
 
 | State | Year of Abolition  | Pre-Rate | Post-Rate | Sign |
 | :-----|-----:| ---: |---: |---: |
@@ -2310,3 +2310,14 @@ which is the same number we got above.
 | Vermont | 1972 | 2.2 | 1.5 | - |
 | Virginia | 2021 | 6.2 | 7.5 | + |
 | Washington | 2023 | 5.4 | 3.2 | - |
+
+* We treat each of these 15 abolition cases as a naturally occurring experiment.
+* The event of interest is whether the homicide rate increases after the death penalty is abolished.
+* Our null hypothesis, p0 = 1/2, asserts that homicide rates are equally likely to increase or decrease after the death penalty is abolished.
+* Our table shows that in 6 of the 15 experiments, the homicide rate increased after the death penalty was abolished.
+* This means that our evidence in this sample is 6/15 = 0.4.
+* Is the evidence in our sample strong enough to reject the p0 = 1/2 (null) hypothesis?
+* We consult our [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf).
+* If we look at the column, N = 15 and the row with 6 events, we see that the confidence interval associated with our sample estimate (0.4) is [0.188,0.647].
+* Since this confidence interval includes the number 1/2 (our p0 value), we *fail to reject* the hypothesis that p0 = 1/2.
+* It is evidence like this that has led to the death penalty policy position of the American Society of Criminology ([website](https://asc41.org/about-asc/policy-page/)).
