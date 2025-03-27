@@ -2317,7 +2317,7 @@ which is the same number we got above.
 * Our table shows that in 6 of the 15 experiments, the homicide rate increased after the death penalty was abolished.
 * This means that our evidence in this sample is 6/15 = 0.4.
 * Is the evidence in our sample strong enough to reject the p0 = 1/2 (null) hypothesis?
-* We consult our [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf).
+* We consult our [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf) which is based on setting the probability of getting a Type I error at 0.05.
 * If we look at the column, N = 15 and the row with 6 events, we see that the confidence interval associated with our sample estimate (0.4) is [0.188,0.647].
 * Since this confidence interval includes the number 1/2 (our p0 value), we *fail to reject* the hypothesis that p0 = 1/2.
 * It is evidence like this that has led to the death penalty policy position of the American Society of Criminology ([website](https://asc41.org/about-asc/policy-page/)).
