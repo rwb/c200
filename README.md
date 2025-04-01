@@ -2324,3 +2324,8 @@ which is the same number we got above.
 * 34.33: In these examples, we have been using the binomial probability distribution as a *sampling distribution*, a theoretical probability distribution.
 * 34.34: If we flip a fair coin 10 times (Table 7.5 in the textbook) there is a decent chance that we will not get exactly 5 heads. Suppose we get 7 heads; as you can see from Table 7.5, there is a greater than 10% chance that we could get 7 heads when we flip a fair coin 10 times.
 * 34.35: In our examples, we are doing something similar. We are trying to discern the chance that we could get results like the ones we got if the true underlying probability of an event occurring is equal to 1/2. In the case of robbery rates when the economy tips into a recession, we conclude that it is *unlikely* we could have gotten the results we did if the true underlying chance of robbery decreasing was really 1/2. We reached the opposite conclusion in our death penalty aboltion/homicide rates example.
+
+### Lesson 15 - Tuesday 4/1/25
+
+* We have been considering conceptual issues related to hypothesis testing.
+* The steps we have examined include: (1) specifying a hypothesis; (2) before looking at the data, stating the evidence that would convince us that the hypothesis should be rejected; (3) collect data; (4) discern whether the evidence is strong enough to reject the hypothesis; and (5) state our conclusion.
