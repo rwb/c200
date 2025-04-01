@@ -2346,7 +2346,7 @@ which is the same number we got above.
 ```Rout
 p(5 increases out of 15 states if p0 = 1/2) = 15![5!10!] 1/2^5 1/2^10 = 0.09164429
 ```
-*Note*: we can perform similar calculations for each of the possible events in the sample space. Table 7.5 on page 148 in your textbook has an example of how these calculations are carried out using the binomial probability formula (you can also click on this [link](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.png)).
+*Note*: we can perform similar calculations for each of the possible events in the sample space. Table 7.5 on page 148 in your textbook has an example of how these calculations are carried out using the binomial probability formula (you can also click on this [link](https://github.com/rwb/c200/blob/main/gfiles/coin-table.png)).
 
 | # of Increases | p(# of Increases if p0 = 1/2) |
 | -----:|------:|
