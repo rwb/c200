@@ -2328,7 +2328,7 @@ which is the same number we got above.
 ### Lesson 15 - Tuesday 4/1/25
 
 * We have been considering conceptual issues related to hypothesis testing.
-* The steps we have examined include: (1) specifying a hypothesis; (2) before looking at the data, stating the evidence that would convince us that the hypothesis should be rejected; (3) collect appropriate data; and (4) discern whether the evidence is strong enough to reject the hypothesis.
+* The steps we have examined include: (1) specify a hypothesis; (2) before looking at the data, state the evidence that would convince us that the hypothesis should be rejected; (3) collect appropriate data; and (4) discern whether the evidence is strong enough to reject the hypothesis.
 * Let's work another example:
 * Suppose you are a crime analyst at a local police department. As a result of a grant, the police department is able to open 10 new district substations. After the substations have been operating for a year, the police chief asks you to compare robbery rates from the year before each station opened to the year after the station opened using a binomial significance test (with the probability of a Type I error set to be less than 0.05). The null hypothesis is that each district is equally likely to experience an increase or a decrease after the new substation opens. After collecting and analyzing your data, you find that robbery rates decreased in 1 of the 10 districts. What do you conclude?
 
