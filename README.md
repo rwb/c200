@@ -2341,12 +2341,12 @@ which is the same number we got above.
 #### The Textbook Procedure (pp. 149 and 152-153).
 
 * Step 1: p0 = 1/2.
-* Step 2: What evidence would convince us that p0 is not 1/2? Our first step is to create a table of probabilities. We use the binomial probability function to make these calculations. As an example, consider the probability of getting 5 increases out of 15 states if p0 = 1/2:
+* Step 2: What evidence would convince us that p0 is not 1/2? Our first step is to create a table of probabilities. We use the binomial probability function to make these calculations. As an example, consider the probability of getting 5 increases out of 15 states if p0 = 1/2 (this is review from last week):
 
 ```Rout
 p(5 increases out of 15 states if p0 = 1/2) = 15![5!10!] 1/2^5 1/2^10 = 0.09164429
 ```
-*Note*: we can perform similar calculations for each of the possible events in the sample space. Table 7.5 on page 148 in your textbook has an example of how these calculations are carried out using the binomial probability formula (you can also click on this [link](https://github.com/rwb/c200/blob/main/gfiles/coin-table.png)).
+*Note*: we can perform similar calculations for each of the possible events in the sample space. Table 7.5 on page 148 in your textbook has an example of how these calculations are carried out using the binomial probability formula.
 
 | # of Increases | p(# of Increases if p0 = 1/2) |
 | -----:|------:|
