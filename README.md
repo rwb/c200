@@ -2324,7 +2324,7 @@ which is the same number we got above.
 * 34.34: If we flip a fair coin 10 times (Table 7.5 in the textbook) there is a decent chance that we will not get exactly 5 heads. Suppose we get 7 heads; as you can see from Table 7.5, there is a greater than 10% chance that we could get 7 heads when we flip a fair coin 10 times.
 * 34.35: In our examples, we are doing something similar. We are trying to discern the chance that we could get results like the ones we got if the true underlying probability of an event occurring is equal to 1/2. In the case of robbery rates when the economy tips into a recession, we conclude that it is *unlikely* we could have gotten the results we did if the true underlying chance of robbery decreasing was really 1/2. We reached the opposite conclusion in our death penalty aboltion/homicide rates example.
 
-### Lesson 15 - Tuesday 4/1/25
+### Lesson 16 - Tuesday 4/1/25
 
 * We have been considering conceptual issues related to hypothesis testing.
 * The steps we have examined include: (1) specify a hypothesis; (2) before looking at the data, state the evidence that would convince us that the hypothesis should be rejected; (3) collect appropriate data; and (4) discern whether the evidence is strong enough to reject the hypothesis.
@@ -2428,7 +2428,7 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * 35.2: So far, we have been working with data that is measured at the nominal level (either an event happens or it doesn't; there is no logical ordering of the categories).
 * 35.3: The example in Chapter 8 will also involve nominal data but it looks at the effect of a hot-spots intervention; in this study, there is a treatment and a control group. As Table 8.1 on page 161 shows, there were 11 experimental comparisons and in 10 of the 11 comparisons, the experimental site had a better outcome than the control site. This leads us to say we have 10 "pluses" and 1 "minus". So, the sign +/- is a nominal two category variable (i.e., it doesn't matter whether you order the outcomes +/- or -/+). On page 164, your book refers to this as a "nominal binary scale."
 
-### Lesson 16 - Thursday 4/3/25
+### Lesson 17 - Thursday 4/3/25
 
 * Reminder: next exam is scheduled for Tuesday 4/15/25
 * We will have time for review and questions on Thursday 4/10/25.
