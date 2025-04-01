@@ -2334,7 +2334,7 @@ which is the same number we got above.
 
 * Let's review the test we conducted last week pertaining to the abolition of the death penalty in 15 states.
 * Step 1: specify the hypothesis to be tested; we generally call this the *null hypothesis*. Generally, we test a null hypothesis about a population parameter value based on sample data. In this case, we will say that the population parameter is p0 and the hypothesis to be tested is that p0 = 1/2. This implies that homicide rates are *equally likely* to increase or decrease when a state abolishes the death penalty. Note that we do not observe p0, we can only infer whether the evidence is strong enough to reject the hypothesis that p0 is 1/2.
-* Step 2: What evidence would convince us that p0 is not 1/2? Last week, we approached this problem by thinking about a 95% confidence interval or 955 margin of error interval for the sample estimate of the probability that a state's homicide rate increases when it abolishes the death penalty. If we divide the number of states where the homicide rate increased after abolition by the total number of states that abolished the death penalty, we get the sample estimate of the probability that a state's homicide rate increases when it abolishes the death penalty. We will call this estimate, ps. We will reject the hypothesis that p0 = 1/2 if the 95% confidence interval or margin of error around ps includes 1/2.
+* Step 2: What evidence would convince us that p0 is not 1/2? Last week, we approached this problem by thinking about a 95% confidence interval or 95% margin of error interval for the sample estimate of the probability that a state's homicide rate increases when it abolishes the death penalty. If we divide the number of states where the homicide rate increased after abolition by the total number of states that abolished the death penalty, we get the sample estimate of the probability that a state's homicide rate increases when it abolishes the death penalty. We will call this estimate, ps. We will fail to reject the hypothesis that p0 = 1/2 if the 95% confidence interval or margin of error around ps includes 1/2.
 * Step 3: When we collect our data we find that 15 states abolished the death penalty after 1970; among these 15 states, we see that in 6 instances, the homicide rate increased after abolition while it decreased in the other 9 instances. This means that ps = 6/15 (which reduces to 2/5 or 0.40).
 * Step 4: Based on our lookup [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf), we see that the 95% confidence interval associated with this estimate is [0.188,0.647]. Since this interval includes the number 1/2, we *fail to reject* the hypothesis that p0 = 1/2.
 
@@ -2382,7 +2382,7 @@ Based on this table, we see that p(0 or 1 or 2 or 3 or 12 or 13 or 14 or 15 incr
 
 #### Another Example
 
-* Suppose you are a crime analyst at a local police department. As a result of a grant, the police department is able to open 12 new district substations. After the substations have been operating for a year, the police chief asks you to compare robbery rates from the year before each station opened to the year after the station opened using a binomial significance test (with the probability of a Type I error set to be less than 0.05). The null hypothesis is that each district is equally likely to experience an increase or a decrease after the new substation opens (p0 = 1/2). * Evidence required to reject Ho: 95% confidence interval for ps (our sample estimate) does not include 1/2; this is equivalent to conducting our test at the *p* < 0.05 significance level (i.e., the probability of a Type 1 error is less than 0.05).
+* Suppose you are a crime analyst at a local police department. As a result of a grant, the police department is able to open 12 new district substations. After the substations have been operating for a year, the police chief asks you to compare robbery rates from the year before each station opened to the year after the station opened using a binomial significance test (with the probability of a Type I error set to be less than 0.05). The null hypothesis is that each district is equally likely to experience an increase or a decrease after the new substation opens (p0 = 1/2).
 * Reminder: a Type 1 error means we reject Ho, when Ho is true.
 * Collect data: 2 of the districts experienced a decrease while 10 of the districts experienced an increase.
 * Specify the distribution for the number of districts experiencing an increase:
@@ -2416,12 +2416,12 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12![7!5!] 1/2^7 1/2^5 
 * Identify the evidence that would cause us to reject Ho at the p < 0.05 significance level.
 * p(0 or 1 or 2 or 10 or 11 or 12 increases) = 0.0002441406 + 0.002929688 + 0.01611328 + 0.01611328 + 0.002929688 + 0.0002441406 = 0.03857422 (this is the critical region).
 * Why do we focus on these outcomes?
-* Because they are the outcomes that are *least likely to occur* if Ho is true (i.e., θ = 1/2).
+* Because they are the outcomes that are *least likely to occur* if Ho is true (i.e., p0 = 1/2).
 * If we were to reject Ho when there are 3 increases or 9 increases, our p-value (probability of a type I error) would exceed 0.05.
 * These 6 outcomes are the ones that would lead us to reject Ho at the *p* < 0.05 significance level.
 * So, these 6 outcomes constitute the *critical region* for our test.
 * Since 2 increases occurred and 2 is in the critical region, we reject Ho and conclude that p0 is not equal to 1/2.
-* *Note*: we could also see that ps = 2/12 = 1/6 (or 0.1666667). Based on our 95% confidence interval look-up [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf) we can see that the confidence interval or margin of error around this estimate is [0.036,0.436]. Since this interval does not include 1/2 we reject Ho and conclude that p0 is not 1/2.
+* *Note*: we could also see that ps = 2/12 = 1/6 (or 0.1666667). Based on our 95% confidence interval look-up [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf) we can see that the confidence interval or margin of error around this estimate is [0.036,0.436]. Since 1/2 is outside this interval, we reject Ho (concluding that p0 is not 1/2).
 
 #### Chapter 8 and Topic 35 Measurement Type Begins Here
 
