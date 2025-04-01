@@ -2351,7 +2351,9 @@ which is the same number we got above.
 
 * Identify the evidence that would cause us to reject Ho at the p < 0.05 significance level.
 * p(0 or 1 or 9 or 10 increases) = 0.0010+0.0098+0.0098+0.0010 = 0.0216 (this is the critical region).
-* If we reject when there are 2 increases or 8 increases, our p-value would exceed 0.05.
+* Why do we focus on these outcomes?
+* Because they are the outcomes that are *least likely to occur* if Ho is true (i.e., θ = 1/2).
+* If we were to reject Ho when there are 2 increases or 8 increases, our p-value would exceed 0.05.
 * These 4 outcomes are the ones that would lead us to reject Ho at the p < 0.05 significance level.
 * So, these 4 outcomes constitute the *critical region* for our test.
 * Since 1 increase occurred and 1 is in the critical region, we reject Ho and conclude that θ is not equal to 1/2.
