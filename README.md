@@ -2339,7 +2339,7 @@ which is the same number we got above.
 * Evidence required to reject Ho: 95% confidence interval for θ does not include 1/2; this is equivalent to conducting our test at the 0.05 significance level (i.e., the probability of a Type 1 error is less than 0.05).
 * Reminder: a Type 1 error means we reject Ho, when Ho is true.
 * Collect data: 1 of the districts experienced a decrease while 9 of the districts experienced an increase.
-* Based on the confidence interval lookup [table]((https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf), we see that the 95% confidence interval for θ is [0.011,0.381]; note that our point estimate of θ = 1/10 which is 0.1; so the confidence interval represents the margin of error or uncertainty around this estimate.
+* Based on the confidence interval lookup [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf), we see that the 95% confidence interval for θ is [0.011,0.381]; note that our point estimate of θ = 1/10 which is 0.1; so the confidence interval represents the margin of error or uncertainty around this estimate.
 * *Conclusion*: the 95% confidence interval does not include 1/2; so, we reject Ho and conclude that the population θ is not equal to 1/2.
 * Your book outlines another way to approach this problem -- which leads to the same conclusion.
 * Null Hypothesis (Ho): θ = 1/2
