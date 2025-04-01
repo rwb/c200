@@ -2367,13 +2367,7 @@ p(5 increases out of 15 states if p0 = 1/2) = 15![5!10!] 1/2^5 1/2^10 = 0.091644
 | 14    | 0.0004577637 |
 | 15    | 0.00003051758 |
 
-Based on this table, we see that p(0 or 1 or 2 or 3 or 12 or 13 or 14 or 15 increases) = 0.03515625 (the addition rule from 34.8 above). Note that this number is less than 0.05 so it constitutes our *critical region*. If we get a number of increases in this range, we would conclude that we have strong enough evidence to reject the Ho that p0 = 1/2 because the probability of getting a number of increases in this range is small if p0 is really 1/2. 
-
-```Rout
-0.00003051758 + 0.0004577637 + 0.003204346 + 0.0138855 + 0.0138855 + 0.003204346 + 0.0004577637 + 0.00003051758 = 0.03515625
-```
-
-Also note that if we allowed 4 increases and/or 11 increases to be in the critical region, our chance of making a Type 1 error would become larger than 0.05.
+Based on this table, we see that p(0 or 1 or 2 or 3 or 12 or 13 or 14 or 15 increases) = 0.00003051758 + 0.0004577637 + 0.003204346 + 0.0138855 + 0.0138855 + 0.003204346 + 0.0004577637 + 0.00003051758 = 0.03515625 (the addition rule from 34.8 above). Note that this number is less than 0.05 so it constitutes our *critical region*. If we get a number of increases in this range, we would conclude that our evidence is strong enough to reject the Ho that p0 = 1/2 because the probability of getting a number of increases in this range is small if p0 is really 1/2. Also note that if we allowed 4 increases and/or 11 increases to be in the critical region, our chance of making a Type 1 error would become larger than 0.05.
 
 * Step 3: we collect our data and see that the homicide rate increased after abolition in 6 states while it decreased after abolition in 9 states.
 * Step 4: since 6 increases is *not* in the critical region, we fail to reject the hypothesis that p0 = 1/2.
