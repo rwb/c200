@@ -2343,15 +2343,17 @@ which is the same number we got above.
 * *Conclusion*: the 95% confidence interval does not include 1/2; so, we reject Ho and conclude that the population θ is not equal to 1/2.
 * Your book outlines another way to approach this problem -- which leads to the same conclusion.
 * Null Hypothesis (Ho): θ = 1/2
-* Specify the sampling distribution for the number of districts experiencing an increase (from page 148 of your textbook):
+* Specify the distribution for the number of districts experiencing an increase (from page 148 of your textbook):
 
 <p align="center">
 <img src="/gfiles/coin-table.png" width="600px">
 </p>
 
-* Identify the evidence that would cause us to reject Ho at the p < 0.05 significance level:
-* p(0 or 1 or 9 or 10 increases) = 0.0010+0.0098+0.0098+0.0010 = 0.0216
-* If we allow 2 increases or 8 increases into the critical region, notice that our p-value exceeds 0.05.
-* These 4 outcomes are the ones that would allow us to reject Ho at the p < 0.05 significance level.
+* Identify the evidence that would cause us to reject Ho at the p < 0.05 significance level.
+* p(0 or 1 or 9 or 10 increases) = 0.0010+0.0098+0.0098+0.0010 = 0.0216 (this is the critical region).
+* If we reject when there are 2 increases or 8 increases, our p-value would exceed 0.05.
+* These 4 outcomes are the ones that would lead us to reject Ho at the p < 0.05 significance level.
 * So, these 4 outcomes constitute the *critical region* for our test.
 * Since 1 increase occurred and 1 is in the critical region, we reject Ho and conclude that θ is not equal to 1/2.
+* While the calculations are different the two approaches lead to the same substantive conclusion.
+
