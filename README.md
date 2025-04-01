@@ -2311,7 +2311,6 @@ which is the same number we got above.
 | Virginia | 2021 | 6.2 | 7.5 | + |
 | Washington | 2023 | 5.4 | 3.2 | - |
 
-
 * We treat each of these 15 abolition cases as a naturally occurring experiment.
 * The event of interest is whether the homicide rate increases after the death penalty is abolished.
 * Our null hypothesis, p0 = 1/2, asserts that homicide rates are equally likely to increase or decrease after the death penalty is abolished.
@@ -2428,6 +2427,11 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * 35.1: The type of statistical hypothesis test we will do will vary depending on the type of data we have.
 * 35.2: So far, we have been working with data that is measured at the nominal level (either an event happens or it doesn't; there is no logical ordering of the categories).
 * 35.3: The example in Chapter 8 will also involve nominal data but it looks at the effect of a hot-spots intervention; in this study, there is a treatment and a control group. As Table 8.1 on page 161 shows, there were 11 experimental comparisons and in 10 of the 11 comparisons, the experimental site had a better outcome than the control site. This leads us to say we have 10 "pluses" and 1 "minus". So, the sign +/- is a nominal two category variable (i.e., it doesn't matter whether you order the outcomes +/- or -/+). On page 164, your book refers to this as a "nominal binary scale."
+
+### Lesson 16 - Thursday 4/3/25
+
+* Reminder: next exam is scheduled for Tuesday 4/15/25
+* We will have time for review and questions on Thursday 4/10/25.
 
 #### Topic 36: Assumptions About the Population
 
