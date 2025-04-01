@@ -2344,13 +2344,13 @@ which is the same number we got above.
 * Step 2: What evidence would convince us that p0 is not 1/2? Our first step is to create a table of probabilities. We use the binomial probability function to make these calculations. As an example, consider the probability of getting 5 increases out of 15 states if p0 = 1/2 (this is review from last week):
 
 ```Rout
-p(5 increases out of 15 states if p0 = 1/2) = 15![5!10!] 1/2^5 1/2^10 = 0.09164429
+p(5 increases out of 15 states if p0 = 1/2) = 15!/(5!10!) × 1/2^5 × 1/2^10 = 0.09164429
 ```
 
 Let's do another one, just to make sure we've got it:
 
 ```Rout
-p(9 increases out of 15 states if p0 = 1/2) = 15![9!6!] 1/2^9 1/2^6 = 0.1527405
+p(9 increases out of 15 states if p0 = 1/2) = 15!/(9!6!) × 1/2^9 × 1/2^6 = 0.1527405
 ```
 
 *Note*: we can perform similar calculations for each of the possible events in the sample space. Table 7.5 on page 148 in your textbook has an example of how these calculations are carried out using the binomial probability formula.
@@ -2388,13 +2388,13 @@ Based on this table, we see that p(0 or 1 or 2 or 3 or 12 or 13 or 14 or 15 incr
 * Specify the distribution for the number of districts experiencing an increase:
 
 ```Rout
-Example: p(3 increases out of 12 districts if p0 = 1/2) = 12![3!9!] 1/2^3 1/2^9 = 0.05371094
+Example: p(3 increases out of 12 districts if p0 = 1/2) = 12!/(3!9!) × 1/2^3 × 1/2^9 = 0.05371094
 ```
 
 Let's do another one:
 
 ```Rout
-Example: p(7 increases out of 12 districts if p0 = 1/2) = 12![7!5!] 1/2^7 1/2^5 = 0.1933594
+Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 × 1/2^5 = 0.1933594
 ```
 
 | # of Increases | p(# of Increases if p0 = 1/2) |
