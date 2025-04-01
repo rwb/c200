@@ -2328,4 +2328,30 @@ which is the same number we got above.
 ### Lesson 15 - Tuesday 4/1/25
 
 * We have been considering conceptual issues related to hypothesis testing.
-* The steps we have examined include: (1) specifying a hypothesis; (2) before looking at the data, stating the evidence that would convince us that the hypothesis should be rejected; (3) collect data; (4) discern whether the evidence is strong enough to reject the hypothesis; and (5) state our conclusion.
+* The steps we have examined include: (1) specifying a hypothesis; (2) before looking at the data, stating the evidence that would convince us that the hypothesis should be rejected; (3) collect appropriate data; and (4) discern whether the evidence is strong enough to reject the hypothesis.
+* Let's work another example:
+* Suppose you are a crime analyst at a local police department. As a result of a grant, the police department is able to open 10 new district substations. After the substations have been operating for a year, the police chief asks you to compare robbery rates from the year before each station opened to the year after the station opened using a binomial significance test (with the probability of a Type I error set to be less than 0.05). The null hypothesis is that each district is equally likely to experience an increase or a decrease after the new substation opens. After collecting and analyzing your data, you find that robbery rates decreased in 1 of the 10 districts. What do you conclude?
+
+#### Solution Steps
+
+* Binomial probability parameter: θ - represents the probability that any individual district's robbery rate decreases in the year after a substation opens (similar to the probability that any individual coin flip turns up heads with a fair coin is 1/2).
+* Null Hypothesis (Ho): θ = 1/2
+* Evidence required to reject Ho: 95% confidence interval for θ does not include 1/2; this is equivalent to conducting our test at the 0.05 significance level (i.e., the probability of a Type 1 error is less than 0.05).
+* Reminder: a Type 1 error means we reject Ho, when Ho is true.
+* Collect data: 1 of the districts experienced a decrease while 9 of the districts experienced an increase.
+* Based on the confidence interval lookup [table]((https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf), we see that the 95% confidence interval for θ is [0.011,0.381]; note that our point estimate of θ = 1/10 which is 0.1; so the confidence interval represents the margin of error or uncertainty around this estimate.
+* *Conclusion*: the 95% confidence interval does not include 1/2; so, we reject Ho and conclude that the population θ is not equal to 1/2.
+* Your book outlines another way to approach this problem -- which leads to the same conclusion.
+* Null Hypothesis (Ho): θ = 1/2
+* Specify the sampling distribution for the number of districts experiencing an increase (from page 148 of your textbook):
+
+<p align="center">
+<img src="/gfiles/coin-table.png" width="600px">
+</p>
+
+* Identify the evidence that would cause us to reject Ho at the p < 0.05 significance level:
+* p(0 or 1 or 9 or 10 increases) = 0.0010+0.0098+0.0098+0.0010 = 0.0216
+* If we allow 2 increases or 8 increases into the critical region, notice that our p-value exceeds 0.05.
+* These 4 outcomes are the ones that would allow us to reject Ho at the p < 0.05 significance level.
+* So, these 4 outcomes constitute the *critical region* for our test.
+* Since 1 increase occurred and 1 is in the critical region, we reject Ho and conclude that θ is not equal to 1/2.
