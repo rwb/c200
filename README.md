@@ -2422,7 +2422,7 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * Since 2 increases occurred and 2 is in the critical region, we reject Ho and conclude that p0 is not equal to 1/2.
 * *Note*: we could also see that ps = 2/12 = 1/6 (or 0.1666667). Based on our 95% confidence interval look-up [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf) we can see that the confidence interval or margin of error around this estimate is [0.036,0.436]. Since 1/2 is outside this interval, we reject Ho (concluding that p0 is not 1/2).
 
-#### Chapter 8 and Topic 35 Measurement Type Begins Here
+#### Chapter 8 and Topic 35 (Measurement Type) Begins Here
 
 * 35.1: The type of statistical hypothesis test we will do will vary depending on the type of data we have.
 * 35.2: So far, we have been working with data that is measured at the nominal level (either an event happens or it doesn't; there is no logical ordering of the categories).
