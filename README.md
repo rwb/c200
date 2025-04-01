@@ -2422,3 +2422,27 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12![7!5!] 1/2^7 1/2^5 
 * So, these 6 outcomes constitute the *critical region* for our test.
 * Since 2 increases occurred and 2 is in the critical region, we reject Ho and conclude that p0 is not equal to 1/2.
 * *Note*: we could also see that ps = 2/12 = 1/6 (or 0.1666667). Based on our 95% confidence interval look-up [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf) we can see that the confidence interval or margin of error around this estimate is [0.036,0.436]. Since this interval does not include 1/2 we reject Ho and conclude that p0 is not 1/2.
+
+#### Chapter 8 and Topic 35 Measurement Type Begins Here
+
+* 35.1: The type of statistical hypothesis test we will do will vary depending on the type of data we have.
+* 35.2: So far, we have been working with data that is measured at the nominal level (either an event happens or it doesn't; there is no logical ordering of the categories).
+* 35.3: The example in Chapter 8 will also involve nominal data but it looks at the effect of a hot-spots intervention; in this study, there is a treatment and a control group. As Table 8.1 on page 161 shows, there were 11 experimental comparisons and in 10 of the 11 comparisons, the experimental site had a better outcome than the control site. This leads us to say we have 10 "pluses" and 1 "minus". So, the sign +/- is a nominal two category variable (i.e., it doesn't matter whether you order the outcomes +/- or -/+). On page 164, your book refers to this as a "nominal binary scale."
+
+#### Topic 36: Assumptions About the Population
+
+* 36.1: The binomial tests we have been using do not make strong assumptions about the population, so they are examples of *nonparametric* tests.
+* 36.2: Other tests that we will do later in the semester do make strong assumptions about the population; they will be called *parametric* tests.
+* 36.3: The reason the binomial test is nonparametric is that it is based on a physical process. If you conduct a 10-coin flip experiment many times, we can say with certainty what the distribution of the number of heads (from 0-10) will be. We don't have to make an assumption about it.
+
+#### Topic 37: Sampling Method
+
+* 37.1: External validity: when we conduct a study we are concerned with the *generalizability* of the results.
+* 37.2: Sampling: the process by which cases are included in a specific study (probability (random) and non-probability samples)
+* 37.3: Sampling Frame: the list of population members from which a sample is chosen.
+* 37.4: Independent random sampling: one case's inclusion in the sample has nothing to do with whether another case is included in the sample.
+* 37.5: Sampling with replacement: once a case is sampled it is put back into the population so that it is possible it could be drawn again.
+* 37.6: For the binomial test, we assume that the cases we are studying are a representative or random sample from the population.
+* 37.7: The textbook notes on page 168 that our samples are often not random samples from a population, "However, we can ask whether our sample is likely to provide valid inferences to those populations."
+* 37.8: This is actually a deep philosophical topic. Can we use a binomial test when our sample is not a random sample from a well-defined population?
+* 37.9: For an answer to this question, it is useful to return to the concept of a 10 coin-flip experiment. If the true underlying p0 = 1/2, then we would expect to see a particular probability distribution for the number of heads (between 0 and 10). Depending on how many heads we get, we can say whether we have strong enough evidence to reject Ho that p0 = 1/2. Here we are asking what is the probability of getting the result we got if p0 = 1/2. The question is a reasonable question even if the sample is not chosen randomly.
