@@ -2357,20 +2357,20 @@ p(9 increases out of 15 states if p0 = 1/2) = 15!/(9!6!) × 1/2^9 × 1/2^6 = 0.1
 | # of Increases | p(# of Increases if p0 = 1/2) |
 | -----:|------:|
 | 0     | 0.00003051758 |
-| 1     | 0.0004577637 |
-| 2     | 0.003204346 |
-| 3     | 0.0138855 |
-| 4     | 0.04165649 |
-| 5     | 0.09164429 |
-| 6     | 0.1527405 |
-| 7     | 0.1963806 |
-| 8     | 0.1963806 |
-| 9     | 0.1527405 |
-| 10    | 0.09164429 |
-| 11    | 0.04165649 |
-| 12    | 0.0138855 |
-| 13    | 0.003204346 |
-| 14    | 0.0004577637 |
+| 1     | 0.00045776367 |
+| 2     | 0.00320434570 |
+| 3     | 0.01388549805 |
+| 4     | 0.04165649414 |
+| 5     | 0.09164428711 |
+| 6     | 0.15274047852 |
+| 7     | 0.19638061523 |
+| 8     | 0.19638061523 |
+| 9     | 0.15274047852 |
+| 10    | 0.09164428711 |
+| 11    | 0.04165649414 |
+| 12    | 0.01388549805 |
+| 13    | 0.00320434570 |
+| 14    | 0.00045776367 |
 | 15    | 0.00003051758 |
 
 Based on this table, we see that p(0 or 1 or 2 or 3 or 12 or 13 or 14 or 15 increases) = 0.00003051758 + 0.0004577637 + 0.003204346 + 0.0138855 + 0.0138855 + 0.003204346 + 0.0004577637 + 0.00003051758 = 0.03515625 (the addition rule from 34.8 above). Note that this number is less than 0.05 so it constitutes our *critical region*. If we get a number of increases in this range, we would conclude that our evidence is strong enough to reject the Ho that p0 = 1/2 because the probability of getting a number of increases in this range is small if p0 is really 1/2. Also note that if we allowed 4 increases and/or 11 increases to be in the critical region, our chance of making a Type 1 error would become larger than 0.05.
@@ -2427,6 +2427,69 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * 35.1: The type of statistical hypothesis test we will do will vary depending on the type of data we have.
 * 35.2: So far, we have been working with data that is measured at the nominal level (either an event happens or it doesn't; there is no logical ordering of the categories).
 * 35.3: The example in Chapter 8 will also involve nominal data but it looks at the effect of a hot-spots intervention; in this study, there is a treatment and a control group. As Table 8.1 on page 161 shows, there were 11 experimental comparisons and in 10 of the 11 comparisons, the experimental site had a better outcome than the control site. This leads us to say we have 10 "pluses" and 1 "minus". So, the sign +/- is a nominal two category variable (i.e., it doesn't matter whether you order the outcomes +/- or -/+). On page 164, your book refers to this as a "nominal binary scale."
+
+#### Homework Problems for Week Ending 4/4/25
+
+1. The local police department implements a neighborhood policing program in 9 neighborhoods where the police regularly interact with citizens to strengthen trust and confidence in law enforcement at the neighborhood level.  Random samples of residents in each of the neighborhoods were surveyed both before and after implementation to measure trust and confidence in the police. In 4 of the neighborhoods, trust and confidence in the police increased after the program was implemented. Conduct a test of the hypothesis that p0 = 1/2 using a p < .05 significance level using both the textbook's binomial test and the confidence interval test I presented in class. Interpret your results. A binomial table is provided below for you to identify the critical region for your binomial test.
+
+| # of Increases | p(# of Increases if p0 = 1/2) |
+| -----:|------:|
+| 0     | 0.001953125 |
+| 1     | 0.017578125 |
+| 2     | 0.070312500 |
+| 3     | 0.164062500 |
+| 4     | 0.246093750 |
+| 5     | 0.246093750 |
+| 6     | 0.164062500 |
+| 7     | 0.070312500 |
+| 8     | 0.017578125 |
+| 9     | 0.001953125 |
+
+2. Suppose that over the last 7 years, we have 17 states that have adopted stronger gun laws. As part of a policy analysis, we decide to test the hypothesis that the chance a state's homicide rate increases after a gun law is passed is 1/2 at the p < .05 significance level (using both the binomial test in the textbook and the confidence interval procedure I used in class). When we collect our data, we find that 4 of the 17 states experienced an increase in the homicide rate after the new laws took effect. What is our conclusion? (Again, a binomial table is provided below for you to use in identifying the critical region for the test).
+
+| # of Increases | p(# of Increases if p0 = 1/2) |
+| -----:|------:|
+| 0     | 0.000007629395 |
+| 1     | 0.000129699707 |
+| 2     | 0.001037597656 |
+| 3     | 0.005187988281 |
+| 4     | 0.018157958984 |
+| 5     | 0.047210693359 |
+| 6     | 0.094421386719 |
+| 7     | 0.148376464844 |
+| 8     | 0.185470581055 |
+| 9     | 0.185470581055 |
+| 10    | 0.148376464844 |
+| 11    | 0.094421386719 |
+| 12    | 0.047210693359 |
+| 13    | 0.018157958984 |
+| 14    | 0.005187988281 |
+| 15    | 0.001037597656 |
+| 16    | 0.000129699707 |
+| 17    | 0.000007629395 |
+
+3. A large nearby city decides to implement an intervention where 15 vacant untended lots were "cleaned and greened" (trees and shrubbery planted, litter picked up, etc.). For each treated lot, we compare crime rates in the year before and after the intervention. Test the hypothesis that a treated lot has a 1/2 chance of its crime rate increasing after the intervention at the p < .05 significance level (using both the textbook binomial approach and the confidence interval appoach discussed in class). Our data analysis reveals that 4 of the 15 lots experienced an increase. What do you conclude?
+
+| # of Increases | p(# of Increases if p0 = 1/2) |
+| -----:|------:|
+| 0     | 0.00003051758 |
+| 1     | 0.00045776367 |
+| 2     | 0.00320434570 |
+| 3     | 0.01388549805 |
+| 4     | 0.04165649414 |
+| 5     | 0.09164428711 |
+| 6     | 0.15274047852 |
+| 7     | 0.19638061523 |
+| 8     | 0.19638061523 |
+| 9     | 0.15274047852 |
+| 10    | 0.09164428711 |
+| 11    | 0.04165649414 |
+| 12    | 0.01388549805 |
+| 13    | 0.00320434570 |
+| 14    | 0.00045776367 |
+| 15    | 0.00003051758 |
+
+
 
 ### Lesson 17 - Thursday 4/3/25
 
