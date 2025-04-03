@@ -2430,6 +2430,8 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 
 #### Homework Problems for Week Ending 4/4/25
 
+*Note*: the tests in this homework assignment are all *non-directional* tests.
+
 1. The local police department implements a neighborhood policing program in 9 neighborhoods where the police regularly interact with citizens to strengthen trust and confidence in law enforcement at the neighborhood level.  Random samples of residents in each of the neighborhoods were surveyed both before and after implementation to measure trust and confidence in the police. In 4 of the neighborhoods, trust and confidence in the police increased after the program was implemented. Conduct a test of the hypothesis that p0 = 1/2 using a p < .05 significance level using both the textbook's binomial test and the confidence interval test I presented in class. Interpret your results. A binomial table is provided below for you to identify the critical region for your binomial test.
 
 | # of Increases | p(# of Increases if p0 = 1/2) |
@@ -2489,8 +2491,6 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | 14    | 0.00045776367 |
 | 15    | 0.00003051758 |
 
-
-
 ### Lesson 17 - Thursday 4/3/25
 
 * Reminder: next exam is scheduled for Tuesday 4/15/25
@@ -2515,16 +2515,17 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 
 #### Topic 38: The Hypotheses (pp. 169-170)
 
-* 38.1: Consider the following question: if the null hypothesis is true, what is the probability or likelihood we could get data that look the way they do? Consider our death penalty example: if homicide rates are equally likely to go up or down after the death penalty is abolished (p0 = 1/2), what is the chance that we could see data that look at least as extreme as our data (6 out of 15 states increased)?
+* 38.1: Consider the following question: if the null hypothesis (H0) is true, what is the probability or likelihood we could get data that look the way they do? Consider our death penalty example: if homicide rates are equally likely to go up or down after the death penalty is abolished (p0 = 1/2), what is the chance that we could see data that look at least as extreme as our data (6 out of 15 states increased)?
 * 38.2: This is the concept of conditional probability: p(A|B) = p(A occurs if B is true).
 * 38.3: Significance testing involves making a reject/fail to reject (yes/no) decision based on conditional probability.
-* 38.4: So, the hypothesis we actually test is called the null hypothesis.
+* 38.4: So, the hypothesis we actually test is called the null hypothesis (H0).
 * 38.5: Our decision to reject (or not reject) the null hypothesis has implications for the *research hypothesis*.
 * 38.6: Considering our death penalty abolition example -- based on the *deterrence* or *brutalization* theories we discussed previously, we might predict that a state's homicide rate would change after the death penalty is abolished. This is a *research hypothesis* but it is imprecisely stated; in the words of your book on page 170, it is "all other possible outcomes" besides the null hypothesis outcome (i.e., p0 = 1/2). The null hypothesis, p0 = 1/2 (in this case), is always precisely stated.
-* 38.7: Sometimes our research hypotheses are *directional*  and sometimes they are *non-directional*. Up to this point, the hypotheses we have been considering have been *non-directional*.
+* 38.7: Sometimes our research hypotheses are *directional*  and sometimes they are *non-directional*. Up to this point, the hypotheses we have been considering have been *non-directional*. 
 * 38.8: A non-directional research hypothesis is written in neutral language: abolition of the death penalty will lead to a change in homicide rates.
 * 38.9: On the other hand, sometimes we have theory or prior research that guides us to make a stronger prediction about the phenomena we are studying. For example, we might use deterrence theory to predict that abolishing the death penalty will will lead to an increase in homicide rates; symmetrically, based on the brutalization theory, we might also make the prediction that abolition of the death penalty will lead to a decrease in homicide rates. These are *directional* research hypotheses.
 * 38.10: The textbook on page 169 states that: "Although they believed that problem-oriented policing should reduce incivilities at violent-crime hot spots, they did not want to preclude at the outset a finding that the program actually made matters worse. Accordingly, they used a nondirectional research hypothesis." Researchers in criminology often (but not always) adopt this approach.
+* 38.11: Directional hypothesis tests are usually called one-tailed tests (critical region is only in one tail of the distribution); non-directional hypothesis tests are usually called two-tailed tests (critical region is in 2 tails of the distribution).
 
 #### Topic 39: Selecting a Sampling Distribution (pp. 170-172)
 
@@ -2537,3 +2538,24 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 <p align="center">
 <img src="/gfiles/d2a.png" width="700px">
 </p>
+
+* 39.6: Note that for problems that don't involve a "nominal binary scale" we will need to use different kinds of sampling distributions.
+* 39.7: For example, if we wanted to study prison sentence lengths for a sample of inmates, we would need to use a sampling distribution that is suitable for that kind of data.
+
+#### Topic 40: Critical/Rejection Region (pp. 172-176)
+
+* 40.1: This is where we say what evidence would convince us that the null hypothesis H0 is wrong and should be rejected.
+* 40.2: Specifying a critical/rejection region is a *choice* the researcher makes.
+* 40.3: The critical/rejection region will vary depending on whether we are studying a directional or non-directional hypothesis, what our tolerance for the chance of making a Type I error is (rejecting a hypothesis when the hypothesis is true), and the type of data and sampling distribution we are using.
+* 40.4: It is important that we specify the critical/rejection region(s) (i.e., the evidence that would cause to reject H0) before we examine our data.
+
+#### Topic 41: Making a Decision (pp. 177-178)
+
+* 41.1: Once we have our evidence in hand, we are in a position to make a decision.
+* 41.2: We must evaluate our evidence according to the standards we set up in advance.
+* 41.3: The decision we make is a binary decision: either we reject or fail to reject our hypothesis.
+* 41.4: In terms of the null hypothesis (H0) we have been considering so far, p0 = 1/2, please note that we cannot prove that H0 is correct or incorrect.
+* 41.5: All we can do is assess the probability of our data looking the way it does if H0 is correct.
+* 41.6: If we fail to reject H0 that doesn't mean H0 is correct.
+* 41.7: It just means that the evidence was not strong enough to conclude that H0 should be rejected.
+* 41.8: Think about the evidence in a criminal trial; just because the jury decides to acquit a defendant that doesn't necessarily mean they think the defendant is innocent; it just means the evidence isn't strong enough to convict.
