@@ -2569,29 +2569,22 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * Significance level: we want p(Type 1 Error) to be no more than 0.05.
 * 10 of the 11 intervention sites had better outcomes than the control sites.
 * This means that 1 of the 11 intervention sites had a worse outcome than the control site.
-* Sampling distribution:
+* Binomial sampling distribution with 11 trials, x=0 to 11 events, and p0 = 1/2:
 
-```Rout
-> N <- 11
-> x <- 0:11
-> p0 <- 1/2
-> p <- choose(N,x)*(p0^x)*(1-p0)^(N-x)
-> data.frame(x,p)
-    x            p
-1   0 0.0004882812
-2   1 0.0053710938
-3   2 0.0268554688
-4   3 0.0805664062
-5   4 0.1611328125
-6   5 0.2255859375
-7   6 0.2255859375
-8   7 0.1611328125
-9   8 0.0805664062
-10  9 0.0268554688
-11 10 0.0053710938
-12 11 0.0004882812
->
-```
+| x | p(x if N = 11 and p0 = 1/2) |
+| -----:|------:|
+| 0 | 0.0004882812 |
+| 1 | 0.0053710938 |
+| 2 | 0.0268554688 |
+| 3 | 0.0805664062 |
+| 4 | 0.1611328125 |
+| 5 | 0.2255859375 |
+| 6 | 0.2255859375 |
+| 7 | 0.1611328125 |
+| 8 | 0.0805664062 |
+| 9 | 0.0268554688 |
+| 10 | 0.0053710938 |
+| 11 | 0.0004882812 |
 
 * So, the critical/rejection region for this test is p(0 or 1 or 10 or 11) = 0.0004882812+0.0053710938+0.0053710938+0.0004882812 = 0.01171875. This number is less than 0.05. If we were to add 2 and 9 to the critical region, our p(Type 1 error) would be too large (i.e., it would be greater than 0.05).
 *  Note that our sample estimate of ps = 1/11 = 0.09090909. We could also use our look-up [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf) to see that a 95% confidence interval for ps is [0.010,0.353] which does not include 1/2.
