@@ -2559,3 +2559,40 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * 41.6: If we fail to reject H0 that doesn't mean H0 is correct.
 * 41.7: It just means that the evidence was not strong enough to conclude that H0 should be rejected.
 * 41.8: Think about the evidence in a criminal trial; just because the jury decides to acquit a defendant that doesn't necessarily mean they think the defendant is innocent; it just means the evidence isn't strong enough to convict.
+
+#### Textbook Example
+
+* The data appear in Table 8.1 on page 163.
+* 11 site pairs in the study.
+* Each pair has a "target" location and a "control" location.
+* The target sites received POP policing intervention to reduce disorderly behavior.
+* Significance level: we want p(Type 1 Error) to be no more than 0.05.
+* 10 of the 11 intervention sites had better outcomes than the control sites.
+* This means that 1 of the 11 intervention sites had a worse outcome than the control site.
+* Sampling distribution:
+
+```Rout
+> N <- 11
+> x <- 0:11
+> p0 <- 1/2
+> p <- choose(N,x)*(p0^x)*(1-p0)^(N-x)
+> data.frame(x,p)
+    x            p
+1   0 0.0004882812
+2   1 0.0053710938
+3   2 0.0268554688
+4   3 0.0805664062
+5   4 0.1611328125
+6   5 0.2255859375
+7   6 0.2255859375
+8   7 0.1611328125
+9   8 0.0805664062
+10  9 0.0268554688
+11 10 0.0053710938
+12 11 0.0004882812
+>
+```
+
+* So, the critical/rejection region for this test is p(0 or 1 or 10 or 11) = 0.0004882812+0.0053710938+0.0053710938+0.0004882812 = 0.01171875. This number is less than 0.05. If we were to add 2 and 9 to the critical region, our p(Type 1 error) would be too large (i.e., it would be greater than 0.05).
+*  Note that our sample estimate of ps = 1/11 = 0.09090909. We could also use our look-up [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf) to see that a 95% confidence interval for ps is [0.010,0.353] which does not include 1/2.
+* Using either approach, we would reject H0.
