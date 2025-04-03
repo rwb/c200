@@ -2496,13 +2496,13 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * Reminder: next exam is scheduled for Tuesday 4/15/25
 * We will have time for review and questions on Thursday 4/10/25.
 
-#### Topic 36: Assumptions About the Population
+#### Topic 36: Assumptions About the Population (pp. 164-165)
 
 * 36.1: The binomial tests we have been using do not make strong assumptions about the population, so they are examples of *nonparametric* tests.
 * 36.2: Other tests that we will do later in the semester do make strong assumptions about the population; they will be called *parametric* tests.
 * 36.3: The reason the binomial test is nonparametric is that it is based on a physical process. If you conduct a 10-coin flip experiment many times, we can say with certainty what the distribution of the number of heads (from 0-10) will be. We don't have to make an assumption about it.
 
-#### Topic 37: Sampling Method
+#### Topic 37: Sampling Method (pp. 165-168)
 
 * 37.1: External validity: when we conduct a study we are concerned with the *generalizability* of the results.
 * 37.2: Sampling: the process by which cases are included in a specific study (probability (random) and non-probability samples)
@@ -2511,5 +2511,29 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * 37.5: Sampling with replacement: once a case is sampled it is put back into the population so that it is possible it could be drawn again.
 * 37.6: For the binomial test, we assume that the cases we are studying are a representative or random sample from the population.
 * 37.7: The textbook notes on page 168 that our samples are often not random samples from a population, "However, we can ask whether our sample is likely to provide valid inferences to those populations."
-* 37.8: This is actually a deep philosophical topic. Can we use a binomial test when our sample is not a random sample from a well-defined population?
-* 37.9: For an answer to this question, it is useful to return to the concept of a 10 coin-flip experiment. If the true underlying p0 = 1/2, then we would expect to see a particular probability distribution for the number of heads (between 0 and 10). Depending on how many heads we get, we can say whether we have strong enough evidence to reject Ho that p0 = 1/2. Here we are asking what is the probability of getting the result we got if p0 = 1/2. The question is a reasonable question even if the sample is not chosen randomly.
+* 37.8: Often, our samples are not randomly drawn but they still might be approximately representative of a scientifically interesting population.
+
+#### Topic 38: The Hypotheses (pp. 169-170)
+
+* 38.1: Consider the following question: if the null hypothesis is true, what is the probability or likelihood we could get data that look the way they do? Consider our death penalty example: if homicide rates are equally likely to go up or down after the death penalty is abolished (p0 = 1/2), what is the chance that we could see data that look at least as extreme as our data (6 out of 15 states increased)?
+* 38.2: This is the concept of conditional probability: p(A|B) = p(A occurs if B is true).
+* 38.3: Significance testing involves making a reject/fail to reject (yes/no) decision based on conditional probability.
+* 38.4: So, the hypothesis we actually test is called the null hypothesis.
+* 38.5: Our decision to reject (or not reject) the null hypothesis has implications for the *research hypothesis*.
+* 38.6: Considering our death penalty abolition example -- based on the *deterrence* or *brutalization* theories we discussed previously, we might predict that a state's homicide rate would change after the death penalty is abolished. This is a *research hypothesis* but it is imprecisely stated; in the words of your book on page 170, it is "all other possible outcomes" besides the null hypothesis outcome (i.e., p0 = 1/2). The null hypothesis, p0 = 1/2 (in this case), is always precisely stated.
+* 38.7: Sometimes our research hypotheses are *directional*  and sometimes they are *non-directional*. Up to this point, the hypotheses we have been considering have been *non-directional*.
+* 38.8: A non-directional research hypothesis is written in neutral language: abolition of the death penalty will lead to a change in homicide rates.
+* 38.9: On the other hand, sometimes we have theory or prior research that guides us to make a stronger prediction about the phenomena we are studying. For example, we might use deterrence theory to predict that abolishing the death penalty will will lead to an increase in homicide rates; symmetrically, based on the brutalization theory, we might also make the prediction that abolition of the death penalty will lead to a decrease in homicide rates. These are *directional* research hypotheses.
+* 38.10: The textbook on page 169 states that: "Although they believed that problem-oriented policing should reduce incivilities at violent-crime hot spots, they did not want to preclude at the outset a finding that the program actually made matters worse. Accordingly, they used a nondirectional research hypothesis." Researchers in criminology often (but not always) adopt this approach.
+
+#### Topic 39: Selecting a Sampling Distribution (pp. 170-172)
+
+* 39.1: Selection of a sampling distribution means linking the kind of data we have with a probability model that is sensible for those data.
+* 39.2: For data measured on a "nominal binary scale" the binomial distribution is a standard choice.
+* 39.3: We recognize that the statistic or estimate we obtain from our sample might differ from the population parameter which is what we are interested in measuring scientifically.
+* 39.4: The sampling distribution allows us to discern how much our sample estimate might differ from the population parameter value as a result of sampling error.
+* 39.5: Example: I flip a coin 5 times and I get 3 heads. This means my sample statistic, p(heads) = 3/5. If the coin I am flipping is fair coin, then the population parameter value is 1/2. The difference between 3/5 and 1/2 is due to *sampling error*. Our sampling distribution reveals the amount of variation we would get among our sample statistics if we repeatedly sampled from the population (flipped a coin 5 times), say thousands and thousands of times. The binomial probability formula defines the sampling distribution for the number of heads when we flip a fair coin (p0=1/2) 5 times:
+
+<p align="center">
+<img src="/gfiles/d.png" width="600px">
+</p>
