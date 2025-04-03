@@ -2535,5 +2535,5 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * 39.5: Example: I flip a coin 5 times and I get 3 heads. This means my sample statistic, p(heads) = 3/5. If the coin I am flipping is fair coin, then the population parameter value is 1/2. The difference between 3/5 and 1/2 is due to *sampling error*. Our sampling distribution reveals the amount of variation we would get among our sample statistics if we repeatedly sampled from the population (flipped a coin 5 times), say thousands and thousands of times. The binomial probability formula defines the sampling distribution for the number of heads when we flip a fair coin (p0=1/2) 5 times:
 
 <p align="center">
-<img src="/gfiles/d.png" width="600px">
+<img src="/gfiles/d.png" width="800px">
 </p>
