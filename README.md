@@ -2563,9 +2563,9 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 #### Textbook Example
 
 * The data appear in Table 8.1 on page 163.
-* 11 site pairs in the study.
+* 11 site pairs in the study (all sites had high violent crime rates).
 * Each pair has a "target" location and a "control" location.
-* The target sites received POP policing intervention to reduce disorderly behavior.
+* The target sites received a POP policing intervention to reduce incivilities and disorderly behavior.
 * Significance level: we want p(Type 1 Error) to be no more than 0.05.
 * 10 of the 11 intervention sites had better outcomes than the control sites.
 * This means that 1 of the 11 intervention sites had a worse outcome than the control site.
