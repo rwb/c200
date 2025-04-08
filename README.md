@@ -2721,3 +2721,10 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * We conclude that the evidence is not strong enough to reject the hypothesis that the cases are equally distributed across the 4 cells of the table in the population.
 * Note that the way we calculated this test statistic is the same as the formula that appears on page 190 of your textbook (equation 9.1).
 * Your textbook has a similar substantive worked example on pages 192-195.
+
+### Lesson 19 - Thursday 4/10/25
+
+* Reminder: Exam 2 is scheduled for Tuesday 4/15/25
+* Here is a draft of the formula sheet (and tables) that will be handed out with the exam ([link](https://github.com/rwb/c200/blob/main/gfiles/f2.pdf)).
+* Practice problems for this week: problems 9.1-9.3 at the back of Chapter 9.
+  
