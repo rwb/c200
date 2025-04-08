@@ -2668,7 +2668,7 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | Public Order | 28 | 23.3 |
 | Total | 120 | 100.0|
 
-* Notice that the *critical value* of the chi-square distribution with 3 degrees of freedom at a 0.05 significance level is 7.815 (same procedure to look up the critical value that's described in yuor book on page 192).
+* Notice that the *critical value* of the chi-square distribution with 3 degrees of freedom at a 0.05 significance level is 7.815 (same procedure to look up the critical value that's described in your book on page 192).
 * We are now ready to calculate our test statistic.
 * If the null hypothesis (equal number of cases in each category) is true, then we would *expect* to see 30 cases in each cell of the table (since 120/4 = 30).
 * So, we elaborate our table as follows:
