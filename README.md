@@ -2717,3 +2717,4 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * So, our test statistic value is 0.866 which is less than the critical value of 7.815; therefore, we fail to reject Ho.
 * We conclude that the evidence is not strong enough to reject the hypothesis that the cases are equally distributed across the 4 cells of the table in the population.
 * Note that the way we calculated this test statistic is the same as the formula that appears on page 190 of your textbook (equation 9.1).
+* Your textbook has a similar substantive worked example on pages 192-195.
