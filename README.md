@@ -2601,7 +2601,7 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 
 #### A Final Example
 
-* 17 pairs of adolescents were interviewed.
+* Suppose that 17 pairs of adolescents were interviewed.
 * Each pair was matched on age, sex, race, neighborhood of residence, and number of "index" offenses committed in the year preceding the interview.
 * Each pair included 1 adolescent who had been arrested by the police and 1 adolescent who had not been arrested.
 * The two adolescents comprising each pair were interviewed in a follow-up survey 3 years later to see which one had a better outcome.
@@ -2635,6 +2635,6 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * Our critical region is: 0, 1, 2, 3, 4, 13, 14, 15, 16, or 17. We would take any of these outcomes to be strong evidence against the null hypothesis that p0 = 1/2.
 * We collect our data and find that in 4 of the 17 pairs, the arrested adolescent had a better outcome; in the other 13 pairs, the arrested adolescent had a worse outcome.
 * Since 4 is in the critical region, we reject Ho and conclude that p0 is not equal to 1/2.
-* We could also use the confidence interval approach to estimate a margin of error around our sample estimate of the probability an arrested adolescent has a better outcome: 4/17 = 0.2352941. Using our look-up [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf), we find that the bounds of the 95% confidence interval (which corresponds to a significance level of 0.05) are [0.085,0.467]. Since 0.5 is not contained within this margin of error, we would also reject the null hypothesis that p0 = 1/2.
+* We could also use the confidence interval approach to estimate a margin of error around our sample estimate of the probability an arrested adolescent has a better outcome: 4/17 = 0.2352941. Using our look-up [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf), we find that the bounds of the 95% confidence interval (which corresponds to a significance level of 0.05) are [0.085,0.467]. Since 0.5 is not contained within this confidence interval, we would also reject the null hypothesis that p0 = 1/2.
 * From now on, we refer to these 2 approaches as the "binomial probability approach" and the "confidence interval approach".
 * As you can see, they lead to the same substantive conclusion.
