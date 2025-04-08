@@ -2565,6 +2565,7 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * Reminder: next exam is scheduled for Tuesday 4/15/25
 * We will have time for review and questions on Thursday 4/10/25.
 * We are continuing with Topic 41: making a (rejection/no rejection) decision
+* Practice problems for this week: problems 9.1-9.3 at the back of Chapter 9.
 
 #### Textbook Example (continued from last class)
 
