@@ -2654,13 +2654,25 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * 42.11: Similarly, if the number of cases is exactly evenly distributed across categories in our sample, then our sample test statistic will also be equal to zero.
 * 42.12: However, it is often the case that our cases will not be exactly evenly distributed across categories. When this happens, our test statistic will be greater than zero.
 * 42.13: For our hypothesis test, the p-value or significance level of the test tells us the probability that we could get a test statistic at least as large as the one we got if the true population chi-square value were equal to zero.
-* 42.14: If we are using a 0.05 significance level for our test, then we are saying that we will only reject the Ho of equally prevalent categories when there is strong evidence that the categories are not equally prevalent (as indicated by comparing our test statistic value to the chi-square distribution.
+* 42.14: If we are using a 0.05 significance level for our test, then we are saying that we will only reject the Ho of equally prevalent categories when there is strong evidence that the categories are not equally prevalent (as indicated by comparing our test statistic value to the chi-square distribution which you can find in Appendix 2 at the back of the book on page 652).
 * 42.15: Here is our sample dataset based on 120 ex-prisoners who got rearrested after release from prison:
 
-| Offense | # of Cases | % of Total |
-| -----:|------:|------:|
+| Rearrest Offense | # of Cases | % of Total |
+| :-----|------:|------:|
 | Violent |  27 | 22.5 |
 | Property | 32 | 26.7 |
 | Drug | 33 | 27.5 |
 | Public Order | 28 | 23.3 |
 | Total | 120 | 100.0|
+
+* Notice that the *critical value* of the chi-square distribution with 3 degrees of freedom at a 0.05 significance level is 7.815.
+* We are now ready to calculate our test statistic.
+* If the null hypothesis (equal number of cases in each category) is true, then we would *expect* to see 30 cases in each cell of the table (since 120/4 = 30).
+* So, we elaborate our table as follows:
+
+| Rearrest Offense | Observed # of Cases | Expected # of Cases |
+| :-----|------:|------:|
+| Violent |  27 | 30 |
+| Property | 32 | 30 |
+| Drug | 33 | 30 |
+| Public Order | 28 | 30 |
