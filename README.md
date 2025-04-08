@@ -2560,7 +2560,13 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * 41.7: It just means that the evidence was not strong enough to conclude that H0 should be rejected.
 * 41.8: Think about the evidence in a criminal trial; just because the jury decides to acquit a defendant that doesn't necessarily mean they think the defendant is innocent; it just means the evidence isn't strong enough to convict.
 
-#### Textbook Example
+### Lesson 18 - Tuesday 4/8/25
+
+* Reminder: next exam is scheduled for Tuesday 4/15/25
+* We will have time for review and questions on Thursday 4/10/25.
+* We are continuing with Topic 41: making a (rejection/no rejection) decision
+
+#### Textbook Example (continued from last class)
 
 * The data appear in Table 8.1 on page 163.
 * 11 site pairs in the study (all sites had high violent crime rates).
@@ -2586,6 +2592,49 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | 10 | 0.0053710938 |
 | 11 | 0.0004882812 |
 
-* So, the critical/rejection region for this test is p(0 or 1 or 10 or 11) = 0.0004882812+0.0053710938+0.0053710938+0.0004882812 = 0.01171875. This number is less than 0.05. If we were to add 2 and 9 to the critical region, our p(Type 1 error) would be too large (i.e., it would be greater than 0.05).
+* We want to choose the rejection region so that each "tail" has no more than 0.025 probability of occurring if p0 = 1/2.
+* So, the lower tail region that meets this requirement is p(0 or 1) = 0.0004882812+0.0053710938 = 0.005859375; please note that if had allowed the lower tail critical region to include x=2, then the probability would be p(0 or 1 or 2) = 0.0004882812+0.0053710938+0.0268554688 = 0.03271484 which would had been greater than 0.025. 
+* The upper tail region that meets this requirement is p(10 or 11) = 0.0053710938+0.0004882812 = 0.005859375.
+* Therefore, the critical/rejection region for this test is p(0 or 1 or 10 or 11) = 0.0004882812+0.0053710938+0.0053710938+0.0004882812 = 0.01171875. This number is less than 0.05. If we were to add 2 and 9 to the critical region, our p(Type 1 error) would be too large (i.e., it would be greater than 0.05).
 *  Note that our sample estimate of ps = 1/11 = 0.09090909. We could also use our look-up [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf) to see that a 95% confidence interval for ps is [0.010,0.353] which does not include 1/2.
 * Using either approach, we would reject H0.
+
+#### A Final Example
+
+* 17 pairs of adolescents were interviewed.
+* Each pair was matched on age, sex, race, neighborhood of residence, and number of "index" offenses committed in the year preceding the interview.
+* Each pair included 1 adolescent who had been arrested by the police and 1 adolescent who had not been arrested.
+* The two adolescents comprising each pair were interviewed in a follow-up survey 3 years later to see which one had a better outcome.
+* Specify the null hypothesis: p0 = 1/2 (meaning that the probability the arrested adolescent had a better outcome is 1/2).
+* Specify the evidence to reject: 0.05 significance level (two-tailed):
+
+| x | p(x if N = 17 and p0 = 1/2) |
+| -----:|------:|
+| 0 | 0.000007629395 |
+| 1 | 0.000129699707 |
+| 2 | 0.001037597656 |
+| 3 | 0.005187988281 |
+| 4 | 0.018157958984 |
+| 5 | 0.047210693359 |
+| 6 | 0.094421386719 |
+| 7 | 0.148376464844 |
+| 8 | 0.185470581055 |
+| 9 | 0.185470581055 |
+| 10 | 0.148376464844 |
+| 11 | 0.094421386719 |
+| 12 | 0.047210693359 |
+| 13 | 0.018157958984 |
+| 14 | 0.005187988281 |
+| 15 | 0.001037597656 |
+| 16 | 0.000129699707 |
+| 17 | 0.000007629395 |
+
+* Identify the lower tail region where the p(x|N=17 and p0 = 1/2) add up to a number less than 0.025: p(0 or 1 or 2 or 3 or 4) = 0.000007629395+0.000129699707+0.001037597656+0.005187988281+0.018157958984 = 0.02452087. Notice that the probability of getting an outcome in this region if p0 is 1/2 is less than 0.025.
+* Identify the upper tail region where the p(x|N=17 and p0=1/2) add up to a number less than 0.025: p(13 or 14 or 15 or 16 or 17) = 0.018157958984+0.005187988281+0.001037597656+0.000129699707+0.000007629395 = 0.02452087. Notice that the probability of getting an outcome in this region if p0 is 1/2 is less than 0.025.
+* So, the total probability of getting an outcome in the lower region (0:4) or the upper region (13:17) is less than 0.05.
+* Our critical region is: 0, 1, 2, 3, 4, 13, 14, 15, 16, or 17. We would take any of these outcomes to be strong evidence against the null hypothesis that p0 = 1/2.
+* We collect our data and find that in 4 of the 17 pairs, the arrested adolescent had a better outcome; in the other 13 pairs, the arrested adolescent had a worse outcome.
+* Since 4 is in the critical region, we reject Ho and conclude that p0 is not equal to 1/2.
+* We could also use the confidence interval approach to estimate a margin of error around our sample estimate of the probability an arrested adolescent has a better outcome: 4/17 = 0.2352941. Using our look-up [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf), we find that the bounds of the 95% confidence interval (which corresponds to a significance level of 0.05) are [0.085,0.467]. Since 0.5 is not contained within this margin of error, we would also reject the null hypothesis that p0 = 1/2.
+* From now on, we refer to these 2 approaches as the "binomial probability approach" and the "confidence interval approach".
+* As you can see, they lead to the same substantive conclusion.
