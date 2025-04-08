@@ -2596,6 +2596,8 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * So, the lower tail region that meets this requirement is p(0 or 1) = 0.0004882812+0.0053710938 = 0.005859375; please note that if had allowed the lower tail critical region to include x=2, then the probability would be p(0 or 1 or 2) = 0.0004882812+0.0053710938+0.0268554688 = 0.03271484 which would had been greater than 0.025. 
 * The upper tail region that meets this requirement is p(10 or 11) = 0.0053710938+0.0004882812 = 0.005859375.
 * Therefore, the critical/rejection region for this test is p(0 or 1 or 10 or 11) = 0.0004882812+0.0053710938+0.0053710938+0.0004882812 = 0.01171875. This number is less than 0.05. If we were to add 2 and 9 to the critical region, our p(Type 1 error) would be too large (i.e., it would be greater than 0.05).
+* Since our data reveal that there was 1 comparison where the treatment site had a worse outcome than the control site, our sample estimate is 1 event.
+* 1 is in the critical region so we reject Ho.
 *  Note that our sample estimate of ps = 1/11 = 0.09090909. We could also use our look-up [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf) to see that a 95% confidence interval for ps is [0.010,0.353] which does not include 1/2.
 * Using either approach, we would reject H0.
 
