@@ -2638,3 +2638,17 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * We could also use the confidence interval approach to estimate a margin of error around our sample estimate of the probability an arrested adolescent has a better outcome: 4/17 = 0.2352941. Using our look-up [table](https://github.com/rwb/c200/blob/main/gfiles/binomial-table.pdf), we find that the bounds of the 95% confidence interval (which corresponds to a significance level of 0.05) are [0.085,0.467]. Since 0.5 is not contained within this confidence interval, we would also reject the null hypothesis that p0 = 1/2.
 * From now on, we refer to these 2 approaches as the "binomial probability approach" and the "confidence interval approach".
 * As you can see, they lead to the same substantive conclusion.
+
+#### Chapter 9 and Topic 42 Begins Here
+
+* 42.1: A limitation of the binomial analyses we have been doing is that they only apply to variables than can take on 2 values (i.e., better or worse; increase or decrease; higher or lower, etc.)
+* 42.2: In this chapter, we consider more variables that can take on more than 2 values. We'll start with a variable than can take on 3 values as an example.
+* 42.3: On pages 187-192, your book uses a dice-rolling example. In today's class, I will consider a substantive example.
+* 42.4: Suppose we have a group of people who are getting out of prison in a given year. After a follow-up study many of these people were found to have been rearrested for a new crime. Among those who were rearrested, we divide up the most serious rearrest offense into 4 categories: violent, property, drug, and public order offenses.
+* 42.5: We wish to test the null hypothesis that the recidivists are *equally distributed* across the 4 categories (the same way we would expect the outcomes 1:6 to turn up approximately eqully when we roll a fair die many times).
+* 42.6: As in Chapters 7-8, we will use a 0.05 significance level.
+* 42.7: The evidence that would convince us the null hypothesis is wrong and should be rejected will be a sufficiently large value of our *test statistic*.
+* 42.8: The test statistic we will use is based on the chi-square sampling distribution.
+* 42.9: An important parameter of the chi-square distribution is the *degrees of freedom*. The degrees of freedom represents the number of table cells that are free to vary. In our example, we have 4 offending categories -- violent, property, drug, and public order. So the number of categories is 4. If we know the number of cases in any 3 of the categories then we know the number of cases in the 4th category because the 4th category will just be the total number of cases minus the sum of the number of cases in any 3 of the categories. This means our chi-square sampling distribution will have # of categories - 1 degrees of freedom. In this case, we have 4-1 = 3 degrees of freedom (your book refers to this calculation as df = k - 1 where df is degrees of freedom and k is the number of categories in your analysis).
+* 42.10: 
+* 
