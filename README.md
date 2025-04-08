@@ -2649,6 +2649,18 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * 42.6: As in Chapters 7-8, we will use a 0.05 significance level.
 * 42.7: The evidence that would convince us the null hypothesis is wrong and should be rejected will be a sufficiently large value of our *test statistic*.
 * 42.8: The test statistic we will use is based on the chi-square sampling distribution.
-* 42.9: An important parameter of the chi-square distribution is the *degrees of freedom*. The degrees of freedom represents the number of table cells that are free to vary. In our example, we have 4 offending categories -- violent, property, drug, and public order. So the number of categories is 4. If we know the number of cases in any 3 of the categories then we know the number of cases in the 4th category because the 4th category will just be the total number of cases minus the sum of the number of cases in any 3 of the categories. This means our chi-square sampling distribution will have # of categories - 1 degrees of freedom. In this case, we have 4-1 = 3 degrees of freedom (your book refers to this calculation as df = k - 1 where df is degrees of freedom and k is the number of categories in your analysis).
-* 42.10: 
-* 
+* 42.9: An important parameter of the chi-square distribution is the *degrees of freedom*. The degrees of freedom represents the number of table cells that are free to vary. In our example, we have 4 offending categories -- violent, property, drug, and public order. So the number of categories is 4. If we know the number of cases in any 3 of the categories then we know the number of cases in the 4th category because the 4th category will just be the total number of cases minus the sum of the number of cases in any 3 of the categories. This means our chi-square sampling distribution will have # of categories - 1 degrees of freedom. In this case, we have 4 - 1 = 3 degrees of freedom (your book refers to this calculation as df = k - 1 where df is degrees of freedom and k is the number of categories in your analysis).
+* 42.10: Note that if the number of cases is exactly evenly distributed across categories in the population that our sample is drawn from, then the population value of chi-square would be equal to zero.
+* 42.11: Similarly, if the number of cases is exactly evenly distributed across categories in our sample, then our sample test statistic will also be equal to zero.
+* 42.12: However, it is often the case that our cases will not be exactly evenly distributed across categories. When this happens, our test statistic will be greater than zero.
+* 42.13: For our hypothesis test, the p-value or significance level of the test tells us the probability that we could get a test statistic at least as large as the one we got if the true population chi-square value were equal to zero.
+* 42.14: If we are using a 0.05 significance level for our test, then we are saying that we will only reject the Ho of equally prevalent categories when there is strong evidence that the categories are not equally prevalent (as indicated by comparing our test statistic value to the chi-square distribution.
+* 42.15: Here is our sample dataset based on 120 ex-prisoners who got rearrested after release from prison:
+
+| Offense | # of Cases | % of Total |
+| -----:|------:|------:|
+| Violent |  27 | 22.5 |
+| Property | 32 | 26.7 |
+| Drug | 33 | 27.5 |
+| Public Order | 28 | 23.3 |
+| Total | 120 | 100.0|
