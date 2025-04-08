@@ -2685,3 +2685,34 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | Property | 32 | 30 | 2 |
 | Drug | 33 | 30 | 3 |
 | Public Order | 28 | 30 | -2 |
+
+* Then, we square the O-E values:
+
+| Rearrest Offense | O | E | O-E | (O-E)^2 |
+| :-----|------:|------:| -----:| ------:|
+| Violent |  27 | 30 | -3 | 9 | 
+| Property | 32 | 30 | 2 | 4 | 
+| Drug | 33 | 30 | 3 | 9 | 
+| Public Order | 28 | 30 | -2 | 4 |
+
+* Next, we divide the (O-E)^2 values by E for each cell of the table:
+
+| Rearrest Offense | O | E | O-E | (O-E)^2 | [(O-E)^2]/E |
+| :-----|------:|------:| -----:| ------:|------:|
+| Violent |  27 | 30 | -3 | 9 | 9/30 = 0.3 | 
+| Property | 32 | 30 | 2 | 4 | 4/30 = 0.133 |
+| Drug | 33 | 30 | 3 | 9 | 9/30 = 0.3 | 
+| Public Order | 28 | 30 | -2 | 4 | 4/30 = 0.133 |
+
+* Finally, we add up the numbers in the last column to get:
+
+| Rearrest Offense | O | E | O-E | (O-E)^2 | [(O-E)^2]/E |
+| :-----|------:|------:| -----:| ------:|------:|
+| Violent |  27 | 30 | -3 | 9 | 9/30 = 0.3 | 
+| Property | 32 | 30 | 2 | 4 | 4/30 = 0.133 |
+| Drug | 33 | 30 | 3 | 9 | 9/30 = 0.3 | 
+| Public Order | 28 | 30 | -2 | 4 | 4/30 = 0.133 |
+| Total        |    |    |    |   | 0.866 |
+
+* So, our test statistic value is 0.866 which is less than the critical value of 7.815; therefore, we fail to reject Ho.
+* We conclude that the evidence is not strong enough to reject the hypothesis that the cases are equally distributed across the 4 cells of the table in the population.
