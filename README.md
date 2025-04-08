@@ -2676,3 +2676,12 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | Property | 32 | 30 |
 | Drug | 33 | 30 |
 | Public Order | 28 | 30 |
+
+* The next step in calculating our test statistic is to calculate the difference between the observed and expected frequencies for each category:
+
+| Rearrest Offense | O | E | O-E |
+| :-----|------:|------:| -----:|
+| Violent |  27 | 30 | -3 |
+| Property | 32 | 30 | 2 |
+| Drug | 33 | 30 | 3 |
+| Public Order | 28 | 30 | -2 |
