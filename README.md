@@ -2727,4 +2727,4 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * Reminder: Exam 2 is scheduled for Tuesday 4/15/25
 * Here is a draft of the formula sheet (and tables) that will be handed out with the exam ([link](https://github.com/rwb/c200/blob/main/gfiles/f2.pdf)).
 * Practice problems for this week: problems 9.1-9.3 at the back of Chapter 9.
-  
+* Here are links to discussion section notes: week 6 (3/7/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week6.pdf)); week 7 (3/14/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week6.pdf)); week 8 (spring break); week 9 (3/28/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week9.pdf)); week 10 (4/4/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week10.pdf)); and week 11 (4/11/25; to be posted).
