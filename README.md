@@ -2822,4 +2822,4 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | Sum       |     |    |    |    | 1.96 + 1.96 = 3.92 | 
 
 * Since 3.92 > 3.841, we reject the null hypothesis and conclude that the cases are not equally distributed across the categories.
-* By the way, in case you're curious, if our binomial confidence interval look-up table were to go as high as 50, our sample estimate for the p(decrease) would be 18/50 = 0.360 with a 95% confidence interval of [0.238,0.498]. Notice, we still would have rejected the null hypothesis that p0 = 1/2. 
+* By the way, in case you're curious, if our binomial confidence interval look-up table were to go as high as 50, our sample estimate for the p(decrease) would be 18/50 = 0.360 with a 95% confidence interval of [0.238,0.498]. Notice, we still would have rejected the null hypothesis that p0 = 1/2. We could also have framed this in terms of a sample estimate of p(increase) = 32/50 = 0.640 with a 95% confidence interval of [0.502,0.762]; either way the confidence interval does not include the null hypothesis value of p0 = 1/2.
