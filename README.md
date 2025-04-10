@@ -2765,3 +2765,14 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | New Arrest          |  104 | 116.667 | -12.667 | 160.453 |
 | Technical Violation | 147  | 116.667 |  30.333 | 920.091 |
 | Failure to Appear   | 99   | 116.667 | -17.667 | 312.123 |
+
+* With this in hand, we divide each [O-E]^2 by the expected frequency for that cell. Then we add up the ([O-E]^2)/E statistics to get our *test statistic*:
+
+| Failure Type | O | E | O-E | [O-E]^2 | ([O-E]^2)/E
+| :-----|------:|------:| -----:|------:|-------:|
+| New Arrest          |  104 | 116.667 | -12.667 | 160.453 | 1.375 |
+| Technical Violation | 147  | 116.667 |  30.333 | 920.091 | 7.886 |
+| Failure to Appear   | 99   | 116.667 | -17.667 | 312.123 | 2.675 |
+| Sum                 |      |         |         |         | 11.936 |
+
+* So, our test statistic is 11.936 which is greater than the critical value of 9.210; therefore, we reject the null hypothesis and conclude that there is strong evidence of an unequal distribution of cases.
