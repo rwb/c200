@@ -2776,3 +2776,11 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | Sum                 |      |         |         |         | 11.936 |
 
 * So, our test statistic is 11.936 which is greater than the critical value of 9.210; therefore, we reject the null hypothesis and conclude that there is strong evidence of an unequal distribution of cases across the 3 failure categories.
+* New Example: let's consider a *large sample* 2-category problem. Suppose that an economic recession hits. We wish to compare the homicide rate for each of the 50 states in the year before the recession hits to the year after the recession hits. We find that in 32 of the states the homicide rate went up and 18 of the states the homicide rate went down. Test the null hypothesis that the states were equally likely to go up or down; your test should be conducted at the 0.05 significance level. Notice that the structure of this problem is very similar to the binomial problems we were working on before; the difference is that the sample size for this problem (N = 50) is larger.
+* Here is our data set summarized in a table:
+
+| Direction | # of Cases | % of Total |
+| :-----|------:|------:|
+| Increased |  32 | 64.0 |
+| Decreased |  18 | 36.0 |
+| Total | 50 | 100.0|
