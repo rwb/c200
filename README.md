@@ -2730,7 +2730,10 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * For your convenience, here are links to discussion section notes: week 6 (3/7/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week6.pdf)); week 7 (3/14/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week6.pdf)); week 8 (spring break); week 9 (3/28/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week9.pdf)); week 10 (4/4/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week10.pdf)); and week 11 (4/11/25; to be posted on Friday 4/11/25).
 * Practice problems for this week: problems 9.1-9.3 at the back of Chapter 9.
 * Topic 42; Checking on equality of frequencies across categories (continued); for these problems which rely on the chi-square distribution, you can round to 3 decimal places.
-* New Example: Suppose we have a sample of 350 persons who have been released on pretrial supervision; what each of these people have in common is that they were each considered a "failure". There were 3 different ways that people could fail: (1) they are arrested for committing a new crime; (2) they fail based on a technical violation (i.e., a positive drug test or failure to check in at an appointed time); or (3) they failed to appear for subsequent court proceedings. Your supervisor has asked you to check on whether the failure cases are equally distributed across the 3 categories. You are to conduct your significance test at the .01 significance level. Here are the data:
+
+#### New Example
+
+* Suppose we have a sample of 350 persons who have been released on pretrial supervision; what each of these people have in common is that they were each considered a "failure". There were 3 different ways that people could fail: (1) they are arrested for committing a new crime; (2) they fail based on a technical violation (i.e., a positive drug test or failure to check in at an appointed time); or (3) they failed to appear for subsequent court proceedings. Your supervisor has asked you to check on whether the failure cases are equally distributed across the 3 categories. You are to conduct your significance test at the .01 significance level. Here are the data:
 
 | Failure Type | # of Cases | % of Total |
 | :-----|------:|------:|
@@ -2770,13 +2773,17 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 
 | Failure Type | O | E | O-E | [O-E]^2 | ([O-E]^2)/E
 | :-----|------:|------:| -----:|------:|-------:|
-| New Arrest          |  104 | 116.667 | -12.667 | 160.453 | 1.375 |
-| Technical Violation | 147  | 116.667 |  30.333 | 920.091 | 7.886 |
-| Failure to Appear   | 99   | 116.667 | -17.667 | 312.123 | 2.675 |
-| Sum                 |      |         |         |         | 11.936 |
+| New Arrest          |  104 | 116.667 | -12.667 | 160.453 | 160.453/116.667 = 1.375 |
+| Technical Violation | 147  | 116.667 |  30.333 | 920.091 | 920.091/116.667 = 7.886  |
+| Failure to Appear   | 99   | 116.667 | -17.667 | 312.123 | 312.123/116.667 = 2.675  |
+| Sum                 |      |         |         |         | 1.375 + 7.886 + 2.675 = 11.936  |
 
 * So, our test statistic is 11.936 which is greater than the critical value of 9.210; therefore, we reject the null hypothesis and conclude that there is strong evidence of an unequal distribution of cases across the 3 failure categories.
-* New Example: let's consider a *large sample* 2-category problem. Suppose that an economic recession hits. We wish to compare the homicide rate for each of the 50 states in the year before the recession hits to the year after the recession hits. We find that in 32 of the states the homicide rate went up and 18 of the states the homicide rate went down. Test the null hypothesis that the states were equally likely to go up or down; your test should be conducted at the 0.05 significance level. Notice that the structure of this problem is very similar to the binomial problems we were working on before; the difference is that the sample size for this problem (N = 50) is larger.
+
+#### New Example 
+
+* Let's consider a *large sample* 2-category problem. Suppose that an economic recession hits. We wish to compare the homicide rate for each of the 50 states in the year before the recession hits to the year after the recession hits. We find that in 32 of the states the homicide rate went up and 18 of the states the homicide rate went down. Test the null hypothesis that the states were equally likely to go up or down; your test should be conducted at the 0.05 significance level. Notice that the structure of this problem is very similar to the binomial problems we were working on before; the difference is that the sample size for this problem (N = 50) is larger than before; it is also larger than what our binomial confidence interval look-up table can handle!
+* The critical value of chi-square with k - 1 = 2 - 1 = 1 degree of freedom and a significance level of 0.05 is 3.841.
 * Here is our data set summarized in a table:
 
 | Direction | # of Cases | % of Total |
@@ -2784,3 +2791,35 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | Increased |  32 | 64.0 |
 | Decreased |  18 | 36.0 |
 | Total | 50 | 100.0|
+
+* If the null hypothesis is correct, then we would expect to see 50/2 = 25 cases in each cell of our table:
+  
+| Direction | Observed | Expected |
+| :-----|------:|------:|
+| Increased |  32 | 25 |
+| Decreased | 18 | 25 |
+
+* We calculate the difference between the observed and expected frequencies:
+
+| Direction | O | E | O-E |
+| :-----|------:|------:| -----:|
+| Increased |  32 | 25 | 7 |
+| Decreased | 18 | 25 | -7 |
+
+* Then, we square the differences:
+
+| Direction | O | E | O-E | [O-E]^2 |
+| :-----|------:|------:| -----:|------:|
+| Increased  |  32 | 25 | 7 | 49 |
+| Decreased | 18 | 25 |  -7 | 49 |
+
+* Finally, we divide each squared difference by the expected frequency for each table cell:
+
+| Direction | O | E | O-E | [O-E]^2 | ([O-E]^2)/E
+| :-----|------:|------:| -----:|------:|-------:|
+| Incrased  |  32 | 25 | 7 | 49 |  49/25 = 1.96  |
+| Decreased | 18  | 25 | -7 | 49 | 49/25 = 1.96 |
+| Sum       |     |    |    |    | 1.96 + 1.96 = 3.92 | 
+
+* Since 3.92 > 3.841, we reject the null hypothesis and conclude that the cases are not equally distributed across the categories.
+* By the way, in case you're curious, if our binomial confidence interval look-up table were to go as high as 50, our sample estimate for the p(decrease) would be 18/50 = 0.360 with a 95% confidence interval of [0.238,0.498]. Notice, we still would have rejected the null hypothesis that p0 = 1/2. 
