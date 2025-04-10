@@ -2726,7 +2726,7 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 
 * Reminder: Exam 2 is scheduled for Tuesday 4/15/25.
 * The exam will cover material beginning with Lesson 11 on Thursday 3/6/25; Topics 25-42 are included on this exam.
-* Here is a draft of the formula sheet (and tables) that will be handed out with the exam ([link](https://github.com/rwb/c200/blob/main/gfiles/f2.pdf)).
+* Here is a draft of the formula sheet (and tables) that will be handed out with the exam ([link](https://github.com/rwb/c200/blob/main/gfiles/f2a.pdf)).
 * There are 2 approaches to solving small-sample binomial hypothesis testing problems: the *binomial probability approach* and the *confidence interval approach*. I've gone over both of these in detail and they will both be covered on the exam.  
 * For your convenience, here are links to discussion section notes: week 6 (3/7/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week6.pdf)); week 7 (3/14/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week6.pdf)); week 8 (spring break); week 9 (3/28/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week9.pdf)); week 10 (4/4/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week10.pdf)); and week 11 (4/11/25; to be posted on Friday 4/11/25).
 * Practice problems for this week: problems 9.1-9.3 at the back of Chapter 9.
@@ -2826,3 +2826,5 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * By the way, in case you're curious, if our binomial confidence interval look-up table were to go as high as 50, our sample estimate for the p(decrease) would be 18/50 = 0.360 with a 95% confidence interval of [0.238,0.498]. Notice, we still would have rejected the null hypothesis that p0 = 1/2. We could also have framed this in terms of a sample estimate of p(increase) = 32/50 = 0.640 with a 95% confidence interval of [0.502,0.762]; either way the confidence interval does not include the null hypothesis value of p0 = 1/2.
 
 ### Questions from Students About Exam 2
+
+* What is the rounding rule for the exam? My response: For all calculations before Topic 42, you should follow the usual rule I described earlier this semester: "The rounding rule we will follow this semester is that intermediate calculations should be rounded as little as possible. Some rounding will be inevitable due to the limits of your calculators but intermediate calculations should be as precise as possible. The issue is that if you're doing multiple calculations, the rounding error starts to become a significant problem. Your final result when solving a problem can be rounded (usually to the 3rd decimal place)." For the calculations in Topic 42 (test of equal frequencies across groups), you may round your intermediate calculations to the 3rd decimal place.
