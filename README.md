@@ -2775,4 +2775,4 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | Failure to Appear   | 99   | 116.667 | -17.667 | 312.123 | 2.675 |
 | Sum                 |      |         |         |         | 11.936 |
 
-* So, our test statistic is 11.936 which is greater than the critical value of 9.210; therefore, we reject the null hypothesis and conclude that there is strong evidence of an unequal distribution of cases.
+* So, our test statistic is 11.936 which is greater than the critical value of 9.210; therefore, we reject the null hypothesis and conclude that there is strong evidence of an unequal distribution of cases across the 3 failure categories.
