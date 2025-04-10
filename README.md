@@ -2729,7 +2729,7 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * Here is a draft of the formula sheet (and tables) that will be handed out with the exam ([link](https://github.com/rwb/c200/blob/main/gfiles/f2.pdf)).
 * For your convenience, here are links to discussion section notes: week 6 (3/7/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week6.pdf)); week 7 (3/14/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week6.pdf)); week 8 (spring break); week 9 (3/28/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week9.pdf)); week 10 (4/4/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week10.pdf)); and week 11 (4/11/25; to be posted on Friday 4/11/25).
 * Practice problems for this week: problems 9.1-9.3 at the back of Chapter 9.
-* Topic 42; Checking on equality of frequencies across categories (continued); for these problems which rely on the chi-square distribution, you can round to 3 decimal places.
+* Topic 42: Checking on equality of frequencies across categories (continued); for these problems which rely on the chi-square distribution, you can round to 3 decimal places.
 
 #### New Example
 
