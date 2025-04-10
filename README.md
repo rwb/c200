@@ -2724,7 +2724,17 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 
 ### Lesson 19 - Thursday 4/10/25
 
-* Reminder: Exam 2 is scheduled for Tuesday 4/15/25
+* Reminder: Exam 2 is scheduled for Tuesday 4/15/25.
+* The exam will cover material beginning with Lesson 11 on Thursday 3/6/25; Topics 25-42 are included on this exam.
 * Here is a draft of the formula sheet (and tables) that will be handed out with the exam ([link](https://github.com/rwb/c200/blob/main/gfiles/f2.pdf)).
 * For your convenience, here are links to discussion section notes: week 6 (3/7/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week6.pdf)); week 7 (3/14/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week6.pdf)); week 8 (spring break); week 9 (3/28/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week9.pdf)); week 10 (4/4/25; [link](https://github.com/rwb/c200/blob/main/gfiles/week10.pdf)); and week 11 (4/11/25; to be posted on Friday 4/11/25).
 * Practice problems for this week: problems 9.1-9.3 at the back of Chapter 9.
+* Topic 42; Checking on equality of frequencies across categories (continued)
+* New Example: Suppose we have a sample of 350 persons who have been released on pretrial supervision; what each of these people have in common is that they were each considered a "failure". There were 3 different ways that people could fail: (1) they are arrested for committing a new crime; (2) they fail based on a technical violation (i.e., a positive drug test or failure to check in at an appointed time); or (3) they failed to appear for subsequent court proceedings. Your supervisor has asked you to check on whether the failure cases are equally distributed across the 3 categories. You are to conduct your significance test at the .01 significance level.
+
+| Rearrest Offense | # of Cases | % of Total |
+| :-----|------:|------:|
+| New Arrest |  104 | 29.7 |
+| Technical Violation | 147 | 42.0 |
+| Failure to Appear | 99 | 28.3 |
+| Total | 350 | 100.0|
