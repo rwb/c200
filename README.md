@@ -2644,8 +2644,8 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 
 #### Chapter 9 and Topic 42 Begins Here
 
-* 42.1: The binomial analyses we have been doing so far apply to variables than can take on 2 values for a certain number of trials (i.e., better or worse; increase or decrease; higher or lower, etc.)
-* 42.2: In this chapter, we consider variables that can take on more than 2 values and can apply to many trials. We'll start with a variable than can take on 4 values as an example.
+* 42.1: The binomial analyses we have been doing so far apply to variables than can take on 2 values for a certain number of trials (i.e., better or worse; increase or decrease; higher or lower, etc.). Also, you may have noticed that our hypothesis testing problems have all invoved very small numbers of trials/cases. 
+* 42.2: In this chapter, we consider variables that can take on more than 2 values and can apply to many trials/cases. We'll start with a variable than can take on 4 values as an example.
 * 42.3: On pages 187-192, your book uses a dice-rolling example. In today's class, I will consider a substantive example.
 * 42.4: Suppose we have a group of people who are getting out of prison in a given year. After a follow-up study many of these people were found to have been rearrested for a new crime. Among those who were rearrested, we divide up the most serious rearrest offense into 4 categories: violent, property, drug, and public order offenses.
 * 42.5: We wish to test the null hypothesis that the number of recidivists is *equally distributed* across the 4 categories (the same way we would expect the outcomes 1:6 to turn up approximately eqully when we roll a fair die many times).
