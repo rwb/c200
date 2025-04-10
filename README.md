@@ -2758,8 +2758,8 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | Failure Type | O | E | O-E |
 | :-----|------:|------:| -----:|
 | New Arrest |  104 | 116.667 | -12.667 |
-| Technical Violation | 147 | 30.333 |
-| Failure to Appear | 99 | -17.667 |
+| Technical Violation | 147 | 116.667 | 30.333 |
+| Failure to Appear | 99 | 116.667 | -17.667 |
 
 * Then, we have to calculate the squares of the differences between the observed and expected frequencies:
 
