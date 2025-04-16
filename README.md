@@ -148,7 +148,7 @@ And, here are the expected exam dates:
 
 #### Chapter 9: Hypothesis Testing with Categorical Data
 
-42. checking on equality of frequencies across categories (3/27)
+42. checking on distribution of frequencies across categories (3/27)
 43. checking on whether 2 categorical variables are statistically independent (3/27-4/1)
 44. analyses with ordinal data (3/27-4/1)
 45. chi-square tests with small sample sizes (3/27-4/1)
