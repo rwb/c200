@@ -3010,9 +3010,6 @@ reject
 * Here is how we conduct the analysis using R:
 
 ```R
-* Now, let's consider how we could do this same analysis in R.
-
-```R
 alpha = 0.05
 critical.value = qchisq(p=1-alpha,df=5-1)
 critical.value
