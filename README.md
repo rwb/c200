@@ -2851,12 +2851,12 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * Assignment #3 will be distributed on Thursday 4/24 and will be due on Thursday 5/1 at 11:59pm (ET).
 * Today, we continue with Topic 42; chi-square tests.
 
-#### New Example (Topic 42)
+#### New Example #1 (Follow-up to Topic 42)
 
 * So far, we have been focused on the case where the null hypothesis is that cases are equally likely to fall in each category.
 * Now, we consider the possibility of a null hypothesis where there is an unequal likelihood that cases will be in each category.
 * Suppose we live in a community where the police randomly survey citizens about their fear of crime.
-* Historically, in 3 neighborhoods, about 30% of citizens say they are afraid to walk in their neighborhood in the early evening hours.
+* Historically, in a group of neighborhoods, about 30% of citizens say they are afraid to walk in their neighborhood in the early evening hours.
 * The police decide to deploy additional early evening patrols in these neighborhoods.
 * After a year, a new survey is conducted.
 * Our research hypothesis is that fear of crime changed (either it went up because people were alarmed by the increased police presence or it went down because people felt safer with more police around).
@@ -2899,7 +2899,7 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | Not Afraid | 78  | 70 | 8 | 64 | 64/70 = 0.914 |
 | Sum       |  100   |    |    |    | 2.133+0.914 = 3.047 | 
 
-* The test statistic is 3.047; the critical value of chi-square with 1 degree of freedom is 2.706.
+* The test statistic is 3.047; from Appendix 2, the critical value of chi-square with 1 degree of freedom is 2.706.
 * Since 3.047 > 2.706, we reject Ho; our sample data would be unlikely to come from a population where the fear of crime was 30%.
 * Now, let's consider how we could do this same analysis in R.
 
@@ -2946,3 +2946,42 @@ reject
 [1] "yes"
 > 
 ```
+
+#### New Example #2
+
+* Suppose we have 5 patrol districts in a medium-sized city.
+* Historically, 40% of the calls for service have come from District 1 while the remaining calls were equally distributed among the other 4 districts.
+* The police chief has asked the crime analysis staff to determine whether this old pattern still holds.
+* The chief asks the staff to be very sure before drawing a "there has been a change" conclusion.
+* So the crime analysts decide in advance to set a demanding significance level of 0.01.
+* From Appendix 2, the critical value of the chi-square distribution with 5 - 1 = 4 degrees of freedom is 13.277.
+* The team examines the last 162 calls for service and obtains the following data:
+
+| Patrol District | # of Cases | % of Total |
+| :-----|------:|------:|
+| 1 |  50 | 30.9 |
+| 2 |  24 | 14.8 |
+| 3 |  29 | 17.9 |
+| 4 |  32 | 19.8 |
+| 5 |  27 | 16.7 |
+| Total | 162 | 100.0|
+
+* If the null hypothesis is correct, then we would expect to see 64.8 cases in the District 1 cateory and 24.3 cases in each of the other 4 districts, based on the null hypothesis.
+  
+| Patrol District | Observed | Expected |
+| :-----|------:|------:|
+| 1     |  50   | 64.8 |
+| 2     |  24   | 24.3 |
+| 3     |  29   | 24.3 |
+| 4     |  32   | 24.3 |
+| 5     |  27   | 24.3 |
+
+* We calculate the difference between the observed and expected frequencies:
+
+| Patrol District | O | E | O-E |
+| :-----|------:|------:| -----:|
+| 1 |  50 | 64.8 | -14.8 |
+| 2 |  24 | 24.3 | -0.3 |
+| 3 |  29 | 24.3 | 4.7 |
+| 4 |  32 | 24.3 | 7.7 |
+| 5 |  27 | 24.3 | 2.7 |
