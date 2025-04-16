@@ -2825,7 +2825,7 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * Since 3.92 > 3.841, we reject the null hypothesis and conclude that the cases are not equally distributed across the categories.
 * By the way, in case you're curious, if our binomial confidence interval look-up table were to go as high as 50, our sample estimate for the p(decrease) would be 18/50 = 0.360 with a 95% confidence interval of [0.238,0.498]. Notice, we still would have rejected the null hypothesis that p0 = 1/2. We could also have framed this in terms of a sample estimate of p(increase) = 32/50 = 0.640 with a 95% confidence interval of [0.502,0.762]; either way the confidence interval does not include the null hypothesis value of p0 = 1/2.
 
-### Questions from Students About Exam 2
+#### Questions from Students About Exam 2
 
 * Question from 4/10/25: What is the rounding rule for the exam? My response: For all calculations before Topic 42, you should follow the usual rule I described earlier this semester: "The rounding rule we will follow this semester is that intermediate calculations should be rounded as little as possible. Some rounding will be inevitable due to the limits of your calculators but intermediate calculations should be as precise as possible. The issue is that if you're doing multiple calculations, the rounding error starts to become a significant problem. Your final result when solving a problem can be rounded (usually to the 3rd decimal place)." For the calculations in Topic 42 (test of equal frequencies across groups), you may round your intermediate calculations to the 3rd decimal place.
 * Question from 4/11/25: Can the expected cell frequency be a fractional or decimal number? My response: Yes; the expected cell frequency would be the number of cases in the study divided by the number of cells in the table and sometimes that will be a fractional or decimal number instead of a whole number.
@@ -2843,3 +2843,100 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * Question from 4/14/25: "I understand the binomial testing but I am confused on the how to find the interval when looking at the provided binomial table. I also want to clarify that the numbers you use in the binomial testing come from the lower tail and the higher tail. Since the significance level was 0.05, you had to divide that by two and add up numbers from the chart on both ends to add up to 0.025." My response: the interval comes from the confidence interval on the lookup table provided on the course webpage, it is not on the binomial probability table. To your second question, you want both tails not to exceed 0.025, as you will see that it will not be exactly 0.025 in some cases.
 * Question from 4/14/25: "For a question like the one in topics 34.8-34.17, are we able to just go right from the data with "n=9" and "x=1" and go to the lookup table and see that .5 is not in that interval and reject Ho? Or do we have to calculate the actual probability using the binomial mass function first and then go to the lookup table." My response: I will tell you which approach I want you to use (either the binomial probability approach or the confidence interval approach or both -- remember these are 2 different approaches to get to the same answer as discussed in Lessons 17-18). You should plan to show all the steps you followed to get to a final result.
 * Question from 4/14/25: "Are there going to be questions on the exam that require us to calculate the number of arrangements as well as the probabilities and then add those together, like in topic 32.1? Or will there just be combination questions where we use the combination formula?" My response: any material we went over in class and/or discussion section could be on the exam.
+
+### Lesson 20 - Thursday 4/17/25
+
+* Material covered on the final exam begins with today's lesson.
+* The final exam for this class is scheduled for Thursday May 15th from 10:30-12:30. Be sure to put this date/time on your calendar.
+* Assignment #3 will be distributed on Thursday 4/24 and will be due on Thursday 5/1 at 11:59pm (ET).
+* Today, we continue with Topic 42; chi-square tests.
+
+#### New Example (Topic 42)
+
+* So far, we have been focused on the case where the null hypothesis is that cases are equally likely to fall in each category.
+* Now, we consider the possibility of a null hypothesis where there is an unequal likelihood that cases will be in each category.
+* Suppose we live in a community where the police randomly survey citizens about their fear of crime.
+* Historically, in 3 neighborhoods, about 30% of citizens say they are afraid to walk in their neighborhood in the early evening hours.
+* The police decide to deploy additional early evening patrols in these neighborhoods.
+* After a year, a new survey is conducted.
+* Our research hypothesis is that fear of crime changed (either it went up because people were alarmed by the increased police presence or it went down because people felt safer with more police around).
+* Our null hypothesis is that there has been no change and that 30% of the population is still afraid to walk in the neighborhood in the early evening hours.
+* We will conduct our test at the 0.10 significance level.
+* Here is our data:
+
+| Fear | # of Cases | % of Total |
+| :-----|------:|------:|
+| Afraid |  22 | 22 |
+| Not Afraid |  78 | 78 |
+| Total | 100 | 100.0|
+
+* If the null hypothesis is correct, then we would expect to see 30 cases in the "afraid" cateory and 70 cases in the "not afraid"; these are our *expected* frequencies based on the null hypothesis.
+  
+| Fear | Observed | Expected |
+| :-----|------:|------:|
+| Afraid |  22 | 30 |
+| Not Afraid | 78 | 70 |
+
+* We calculate the difference between the observed and expected frequencies:
+
+| Fear | O | E | O-E |
+| :-----|------:|------:| -----:|
+| Afraid |  22 | 30 | -8 |
+| Not Afraid | 78 | 70 | 8 |
+
+* Then, we square the differences:
+
+| Fear | O | E | O-E | [O-E]^2 |
+| :-----|------:|------:| -----:|------:|
+| Afraid  |  22 | 30 | -8 | 64 |
+| Not Afraid | 78 | 70 |  8 | 64 |
+
+* Finally, we divide each squared difference by the expected frequency for each table cell:
+
+| Fear | O | E | O-E | [O-E]^2 | ([O-E]^2)/E
+| :-----|------:|------:| -----:|------:|-------:|
+| Afraid  |  22 | 30 | -8 | 64 |  64/30 = 2.133  |
+| Not Afraid | 78  | 70 | 8 | 64 | 64/70 = 0.914 |
+| Sum       |  100   |    |    |    | 2.133+0.914 = 3.047 | 
+
+* The test statistic is 4.266; the critical value of chi-square with 1 degree of freedom is 2.706.
+* Since 4.266 > 3.841, we reject Ho; our sample data would be unlikely to come from a population where the fear of crime was 30%.
+* Now, let's consider how we could do this same analysis in R.
+
+```R
+alpha = 0.1
+critical.value = qchisq(p=1-alpha,df=1)
+critical.value
+oyes = 22
+ono = 78
+eyes = 30
+eno = 70
+p1 = ((oyes-eyes)^2)/eyes
+p2 = ((ono-eno)^2)/eno
+test = p1 + p2
+test
+reject = ifelse(test>critical.value,"yes","no")
+reject
+```
+
+* Here is our output:
+
+```Rout
+> alpha = 0.1
+> critical.value = qchisq(p=1-alpha,df=1)
+> critical.value
+[1] 2.705543
+> oyes = 22
+> ono = 78
+> eyes = 30
+> eno = 70
+> p1 = ((oyes-eyes)^2)/eyes
+> p2 = ((ono-eno)^2)/eno
+> test = p1 + p2
+> test
+[1] 3.047619
+> reject = ifelse(test>critical.value,"yes","no")
+> reject
+[1] "yes"
+>
+```
