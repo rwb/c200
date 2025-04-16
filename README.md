@@ -2899,8 +2899,8 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | Not Afraid | 78  | 70 | 8 | 64 | 64/70 = 0.914 |
 | Sum       |  100   |    |    |    | 2.133+0.914 = 3.047 | 
 
-* The test statistic is 4.266; the critical value of chi-square with 1 degree of freedom is 2.706.
-* Since 4.266 > 3.841, we reject Ho; our sample data would be unlikely to come from a population where the fear of crime was 30%.
+* The test statistic is 3.047; the critical value of chi-square with 1 degree of freedom is 2.706.
+* Since 3.047 > 2.706, we reject Ho; our sample data would be unlikely to come from a population where the fear of crime was 30%.
 * Now, let's consider how we could do this same analysis in R.
 
 ```R
@@ -2912,7 +2912,9 @@ ono = 78
 eyes = 30
 eno = 70
 p1 = ((oyes-eyes)^2)/eyes
+p1
 p2 = ((ono-eno)^2)/eno
+p2
 test = p1 + p2
 test
 reject = ifelse(test>critical.value,"yes","no")
@@ -2931,12 +2933,16 @@ reject
 > eyes = 30
 > eno = 70
 > p1 = ((oyes-eyes)^2)/eyes
+> p1
+[1] 2.133333
 > p2 = ((ono-eno)^2)/eno
+> p2
+[1] 0.9142857
 > test = p1 + p2
 > test
 [1] 3.047619
 > reject = ifelse(test>critical.value,"yes","no")
 > reject
 [1] "yes"
->
+> 
 ```
