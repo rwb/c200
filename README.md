@@ -3089,3 +3089,5 @@ reject
 [1] "no"
 >
 ```
+
+#### Topic 43: Chi-Square Test of Independence for 2 Categorical Variables
