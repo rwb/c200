@@ -2952,9 +2952,8 @@ reject
 * Suppose we have 5 patrol districts in a medium-sized city.
 * Historically, 40% of the calls for service have come from District 1 while the remaining calls were equally distributed among the other 4 districts.
 * The police chief has asked the crime analysis staff to determine whether this old pattern still holds.
-* The chief asks the staff to be very sure before drawing a "there has been a change" conclusion.
-* So the crime analysts decide in advance to set a demanding significance level of 0.01.
-* From Appendix 2, the critical value of the chi-square distribution with 5 - 1 = 4 degrees of freedom is 13.277.
+* The crime analysts decide in advance to set a significance level of 0.05
+* From Appendix 2, the critical value of the chi-square distribution at the 0.05 significance level with 5 - 1 = 4 degrees of freedom is 9.488.
 * The team examines the last 162 calls for service and obtains the following data:
 
 | Patrol District | # of Cases | % of Total |
@@ -2985,3 +2984,111 @@ reject
 | 3 |  29 | 24.3 | 4.7 |
 | 4 |  32 | 24.3 | 7.7 |
 | 5 |  27 | 24.3 | 2.7 |
+
+* Then, we square the differences:
+
+| Patrol District | O | E | O-E | [O-E]^2 |
+| :-----|------:|------:| -----:|------:|
+| 1 |  50 | 64.8 | -14.8 | 219.04 |
+| 2 |  24 | 24.3 | -0.3 |    0.09 |
+| 3 |  29 | 24.3 | 4.7 |    22.09 |
+| 4 |  32 | 24.3 | 7.7 |    59.29 |
+| 5 |  27 | 24.3 | 2.7 |     7.29 |
+
+* And, we divide each squared difference by the expected frequency for each table cell:
+
+| Patrol District | O | E | O-E | [O-E]^2 | ([O-E]^2)/E
+| :-----|------:|------:| -----:|------:|-------:|
+| 1 |  50 | 64.8 | -14.8 | 219.04 | 219.04/64.8 = 3.380
+| 2 |  24 | 24.3 | -0.3 |    0.09 |   0.09/24.3 = 0.004
+| 3 |  29 | 24.3 | 4.7 |    22.09 |  22.09/24.3 = 0.909
+| 4 |  32 | 24.3 | 7.7 |    59.29 |  59.29/24.3 = 2.440
+| 5 |  27 | 24.3 | 2.7 |     7.29 |   7.29/24.3 = 0.300
+| Sum       |  162   | 162   |    |    | 3.380+0.004+0.909+2.440+0.300  = 7.033 | 
+
+* Since 7.033 < 9.488, we fail to reject Ho.
+* Here is how we conduct the analysis using R:
+
+```R
+* Now, let's consider how we could do this same analysis in R.
+
+```R
+alpha = 0.05
+critical.value = qchisq(p=1-alpha,df=5-1)
+critical.value
+
+o1 = 50
+o2 = 24
+o3 = 29
+o4 = 32
+o5 = 27
+
+e1 = 162*0.4
+e2 = 162*0.15
+e3 = 162*0.15
+e4 = 162*0.15
+e5 = 162*0.15
+
+p1 = ((o1-e1)^2)/e1
+p1
+p2 = ((o2-e2)^2)/e2
+p2
+p3 = ((o3-e3)^2)/e3
+p3
+p4 = ((o4-e4)^2)/e4
+p4
+p5 = ((o5-e5)^2)/e5
+p5
+
+test = p1 + p2 + p3 + p4 + p5
+test
+
+reject = ifelse(test>critical.value,"yes","no")
+reject
+```
+
+* Here is our output:
+
+```Rout
+> alpha = 0.05
+> critical.value = qchisq(p=1-alpha,df=5-1)
+> critical.value
+[1] 9.487729
+> 
+> o1 = 50
+> o2 = 24
+> o3 = 29
+> o4 = 32
+> o5 = 27
+> 
+> e1 = 162*0.4
+> e2 = 162*0.15
+> e3 = 162*0.15
+> e4 = 162*0.15
+> e5 = 162*0.15
+> 
+> p1 = ((o1-e1)^2)/e1
+> p1
+[1] 3.380247
+> p2 = ((o2-e2)^2)/e2
+> p2
+[1] 0.003703704
+> p3 = ((o3-e3)^2)/e3
+> p3
+[1] 0.9090535
+> p4 = ((o4-e4)^2)/e4
+> p4
+[1] 2.439918
+> p5 = ((o5-e5)^2)/e5
+> p5
+[1] 0.3
+> 
+> test = p1 + p2 + p3 + p4 + p5
+> test
+[1] 7.032922
+> 
+> reject = ifelse(test>critical.value,"yes","no")
+> reject
+[1] "no"
+>
+```
