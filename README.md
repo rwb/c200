@@ -2912,7 +2912,7 @@ oyes = 22
 ono = 78
 eyes = 100*0.3
 eyes
-eno = 100-eyes
+eno = 100*0.7
 eno
 p1 = ((oyes-eyes)^2)/eyes
 p1
@@ -2936,7 +2936,7 @@ reject
 > eyes = 100*0.3
 > eyes
 [1] 30
-> eno = 100-eyes
+> eno = 100*0.7
 > eno
 [1] 70
 > p1 = ((oyes-eyes)^2)/eyes
