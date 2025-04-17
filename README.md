@@ -3096,4 +3096,30 @@ reject
 * 43.2: A key tool for thinking about the relationship between 2 categorical variables is a *contingency table*.
 * 43.3: Contingency tables can be viewed on *row* (horizontal) and *column* (vertical) dimensions.
 * 43.4: Here are a set of [slides](https://github.com/rwb/c200/blob/main/gfiles/intro-contingency-table.pdf) introducing contingency tables.
-* 43.5: A key issue is how do we develop an *inference* about whether 2 categorical variables are statistically independent.
+* 43.5: A key issue is how do we develop an *inference* about whether 2 categorical variables are statistically independent?
+
+#### Homework Problems for This Week
+
+1. Historically, a jurisdiction has a 25% positive drug test rate for people on pretrial supervision. Use the data below to test the hypothesis that the next 125 people under supervision are still testing positive at the same rate. Conduct your test at the 0.05 significance level. 
+
+| Drug Test | # of Cases | % of Total |
+| :-----|------:|------:|
+| Positive |  40 | 32.0% |
+| Negative |  85 | 68.0% |
+| Total | 125 | 100.0|
+
+2. A common finding from the Bureau of Justice Statistics recidivism studies is that about 2/3 of people released from state prisons get rearrested within 3 years of exiting prison. Suppose we decide to conduct a smaller scale version of the same study here in Maryland; we obtain the following data and we are to conduct our test of the null hypothesis that the Maryland recidivism rate is consistent with the BJS rates at the 0.01 significance level.
+
+| Rearrested? | # of Cases | % of Total |
+| :-----|------:|------:|
+| No |  75 | 25.0% |
+| Yes |  225 | 75.0% |
+| Total | 125 | 100.0|
+
+3. The typical rate of high school dropout among people adjudicated in the local juvenile court is 30%. Use the data below to test the hypothesis that the most recent 87 juveniles have the same high school dropout rate (conduct your test at the 0.1 significance level.
+
+| Dropout? | # of Cases | % of Total |
+| :-----|------:|------:|
+| No |  66 | 75.9% |
+| Yes | 21 | 24.1% |
+| Total | 125 | 100.0|
