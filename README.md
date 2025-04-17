@@ -2909,8 +2909,10 @@ critical.value = qchisq(p=1-alpha,df=1)
 critical.value
 oyes = 22
 ono = 78
-eyes = 30
-eno = 70
+eyes = 100*0.3
+eyes
+eno = 100-eyes
+eno
 p1 = ((oyes-eyes)^2)/eyes
 p1
 p2 = ((ono-eno)^2)/eno
@@ -2930,8 +2932,12 @@ reject
 [1] 2.705543
 > oyes = 22
 > ono = 78
-> eyes = 30
-> eno = 70
+> eyes = 100*0.3
+> eyes
+[1] 30
+> eno = 100-eyes
+> eno
+[1] 70
 > p1 = ((oyes-eyes)^2)/eyes
 > p1
 [1] 2.133333
