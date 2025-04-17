@@ -3091,3 +3091,9 @@ reject
 ```
 
 #### Topic 43: Chi-Square Test of Independence for 2 Categorical Variables
+
+* 43.1: What does it mean to say 2 categorical variables are independent?
+* 43.2: A key tool for thinking about the relationship between 2 categorical variables is a *contingency table*.
+* 43.3: Contingency tables can be viewed on *row* (horizontal) and *column* (vertical) dimensions.
+* 43.4: Here are a set of [slides](https://github.com/rwb/c200/blob/main/gfiles/intro-contingency-table.pdf) introducing contingency tables.
+* 43.5: A key issue is how do we develop an *inference* about whether 2 categorical variables are statistically independent.
