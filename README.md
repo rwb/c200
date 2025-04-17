@@ -2850,6 +2850,7 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * The final exam for this class is scheduled for Thursday May 15th from 10:30-12:30. Be sure to put this date/time on your calendar.
 * Assignment #3 will be distributed on Thursday 4/24 and will be due on Thursday 5/1 at 11:59pm (ET).
 * Today, we continue with Topic 42; chi-square tests (chapter 9, pp. 187-195).
+* Note: there is a version of R that runs in a web browser (in case it's helpful): https://docs.r-wasm.org/webr/latest/
 
 #### New Example #1 (Follow-up to Topic 42)
 
@@ -3028,10 +3029,15 @@ o4 = 32
 o5 = 27
 
 e1 = 162*0.4
+e1
 e2 = 162*0.15
+e2
 e3 = 162*0.15
+e3
 e4 = 162*0.15
+e4
 e5 = 162*0.15
+e5
 
 p1 = ((o1-e1)^2)/e1
 p1
@@ -3066,10 +3072,20 @@ reject
 > o5 = 27
 > 
 > e1 = 162*0.4
+> e1
+[1] 64.8
 > e2 = 162*0.15
+> e2
+[1] 24.3
 > e3 = 162*0.15
+> e3
+[1] 24.3
 > e4 = 162*0.15
+> e4
+[1] 24.3
 > e5 = 162*0.15
+> e5
+[1] 24.3
 > 
 > p1 = ((o1-e1)^2)/e1
 > p1
@@ -3094,7 +3110,7 @@ reject
 > reject = ifelse(test>critical.value,"yes","no")
 > reject
 [1] "no"
->
+> 
 ```
 
 #### Homework Problems for This Week (Do Hand Calculations and Confirm Results Using R)
