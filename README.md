@@ -2849,12 +2849,13 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 * Material covered on the final exam begins with today's lesson.
 * The final exam for this class is scheduled for Thursday May 15th from 10:30-12:30. Be sure to put this date/time on your calendar.
 * Assignment #3 will be distributed on Thursday 4/24 and will be due on Thursday 5/1 at 11:59pm (ET).
-* Today, we continue with Topic 42; chi-square tests.
+* Today, we continue with Topic 42; chi-square tests (chapter 9, pp. 187-195).
 
 #### New Example #1 (Follow-up to Topic 42)
 
 * So far, we have been focused on the case where the null hypothesis is that cases are equally likely to fall in each category.
 * Now, we consider the possibility of a null hypothesis where there is an unequal likelihood that cases will be in each category.
+* Your textbook doesn't cover this (unequal probability) problem but it is important enough that I think it should be covered.
 * Suppose we live in a community where the police randomly survey citizens about their fear of crime.
 * Historically, in a group of neighborhoods, about 30% of citizens say they are afraid to walk in their neighborhood in the early evening hours.
 * The police decide to deploy additional early evening patrols in these neighborhoods.
