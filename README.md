@@ -3114,7 +3114,7 @@ reject
 | :-----|------:|------:|
 | No |  75 | 25.0% |
 | Yes |  225 | 75.0% |
-| Total | 125 | 100.0|
+| Total | 300 | 100.0|
 
 3. The typical rate of high school dropout among people adjudicated in the local juvenile court is 30%. Use the data below to test the hypothesis that the most recent 87 juveniles have the same high school dropout rate (conduct your test at the 0.1 significance level).
 
@@ -3122,4 +3122,4 @@ reject
 | :-----|------:|------:|
 | No |  66 | 75.9% |
 | Yes | 21 | 24.1% |
-| Total | 125 | 100.0|
+| Total | 87 | 100.0|
