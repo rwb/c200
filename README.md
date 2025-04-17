@@ -2871,7 +2871,7 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | Not Afraid |  78 | 78 |
 | Total | 100 | 100.0|
 
-* If the null hypothesis is correct, then we would expect to see 30 cases in the "afraid" cateory and 70 cases in the "not afraid"; these are our *expected* frequencies based on the null hypothesis.
+* If the null hypothesis is correct, then we would expect to see 30 cases (30% of 100 is 30) in the "afraid" cateory and 70 cases in the "not afraid" category (70% of 100 is 70); these are our *expected* frequencies based on the null hypothesis.
   
 | Fear | Observed | Expected |
 | :-----|------:|------:|
@@ -2898,7 +2898,7 @@ Example: p(7 increases out of 12 districts if p0 = 1/2) = 12!/(7!5!) × 1/2^7 ×
 | :-----|------:|------:| -----:|------:|-------:|
 | Afraid  |  22 | 30 | -8 | 64 |  64/30 = 2.133  |
 | Not Afraid | 78  | 70 | 8 | 64 | 64/70 = 0.914 |
-| Sum       |  100   |    |    |    | 2.133+0.914 = 3.047 | 
+| Sum       |  100   | 100   |    |    | 2.133+0.914 = 3.047 | 
 
 * The test statistic is 3.047; from Appendix 2, the critical value of chi-square with 1 degree of freedom is 2.706.
 * Since 3.047 > 2.706, we reject Ho; our sample data would be unlikely to come from a population where the fear of crime was 30%.
@@ -2972,7 +2972,7 @@ reject
 | 5 |  27 | 16.7 |
 | Total | 162 | 100.0|
 
-* If the null hypothesis is correct, then we would expect to see 64.8 cases in the District 1 cateory and 24.3 cases in each of the other 4 districts, based on the null hypothesis.
+* If the null hypothesis is correct, then we would expect to see 64.8 cases in the District 1 cateory (40% of 162 is 64.8) and 24.3 cases in each of the other 4 districts (15% of 162 is 24.3), based on the null hypothesis.
   
 | Patrol District | Observed | Expected |
 | :-----|------:|------:|
@@ -3008,9 +3008,9 @@ reject
 | :-----|------:|------:| -----:|------:|-------:|
 | 1 |  50 | 64.8 | -14.8 | 219.04 | 219.04/64.8 = 3.380
 | 2 |  24 | 24.3 | -0.3 |    0.09 |   0.09/24.3 = 0.004
-| 3 |  29 | 24.3 | 4.7 |    22.09 |  22.09/24.3 = 0.909
-| 4 |  32 | 24.3 | 7.7 |    59.29 |  59.29/24.3 = 2.440
-| 5 |  27 | 24.3 | 2.7 |     7.29 |   7.29/24.3 = 0.300
+| 3 |  29 | 24.3 |  4.7 |    22.09 |  22.09/24.3 = 0.909
+| 4 |  32 | 24.3 |  7.7 |    59.29 |  59.29/24.3 = 2.440
+| 5 |  27 | 24.3 |  2.7 |     7.29 |   7.29/24.3 = 0.300
 | Sum       |  162   | 162   |    |    | 3.380+0.004+0.909+2.440+0.300  = 7.033 | 
 
 * Since 7.033 < 9.488, we fail to reject Ho.
