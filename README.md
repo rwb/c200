@@ -3098,7 +3098,7 @@ reject
 * 43.4: Here are a set of [slides](https://github.com/rwb/c200/blob/main/gfiles/intro-contingency-table.pdf) introducing contingency tables.
 * 43.5: A key issue is how do we develop an *inference* about whether 2 categorical variables are statistically independent?
 
-#### Homework Problems for This Week
+#### Homework Problems for This Week (Do Hand Calculations and Confirm Results Using R)
 
 1. Historically, a jurisdiction has a 25% positive drug test rate for people on pretrial supervision. Use the data below to test the hypothesis that the next 125 people under supervision are still testing positive at the same rate. Conduct your test at the 0.05 significance level. 
 
