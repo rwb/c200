@@ -3157,5 +3157,21 @@ reject
 * 43.7: Suppose we have 1,000 people in a large auditorium and we ask each of them to flip a coin 2 times. This is the resulting *joint distribution* of H's and T's:
 
 <p align="center">
-<img src="/gfiles/coin1.png" width="700px">
+<img src="/gfiles/coin1a.png" width="700px">
 </p>
+
+*Note*: this table is called a *contingency table* and we use tables like this to study joint distributions.
+* 43.8: We can use elementary rules of probability to study this table.
+* 43.9: Example: estimate the probability that someone flips a heads at either time 1 (H1) or time 2 (H2).
+* 43.9a: One approach to this problem would be to add p(H1) and p(H2):
+
+<p align="center">
+<img src="/gfiles/coin2.png" width="700px">
+</p>
+
+* 43.9b: An alternative approach is to use the *general addition rule*:
+
+<p align="center">
+<img src="/gfiles/coin3.png" width="700px">
+</p>
+
