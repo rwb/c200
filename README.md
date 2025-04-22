@@ -3222,11 +3222,14 @@ crime = c(rep("no",335),rep("no",11),
           rep("yes",70),rep("yes",16))
 t = table(crime,weapon)
 t
+
 sum(t)
+
 t[1,1]
 t[1,2]
 t[2,1]
 t[2,2]
+
 sum(t[,2])
 ```
 
@@ -3243,8 +3246,10 @@ sum(t[,2])
 crime  no yes
   no  335  11
   yes  70  16
+> 
 > sum(t)
 [1] 432
+> 
 > t[1,1]
 [1] 335
 > t[1,2]
@@ -3253,6 +3258,7 @@ crime  no yes
 [1] 70
 > t[2,2]
 [1] 16
+> 
 > sum(t[,2])
 [1] 27
 > 
