@@ -3165,36 +3165,37 @@ reject
 * 43.9: Example: estimate the probability that someone flips a heads at either time 1 (H1) or time 2 (H2).
 * 43.9a: One approach to this problem would be to add p(H1) to p(H2):
 
+---
 <p align="center">
 <img src="/gfiles/coin2.png" width="750px">
 </p>
-
+---
 <p align="center">
 <img src="/gfiles/coin3.png" width="750px">
 </p>
-
+---
 <p align="center">
 <img src="/gfiles/coin4.png" width="750px">
 </p>
-
+---
 <p align="center">
 <img src="/gfiles/coin5.png" width="750px">
 </p>
 
 * 43.10: New example based on survey data pertaining to weapon carrying and criminal involvement.
-
+---
 <p align="center">
 <img src="/gfiles/g1.png" width="750px">
 </p>
-
+---
 <p align="center">
 <img src="/gfiles/g2.png" width="750px">
 </p>
-
+---
 <p align="center">
 <img src="/gfiles/g3.png" width="750px">
 </p>
-
+---
 <p align="center">
 <img src="/gfiles/g4.png" width="750px">
 </p>
