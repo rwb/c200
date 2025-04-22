@@ -3196,7 +3196,7 @@ reject
 * 43.10: New example based on survey data pertaining to weapon carrying and criminal involvement.
 
 <p align="center">
-<img src="/gfiles/g2.png" width="750px">
+<img src="/gfiles/g2a.png" width="750px">
 </p>
 
 ---
