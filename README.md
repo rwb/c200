@@ -3163,26 +3163,40 @@ reject
 *Note*: this table is called a *contingency table* and we use tables like this to study joint distributions.
 * 43.8: We can use elementary rules of probability to study this table.
 * 43.9: Example: estimate the probability that someone flips a heads at either time 1 (H1) or time 2 (H2).
-* 43.9a: One approach to this problem would be to add p(H1) and p(H2):
+* 43.9a: One approach to this problem would be to add p(H1) to p(H2):
 
 <p align="center">
 <img src="/gfiles/coin2.png" width="750px">
 </p>
 
-* 43.9b: An alternative approach is to use the *general addition rule*:
-
 <p align="center">
 <img src="/gfiles/coin3.png" width="750px">
 </p>
-
-* 43.9c: Now, suppose we are asked to estimate the probability that someone flips a heads at both time 1 (H1) *and* time 2 (H2).
 
 <p align="center">
 <img src="/gfiles/coin4.png" width="750px">
 </p>
 
-* 43.9d: If we don't want to assume independence then we use the *general multiplication rule*:
-
 <p align="center">
 <img src="/gfiles/coin5.png" width="750px">
 </p>
+
+* 43.10: New example based on survey data pertaining to weapon carrying and criminal involvement.
+
+<p align="center">
+<img src="/gfiles/g1.png" width="750px">
+</p>
+
+<p align="center">
+<img src="/gfiles/g2.png" width="750px">
+</p>
+
+<p align="center">
+<img src="/gfiles/g3.png" width="750px">
+</p>
+
+<p align="center">
+<img src="/gfiles/g4.png" width="750px">
+</p>
+
+* 43.11
