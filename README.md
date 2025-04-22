@@ -3193,6 +3193,8 @@ reject
 <img src="/gfiles/coin5.png" width="750px">
 </p>
 
+---
+
 * 43.10: New example based on survey data pertaining to weapon carrying and criminal involvement.
 
 <p align="center">
