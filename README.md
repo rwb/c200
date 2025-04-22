@@ -3171,6 +3171,8 @@ reject
 <img src="/gfiles/coin2.png" width="750px">
 </p>
 
+*Note*: with contingency tables, you *should not* calculate p(A or B) using this method.
+
 ---
 
 <p align="center">
@@ -3178,6 +3180,7 @@ reject
 </p>
 
 ---
+
 
 <p align="center">
 <img src="/gfiles/coin4.png" width="750px">
