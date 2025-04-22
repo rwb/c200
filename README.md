@@ -3215,4 +3215,122 @@ reject
 <img src="/gfiles/g4.png" width="750px">
 </p>
 
-* 43.11
+* 43.11: How can we do these calculations using R?
+
+```R
+weapon = c(rep("no",335),rep("yes",11),
+           rep("no",70),rep("yes",16))
+crime = c(rep("no",335),rep("no",11),
+          rep("yes",70),rep("yes",16))
+t = table(crime,weapon)
+t
+sum(t)
+```
+
+---
+
+```Rout
+> weapon = c(rep("no",335),rep("yes",11),
++            rep("no",70),rep("yes",16))
+> crime = c(rep("no",335),rep("no",11),
++           rep("yes",70),rep("yes",16))
+> t = table(crime,weapon)
+> t
+     weapon
+crime  no yes
+  no  335  11
+  yes  70  16
+>
+> sum(t)
+[1] 432
+> 
+```
+
+----
+
+* 43.11b: calculate p(carry a weapon *or* commit a crime):
+
+```R
+p.carry = (t[1,2]+t[2,2])/sum(t)
+p.carry
+p.crime = (t[2,1]+t[2,2])/sum(t)
+p.crime
+p.carry.and.crime = t[2,2]/sum(t)
+p.carry.and.crime
+p.carry.or.crime = p.carry+p.crime-p.carry.and.crime
+p.carry.or.crime
+```
+
+---
+
+```Rout
+> p.carry = (t[1,2]+t[2,2])/sum(t)
+> p.carry
+[1] 0.0625
+> p.crime = (t[2,1]+t[2,2])/sum(t)
+> p.crime
+[1] 0.1990741
+> p.carry.and.crime = t[2,2]/sum(t)
+> p.carry.and.crime
+[1] 0.03703704
+> p.carry.or.crime = p.carry+p.crime-p.carry.and.crime
+> p.carry.or.crime
+[1] 0.224537
+>
+```
+
+---
+
+* 43.11c: calculate p(carry a weapon *and* commit a crime) using restricted multiplication rule:
+
+```R
+p.carry = (t[1,2]+t[2,2])/sum(t)
+p.carry
+p.crime = (t[2,1]+t[2,2])/sum(t)
+p.crime
+p.carry.and.crime.restricted = p.carry*p.crime
+p.carry.and.crime.restricted
+```
+
+---
+
+```Rout
+> p.carry = (t[1,2]+t[2,2])/sum(t)
+> p.carry
+[1] 0.0625
+> p.crime = (t[2,1]+t[2,2])/sum(t)
+> p.crime
+[1] 0.1990741
+> p.carry.and.crime.restricted = p.carry*p.crime
+> p.carry.and.crime.restricted
+[1] 0.01244213
+>
+```
+
+---
+
+* 43.12d: calculate p(carry a weapon *and* commit a crime) using general multiplication rule
+
+```R
+p.carry = (t[1,2]+t[2,2])/sum(t)
+p.carry
+p.crime.given.carry = t[2,2]/sum(t[,2])
+p.crime.given.carry
+p.carry.and.crime.general = p.carry*p.crime.given.carry
+p.carry.and.crime.general
+```
+
+---
+
+```Rout
+> p.carry = (t[1,2]+t[2,2])/sum(t)
+> p.carry
+[1] 0.0625
+> p.crime.given.carry = t[2,2]/sum(t[,2])
+> p.crime.given.carry
+[1] 0.5925926
+> p.carry.and.crime.general = p.carry*p.crime.given.carry
+> p.carry.and.crime.general
+[1] 0.03703704
+>
+```
