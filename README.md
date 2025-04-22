@@ -3179,8 +3179,9 @@ reject
 <img src="/gfiles/coin3.png" width="750px">
 </p>
 
----
+*Note*: this is the correct method for contingency tables.
 
+---
 
 <p align="center">
 <img src="/gfiles/coin4.png" width="750px">
