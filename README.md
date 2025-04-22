@@ -3140,3 +3140,16 @@ reject
 | Total | 87 | 100.0|
 
 ### Lesson 21 - Tuesday 4/22/25
+
+* I anticipate finishing your exam 2 grades tomorrow (Wednesday) and will post the grades on ELMS as soon as I can.
+* Reminder: The final exam for this class is scheduled for Thursday May 15th from 10:30-12:30.
+* Reminder: Assignment #3 will be distributed on Thursday 4/24 and will be due on Thursday 5/1 at 11:59pm (ET).
+* Today, we turn to topic 43: checking on whether 2 categorical variables are statistically independent (pp. 195-201).
+
+#### Topic 43 (Independence of 2 Categorical Variables)
+
+* 43.1: There are many occasions when we need to study the relationship between 2 categorical variables.
+* 43.2: When there is a relationship between 2 variables, we usually say they are *associated*. When there is no relationship, we usually say they are *independent*.
+* 43.3: In these situations, the null hypothesis usually asserts that the two variables are independent.
+* 43.4: We examine the data to discern whether that hypothesis should be rejected.
+* 43.5: Definition of independence:
