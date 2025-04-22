@@ -3149,7 +3149,8 @@ reject
 #### Topic 43 (Independence of 2 Categorical Variables)
 
 * 43.1: There are many occasions when we need to study the relationship between 2 categorical variables.
-* 43.2: When there is a relationship between 2 variables, we usually say they are *associated*. When there is no relationship, we usually say they are *independent*.
-* 43.3: In these situations, the null hypothesis usually asserts that the two variables are independent.
-* 43.4: We examine the data to discern whether that hypothesis should be rejected.
-* 43.5: Definition of independence:
+* 43.2: When there is a relationship between 2 variables, we usually say they are *associated*.
+* 43.3: When there is no relationship, we usually say they are *independent*.
+* 43.4: In these situations, the null hypothesis usually asserts that the two variables are independent.
+* 43.5: We examine the data to discern whether that hypothesis should be rejected.
+* 43.6: To define the concept of independence, it is useful to think about 2 categorical variables that we know are physically independent.
