@@ -3154,3 +3154,8 @@ reject
 * 43.4: In these situations, the null hypothesis usually asserts that the two variables are independent.
 * 43.5: We examine the data to discern whether that hypothesis should be rejected.
 * 43.6: To define the concept of independence, it is useful to think about 2 categorical variables that we know are physically independent.
+* 43.7: Suppose we have 1,000 people in a large auditorium and we ask each of them to flip a coin 2 times. This is the resulting *joint distribution* of H's and T's:
+
+<p align="center">
+<img src="/gfiles/coin1.png" width="700px">
+</p>
