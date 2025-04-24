@@ -3715,7 +3715,7 @@ Instructions: Please complete each of the problems listed below. You are require
 
 *Note 2*: you must show all of your calculations and steps to receive full credit on each of the following problems!
 
-1. Historically, a drug treatment program has experienced a 40% relapse rate (where relapse is defined as new documented drug use among treatment patients within a year of program completion). The program implements a curriculum change and a new cohort of 127 patients are studied. The data reveal that 33 of the patients relapsed and 87 did not. 
+1. Historically, a drug treatment program has experienced a 40% relapse rate (where relapse is defined as new documented drug use among treatment patients within a year of program completion). The program implements a curriculum change and a new cohort of ~~127~~ 120 patients are studied. The data reveal that 33 of the patients relapsed and 87 did not. 
 
 * a. Use hand calculations to test the null hypothesis that the new version of the program has a relapse rate that is the same as the historical relapse rate. You should use a chi-square distribution with a 0.05 significance level to identify your critical region (i.e., the evidence that would convince you that Ho should be rejected). (10pts).
 * b. Use R to look up your critical value (using qchisq() function) and conduct the same test as in part a. but with a 0.1 significance level (10pts). 
@@ -3747,3 +3747,7 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 
 * a. use your hand calculations to test the null hypothesis that jurisdiction is independent of pretrial supervision outcome; your test should be conducted at the 0.1, 0.05, and 0.01  significance levels (15pts).
 * b. use R to look up your critical value (alpha = 0.05) and contruct a test statistic worksheet so you can test the null hypothesis that jurisdiction is independent of pretrial supervision outcomes; confirm your results using the chisq.test(t,correct=F) function (15pts).
+
+#### Questions from Students About Assignment #3
+
+1. Question received on Thursday 4/24/25: I think there's an error in problem 1 of Assignment 3. It says that there are 127 patients in the cohort and that 33 relapsed and 87 did not relapse. I assume 127 is supposed to be 120, however I just want to make sure that the relapse/did not relapse frequencies are correct before I start working on the problem. My response: Thank you, it was an error. I've corrected it above.
