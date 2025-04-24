@@ -3365,3 +3365,10 @@ p.carry.and.crime.general
 | H1 |  246 | 250 | 496 |
 | T1 | 251  | 253 | 504 |
 | Total | 497 | 503 | 1000 |
+
+* 43.14: We are going to conduct our test at the 0.05 significance level. The number of degrees of freedom for a contingency table is (# of rows - 1) x (# of columns - 1); in this case that number is 1x1 = 1. The critical value of the chi-square distribution with 1 degree of freedom is 3.841 (from Appendix 2 of your textbook).
+* 43.15: Here is a worksheet to calculate our test statistic:
+
+| Cell   | O | E  | O-E | (O-E)^2 | [(O-E)^2]/E |
+| :-----|---:|------:|------:|----:|----:|
+| Row 1, Column 1 |  246 | 497*496/1000 = 246.512 | -0.512 | 0.262 | 0.001 |
