@@ -3706,3 +3706,43 @@ With this table, you should:
 * test the hypothesis that the offense type at time 1 is independent of the offense type at time 2; use a 0.05 significance level for your test.
 * then you should work on problems 9.8a and 9.8b at the back of chapter 9.
 * we will go over these problems in tomorrow's discussion section.
+
+Assignment #3 - Due on ELMS at 11:59pm ET on Thursday 5/1/25
+
+Instructions: Please complete each of the problems listed below. You are required to submit your assignment as a single pdf file on ELMS. Please review all assignment guidelines and rules in the syllabus above. We will accept questions about the assignment up until 11am ET on Tuesday 4/29/25. Please note that any questions we judge to be of interest to the entire class will be posted on this webpage so everyone has access to the same information in a timely fashion. If you submit your assignment and then discover a mistake and you want to fix it before it is due you can resubmit your assignment on ELMS (up to 3 submissions are permitted); if you do this, only the last submission will be graded. Assignments can be submitted beginning at 12:01am (ET) on Thursday 5/1/25.
+
+*Note 1*: there is a version of R that runs in a web browser (in case it's helpful): https://docs.r-wasm.org/webr/latest/
+*Note 2*: you must show all of your calculations and steps to receive full credit on each of the following problems!
+
+1. Historically, a drug treatment program has experienced a 40% relapse rate (where relapse is defined as new documented drug use among treatment patients within a year of program completion). The program implements a curriculum change and a new cohort of 127 patients are studied. The data reveal that 33 of the patients relapsed and 87 did not. 
+
+* a. Use hand calculations to test the null hypothesis that the new version of the program has a relapse rate that is the same as the historical relapse rate. You should use a chi-square distribution with a 0.05 significance level to identify your critical region (i.e., the evidence that would convince you that Ho should be rejected). (10pts).
+* b. Use R to look up your critical value (using qchisq() function) and conduct the same test as in part a. but with a 0.1 significance level (10pts). 
+
+2. A group of 300 kids were adjudicated in the local juvenile court last year. Each of the kids was followed up for 2 years. At the end of year 1, each of the kids was classified as having been rearrested or not since their adjudication (R1 = yes/no). Then, at the end of year 2, each of the kids was classified as having been arrested or not since the end of year 1 (R2 = yes/no). The data are summarized below:
+
+|    | R2=no | R2=yes  | Total |
+| :-----|------:|------:|------:|
+| R1=no |  29 | 58 | 87 |
+| R1=yes | 59  | 154 | 213 |
+| Total | 88 | 212 | 300 |
+
+* a. Use your hand calculations to estimate p(R1=yes or R2=yes), using the general addition rule; 
+use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
+* b. Use your hand calculations to estimate p(R1=yes and R2=yes), using the restricted multiplication rule; Use your hand calculations to estimate p(R1=yes and R2=yes), using the general multiplication rule (10pts).
+* c. Use R to estimate p(R1=no and R2=no) using the restricted multiplication rule; then, use R to estimate p(R1=no and R2=no) using the general multiplication rule (10pts).
+* d. Use your hand calculations to test the null hypothesis that R1 and R2 are independent of each other (based on a alpha = 0.1 significance level) (10pts).
+* e. Use R to look up your critical value (using the qchisq() function) and construct a test statistic worksheet to test the null hypothesis that R1 and R2 are independent of each other (alpha = 0.05 significance level); confirm your results using the chisq.test(t,correct=F) function (10pts).
+
+3. There are 2 jurisdictions; one -- let's call it Uptown -- relies heavily on supervision of people who are released from jail before trial (i.e., pretrial release) while the other -- Downtown -- operates in a more reactive fashion. There are 4 potential outcomes for each person in the 2 jurisdictions and each person is categorized by whichever outcome came first: (1) no problems after release; (2) an arrest for a new crime; (3) an arrest for a technical violation; and (4) a failure to appear in court when directed. The table below presents the data:
+
+|    | Town = Uptown | Town = Downtown  | Total |
+| :-----|------:|------:|------:|
+| Outcome = No problems         |  22 | 15 | 37 |
+| Outcome = New Crime           | 25    | 10 | 35 |
+| Outcome = Technical Violation | 15  | 21 | 36 |
+| Outcome = Failure to Appear   | 17 | 22 | 39 |
+| Total |                       |79 | 68 | 147 |
+
+* a. use your hand calculations to test the null hypothesis that jurisdiction is independent of pretrial supervision outcome; your test should be conducted at the 0.1, 0.05, and 0.01  significance levels (15pts).
+* b. use R to look up your critical value (alpha = 0.05) and contruct a test statistic worksheet so you can test the null hypothesis that jurisdiction is independent of pretrial supervision outcomes; confirm your results using the chisq.test(t,correct=F) function (15pts).
