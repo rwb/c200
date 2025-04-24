@@ -3430,7 +3430,7 @@ p.carry.and.crime.general
 * Here is the R code for our weapon carrying/criminal invovlement problem. We begin by creating our contingency table.
 
 <p align="center">
-<img src="/gfiles/g2a.png" width="750px">
+<img src="/gfiles/t2b.png" width="750px">
 </p>
 
 ```R
