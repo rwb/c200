@@ -3400,7 +3400,7 @@ p.carry.and.crime.general
 *Note*: since 27.971 > 6.635, we reject Ho and conclude that weapon carrying and criminal involvement are not independent of each other.
 
 * 43.20: Now let's turn to the problem of *multicategory* variables (pp. 201-206); your textbook works through the example of a 7 (row) x 2 (column) contingency table.
-* 43.21: In class, we consider the problem of U.S. regions and whether or not a state has the death penalty.
+* 43.21: In class, we consider the problem of U.S. regions and whether or not a state has the death penalty (note: this is real data).
 
 | Census Region   | DP = No | DP = Yes   | Total |
 | :-----|------:|------:|------:|
@@ -3409,3 +3409,296 @@ p.carry.and.crime.general
 | South   | 4  | 12 | 16 |
 | West    | 5  | 8 | 13 |
 | Total | 23 | 27 | 50 |
+
+* 43.22: Let's conduct our statistical independence test at the 0.05 significance level; because our table has 4 rows and 2 columns, the degrees of freedom for the chi-square test is (4-1)*(2-1) = 3 so the critical value of chi-square for our test is 7.815.
+* 43.23: Here is our worksheet:
+
+| Cell   | O | E  | O-E | (O-E)^2 | [(O-E)^2]/E |
+| :-----|---:|------:|------:|----:|----:|
+| Row 1, Column 1 |    8 | 23*9/50 =  4.140 |  3.860 | 14.900 | 14.900/4.140 = 3.600  |
+| Row 1, Column 2 |    1 | 27*9/50  = 4.860 | -3.860 | 14.900 | 14.900/4.860 = 3.066  |
+| Row 2, Column 1 |    6 | 23*12/50 = 5.520 |  0.480 |  0.230 | 0.230/5.520 = 0.042  |
+| Row 2, Column 2 |    6 | 27*12/50 = 6.480 | -0.480 |  0.230 | 0.230/6.480 = 0.035  |
+| Row 3, Column 1 |    4 | 23*16/50 = 7.360 | -3.360 |  11.290 | 11.290/7.360 = 1.534  |
+| Row 3, Column 2 |   12 | 27*16/50 = 8.640 |  3.360 |  11.290 | 11.290/8.640 = 1.307  |
+| Row 4, Column 1 |    5 | 23*13/50 = 5.980 | -0.980 |  0.960 | 0.960/5.980 = 0.161  |
+| Row 4, Column 2 |    8 | 27*13/50 = 7.020 |  0.980 |  0.960 | 0.960/7.020 = 0.137  |
+| Total           |  50 |                        |      0 |       |  9.882 |
+
+* Since our test statistic (9.882) is greater than the critical chi-square value (7.815), we reject Ho and conclude that region and death penalty status are not independent of each other.
+* Now, let's look at how we might do these calculations using R.
+* Here is the R code for our weapon carrying/criminal invovlement problem. We begin by creating our contingency table.
+
+```R
+weapon = c(rep("no",335),rep("yes",11),
+           rep("no",70),rep("yes",16))
+crime = c(rep("no",335),rep("no",11),
+          rep("yes",70),rep("yes",16))
+t = table(crime,weapon)
+t
+```
+
+* Here are the results:
+
+```Rout
+> weapon = c(rep("no",335),rep("yes",11),
++            rep("no",70),rep("yes",16))
+> crime = c(rep("no",335),rep("no",11),
++           rep("yes",70),rep("yes",16))
+> t = table(crime,weapon)
+> t
+     weapon
+crime  no yes
+  no  335  11
+  yes  70  16
+>
+````
+
+* Now, we are ready to calculate the critical chi-square value and our worksheet:
+
+```R
+nrows = 2
+ncols = 2
+d = (nrows-1)*(ncols-1)
+d
+alpha = 0.01
+qchisq(p=1-alpha,df=d)
+
+o11 = 335
+o12 =  11
+o21 =  70
+o22 =  16
+
+e11 = (335+70)*(335+11)/432
+e12 = (11+16)*(335+11)/432
+e21 = (335+70)*(70+16)/432
+e22 = (11+16)*(70+16)/432
+
+o = c(o11,o12,o21,o22)
+e = c(e11,e12,e21,e22)
+ome = o-e
+omesq = ome*ome
+omesq.e = omesq/e
+ts = sum(omesq.e)
+
+data.frame(o,e,ome,omesq,omesq.e)
+ts
+
+# double check our results
+
+chisq.test(t,correct=F)
+```
+
+* Here are the results:
+
+```Rout
+> nrows = 2
+> ncols = 2
+> d = (nrows-1)*(ncols-1)
+> d
+[1] 1
+> alpha = 0.01
+> qchisq(p=1-alpha,df=d)
+[1] 6.634897
+> 
+> o11 = 335
+> o12 =  11
+> o21 =  70
+> o22 =  16
+> 
+> e11 = (335+70)*(335+11)/432
+> e12 = (11+16)*(335+11)/432
+> e21 = (335+70)*(70+16)/432
+> e22 = (11+16)*(70+16)/432
+> 
+> o = c(o11,o12,o21,o22)
+> e = c(e11,e12,e21,e22)
+> ome = o-e
+> omesq = ome*ome
+> omesq.e = omesq/e
+> ts = sum(omesq.e)
+> 
+> data.frame(o,e,ome,omesq,omesq.e)
+    o       e     ome    omesq   omesq.e
+1 335 324.375  10.625 112.8906  0.348025
+2  11  21.625 -10.625 112.8906  5.220376
+3  70  80.625 -10.625 112.8906  1.400194
+4  16   5.375  10.625 112.8906 21.002907
+> ts
+[1] 27.9715
+> 
+> # double check our results
+> 
+> chisq.test(t,correct=F)
+
+	Pearson's Chi-squared test
+
+data:  t
+X-squared = 27.972, df = 1, p-value = 1.231e-07
+
+>
+```
+
+* Let's consider our death penalty by census region example. First we enter the dataset:
+
+| Census Region   | DP = No | DP = Yes   | Total |
+| :-----|------:|------:|------:|
+| Northeast |  8 | 1 | 9 |
+| Midwest | 6  | 6 | 12 |
+| South   | 4  | 12 | 16 |
+| West    | 5  | 8 | 13 |
+| Total | 23 | 27 | 50 |
+
+---
+
+```R
+region = c(rep(1,8),rep(1,1),
+           rep(2,6),rep(2,6),
+           rep(3,4),rep(3,12),
+           rep(4,5),rep(4,8))
+dp = c(rep("no",8),rep("yes",1),
+       rep("no",6),rep("yes",6),
+       rep("no",4),rep("yes",12),
+       rep("no",5),rep("yes",8))
+t = table(region,dp)
+t
+```
+
+----
+
+```Rout
+> region = c(rep(1,8),rep(1,1),
++            rep(2,6),rep(2,6),
++            rep(3,4),rep(3,12),
++            rep(4,5),rep(4,8))
+> dp = c(rep("no",8),rep("yes",1),
++        rep("no",6),rep("yes",6),
++        rep("no",4),rep("yes",12),
++        rep("no",5),rep("yes",8))
+> t = table(region,dp)
+> t
+      dp
+region no yes
+     1  8   1
+     2  6   6
+     3  4  12
+     4  5   8
+>
+```
+
+* Now, we complete our worksheet:
+
+```R
+nrows = 4
+ncols = 2
+d = (nrows-1)*(ncols-1)
+d
+alpha = 0.05
+qchisq(p=1-alpha,df=d)
+
+o11 = 8
+o12 = 1
+o21 = 6
+o22 = 6
+o31 = 4
+o32 = 12
+o41 = 5
+o42 = 8
+
+e11 = (8+6+4+5)*(8+1)/50  
+e12 = (1+6+12+8)*(8+1)/50 
+e21 = (8+6+4+5)*(6+6)/50
+e22 = (1+6+12+8)*(6+6)/50 
+e31 = (8+6+4+5)*(4+12)/50 
+e32 = (1+6+12+8)*(4+12)/50
+e41 = (8+6+4+5)*(5+8)/50 
+e42 = (1+6+12+8)*(5+8)/50
+
+o = c(o11,o12,o21,o22,o31,o32,o41,o42)
+e = c(e11,e12,e21,e22,e31,e32,e41,e42)
+ome = o-e
+omesq = ome*ome
+omesq.e = omesq/e
+ts = sum(omesq.e)
+
+data.frame(o,e,ome,omesq,omesq.e)
+ts
+
+# double check our results
+
+chisq.test(t,correct=F)
+```
+
+---
+
+```Rout
+> nrows = 4
+> ncols = 2
+> d = (nrows-1)*(ncols-1)
+> d
+[1] 3
+> alpha = 0.05
+> qchisq(p=1-alpha,df=d)
+[1] 7.814728
+> 
+> o11 = 8
+> o12 = 1
+> o21 = 6
+> o22 = 6
+> o31 = 4
+> o32 = 12
+> o41 = 5
+> o42 = 8
+> 
+> e11 = (8+6+4+5)*(8+1)/50  
+> e12 = (1+6+12+8)*(8+1)/50 
+> e21 = (8+6+4+5)*(6+6)/50
+> e22 = (1+6+12+8)*(6+6)/50 
+> e31 = (8+6+4+5)*(4+12)/50 
+> e32 = (1+6+12+8)*(4+12)/50
+> e41 = (8+6+4+5)*(5+8)/50 
+> e42 = (1+6+12+8)*(5+8)/50
+> 
+> o = c(o11,o12,o21,o22,o31,o32,o41,o42)
+> e = c(e11,e12,e21,e22,e31,e32,e41,e42)
+> ome = o-e
+> omesq = ome*ome
+> omesq.e = omesq/e
+> ts = sum(omesq.e)
+> 
+> data.frame(o,e,ome,omesq,omesq.e)
+   o    e   ome   omesq    omesq.e
+1  8 4.14  3.86 14.8996 3.59893720
+2  1 4.86 -3.86 14.8996 3.06576132
+3  6 5.52  0.48  0.2304 0.04173913
+4  6 6.48 -0.48  0.2304 0.03555556
+5  4 7.36 -3.36 11.2896 1.53391304
+6 12 8.64  3.36 11.2896 1.30666667
+7  5 5.98 -0.98  0.9604 0.16060201
+8  8 7.02  0.98  0.9604 0.13680912
+> ts
+[1] 9.879984
+> 
+> # double check our results
+> 
+> chisq.test(t,correct=F)
+
+	Pearson's Chi-squared test
+
+data:  t
+X-squared = 9.88, df = 3, p-value = 0.01961
+```
+
+* *Note*: For this week's homework, here is a table:
+
+<p align="center">
+<img src="/gfiles/t1a.png" width="600px">
+</p>
+
+With this table, you should:
+
+* estimate the probability a person commits a violent offense at time 1 or a violent offense at time 2)
+* calculate p(V1 & V2) using both the restricted and general multiplication rule.
+* test the hypothesis that the offense type at time 1 is independent of the offense type at time 2; use a 0.05 significance level for your test.
+* then you should work on problems 9.8a and 9.8b at the back of chapter 9.
+* we will go over these problems in tomorrow's discussion section.
