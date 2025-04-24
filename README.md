@@ -3356,7 +3356,7 @@ p.carry.and.crime.general
 ### Lesson 22 - Thursday 4/24/25
 
 * Reminder: the 3rd Assignment will be posted on this website below today's lesson later today.
-* We are currently in Chapter 9 and covering topic 43 (independence of 2 categorical variables).
+* We are currently in Chapter 9 and covering topic 43 (independence of 2 categorical variables); assigned reading pp. 195-201;
 * 43.12: we've considered the difference between joint probabilities calculated using the restricted and general multiplication rules; we need a way to check on whether the difference is statistically significant. The null hypothesis for these tests is generally based on the idea that the 2 variables are independent of each other.
 * 43.13: let's return to the example of 1000 people who flip a coin 2 times. The first coin flip (H or T) is a variable and the second coin flip (H or T) is a variable. Our goal is to test the null hypothesis that the 2 variables are independent. Here is the dataset (from 43.7 above).
 
@@ -3398,3 +3398,6 @@ p.carry.and.crime.general
 | Total           |  432 |                        |      0 |       |  27.971 |
 
 *Note*: since 27.971 > 6.635, we reject Ho and conclude that weapon carrying and criminal involvement are not independent of each other.
+
+* 43.20: Now let's turn to the problem of *multicategory* variables (pp. 201-206); your textbook works through the example of a 7 (row) x 2 (column) contingency table.
+* 43.21: In class, we consider the problem of 
