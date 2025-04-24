@@ -3707,7 +3707,7 @@ With this table, you should:
 * then you should work on problems 9.8a and 9.8b at the back of chapter 9.
 * we will go over these problems in tomorrow's discussion section.
 
-Assignment #3 - Due on ELMS at 11:59pm ET on Thursday 5/1/25
+### Assignment #3 - Due on ELMS at 11:59pm ET on Thursday 5/1/25
 
 Instructions: Please complete each of the problems listed below. You are required to submit your assignment as a single pdf file on ELMS. Please review all assignment guidelines and rules in the syllabus above. We will accept questions about the assignment up until 11am ET on Tuesday 4/29/25. Please note that any questions we judge to be of interest to the entire class will be posted on this webpage so everyone has access to the same information in a timely fashion. If you submit your assignment and then discover a mistake and you want to fix it before it is due you can resubmit your assignment on ELMS (up to 3 submissions are permitted); if you do this, only the last submission will be graded. Assignments can be submitted beginning at 12:01am (ET) on Thursday 5/1/25.
 
