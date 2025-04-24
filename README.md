@@ -3429,6 +3429,10 @@ p.carry.and.crime.general
 * Now, let's look at how we might do these calculations using R.
 * Here is the R code for our weapon carrying/criminal invovlement problem. We begin by creating our contingency table.
 
+<p align="center">
+<img src="/gfiles/g2a.png" width="750px">
+</p>
+
 ```R
 weapon = c(rep("no",335),rep("yes",11),
            rep("no",70),rep("yes",16))
