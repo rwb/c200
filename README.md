@@ -3352,3 +3352,11 @@ p.carry.and.crime.general
 [1] 0.03703704
 >
 ```
+
+### Lesson 22 - Thursday 4/24/25
+
+* Reminder: the 3rd Assignment will be posted on this website below today's lesson later today.
+* We are currently in Chapter 9 and covering topic 43 (independence of 2 categorical variables).
+* 43.12: we've considered the difference between joint probabilities calculated using the restricted and general multiplication rules; we need a way to check on whether the difference is statistically significant. The null hypothesis for these tests is generally based on the idea that the 2 variables are independent of each other.
+* 43.13: let's return to the example of 1000 people who flip a coin 2 times. The first coin flip (H or T) is a variable and the second coin flip (H or T) is a variable. Our goal is to test the null hypothesis that the 2 variables are independent.
+
