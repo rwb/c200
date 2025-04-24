@@ -3371,10 +3371,10 @@ p.carry.and.crime.general
 
 | Cell   | O | E  | O-E | (O-E)^2 | [(O-E)^2]/E |
 | :-----|---:|------:|------:|----:|----:|
-| Row 1, Column 1 |  246 | 497*496/1000 = 246.512 | -0.512 | 0.262 | 0.001 |
-| Row 1, Column 2 |  250 | 503*496/1000 = 249.488 |  0.512 | 0.262 | 0.001 |
-| Row 2, Column 1 |  251 | 497*504/1000 = 250.488 |  0.512 | 0.262 | 0.001 |
-| Row 2, Column 2 |  253 | 503*504/1000 = 253.512 | -0.512 | 0.262 | 0.001 |
+| Row 1, Column 1 |  246 | 497*496/1000 = 246.512 | -0.512 | 0.262 | 0.262/246.512 = 0.001 |
+| Row 1, Column 2 |  250 | 503*496/1000 = 249.488 |  0.512 | 0.262 | 0.262/249.488 = 0.001 |
+| Row 2, Column 1 |  251 | 497*504/1000 = 250.488 |  0.512 | 0.262 | 0.262/250.488 = 0.001  |
+| Row 2, Column 2 |  253 | 503*504/1000 = 253.512 | -0.512 | 0.262 | 0.262/253.512 = 0.001 |
 | Total           | 1000 |                        |      0 |       | 0.004 |
 
 * 43.16: Since our test statistic, 0.004, is less than the critical value of 3.841, we fail to reject the null hypothesis (independence).
@@ -3385,3 +3385,16 @@ p.carry.and.crime.general
 | Crime = No |  335 | 11 | 346 |
 | Crime = Yes | 70  | 16 | 86 |
 | Total | 405 | 27 | 432 |
+
+* 43.18: Since this table is the same size as the last table (2 rows, 2 columns), the degrees of freedom is still 1; We will use a 0.01 significance level for this test so we look up the critical value and see that it is 6.635.
+* 43.19: Here is our worksheet to calculate the test statistic:
+
+| Cell   | O | E  | O-E | (O-E)^2 | [(O-E)^2]/E |
+| :-----|---:|------:|------:|----:|----:|
+| Row 1, Column 1 |  335 | 405*346/432 = 324.375 | 10.625 | 112.891 | 112.891/324.375 = 0.348  |
+| Row 1, Column 2 |   11 | 27*346/432  = 21.625 |  -10.625 | 112.891 | 112.891/21.625 = 5.220  |
+| Row 2, Column 1 |   70 | 405*86/432 = 80.625 |  -10.625 | 112.891 | 112.891/80.625 = 1.400  |
+| Row 2, Column 2 |   16 | 27*86/432 = 5.375 | 10.625 | 112.891 | 112.891/5.375 = 21.003  |
+| Total           |  432 |                        |      0 |       |  27.971 |
+
+*Note*: since 27.971 > 6.635, we reject Ho and conclude that weapon carrying and criminal involvement are not independent of each other.
