@@ -3689,7 +3689,7 @@ data:  t
 X-squared = 9.88, df = 3, p-value = 0.01961
 ```
 
-* *Note*: For this week's homework, here is a table:
+* *Note*: For this week's homework, here is a table that includes information about the type of offense each of 300 repeat offenders committed on 2 different occasions:
 
 <p align="center">
 <img src="/gfiles/t1a.png" width="600px">
