@@ -3743,7 +3743,7 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 | Outcome = New Crime           | 25    | 10 | 35 |
 | Outcome = Technical Violation | 15  | 21 | 36 |
 | Outcome = Failure to Appear   | 17 | 22 | 39 |
-| Total |                       |79 | 68 | 147 |
+| Total                        |79 | 68 | 147 |
 
 * a. use your hand calculations to test the null hypothesis that jurisdiction is independent of pretrial supervision outcome; your test should be conducted at the 0.1, 0.05, and 0.01  significance levels (15pts).
 * b. use R to look up your critical value (alpha = 0.05) and contruct a test statistic worksheet so you can test the null hypothesis that jurisdiction is independent of pretrial supervision outcomes; confirm your results using the chisq.test(t,correct=F) function (15pts).
