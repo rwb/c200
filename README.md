@@ -3378,3 +3378,10 @@ p.carry.and.crime.general
 | Total           | 1000 |                        |      0 |       | 0.004 |
 
 * 43.16: Since our test statistic, 0.004, is less than the critical value of 3.841, we fail to reject the null hypothesis (independence).
+* 43.17: Now, we consider our second example (looking at whether crime and weapon carrying are independent from 43.10):
+
+|    | Weapon = No | Weapon = Yes   | Total |
+| :-----|------:|------:|------:|
+| Crime = No |  335 | 11 | 346 |
+| Crime = Yes | 70  | 16 | 86 |
+| Total | 405 | 27 | 432 |
