@@ -3697,7 +3697,7 @@ X-squared = 9.88, df = 3, p-value = 0.01961
 
 With this table, you should:
 
-* estimate the probability a person commits a violent offense at time 1 or a violent offense at time 2)
+* estimate the probability a person commits a violent offense at time 1 or a violent offense at time 2
 * calculate p(V1 & V2) using both the restricted and general multiplication rule.
 * test the hypothesis that the offense type at time 1 is independent of the offense type at time 2; use a 0.05 significance level for your test.
 * then you should work on problems 9.8a and 9.8b at the back of chapter 9.
