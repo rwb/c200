@@ -3376,3 +3376,6 @@ p.carry.and.crime.general
 | Row 2, Column 1 |  251 | 497*504/1000 = 250.488 |  0.512 | 0.262 | 0.001 |
 | Row 2, Column 2 |  253 | 503*504/1000 = 253.512 | -0.512 | 0.262 | 0.001 |
 | Total           | 1000 |                        |      0 |       | 0.004 |
+
+* 43.16: Since our test statistic, 0.004, is less than the critical value of 3.841, we fail to reject the hypothesis of independence.
+* 
