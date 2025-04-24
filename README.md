@@ -3400,4 +3400,12 @@ p.carry.and.crime.general
 *Note*: since 27.971 > 6.635, we reject Ho and conclude that weapon carrying and criminal involvement are not independent of each other.
 
 * 43.20: Now let's turn to the problem of *multicategory* variables (pp. 201-206); your textbook works through the example of a 7 (row) x 2 (column) contingency table.
-* 43.21: In class, we consider the problem of 
+* 43.21: In class, we consider the problem of U.S. regions and whether or not a state has the death penalty.
+
+| Census Region   | DP = No | DP = Yes   | Total |
+| :-----|------:|------:|------:|
+| Northeast |  8 | 1 | 9 |
+| Midwest | 6  | 6 | 12 |
+| South   | 4  | 12 | 16 |
+| West    | 5  | 8 | 13 |
+| Total | 23 | 27 | 50 |
