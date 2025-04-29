@@ -3809,3 +3809,9 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 <p align="center">
 <img src="/gfiles/ac.png" width="600px">
 </p>
+
+* 46.3: Another distribution is the time-varying risk of recidivism among a sample of offenders.
+
+<p align="center">
+<img src="/gfiles/haz.png" width="600px">
+</p>
