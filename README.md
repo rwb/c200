@@ -3758,13 +3758,54 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 * Reminder #2: Exam #3 is scheduled for Thursday 5/15/25 -- 10:30-12:30 (you will have entire 2 hours to work on the exam).
 * Reminder #3: Formula to calculate your final grade: (1/4 x AA) + (1/4 x E1) + (1/4 x E2) + (1/4 x E3) where AA = average assignment grade, E1 = exam 1 grade, E2 = exam 2 grade, and E3 = exam 3 grade.
 
-#### Topic 44: Analysis of Ordinal Data
+#### Topic 44: Analysis of Ordinal Data (pp. 206-211)
 
 * 44.1: Consider the following dataset:
 
 |    | Poverty = Low | Poverty = Medium  | Poverty = High | Total |
 | :-----|------:|------:|------:|-------:|
 | Social Disorganization = Low     |  17 | 10 |  4 | 31
-| Social Disorganization = Medium  |  18 | 14 | 16 | 48
-| Social Disorganization = High    |   3 | 11 | 17 | 31
-| Total                            |  38 | 35 | 37 | 110
+| Social Disorganization = Medium  |  11 | 14 | 12 | 37
+| Social Disorganization = High    |   4 | 11 | 18 | 33
+| Total                            |  32 | 35 | 34 | 101
+
+* 44.2: Test the Ho that poverty level and social disorganization are independent (use a 0.01 significance level).
+* 44.3: What would it mean to say these 2 variables are independent?
+* 44.4: Let's calculate p(poverty = high and social disorganization = high) using both the restricted and general multiplication rules.
+* 44.5: Restricted multiplication rule: p(high poverty and high sd) = p(high poverty) x p(high sd) = 34/101 x 33/101 = 0.112.
+* 44.6: General multiplication rule = p(high poverty) x p(high sd | high poverty) = 34/101 x 18/34 = 0.178.
+* 44.7: These 2 probabilities look pretty different. Are they different enough to reject Ho?
+* 44.8: Use the chi-square test of independence to check.
+* 44.9: Degrees of freedom = (# of rows-1) x (# of columns-1) = (3-1) x (3-1) = 2 x 2 = 4
+* 44.10: Critical value of the chi-square distribution = 7.779.
+* 44.11: Calculate our test statistic:
+
+| Cell   | O | E  | O-E | (O-E)^2 | [(O-E)^2]/E |
+| :-----|---:|------:|------:|----:|----:|
+| Row 1, Column 1 |    17 | 32*31/101 = 9.822  |  7.178 | 51.524 | 51.524/9.822 = 5.246  |
+| Row 1, Column 2 |    10 | 35*31/101 = 10.743 | -0.743 |  0.552 | 0.552/10.743 = 0.051  |
+| Row 1, Column 3 |     4 | 34*31/101 = 10.436 | -6.436 | 41.422 | 41.422/10.436 = 3.969  |
+| Row 2, Column 1 |    11 | 32*37/101 = 11.723 | -0.723 |  0.523 | 0.523/11.723 = 0.045   |
+| Row 2, Column 2 |    14 | 35*37/101 = 12.822 |  1.178 |  1.388 | 1.388/12.822 = 0.108  |
+| Row 2, Column 3 |    12 | 34*37/101 = 12.455 | -0.455 |  0.207 | 0.207/12.455 = 0.017  |
+| Row 3, Column 1 |     4 | 32*33/101 = 10.455 | -6.455 | 41.667 | 41.667/10.455 = 3.985   |
+| Row 3, Column 2 |    11 | 35*33/101 = 11.436 | -0.436 |  0.190 | 0.190/11.436 = 0.017  |
+| Row 3, Column 3 |    18 | 34*33/101 = 11.109 |  6.891 | 47.486 | 47.486/11.109 = 4.275  |
+| Total           |   101 |                    |      0 |        |  17.713 |
+
+* 44.12: Since 17.713 > 7.779, we reject Ho; evidence is strong that there is a relationship between the 2 variables.
+
+#### Topic 45: Contingency Tables with Small Samples (p. 211)
+
+* 45.1: When more than 20% of the cells in a contingency table have an expected frequency that is less than 5, the chi-square test of independence is not appropriate.
+* 45.2: Increasingly, powerful computer programs such as R have the capability to perform so-called "exact tests" that can deal effectively with these kinds of problems.
+* 45.3: We will not cover exact methods in this class but you should be aware that they exist.
+
+#### Topic 46: Normal Distribution (Chapter 10, pp. 222-226)
+
+* 46.1: Distributions studied by criminologists can take on a variety of different shapes.
+* 46.2: One of the most well-known distributions is the age-crime curve.
+
+<p align="center">
+<img src="/gfiles/ac.png" width="600px">
+</p>
