@@ -3757,7 +3757,7 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 * Reminder #1: Assignment #3 is due at 11:59pm on Thursday 5/1/25 (on ELMS).
 * Reminder #2: Exam #3 is scheduled for Thursday 5/15/25 -- 10:30-12:30 (you will have entire 2 hours to work on the exam).
 * Reminder #3: Formula to calculate your final grade: (1/4 x AA) + (1/4 x E1) + (1/4 x E2) + (1/4 x E3) where AA = average assignment grade, E1 = exam 1 grade, E2 = exam 2 grade, and E3 = exam 3 grade.
-* Announcement: Today at 1:30pm is the Ray Paternoster Memorial Lecture in the Juan Ramon Jimenez Room at Stamp Student Union. Our speaker this year is Professor Tracey Meares at Yale Law School. 
+* Announcement: [Today at 1:30pm](https://bsos.umd.edu/event/5th-annual-ray-paternoster-memorial-lecture) is the Ray Paternoster Memorial Lecture in the Juan Ramon Jimenez Room at Stamp Student Union. Our speaker this year is Professor Tracey Meares at Yale Law School. 
 
 #### Topic 44: Analysis of Ordinal Data (pp. 206-211)
 
