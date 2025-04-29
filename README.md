@@ -3831,3 +3831,5 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 <p align="center">
 <img src="/gfiles/norm.png" width="600px">
 </p>
+
+* 46.10: Example problem: suppose we have a normally distributed risk assessment score; this score has a mean of 0 and a standard deviation of 1. Based on the chart above, what is the approximate percentile rank of a score of -1? Solution: that score would be at about the 16th percentile.
