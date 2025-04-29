@@ -3794,7 +3794,7 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 | Row 3, Column 3 |    18 | 34*33/101 = 11.109 |  6.891 | 47.486 | 47.486/11.109 = 4.275  |
 | Total           |   101 |                    |      0 |        |  17.713 |
 
-* 44.12: Since 17.713 > 7.779, we reject Ho; evidence is strong that there is a relationship between the 2 variables.
+* 44.12: Since 17.713 > 13.277, we reject Ho; evidence is strong that there is a relationship between the 2 variables.
 
 #### Topic 45: Contingency Tables with Small Samples (p. 211)
 
