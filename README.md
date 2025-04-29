@@ -3821,3 +3821,13 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 <p align="center">
 <img src="/gfiles/state-homicide.png" width="600px">
 </p>
+
+* 46.5: However, even if we don't have many variables that are exactly normally distributed, the normal distribution will still be of great value to us -- as we shall see soon.
+* 46.6: One of the most important properties of normally distributed variables is that we can be sure that certain percentages of cases fall within predictable distances of the mean.
+* 46.7: When working with normal distributions, we shall make extensive use of the mean and standard deviation of those distributions.
+* 46.8: Property 1: normal distributions have symmetry about the mean (and the median) which is the center of the distribution; statements about the mode are more complicated.
+* 46.9: Property 2: 34.13% of the observations lie between the mean and 1 standard deviation above the mean; similarly 34.13% of the observations lie between the mean and 1 standard deviation below the mean. Other predictable patterns are shown in the figure below (from p. 225 of your textbook).
+
+<p align="center">
+<img src="/gfiles/norm.png" width="600px">
+</p>
