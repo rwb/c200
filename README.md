@@ -3815,3 +3815,9 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 <p align="center">
 <img src="/gfiles/haz.png" width="600px">
 </p>
+
+* 46.4: It turns out that many variables of interest to criminologists are not normally distributed. State homicide rates in the year 2018 are a little closer to being normally distributed.
+
+<p align="center">
+<img src="/gfiles/state-homicide.png" width="600px">
+</p>
