@@ -3751,3 +3751,20 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 #### Questions from Students About Assignment #3
 
 1. Question received on Thursday 4/24/25: I think there's an error in problem 1 of Assignment 3. It says that there are 127 patients in the cohort and that 33 relapsed and 87 did not relapse. I assume 127 is supposed to be 120, however I just want to make sure that the relapse/did not relapse frequencies are correct before I start working on the problem. My response: Thank you, it was an error. I've corrected it above.
+
+### Lesson 23 - Tuesday 4/29/25
+
+* Reminder #1: Assignment #3 is due at 11:59pm on Thursday 5/1/25 (on ELMS).
+* Reminder #2: Exam #3 is scheduled for Thursday 5/15/25 -- 10:30-12:30 (you will have entire 2 hours to work on the exam).
+* Reminder #3: Formula to calculate your final grade: (1/4 x AA) + (1/4 x E1) + (1/4 x E2) + (1/4 x E3) where AA = average assignment grade, E1 = exam 1 grade, E2 = exam 2 grade, and E3 = exam 3 grade.
+
+#### Topic 44: Analysis of Ordinal Data
+
+* 44.1: Consider the following dataset:
+
+|    | Poverty = Low | Poverty = Medium  | Poverty = High | Total |
+| :-----|------:|------:|------:|-------:|
+| Social Disorganization = Low     |  17 | 10 |  4 | 31
+| Social Disorganization = Medium  |  18 | 14 | 16 | 48
+| Social Disorganization = High    |   3 | 11 | 17 | 31
+| Total                            |  38 | 35 | 37 | 110
