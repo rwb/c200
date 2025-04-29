@@ -3778,7 +3778,7 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 * 44.7: These 2 probabilities look pretty different. Are they different enough to reject Ho?
 * 44.8: Use the chi-square test of independence to check.
 * 44.9: Degrees of freedom = (# of rows-1) x (# of columns-1) = (3-1) x (3-1) = 2 x 2 = 4
-* 44.10: Critical value of the chi-square distribution = 7.779.
+* 44.10: Critical value of the chi-square distribution = 13.277.
 * 44.11: Calculate our test statistic:
 
 | Cell   | O | E  | O-E | (O-E)^2 | [(O-E)^2]/E |
