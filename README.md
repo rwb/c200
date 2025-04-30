@@ -3832,7 +3832,9 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 * Reminder #1: Assignment #3 is due at 11:59pm on Thursday 5/1/25 (on ELMS).
 * Reminder #2: Exam #3 is scheduled for Thursday 5/15/25 -- 10:30-12:30 (you will have entire 2 hours to work on the exam).
 * Reminder #3: Formula to calculate your final grade: (1/4 x AA) + (1/4 x E1) + (1/4 x E2) + (1/4 x E3) where AA = average assignment grade, E1 = exam 1 grade, E2 = exam 2 grade, and E3 = exam 3 grade.
-  
+
+#### Topic 46 Introduction to the Normal Distribution (Continued)
+
 * 46.6: One of the most important properties of normally distributed variables is that we can be sure that certain percentages of cases fall within predictable distances of the mean.
 * 46.7: When working with normal distributions, we shall make extensive use of the mean and standard deviation of those distributions.
 * 46.8: Property 1: normal distributions have symmetry about the mean (and the median) which is the center of the distribution; statements about the mode are more complicated.
@@ -3845,3 +3847,19 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 * 46.10: Example problem: suppose we have a normally distributed risk assessment score; this score has a mean of 0 and a standard deviation of 1. Based on the chart above, what is the approximate percentile rank of a score of -1? Solution: that score would be at about the 16th percentile.
 * 46.11: Example problem: neighborhoods in a city are scored on a social disorganization scale. The scores have a mean of 100 and a standard deviation of 10. What is the (approximate) 84th percentile of this distribution? Solution: 110.
 * 46.12: Example problem: Considering the last problem, suppose we draw a neighborhood at random from our sample of neighborhoods. What is the probability that the neighborhood we draw has a score greater than 120? Solution: 0.0214+0.0013 = 0.0227. 
+
+#### Homework Problems
+
+* This week's homework problems: problems 9.8, 9.10, and 9.11. Note that in each of these problems, you will be performing a chi-square test of independence where Ho states that the 2 variables being considered are statistically independent of each other. Also, you should consider each of the following problems:
+
+##### Normal distribution problem #1
+
+Suppose we have a sample of juveniles who have been adjudicated delinquent in court. Historically in this court, the number of recidivism incidents has been normally distributed and the average number of recidivism incidents (before reaching age 18) has been 5  with a standard deviation of 1. Now consider the next person to reach age 18 -- who has 6 recidivism incidents. What is the approximate percentile rank of this person?
+
+##### Normal distribution problem #2
+
+A criminal justice researcher closely tracks prison sentences for robbery in a local court. Historically, she has found that the sentence lengths are normally distributed with a mean of 3 years and a standard deviation of 6 months. A case is drawn at random from the population of cases that have been convicted of robbery in this court and it is found that this person had a prison sentence of 30 months. What is this person's approximate percentile rank?
+
+##### Normal distribution problem #3
+
+Considering our staff of probation officers, we find that the number of positive drug tests in a month's time has a normal distribution with a mean of 37 and a standard deviation of 5. Approximately what proportion of the officers have more than 42 positive drug tests in a month's time?
