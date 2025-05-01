@@ -3876,6 +3876,30 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 
 * Notice that the shape of the 2 distributions is the same and the original and z-scores are arrayed in the same way in both plots. The only thing that changed was the scale of the vertical axis. Z-score transformations will always have this property: they only change the scale of the scores.
 
+#### Homework Problems
+
+* This week's homework problems: problems 9.8, 9.10, and 9.11. Note that in each of these problems, you will be performing a chi-square test of independence where Ho states that the 2 variables being considered are statistically independent of each other. Also, you should consider each of the following problems:
+
+##### Normal distribution problem #1
+
+Suppose we have a sample of juveniles who have been adjudicated delinquent in court. Historically in this court, the number of recidivism incidents has been normally distributed and the average number of recidivism incidents (before reaching age 18) has been 5  with a standard deviation of 1. Now consider the next person to reach age 18 -- who has 6 recidivism incidents. What is the approximate percentile rank of this person?
+
+##### Normal distribution problem #2
+
+A criminal justice researcher closely tracks prison sentences for robbery in a local court. Historically, she has found that the sentence lengths are normally distributed with a mean of 3 years and a standard deviation of 6 months. A case is drawn at random from the population of cases that have been convicted of robbery in this court and it is found that this person had a prison sentence of 30 months. What is this person's approximate percentile rank?
+
+##### Normal distribution problem #3
+
+Considering our staff of probation officers, we find that the number of positive drug tests in a month's time has a normal distribution with a mean of 37 and a standard deviation of 5. Approximately what proportion of the officers have more than 42 positive drug tests in a month's time?
+
+### Lesson 25 - Tuesday 5/6/25
+
+* Reminder: Exam #3 is scheduled for Thursday 5/15/25 -- 10:30-12:30 (you will have entire 2 hours to work on the exam).
+
+#### Topics 48/49: %iles of the Standard Normal Distribution (pp. 226-228)
+
+* Continuing with Example 1 from Last Thursday's Class: If there is a risk assessment score for a large population of prisoners and this risk assessment score follows a normal distribution with a mean of 10 and a standard deviation of 1.5, we can transform the original risk assessment scores, *x*, into z-scores by calculating $z_i = \frac{x_i-10}{1.5}$. Then we can create boxplots showing both the original x scores and the transformed z-scores:   
+
 ---
 
 * Now, let's calculate the proportion of cases that have a risk score between 8.5 and 10.
@@ -3938,18 +3962,3 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 
  ---
  
-#### Homework Problems
-
-* This week's homework problems: problems 9.8, 9.10, and 9.11. Note that in each of these problems, you will be performing a chi-square test of independence where Ho states that the 2 variables being considered are statistically independent of each other. Also, you should consider each of the following problems:
-
-##### Normal distribution problem #1
-
-Suppose we have a sample of juveniles who have been adjudicated delinquent in court. Historically in this court, the number of recidivism incidents has been normally distributed and the average number of recidivism incidents (before reaching age 18) has been 5  with a standard deviation of 1. Now consider the next person to reach age 18 -- who has 6 recidivism incidents. What is the approximate percentile rank of this person?
-
-##### Normal distribution problem #2
-
-A criminal justice researcher closely tracks prison sentences for robbery in a local court. Historically, she has found that the sentence lengths are normally distributed with a mean of 3 years and a standard deviation of 6 months. A case is drawn at random from the population of cases that have been convicted of robbery in this court and it is found that this person had a prison sentence of 30 months. What is this person's approximate percentile rank?
-
-##### Normal distribution problem #3
-
-Considering our staff of probation officers, we find that the number of positive drug tests in a month's time has a normal distribution with a mean of 37 and a standard deviation of 5. Approximately what proportion of the officers have more than 42 positive drug tests in a month's time?
