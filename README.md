@@ -3871,6 +3871,34 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 <img src="/gfiles/bpa.png" width="600px">
 </p>
 
+* Notice that the shape of the 2 distributions is the same and the original and z-scores are arrayed in the same way in both plots. The only thing that changed was the scale of the vertical axis. Z-score transformations will always have this property: they only change the scale of the scores.
+
+* Now, let's calculate the proportion of cases that have a risk score between 8.5 and 10.
+* Z-score for *x* = 10 is zero because $0 = \frac{10-10}{1.5}$.
+* Z-score for *x* = 8.5 is $\frac{8.5-10}{1.5} = -1$.
+* Use Appendix 3 to see that the area between z = 0 and z = 1 is 0.3413.
+* Notice that z-scores are symmetric about zero.
+* So the area between z = 0 and z = -1 is also 0.3413.
+* So the fraction of cases between 8.5 and 10 is 0.3413 (or 0.341 would be fine; 3 decimal places).
+
+* What fraction of cases would lie below 8.5?
+* The fraction of cases to the left of zero is 0.5.
+* The fraction of cases between 10 and 8.5 is 0.3413.
+* So the fraction of cases below 8.5 must be 0.5-0.341 = 0.159 
+
+* What fraction of cases lie between 10.5 and 12.2?
+* z-score for x = 10.5 is $\frac{10.5-10}{1.5} = 0.333$; Appendix 3 area = 0.1293
+* z-score for x = 12.2 is $\frac{12.2-10}{1.5} = \frac{2.2}{1.5} = 1.467$; Appendix 3 area = 0.4292
+* Area between the 2 zscores is equivalent to the fraction of cases between 10.5 and 12.2; 0.429-0.129 = 0.3 
+
+* What fraction of cases lie below 11.8?
+* z-score for 11.8 is $\frac{11.8-10}{1.5} = 1.2$; Appendix 3 area = 0.3849.
+* Note that 0.3849 is the fraction of cases between z = 0 and z = 1.2.
+* To that number we have to add 0.5 (the fraction of cases below zero) to get 0.8849.
+* This means that about 88.5% of the cases lie below 11.8.
+
+
+
 #### Homework Problems
 
 * This week's homework problems: problems 9.8, 9.10, and 9.11. Note that in each of these problems, you will be performing a chi-square test of independence where Ho states that the 2 variables being considered are statistically independent of each other. Also, you should consider each of the following problems:
