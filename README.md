@@ -3833,7 +3833,7 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 * Reminder #2: Exam #3 is scheduled for Thursday 5/15/25 -- 10:30-12:30 (you will have entire 2 hours to work on the exam).
 * Reminder #3: Formula to calculate your final grade: (1/4 x AA) + (1/4 x E1) + (1/4 x E2) + (1/4 x E3) where AA = average assignment grade, E1 = exam 1 grade, E2 = exam 2 grade, and E3 = exam 3 grade.
 
-#### Topic 46 Introduction to the Normal Distribution (Continued)
+#### Topic 46: Introduction to the Normal Distribution (Continued)
 
 * 46.6: One of the most important properties of normally distributed variables is that we can be sure that certain percentages of cases fall within predictable distances of the mean.
 * 46.7: When working with normal distributions, we shall make extensive use of the mean and standard deviation of those distributions.
@@ -3846,7 +3846,25 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 
 * 46.10: Example problem: suppose we have a normally distributed risk assessment score; this score has a mean of 0 and a standard deviation of 1. Based on the chart above, what is the approximate percentile rank of a score of -1? Solution: that score would be at about the 16th percentile.
 * 46.11: Example problem: neighborhoods in a city are scored on a social disorganization scale. The scores have a mean of 100 and a standard deviation of 10. What is the (approximate) 84th percentile of this distribution? Solution: 110.
-* 46.12: Example problem: Considering the last problem, suppose we draw a neighborhood at random from our sample of neighborhoods. What is the probability that the neighborhood we draw has a score greater than 120? Solution: 0.0214+0.0013 = 0.0227. 
+* 46.12: Example problem: Considering the last problem, suppose we draw a neighborhood at random from our sample of neighborhoods. What is the probability that the neighborhood we draw has a score greater than 120? Solution: 0.0214+0.0013 = 0.0227.
+
+#### Topic 47: Standard Normal Distribution (p. 226)
+
+* 47.1: The standard normal distribution is a normal distribution that has a mean of zero and a standard deviation of one.
+* 47.2: Any variable that is normally distributed can be *transformed* into a variable that has a standard normal distribution.
+* 47.3: A transformation means that we perform a calculation on the original scores of the variable so that the new scores are different from the original scores in a predictable way.
+* 47.4: Your textbook has a table that provides the area under the standard normal curve (see Appendix 3 on page 653).
+* 47.5: An example how to read the table; if you look at the row for z = 1.0 (where z is a variable that follows a standard normal distribution), you will see that the area is 0.3413.
+* 47.6: What this area means is that 34.13% of the cases will fall between the values z = 0 and z = 1.
+* 47.7: We can also look at the area for z = 2.0. The table tells us this area is 0.4772.
+* 47.8: If we are given a problem that asks what proportion of the cases are between a z of 1 and a z of 2, we can subtract .341 from .477 to get 0.136 (i.e., 0.477-0.341 = 0.136). This means that 13.6% of the cases fall between the z values of 1 and 2 (again, z is a variable that follows a standard normal distribution).
+
+#### Topic 48: z-Scores (pp. 226-228)
+
+* 48.1: A z-score is a transformed version of a variable that follows a normal distribution.
+* 48.2: A property of the transformation is that the z-scores will follow a standard normal distribution so that the mean of the z-scores is 0 and the standard deviation of the z-scores is 1.
+* 48.3: If the original variable follows a normal distribution then the z-scores will follow a standard normal distribution.
+* 48.4: If our original variable is called *x*, the mean is called $\mu$, and the standard deviation is called $\sigma$, then the z-score for a given observation is $z = \frac{x-\mu}{\sigma}$.
 
 #### Homework Problems
 
