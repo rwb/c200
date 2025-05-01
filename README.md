@@ -3865,6 +3865,9 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 * 48.2: A property of the transformation is that the z-scores will follow a standard normal distribution so that the mean of the z-scores is 0 and the standard deviation of the z-scores is 1.
 * 48.3: If the original variable follows a normal distribution then the z-scores will follow a standard normal distribution.
 * 48.4: If our original variable is called *x*, the mean (of the original scores) is called $\mu$, and the standard deviation (of the original scores) is called $\sigma$, then the z-score for a given observation is given by $z = \frac{x-\mu}{\sigma}$.
+
+---
+
 * Example 1: If there is a risk assessment score for a large population of prisoners and this risk assessment score follows a normal distribution with a mean of 10 and a standard deviation of 1.5, we can transform the original risk assessment scores, *x*, into z-scores by calculating $z_i = \frac{x_i-10}{1.5}$. Then we can create boxplots showing both the original x scores and the transformed z-scores:
 
 <p align="center">
@@ -3877,7 +3880,7 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 
 * Now, let's calculate the proportion of cases that have a risk score between 8.5 and 10.
 * Z-score for *x* = 10 is zero because $0 = \frac{10-10}{1.5}$.
-* Z-score for *x* = 8.5 is $\frac{8.5-10}{1.5} = -1$.
+* Z-score for *x* = 8.5 is $\frac{8.5-10}{1.5} = \frac{-1.5}{1.5} = -1$.
 * Use Appendix 3 to see that the area between z = 0 and z = 1 is 0.3413.
 * Notice that z-scores are symmetric about zero.
 * So the area between z = 0 and z = -1 is also 0.3413.
@@ -3893,20 +3896,48 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 ---
 
 * What fraction of cases lie between 10.5 and 12.2?
-* z-score for x = 10.5 is $\frac{10.5-10}{1.5} = 0.333$; Appendix 3 area = 0.1293
+* z-score for x = 10.5 is $\frac{10.5-10}{1.5} = \frac{0.5}{1.5} = 0.333$; Appendix 3 area = 0.1293
 * z-score for x = 12.2 is $\frac{12.2-10}{1.5} = \frac{2.2}{1.5} = 1.467$; Appendix 3 area = 0.4292
 * Area between the 2 zscores is equivalent to the fraction of cases between 10.5 and 12.2; 0.429-0.129 = 0.3 
 
 ---
 
 * What fraction of cases lie below 11.8?
-* z-score for 11.8 is $\frac{11.8-10}{1.5} = 1.2$; Appendix 3 area = 0.3849.
+* z-score for 11.8 is $\frac{11.8-10}{1.5} = \frac{1.8}{1.5} = 1.2$; Appendix 3 area = 0.3849.
 * Note that 0.3849 is the fraction of cases between z = 0 and z = 1.2.
 * To that number we have to add 0.5 (the fraction of cases below zero) to get 0.8849.
 * This means that about 88.5% of the cases lie below 11.8.
 
+---
 
+* Example 2: We work at the state criminal justice research agency and we've been asked several questions by the governor about the distribution of prison sentences (in months) for people convicted of burglary in the state. After some careful study, we determine that the distribution of sentences lengths is approximately normal and that the mean of the distribution is 30 months years and the standard deviation of the distribution is 4 months.
 
+---
+
+* What fraction of sentences are above 36 months (3 years)?
+* z-score for 36 months is $\frac{36-30}{4} = \frac{6}{4} = 1.5$; Appendix 3 area = 0.4332.
+* The interpretation of the area is that 43.3% of the cases lie between 30 and 36 months.
+* We also know that 50% of the area lies below 30 (months).
+* So, 93.3% of the cases lie at or below 36 months; this means that 6.7% of the cases are above 36 months.
+
+---
+
+* What fraction of sentences are between 27 and 29 months?
+* $z = \frac{27-30}{4} = \frac{-3}{4} = -0.75$; Appendix 3 area for 0.75 is 0.2734.
+* $z = \frac{29-30}{4} = \frac{-1}{4} = -0.25$; Appendix 3 area for 0.25 is 0.0987.
+* Notice that standard normal distribution is symmetric about zero.
+* This means that the area between 0.25 and 0.75 is the same as the area between -0.25 and -0.75.
+* So the fraction of sentences between 27 and 29 months is 0.273-0.099 = 0.174.
+
+---
+
+* What fraction of sentences are below 2 years?
+* $z = \frac{24-30}{4} = \frac{-6}{4} = 1.5$; Appendix 3 area for 1.5 is 0.4332.
+* Since the standard normal distribution is symmetric about zero, the area between 0 and -1.5 is also 0.4332.
+* So the area below 2 years is 0.5-0.433 = 0.067.
+
+ ---
+ 
 #### Homework Problems
 
 * This week's homework problems: problems 9.8, 9.10, and 9.11. Note that in each of these problems, you will be performing a chi-square test of independence where Ho states that the 2 variables being considered are statistically independent of each other. Also, you should consider each of the following problems:
