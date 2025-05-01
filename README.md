@@ -3934,7 +3934,7 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 * What fraction of sentences are below 2 years?
 * $z = \frac{24-30}{4} = \frac{-6}{4} = 1.5$; Appendix 3 area for 1.5 is 0.4332.
 * Since the standard normal distribution is symmetric about zero, the area between 0 and -1.5 is also 0.4332.
-* So the area below 2 years is 0.5-0.433 = 0.067.
+* So the fraction of sentences below 2 years is 0.5-0.433 = 0.067.
 
  ---
  
