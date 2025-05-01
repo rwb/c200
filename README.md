@@ -3864,7 +3864,12 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 * 48.1: A z-score is a transformed version of a variable that follows a normal distribution.
 * 48.2: A property of the transformation is that the z-scores will follow a standard normal distribution so that the mean of the z-scores is 0 and the standard deviation of the z-scores is 1.
 * 48.3: If the original variable follows a normal distribution then the z-scores will follow a standard normal distribution.
-* 48.4: If our original variable is called *x*, the mean is called $\mu$, and the standard deviation is called $\sigma$, then the z-score for a given observation is $z = \frac{x-\mu}{\sigma}$.
+* 48.4: If our original variable is called *x*, the mean (of the original scores) is called $\mu$, and the standard deviation (of the original scores) is called $\sigma$, then the z-score for a given observation is given by $z = \frac{x-\mu}{\sigma}$.
+* Example: If there is a risk assessment score for a large population of prisoners and this risk assessment score follows a normal distribution with a mean of 10 and a standard deviation of 1.5, we can transform the original risk assessment scores, *x*, into z-scores by calculating $z_i = \frac{x_i-10}{1.5}$. Then we can create boxplots showing both the original x scores and the transformed z-scores:
+
+<p align="center">
+<img src="/gfiles/bpa.png" width="600px">
+</p>
 
 #### Homework Problems
 
