@@ -3895,11 +3895,11 @@ Considering our staff of probation officers, we find that the number of positive
 ### Lesson 25 - Tuesday 5/6/25
 
 * Reminder: Exam #3 is scheduled for Thursday 5/15/25 -- 10:30-12:30 (you will have entire 2 hours to work on the exam).
-* Update: I am working on your assignment #3 grades; hopefully they will be done by end of the day this Friday.
+* Update: I am working on your assignment #3 grades; I am trying to finish grading them by end of the day this Friday.
 
 #### Topics 48/49: Fractions and Percentiles of the Standard Normal Distribution (pp. 226-228)
 
-* Continuing with Example 1 from Last Thursday's Class: If there is a risk assessment score for a large population of prisoners and this risk assessment score follows a normal distribution with a mean of 10 and a standard deviation of 1.5, we can transform the original risk assessment scores, *x*, into z-scores by calculating $z_i = \frac{x_i-10}{1.5}$. Then we can create boxplots showing both the original x scores and the transformed z-scores:   
+* Continuing with Example 1 from Last Thursday's Class: If there is a risk assessment score for a large population of prisoners and this risk assessment score follows a normal distribution with a mean of 10 and a standard deviation of 1.5, we can transform the original risk assessment scores, *x*, into z-scores by calculating $z_i = \frac{x_i-10}{1.5}$.
 
 ---
 
