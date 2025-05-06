@@ -3903,7 +3903,7 @@ Considering our staff of probation officers, we find that the number of positive
 
 ---
 
-* Now, let's calculate the proportion of cases that have a risk score between 8.5 and 10.
+* Now, let's calculate the fraction of cases that have a risk score between 8.5 and 10.
 * Z-score for *x* = 10 is zero because $0 = \frac{10-10}{1.5}$.
 * Z-score for *x* = 8.5 is $\frac{8.5-10}{1.5} = \frac{-1.5}{1.5} = -1$.
 * Use Appendix 3 to see that the area between z = 0 and z = 1 is 0.3413.
@@ -3913,21 +3913,21 @@ Considering our staff of probation officers, we find that the number of positive
 
 ---
 
-* What fraction of cases would lie below 8.5?
+* What fraction of cases are below 8.5?
 * The fraction of cases to the left of zero is 0.5.
 * The fraction of cases between 10 and 8.5 is 0.3413.
 * So the fraction of cases below 8.5 must be 0.5-0.341 = 0.159 
 
 ---
 
-* What fraction of cases lie between 10.5 and 12.2?
+* What fraction of cases are between 10.5 and 12.2?
 * z-score for x = 10.5 is $\frac{10.5-10}{1.5} = \frac{0.5}{1.5} = 0.333$; Appendix 3 area = 0.1293
 * z-score for x = 12.2 is $\frac{12.2-10}{1.5} = \frac{2.2}{1.5} = 1.467$; Appendix 3 area = 0.4292
 * Area between the 2 zscores is equivalent to the fraction of cases between 10.5 and 12.2; 0.429-0.129 = 0.3 
 
 ---
 
-* What fraction of cases lie below 11.8?
+* What fraction of cases are below 11.8?
 * z-score for 11.8 is $\frac{11.8-10}{1.5} = \frac{1.8}{1.5} = 1.2$; Appendix 3 area = 0.3849.
 * Note that 0.3849 is the fraction of cases between z = 0 and z = 1.2.
 * To that number we have to add 0.5 (the fraction of cases below zero) to get 0.8849.
@@ -3935,7 +3935,7 @@ Considering our staff of probation officers, we find that the number of positive
 
 ---
 
-* Example 2: We work at the state criminal justice research agency and we've been asked several questions by the governor about the distribution of prison sentences (in months) for people convicted of burglary in the state. After some careful study, we determine that the distribution of sentences lengths is approximately normal and that the mean of the distribution is 30 months years and the standard deviation of the distribution is 4 months.
+* Example 2: We work at the state's criminal justice research agency and we've been asked several questions by the governor about the distribution of prison sentences (in months) for people convicted of burglary in the state. After some careful study, we determine that the distribution of sentence lengths is approximately normal and that the mean of the distribution is 30 months and the standard deviation of the distribution is 4 months.
 
 ---
 
@@ -3963,3 +3963,54 @@ Considering our staff of probation officers, we find that the number of positive
 
  ---
  
+#### Topic 50: Standard Error of the (Estimated) Sample Mean (p. 330)
+
+* 50.1: Recall that the *sample mean* is equal to the sum of the scores in the sample divided by the number of cases in the sample.
+* 50.2: If we draw a single random sample from the population, it is easy to calculate the sample mean.
+* 50.3: It is also easy to calculate the sample *standard deviation*.
+* 50.4: Note that the sample standard deviation tells us about the variation in our dataset.
+* 50.5: The problem is that it does not tell us about the uncertainty that arises because we are only studying a single random sample rather than the whole population.
+* 50.6: Valid scientific inference requires that we present a measure of the uncertainty that arises because we are studying only a single sample -- not the population.
+* 50.7: The principal measure of uncertainty for this situation is the standard error of the sample mean.
+* 50.8: Let's work an example.
+
+---
+
+Example Data: years in prison for a random sample of 7 people convicted of aggravated domestic violence:
+
+| Observation   | Years | Years - Mean(Years)  | (Years - Mean(Years))^2 |
+| :-----|---:|------:|------:|
+| 1 | 3.9 | 0.771 | 0.595 |
+| 2 | 3.5 | 0.371 | 0.138 |
+| 3 | 2.4 | -0.729 | 0.531 |
+| 4 | 4.0 | 0.871 | 0.759 |
+| 5 | 3.2 | 0.071 | 0.005 |
+| 6 | 2.2 | -0.929 | 0.862 |
+| 7 | 2.7 | -0.429 | 0.184 |
+| Sum | 21.9 | 0  | 3.074 |
+
+* Note: the mean is 21.9/7 = 3.129 and the sample standard deviation is the square root of 3.074/7  = 0.663.
+* The standard error of the sample mean is the standard deviation divided by the square root of the sample size: 0.663/sqrt(7) = 0.251 (page 230).
+* Conceptually, the standard error provides an estimate of the standard deviation of the *sampling distribution* of sample means.
+* Suppose we drew thousands and thousands of samples from the population; each sample has 7 cases and we calculate the sample mean for each sample.
+* At that point, we would have a distribution of sample means (called the sampling distribution of sample means).
+* The mean of that distribution would be equal to the population mean; this is the number we try to estimate when we calculate the sample mean in any individual sample.
+* When we calculate the standard error, we are trying to estimate the standard deviation of the sampling distribution.
+* It tells us how much the sample mean is likely to bounce around from sample to sample.
+* Let's suppose our population of aggravated domestic violence offenders has a mean prison sentence of 3 years.
+* Let's further suppose that the standard deviation of prison sentences in the population is 0.7 years.
+* This is what the distribution of population prison sentences looks like:
+
+<p align="center">
+<img src="/gfiles/adv.png" width="600px">
+</p>
+
+* If we draw thousands and thousands of samples of size 7 from this population here is  what the sampling distribution of sample means would look like:
+
+<p align="center">
+<img src="/gfiles/advsd.png" width="600px">
+</p>
+
+* Note that this sampling distribution has a mean of 3.0 and a standard deviation 0.263 which is quite close to the 0.251 number we calculated from our original sample of 7 cases.
+* One of the things that becomes clear from this exercise is that the underlying distribution of the data might be far from a normal distribution while the *sampling distribution* looks symmetric.
+* We will return to this topic soon but for now just know that the standard error in our 1 sample of 7 cases provides a pretty good estimate of the standard deviation of the sampling distribution of sample means.
