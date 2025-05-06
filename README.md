@@ -3963,7 +3963,7 @@ Considering our staff of probation officers, we find that the number of positive
 
  ---
  
-#### Topic 50: Standard Error of the (Estimated) Sample Mean (p. 330)
+#### Topic 50: Standard Error of the (Estimated) Sample Mean (p. 230)
 
 * 50.1: Recall that the *sample mean* is equal to the sum of the scores in the sample divided by the number of cases in the sample.
 * 50.2: If we draw a single random sample from the population, it is easy to calculate the sample mean.
