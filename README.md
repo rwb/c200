@@ -3896,6 +3896,7 @@ Considering our staff of probation officers, we find that the number of positive
 
 * Reminder: Exam #3 is scheduled for Thursday 5/15/25 -- 10:30-12:30 (you will have entire 2 hours to work on the exam).
 * Update: I am working on your assignment #3 grades; I am trying to finish grading them by end of the day this Friday.
+* This week's homework problems will be 10.1-10.7.
 
 #### Topics 48/49: Fractions and Percentiles of the Standard Normal Distribution (pp. 226-228)
 
