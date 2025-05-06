@@ -4012,6 +4012,37 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 </p>
 
 * Note that this sampling distribution has a mean of 3.0 and a standard deviation 0.263 which is quite close to the 0.251 number we calculated from our original sample of 7 cases.
-* One of the things that becomes clear from this exercise is that the underlying distribution of the data might be far from a normal distribution while the *sampling distribution* looks symmetric.
+* One of the things that becomes clear from this exercise is that the underlying distribution of the data might be far from a normal distribution while the *sampling distribution* looks symmetric (by the way, the sampling distribution here is not normal but it is a *t*-distribution which, like the normal distribution, has the symmetry about the mean property).
 * We will return to this topic soon but for now just know that the standard error in our 1 sample of 7 cases provides a pretty good estimate of the standard deviation of the sampling distribution of sample means.
 * An additional point raised on page 230 of your textbook: sometimes there will be information about the standard deviation of the data in the population. In this case, we can use the standard deviation of the population data to improve our estimate of the standard error. For example, in this case, we know that the standard deviation of the prison sentences in the population is 0.7 years. So, we could calculate a new standard error of 0.7/sqrt(7) = 0.265 which is closer to the actual standard deviation of the sampling distribution (0.263) than our estimate in the sample highlighted above (0.251). 
+
+---
+
+#### Topic 51: Single-Sample z-test for a Known Population (pp. 228-232)
+
+* 51.1: Suppose we have a sample of 300 people who are returning to the community after serving time in prison.
+* 51.2: Each of these people has a number of prior convictions (before the one that got them into this study); the mean number of prior convictions in the sample is 3.2.
+* 51.3: The mean number of prior convictions in the historical population is 3.5 and the standard deviation of the number of prior convictions in the population is 0.5.
+
+---
+
+* We are asked to test the null hypothesis (Ho) that our sample mean is the same as the population mean.
+* The standard error of the sample mean is given by 0.5/sqrt(300) = 0.029.
+* If Ho is true then we assume that our test statistic will follow the standard normal probability distribution.
+* This is a reasonable assumption if our sample size is large (300 is large) and our variable is continuous (# of prior convictions in this case).
+* Let's suppose we want to conduct our test at the 95% confidence level (alpha = 0.05).
+* Let's also suppose that we do not specify a direction for our hypothesis test; we are not testing whether our sample mean is larger or smaller than the population mean; rather we are testing whether our sample mean is *different* from the population mean. This means we will have a 2-tailed test.
+* To specify our *critical region*, we want to find areas of the standard normal distribution that would be unlikely to occur if Ho is true.
+* Since our significance level is 0.05, we need to put 1/2 (0.025) of our critical region in the lower tail and 1/2 (0.025) in the upper tail.
+* If we look at the table in Appendix 3, we see that the area between z = 0 and z = +1.96 corresponds 47.5% of the area under the standard normal curve.
+* By symmetry, we know that the same will be true on the negative side of the curve (area between z = 0 and z = -1.96 will also be 47.5%).
+* If we add the 2 47.5% values together we get 95%; this is the central 95% of the standard normal distribution.
+* The tail areas represent the 5% of the curve that is unlikely to occur if Ho is true.
+* So, we will reject Ho if our test statistic is less than -1.96 or greater than +1.96.
+* Our test statistic is given by: $z = \frac{3.2-3.5}{0.029} = -10.345$.
+* Since -10.345 is less than -1.96, we reject Ho and conclude that our sample mean is significantly different from the population mean at the alpha = 0.05 significance level (or, equivalently, the 95% confidence level.
+* Equivalently, we could calculate a confidence interval or margin of error for our sample estimate and then see whether the Ho value (3.5) is inside the interval.
+* Here, we would specify the confidence interval's lower bound as 3.2-(1.96 x 0.029) = 3.143; the upper bound would be 3.2 + (1.96 x 0.029) = 3.257.
+* Since the confidence interval, [3.143,3.257] does not include 3.5, we reject Ho and conclude that the sample mean and the population mean are different from each other (at the 95% confidence level, which is the same as the alpha = 0.05 significance level).
+
+---
