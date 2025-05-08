@@ -3970,14 +3970,19 @@ Considering our staff of probation officers, we find that the number of positive
 * Update: I am working on your assignment #3 grades; I am trying to finish grading them by end of the day this Friday.
 * Today's material marks the conclusion of what we will cover this semester.
 * Next Tuesday's class will be a time to review for the 3rd exam.
+* The third exam begins covers the material from Lesson 20 through today's class.
+* Formula sheet for the 3rd exam will be posted *here* early next week.
+* Homework solutions (weeks 12-15) are posted in the course announcements on ELMS.
 * Marshae has graciously agreed to move her office hours from Thursday to Monday next week.
 * Sammy will be holding his office hours virtually on Tuesday (see announcement in ELMS)
 * I will hold my regularly scheduled office hours on Wednesday from 10-12.
 * This week's homework problems will be 10.1-10.7.
 
+---
+
 #### Last point on Topics 48/49
 
-* A couple of your homework problems this week are similar to the following example:
+* A couple of your homework problems this week are similar to the following 2 examples:
 
 ---
 
