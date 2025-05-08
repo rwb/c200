@@ -3963,7 +3963,38 @@ Considering our staff of probation officers, we find that the number of positive
 * So the fraction of sentences below 2 years is 0.5-0.433 = 0.067.
 
  ---
- 
+
+### Lesson 26 - Tuesday 5/6/25
+
+* Reminder: Exam #3 is scheduled for Thursday 5/15/25 -- 10:30-12:30 (you will have entire 2 hours to work on the exam).
+* Update: I am working on your assignment #3 grades; I am trying to finish grading them by end of the day this Friday.
+* This week's homework problems will be 10.1-10.7.
+
+#### Last point on Topics 48/49
+
+* A couple of your homework problems this week are similar to the following example:
+
+---
+
+* Example 1: An intake assessment score is calculated for each incoming inmate in a state prison system. The score is used to determine each inmate's security classification level. The mean of the scores is 32, the standard deviation of the scores is 3, and the scores follow a normal distribution. Inmates who score below the 25th percentile of the distribution are typically assigned to minimum security facilities. With this in mind, what range of scores on the assessment instrument would qualify an inmate for minimum security?
+
+* Solution step 1: look at the normal table in Appendix 3 to find the 25th percentile of the standard normal distribution (to do this, we identify the 75th percentile of the normal distribution which we get by seeing that 0.5 (1/2) of the distribution lies below zero and 0.2486 lies between z = 0 and z = 0.67). So, z = -0.67 would be the 25th percentile of the standard normal distribution.
+* Solution step 2: solve for the raw score at the 25th percentile: $-0.67 = \frac{x-32}{3}$
+* Solution step 3: multiply both sides of the equation by 3: $-0.67*3 = x-32$
+* Solution step 4: add 32 to both sides of the equation: $32-0.67*3 = x$
+* Solution step 5: $x = 32-2.01 = 29.99$
+* So, any score below 29.99 would typically lead to a minimum security placement.
+
+---
+
+* Example 2: Based on the same intake assessment instrument, inmates are assigned to maximum security when they score above the 90th percentile. What range of intake assessment scores would lead to a maximum security placement?
+* Solution step 1: look at the normal table in Appendix 3 to find the 90th percentile of the standard normal distribution (we combine the 0.5 (1/2) of the distribution that lies below zero with the 0.3997 part of the distribution that lies between z = 0 and z = 1.28). So, z = 1.28 would be the 90th percentile of the standard normal distribution.
+* Solution step 2: solve for the raw score at the 90th percentile: $1.28 = \frac{x-32}{3}$
+* Solution step 3: multiply both sides of the equation by 3: $1.28*3 = x-32$
+* Solution step 4: add 32 to both sides of the equation: $32+1.28*3 = x$
+* Solution step 5: $x = 32+3.84 = 35.84$
+* So, any score above 35.84 would typically lead to a maximum security placement.
+
 #### Topic 50: Standard Error of the (Estimated) Sample Mean (p. 230)
 
 * 50.1: Recall that the *sample mean* is equal to the sum of the scores in the sample divided by the number of cases in the sample.
@@ -4014,7 +4045,8 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 
 * Note that this sampling distribution has a mean of 3.0 and a standard deviation 0.263 which is quite close to the 0.251 number we calculated from our original sample of 7 cases.
 * One of the things that becomes clear from this exercise is that the underlying distribution of the data might be far from a normal distribution while the *sampling distribution* looks symmetric (by the way, the sampling distribution here is not normal but it is a *t*-distribution which, like the normal distribution, has the symmetry about the mean property).
-* We will return to this topic soon but for now just know that the standard error in our 1 sample of 7 cases provides a pretty good estimate of the standard deviation of the sampling distribution of sample means.
+* When the underlying population distribution is normal and the sample size is small, the sampling distribution of sample means will be normal.
+* When the underlying population distribution is not normal and the sample size is larger say over 30 or 50, the sampling distribution of sample means will be normal (this is an implication of the *central limit theorem*).
 * An additional point raised on page 230 of your textbook: sometimes there will be information about the standard deviation of the data in the population. In this case, we can use the standard deviation of the population data to improve our estimate of the standard error. For example, in this case, we know that the standard deviation of the prison sentences in the population is 0.7 years. So, we could calculate a new standard error of 0.7/sqrt(7) = 0.265 which is closer to the actual standard deviation of the sampling distribution (0.263) than our estimate in the sample highlighted above (0.251). 
 
 ---
@@ -4027,23 +4059,54 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 
 ---
 
-* We are asked to test the null hypothesis (Ho) that our sample mean is the same as the population mean.
+* We are asked to test the null hypothesis (Ho) that our sample mean is statistically equivalent to the population mean.
 * The standard error of the sample mean is given by 0.5/sqrt(300) = 0.029.
 * If Ho is true then we assume that our test statistic will follow the standard normal probability distribution.
 * This is a reasonable assumption if our sample size is large (300 is large) and our variable is continuous (# of prior convictions in this case).
 * Let's suppose we want to conduct our test at the 95% confidence level (alpha = 0.05).
-* Let's also suppose that we do not specify a direction for our hypothesis test; we are not testing whether our sample mean is larger or smaller than the population mean; rather we are testing whether our sample mean is *different* from the population mean. This means we will have a 2-tailed test.
+* Let's also suppose that we do not specify a direction for our hypothesis test; we are not testing whether our sample mean is larger or smaller than the population mean; rather we are interested in whether our sample mean is statistically *different* from the population mean. This means we will have a 2-tailed test.
 * To specify our *critical region*, we want to find areas of the standard normal distribution that would be unlikely to occur if Ho is true.
 * Since our significance level is 0.05, we need to put 1/2 (0.025) of our critical region in the lower tail and 1/2 (0.025) in the upper tail.
 * If we look at the table in Appendix 3, we see that the area between z = 0 and z = +1.96 corresponds 47.5% of the area under the standard normal curve.
 * By symmetry, we know that the same will be true on the negative side of the curve (area between z = 0 and z = -1.96 will also be 47.5%).
 * If we add the 2 47.5% values together we get 95%; this is the central 95% of the standard normal distribution.
 * The tail areas represent the 5% of the curve that is unlikely to occur if Ho is true.
+  
+---
+
+#### Test Statistic Approach
+
 * So, we will reject Ho if our test statistic is less than -1.96 or greater than +1.96.
 * Our test statistic is given by: $z = \frac{3.2-3.5}{0.029} = -10.345$.
 * Since -10.345 is less than -1.96, we reject Ho and conclude that our sample mean is significantly different from the population mean at the alpha = 0.05 significance level (or, equivalently, the 95% confidence level.
-* Equivalently, we could calculate a confidence interval or margin of error for our sample estimate and then see whether the Ho value (3.5) is inside the interval.
-* Here, we would specify the confidence interval's lower bound as 3.2-(1.96 x 0.029) = 3.143; the upper bound would be 3.2 + (1.96 x 0.029) = 3.257.
-* Since the confidence interval, [3.143,3.257] does not include 3.5, we reject Ho and conclude that the sample mean and the population mean are different from each other (at the 95% confidence level, which is the same as the alpha = 0.05 significance level).
 
 ---
+
+#### Confidence Interval Approach
+
+* Equivalently, we calculate a confidence interval or margin of error for our sample estimate and then see whether the Ho value (3.5) is inside the interval.
+* Here, we would specify the confidence interval's lower bound as 3.2-(1.96 x 0.029) = 3.143; the upper bound would be 3.2 + (1.96 x 0.029) = 3.257.
+* Since the confidence interval, [3.143,3.257] does not include 3.5, we reject Ho and conclude that the sample mean and the population mean are significantly different from each other (at the 95% confidence level, which is the same as the alpha = 0.05 significance level).
+
+---
+
+* 51.4: Another example -- A civil liberties organization is concerned about equity in bond requirements for people released from jail before trial. The local court has historically had an average bond of $10,000 (with a standard deviation of $3,800) for people released before trial facing robbery charges. However, there is a new judge in town -- let's call him "Maximum Max". Maximum Max has a reputation for setting higher bond restrictions. The civil liberties organization files a FOIA request for bond records from Max's court and determines that in his last 100 cases his average bond for people charged with robbery is $10,650. Test the hypothesis that Maximum Max's average bond amount is statistically equivalent to the historic average. Use a alpha = 0.08 significance level for your test.
+
+---
+
+#### Test Statistic Solution
+
+* the standard error of our sample estimate is $\frac{2000}/{\sqrt(100)}$ = $\frac{3800}{10}$ = 380.
+* critical region of the standard normal distribution places 0.04 area in each tail of the distribution (for a 2-tailed, non-directional test).
+* this means we are looking for the boundaries of the central 92% of the distribution (the 0.04 percentile and the 0.96 percentile).
+* the 0.96 percentile is obtained by recognizing that 50% of the standard normal distribution falls below zero and 0.4599 (or 45.99%) of the distribution falls between 0 and 1.75 (see Appendix 3).
+* by symmetry, the 0.04 percentile is -1.75.
+* so, the critical region of the standard normal distribution is z < -1.75 or z > +1.75.
+* our test statistic is obtained by calculating $\frac{10,650-10,000}{380}$ = $\frac{650}{380}$ = 1.711.
+* since 1.711 is not in the critical region we fail to reject Ho and conclude that Maximum Max's average is not statistically different from the historic pattern (at the alpha = 0.08 significance level).
+
+#### Confidence Interval Solution
+
+*  Equivalently, we calculate a confidence interval or margin of error for our sample estimate ($10,650) and then see whether the Ho value ($10,000) is inside the interval.
+* Here, we would specify the confidence interval's lower bound as 10,650 - (1.75 x 380) = 9,985; the upper bound would be 10,650 + (1.75 x 380) = 11,315.
+* Since the confidence interval, [9985, 11315] includes 10,000, we fail to reject Ho and conclude that the sample mean and the population mean are not significantly different from each other (at the 92% confidence level, which is the same as the alpha = 0.08 significance level).
