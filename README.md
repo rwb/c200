@@ -4120,6 +4120,6 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 
 *  Equivalently, we calculate a confidence interval or margin of error for our sample estimate ($10,650) and then see whether the Ho value ($10,000) is inside the interval.
 * Here, we would specify the confidence interval's lower bound as 10,650 - (1.75 x 380) = 9,985; the upper bound would be 10,650 + (1.75 x 380) = 11,315.
-* Since the confidence interval, [9985, 11315] includes 10,000, we fail to reject Ho and conclude that the sample mean and the population mean are not significantly different from each other (at the 92% confidence level, which is the same as the alpha = 0.08 significance level).
+* Since the confidence interval, [9985, 11315], includes 10,000, we fail to reject Ho and conclude that the sample mean and the population mean are not significantly different from each other (at the 92% confidence level, which is the same as the alpha = 0.08 significance level).
 
 #### The END!
