@@ -4096,7 +4096,7 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 
 #### Test Statistic Solution
 
-* the standard error of our sample estimate is $\frac{2000}/{\sqrt(100)}$ = $\frac{3800}{10}$ = 380.
+* the standard error of our sample estimate is $\frac{2000}/{sqrt(100)}$ = $\frac{3800}{10}$ = 380.
 * critical region of the standard normal distribution places 0.04 area in each tail of the distribution (for a 2-tailed, non-directional test).
 * this means we are looking for the boundaries of the central 92% of the distribution (the 4th percentile and the 96th percentile).
 * the 0.96 area (or 96th percentile) is obtained by recognizing that 50% of the standard normal distribution falls below zero and 0.4599 (or 45.99%) of the distribution falls between 0 and 1.75 (see Appendix 3).
