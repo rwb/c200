@@ -4031,13 +4031,13 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 | 7 | 2.7 | -0.429 | 0.184 |
 | Sum | 21.9 | 0  | 3.074 |
 
-* Note: the mean is 21.9/7 = 3.129 and the sample standard deviation is the square root of 3.074/7  = 0.663.
-* The standard error of the sample mean is the standard deviation divided by the square root of the sample size: 0.663/sqrt(7) = 0.251 (page 230).
+* Note: the *sample mean* is 21.9/7 = 3.129 and the *sample standard deviation* is the square root of 3.074/7  = 0.663.
+* The *standard error of the sample mean* is the standard deviation divided by the square root of the sample size: 0.663/sqrt(7) = 0.251 (page 230).
 * Conceptually, the standard error provides an estimate of the standard deviation of the *sampling distribution* of sample means.
 * Suppose we drew thousands and thousands of samples from the population; each sample has 7 cases and we calculate the sample mean for each sample.
 * At that point, we would have a distribution of sample means (called the sampling distribution of sample means).
 * The mean of that distribution would be equal to the population mean; this is the number we try to estimate when we calculate the sample mean in any individual sample.
-* When we calculate the standard error, we are trying to estimate the standard deviation of the sampling distribution.
+* When we calculate the standard error, we are trying to estimate the *standard deviation of the sampling distribution*.
 * It tells us how much the sample mean is likely to bounce around from sample to sample.
 * Let's suppose our population of aggravated domestic violence offenders has a mean prison sentence of 3 years.
 * Let's further suppose that the standard deviation of prison sentences in the population is 0.7 years.
@@ -4055,8 +4055,9 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 
 * Note that this sampling distribution has a mean of 3.0 and a standard deviation 0.263 which is quite close to the 0.251 number we calculated from our original sample of 7 cases.
 * One of the things that becomes clear from this exercise is that the underlying distribution of the data might be far from a normal distribution while the *sampling distribution* looks symmetric (by the way, the sampling distribution here is not normal but it is a *t*-distribution which, like the normal distribution, has the symmetry about the mean property).
-* When the underlying population distribution is normal and the sample size is small, the sampling distribution of sample means will be normal.
-* When the underlying population distribution is not normal and the sample size is larger say over 30 or 50, the sampling distribution of sample means will be normal (this is an implication of the *central limit theorem*).
+* When the underlying population distribution is normal and the sample size is small, the sampling distribution of sample means will follow a normal distribution.
+* When the underlying population distribution is not normal the sampling distribution of sample means will become normal as the sample size gets larger (this is an implication of the *central limit theorem*).
+* Since any normal distribution can be transformed into a standard normal distribution, our significance test statistics are generally compared to the standard normal distribution.
 * An additional point raised on page 230 of your textbook: sometimes there will be information about the standard deviation of the data in the population. In this case, we can use the standard deviation of the population data to improve our estimate of the standard error. For example, in this case, we know that the standard deviation of the prison sentences in the population is 0.7 years. So, we could calculate a new standard error of 0.7/sqrt(7) = 0.265 which is closer to the actual standard deviation of the sampling distribution (0.263) than our estimate in the sample highlighted above (0.251). 
 
 ---
@@ -4072,9 +4073,9 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 * We are asked to test the null hypothesis (Ho) that our sample mean is statistically equivalent to the population mean.
 * The standard error of the sample mean is given by $\frac{0.5}{\sqrt{300}}$ = 0.029.
 * If Ho is true then we assume that our test statistic will follow the standard normal probability distribution.
-* This is a reasonable assumption if our sample size is large (300 is large) and our variable is continuous (# of prior convictions in this case).
+* This is a reasonable assumption if our sample size is *large* (most researchers would consider 300 to be "large") and our variable is continuous (# of prior convictions in this case).
 * Let's suppose we want to conduct our test at the 95% confidence level (alpha = 0.05).
-* Let's also suppose that we do not specify a direction for our hypothesis test; we are not testing whether our sample mean is larger or smaller than the population mean; rather we are interested in whether our sample mean is statistically *different* from the population mean. This means we will have a 2-tailed test.
+* Let's also suppose that we do not specify a direction for our hypothesis test; we are not testing whether our sample mean is statistically larger or smaller than the population mean; rather we are interested in whether our sample mean is *statistically different* from the population mean. This means we will have a 2-tailed test.
 * To specify our *critical region*, we want to find areas of the standard normal distribution that would be unlikely to occur if Ho is true.
 * Since our significance level is 0.05, we need to put 1/2 (0.025 area) of our critical region in the lower tail and 1/2 (0.025 area) in the upper tail.
 * If we look at the table in Appendix 3, we see that the area between z = 0 and z = +1.96 corresponds 47.5% of the area under the standard normal curve.
@@ -4088,7 +4089,7 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 
 * So, we will reject Ho if our test statistic is less than -1.96 or greater than +1.96.
 * Our test statistic is given by: $z = \frac{3.2-3.5}{0.029} = -10.345$.
-* Since -10.345 is less than -1.96, we reject Ho and conclude that our sample mean is significantly different from the population mean at the alpha = 0.05 significance level (or, equivalently, the 95% confidence level.
+* Since -10.345 is less than -1.96, we reject Ho and conclude that our sample mean is significantly different from the population mean at the alpha = 0.05 significance level (or, equivalently, the 95% confidence level).
 
 ---
 
