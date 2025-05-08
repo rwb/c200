@@ -4066,7 +4066,7 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 * Let's suppose we want to conduct our test at the 95% confidence level (alpha = 0.05).
 * Let's also suppose that we do not specify a direction for our hypothesis test; we are not testing whether our sample mean is larger or smaller than the population mean; rather we are interested in whether our sample mean is statistically *different* from the population mean. This means we will have a 2-tailed test.
 * To specify our *critical region*, we want to find areas of the standard normal distribution that would be unlikely to occur if Ho is true.
-* Since our significance level is 0.05, we need to put 1/2 (0.025) of our critical region in the lower tail and 1/2 (0.025) in the upper tail.
+* Since our significance level is 0.05, we need to put 1/2 (0.025 area) of our critical region in the lower tail and 1/2 (0.025 area) in the upper tail.
 * If we look at the table in Appendix 3, we see that the area between z = 0 and z = +1.96 corresponds 47.5% of the area under the standard normal curve.
 * By symmetry, we know that the same will be true on the negative side of the curve (area between z = 0 and z = -1.96 will also be 47.5%).
 * If we add the 2 47.5% values together we get 95%; this is the central 95% of the standard normal distribution.
@@ -4098,9 +4098,9 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 
 * the standard error of our sample estimate is $\frac{2000}/{\sqrt(100)}$ = $\frac{3800}{10}$ = 380.
 * critical region of the standard normal distribution places 0.04 area in each tail of the distribution (for a 2-tailed, non-directional test).
-* this means we are looking for the boundaries of the central 92% of the distribution (the 0.04 percentile and the 0.96 percentile).
-* the 0.96 percentile is obtained by recognizing that 50% of the standard normal distribution falls below zero and 0.4599 (or 45.99%) of the distribution falls between 0 and 1.75 (see Appendix 3).
-* by symmetry, the 0.04 percentile is -1.75.
+* this means we are looking for the boundaries of the central 92% of the distribution (the 4th percentile and the 96th percentile).
+* the 0.96 area (or 96th percentile) is obtained by recognizing that 50% of the standard normal distribution falls below zero and 0.4599 (or 45.99%) of the distribution falls between 0 and 1.75 (see Appendix 3).
+* by symmetry, the 4th percentile (0.04 left tail area) is -1.75.
 * so, the critical region of the standard normal distribution is z < -1.75 or z > +1.75.
 * our test statistic is obtained by calculating $\frac{10,650-10,000}{380}$ = $\frac{650}{380}$ = 1.711.
 * since 1.711 is not in the critical region we fail to reject Ho and conclude that Maximum Max's average is not statistically different from the historic pattern (at the alpha = 0.08 significance level).
