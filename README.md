@@ -3969,7 +3969,7 @@ Considering our staff of probation officers, we find that the number of positive
 * Reminder: Exam #3 is scheduled for Thursday 5/15/25 -- 10:30-12:30 (you will have entire 2 hours to work on the exam).
 * Update: I am working on your assignment #3 grades; I am trying to finish grading them by end of the day this Friday.
 * Today's material marks the conclusion of what we will cover this semester.
-* Next Tuesday's class will be a time to review for the 3rd exam.
+* In next Tuesday's class I will devote the time to review for and answer questions about the 3rd exam.
 * The third exam begins covers the material from Lesson 20 through today's class.
 * Formula sheet for the 3rd exam will be posted *here* early next week.
 * Homework solutions (weeks 12-15) are posted in the course announcements on ELMS.
@@ -4121,5 +4121,3 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 *  Equivalently, we calculate a confidence interval or margin of error for our sample estimate ($10,650) and then see whether the Ho value ($10,000) is inside the interval.
 * Here, we would specify the confidence interval's lower bound as 10,650 - (1.75 x 380) = 9,985; the upper bound would be 10,650 + (1.75 x 380) = 11,315.
 * Since the confidence interval, [9985, 11315], includes 10,000, we fail to reject Ho and conclude that the sample mean and the population mean are not significantly different from each other (at the 92% confidence level, which is the same as the alpha = 0.08 significance level).
-
-#### The END!
