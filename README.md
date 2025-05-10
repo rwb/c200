@@ -3752,8 +3752,6 @@ use R to estimate p(R1=no or R2=no) using the general addition rule (10pts).
 
 1. Question received on Thursday 4/24/25: I think there's an error in problem 1 of Assignment 3. It says that there are 127 patients in the cohort and that 33 relapsed and 87 did not relapse. I assume 127 is supposed to be 120, however I just want to make sure that the relapse/did not relapse frequencies are correct before I start working on the problem. My response: Thank you, it was an error. I've corrected it above.
 
-*Note*: Questions for Assignment #3 are now closed.
-
 ### Lesson 23 - Tuesday 4/29/25
 
 * Reminder #1: Assignment #3 is due at 11:59pm on Thursday 5/1/25 (on ELMS).
