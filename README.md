@@ -4119,3 +4119,8 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 *  Equivalently, we calculate a confidence interval or margin of error for our sample estimate ($10,650) and then see whether the Ho value ($10,000) is inside the interval.
 * Here, we would specify the confidence interval's lower bound as 10,650 - (1.75 x 380) = 9,985; the upper bound would be 10,650 + (1.75 x 380) = 11,315.
 * Since the confidence interval, [9985, 11315], includes 10,000, we fail to reject Ho and conclude that the sample mean and the population mean are not significantly different from each other (at the 92% confidence level, which is the same as the alpha = 0.08 significance level).
+
+#### Final Exam Related Questions from Students
+
+* Is there a numeric cutoff for invoking the central limit theorem? My response: No, there is no particular cutoff point. The larger the sample size, the more a sampling distribution of means will approach normality (unless the variable's population distribution is normal in which case the sampling distribution of the means of that variable will also be normal).
+* Will there be time for questions about the exam in class on Tuesday? Yes, the entire class on Tuesday will be devoted to review and Q&A.
