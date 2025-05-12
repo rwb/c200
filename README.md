@@ -3969,7 +3969,7 @@ Considering our staff of probation officers, we find that the number of positive
 * Today's material marks the conclusion of what we will cover this semester.
 * In next Tuesday's class I will devote the time to review for and answer questions about the 3rd exam.
 * The third exam begins covers the material from Lesson 20 through today's class.
-* Formula sheet for the 3rd exam is posted [here](https://github.com/rwb/c200/blob/main/gfiles/formula1.pdf).
+* Formula sheet for the 3rd exam is posted [here](https://github.com/rwb/c200/blob/main/gfiles/f3.pdf).
 * Homework solutions (weeks 12-15) are posted in the course announcements on ELMS.
 * Marshae has graciously agreed to move her office hours from Thursday to Monday next week.
 * Sammy will be holding his office hours virtually on Tuesday (see announcement in ELMS)
@@ -4125,4 +4125,4 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 * Is there a numeric cutoff for invoking the central limit theorem? My response: No, there is no particular cutoff point. The larger the sample size, the more a sampling distribution of means will approach normality (unless the variable's population distribution is normal in which case the sampling distribution of the means of that variable will also be normal).
 * Will we have to calculate both the test statistic and confidence interval to test single-sample hypotheses from a known population? My response: yes, both will be on the exam.
 * Will there be time for questions about the exam in class on Tuesday? My response: yes, the entire class on Tuesday will be devoted to review and Q&A.
-* The formula sheet for exam #3 is now posted [here](https://github.com/rwb/c200/blob/main/gfiles/formula1.pdf).
+* The formula sheet for exam #3 is now posted [here](https://github.com/rwb/c200/blob/main/gfiles/f3.pdf).
