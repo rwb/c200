@@ -3969,7 +3969,7 @@ Considering our staff of probation officers, we find that the number of positive
 * Today's material marks the conclusion of what we will cover this semester.
 * In next Tuesday's class I will devote the time to review for and answer questions about the 3rd exam.
 * The third exam begins covers the material from Lesson 20 through today's class.
-* Formula sheet for the 3rd exam is posted [here](https://github.com/rwb/c200/blob/main/gfiles/f3a.pdf).
+* *Updated* formula sheet for the 3rd exam is posted [here](https://github.com/rwb/c200/blob/main/gfiles/f3a.pdf).
 * Homework solutions (weeks 12-15) are posted in the course announcements on ELMS.
 * Marshae has graciously agreed to move her office hours from Thursday to Monday next week.
 * Sammy will be holding his office hours virtually on Tuesday (see announcement in ELMS)
@@ -4126,5 +4126,5 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 * Will we have to calculate both the test statistic and confidence interval to test single-sample hypotheses from a known population? My response: yes, both will be on the exam.
 * Will there be time for questions about the exam in class on Tuesday? My response: yes, the entire class on Tuesday will be devoted to review and Q&A.
 * For Exam 3, for questions regarding a frequency table and calculating using the addition and multiplication rules will you tell us which rule to use in the question or will we determine based on the wording of the question? My response: I will tell you which rule to use in the question.
-* The formula sheet for exam #3 is now posted [here](https://github.com/rwb/c200/blob/main/gfiles/f3a.pdf).
 * The rounding rule for Exam #3 is round to the 3rd decimal place for all intermediate and final calculations.
+* The formula sheet for exam #3 has been updated to include the test statistic for comparing a sample mean to a population mean and the confidence interval for comparing a sample mean to a population mean (both from Lesson 26); [link to formula sheet](https://github.com/rwb/c200/blob/main/gfiles/f3a.pdf).
