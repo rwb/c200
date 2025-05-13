@@ -4125,4 +4125,5 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 * Is there a numeric cutoff for invoking the central limit theorem? My response: No, there is no particular cutoff point. The larger the sample size, the more a sampling distribution of means will approach normality (unless the variable's population distribution is normal in which case the sampling distribution of the means of that variable will also be normal).
 * Will we have to calculate both the test statistic and confidence interval to test single-sample hypotheses from a known population? My response: yes, both will be on the exam.
 * Will there be time for questions about the exam in class on Tuesday? My response: yes, the entire class on Tuesday will be devoted to review and Q&A.
+* For Exam 3, for questions regarding a frequency table and calculating using the addition and multiplication rules will you tell us which rule to use in the question or will we determine based on the wording of the question? My response: I will tell you which rule to use in the question.
 * The formula sheet for exam #3 is now posted [here](https://github.com/rwb/c200/blob/main/gfiles/f3.pdf).
