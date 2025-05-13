@@ -4127,3 +4127,4 @@ Example Data: years in prison for a random sample of 7 people convicted of aggra
 * Will there be time for questions about the exam in class on Tuesday? My response: yes, the entire class on Tuesday will be devoted to review and Q&A.
 * For Exam 3, for questions regarding a frequency table and calculating using the addition and multiplication rules will you tell us which rule to use in the question or will we determine based on the wording of the question? My response: I will tell you which rule to use in the question.
 * The formula sheet for exam #3 is now posted [here](https://github.com/rwb/c200/blob/main/gfiles/f3.pdf).
+* The rounding rule for Exam #3 is round to the 3rd decimal place for all intermediate and final calculations.
